@@ -1,0 +1,3283 @@
+[
+    {
+        "object": "page",
+        "id": "049e08c7-01e5-4ac6-bb22-4d52622559f1",
+        "created_time": "2024-06-17T17:35:00.000Z",
+        "last_edited_time": "2024-06-17T17:35:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": null
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": null
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": null
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 37
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": null
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Bác Sĩ Thảo",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Bác Sĩ Thảo",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/B-c-S-Th-o-049e08c701e54ac6bb224d52622559f1",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "467f676f-8f46-49b5-afea-feecb0794d23",
+        "created_time": "2024-06-16T09:45:00.000Z",
+        "last_edited_time": "2024-06-29T21:00:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": {
+                    "start": "2005-01-18",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Hưng yên",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Hưng yên",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "7b471659-968e-4223-a416-2ea11902750b",
+                    "name": "Kỹ thuật viên",
+                    "color": "default"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "|HxR",
+                    "name": "Thử việc",
+                    "color": "blue"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-06-17",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 36
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "Lj_l",
+                    "name": "LONG XUYÊN",
+                    "color": "green"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Đặng Ngọc Mai",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Đặng Ngọc Mai",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/ng-Ng-c-Mai-467f676f8f4649b5afeafeecb0794d23",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "e0ac0375-0b3a-4c88-a613-cb8df33ebe6b",
+        "created_time": "2024-06-05T12:48:00.000Z",
+        "last_edited_time": "2024-06-05T12:48:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": null
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": null
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": null
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 35
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": null
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lâm Thị Hường",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lâm Thị Hường",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/L-m-Th-H-ng-e0ac03750b3a4c88a613cb8df33ebe6b",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "545126c4-c319-4d90-a506-2627e3e232a0",
+        "created_time": "2024-06-05T05:44:00.000Z",
+        "last_edited_time": "2024-06-05T05:44:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": null
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": null
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": null
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 34
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": null
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Bác Sĩ Ngoài",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Bác Sĩ Ngoài",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/B-c-S-Ngo-i-545126c4c3194d90a5062627e3e232a0",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "3db76400-46c0-4adb-9d9c-51542f2de2f9",
+        "created_time": "2024-05-23T19:15:00.000Z",
+        "last_edited_time": "2024-05-28T15:24:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "7b471659-968e-4223-a416-2ea11902750b",
+                    "name": "Kỹ thuật viên",
+                    "color": "default"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-12-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 33
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Pen Design ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Pen Design ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Pen-Design-3db7640046c04adb9d9c51542f2de2f9",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "348885b9-7459-440e-a78a-6aff457be0a9",
+        "created_time": "2024-05-23T19:13:00.000Z",
+        "last_edited_time": "2024-05-28T15:22:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "6850ef6c-4b94-492a-9b5d-83b8e66718ad",
+                    "name": "Nhân viên hậu cần",
+                    "color": "brown"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-12-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 32
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Cô Phi giúp việc",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Cô Phi giúp việc",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/C-Phi-gi-p-vi-c-348885b97459440ea78a6aff457be0a9",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "72c99ad6-1b0e-4b34-835d-6baff579950d",
+        "created_time": "2024-05-23T19:09:00.000Z",
+        "last_edited_time": "2024-05-28T15:22:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "6850ef6c-4b94-492a-9b5d-83b8e66718ad",
+                    "name": "Nhân viên hậu cần",
+                    "color": "brown"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-12-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 31
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "Lj_l",
+                    "name": "LONG XUYÊN",
+                    "color": "green"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Cô Thuý giúp việc",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Cô Thuý giúp việc",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/C-Thu-gi-p-vi-c-72c99ad61b0e4b34835d6baff579950d",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "3601e7b0-a80d-4dfd-bfa1-0d34a0e7e389",
+        "created_time": "2024-05-22T12:32:00.000Z",
+        "last_edited_time": "2024-05-23T19:54:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Thanh Hoá",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Thanh Hoá",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "7b471659-968e-4223-a416-2ea11902750b",
+                    "name": "Kỹ thuật viên",
+                    "color": "default"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "x>Ke",
+                    "name": "Học việc",
+                    "color": "default"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-02-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 30
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "Lj_l",
+                    "name": "LONG XUYÊN",
+                    "color": "green"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0963316200"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Đào Vương Anh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Đào Vương Anh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/o-V-ng-Anh-3601e7b0a80d4dfdbfa10d34a0e7e389",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "e49d0ce3-124d-4e4b-b377-be2139cde3f5",
+        "created_time": "2024-05-22T12:32:00.000Z",
+        "last_edited_time": "2024-05-23T19:54:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Sóc Trăng",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Sóc Trăng",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "7b471659-968e-4223-a416-2ea11902750b",
+                    "name": "Kỹ thuật viên",
+                    "color": "default"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "x>Ke",
+                    "name": "Học việc",
+                    "color": "default"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-03-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 29
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lâm Hoàng Phú",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lâm Hoàng Phú",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/L-m-Ho-ng-Ph-e49d0ce3124d4e4bb377be2139cde3f5",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "6454d5e5-8a20-473b-a597-dc1973dd1e0e",
+        "created_time": "2024-05-17T14:53:00.000Z",
+        "last_edited_time": "2024-05-28T15:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "6850ef6c-4b94-492a-9b5d-83b8e66718ad",
+                    "name": "Nhân viên hậu cần",
+                    "color": "brown"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-12-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 27
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "VWB;",
+                    "name": "SÓC TRĂNG",
+                    "color": "red"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Cô Siêng giúp Việc",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Cô Siêng giúp Việc",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/C-Si-ng-gi-p-Vi-c-6454d5e58a20473ba597dc1973dd1e0e",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "3fac4a49-402c-4d34-aa91-419ebc20760c",
+        "created_time": "2024-05-17T14:52:00.000Z",
+        "last_edited_time": "2024-05-23T19:53:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Sóc Trăng",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Sóc Trăng",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "b5f49812-f001-432a-8ae0-cad4541f5f7c",
+                    "name": "Sale",
+                    "color": "red"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-12-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 26
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "VWB;",
+                    "name": "SÓC TRĂNG",
+                    "color": "red"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0386381682"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Trần Khánh Hiệp",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Trần Khánh Hiệp",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Tr-n-Kh-nh-Hi-p-3fac4a49402c4d34aa91419ebc20760c",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "d1ae645f-f3dd-46cd-a715-a8c150605da6",
+        "created_time": "2024-05-13T09:27:00.000Z",
+        "last_edited_time": "2024-05-23T19:53:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Thanh Hoá",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Thanh Hoá",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "b5f49812-f001-432a-8ae0-cad4541f5f7c",
+                    "name": "Sale",
+                    "color": "red"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-02-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 23
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "Lj_l",
+                    "name": "LONG XUYÊN",
+                    "color": "green"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0988302615"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lê Hoàng Thanh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lê Hoàng Thanh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/L-Ho-ng-Thanh-d1ae645ff3dd46cda715a8c150605da6",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "e926d62c-e624-4663-9009-c562ae5166cf",
+        "created_time": "2024-05-13T08:12:00.000Z",
+        "last_edited_time": "2024-05-23T19:53:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Huế",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Huế",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "b5f49812-f001-432a-8ae0-cad4541f5f7c",
+                    "name": "Sale",
+                    "color": "red"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "?Jwa",
+                    "name": "Quản trị cơ sở",
+                    "color": "orange"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-05-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 22
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "Lj_l",
+                    "name": "LONG XUYÊN",
+                    "color": "green"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0982136861"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Phúc Nam",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Phúc Nam",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-Ph-c-Nam-e926d62ce62446639009c562ae5166cf",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "7bb857c9-f973-440b-88f2-97e138ee6082",
+        "created_time": "2024-05-13T05:42:00.000Z",
+        "last_edited_time": "2024-05-28T15:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "c62f3533-c5a6-4ac3-84ad-8d1ae7c8ae2e",
+                    "name": "CTV",
+                    "color": "blue"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": null
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 20
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": ";;Tu",
+                    "name": "OUTSIDE",
+                    "color": "yellow"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CTV Ngoài",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CTV Ngoài",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CTV-Ngo-i-7bb857c9f973440b88f297e138ee6082",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "a39ccb8e-c9bc-470a-8107-804094071f53",
+        "created_time": "2024-05-12T18:12:00.000Z",
+        "last_edited_time": "2024-05-23T19:52:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ô Môn- Cần Thơ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ô Môn- Cần Thơ",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "b5f49812-f001-432a-8ae0-cad4541f5f7c",
+                    "name": "Sale",
+                    "color": "red"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-11-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 17
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0776839988"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Thị Diễm Thuý",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Thị Diễm Thuý",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-Th-Di-m-Thu-a39ccb8ec9bc470a8107804094071f53",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "3d301dfe-6e3d-4d28-a249-1fd5fac9abd3",
+        "created_time": "2024-05-12T18:07:00.000Z",
+        "last_edited_time": "2024-05-28T15:20:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Phụng Hiệp - Hậu Giang",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Phụng Hiệp - Hậu Giang",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "b5f49812-f001-432a-8ae0-cad4541f5f7c",
+                    "name": "Sale",
+                    "color": "red"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-11-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 16
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "VWB;",
+                    "name": "SÓC TRĂNG",
+                    "color": "red"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0907058203"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Kha Như Huỳnh ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Kha Như Huỳnh ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Kha-Nh-Hu-nh-3d301dfe6e3d4d28a2491fd5fac9abd3",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "b9c67786-5d99-45c1-85d7-f96bfb66ef22",
+        "created_time": "2024-05-10T10:27:00.000Z",
+        "last_edited_time": "2024-05-28T15:20:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Mỹ Xuyên- Sóc Trăng",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Mỹ Xuyên- Sóc Trăng",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "6850ef6c-4b94-492a-9b5d-83b8e66718ad",
+                    "name": "Nhân viên hậu cần",
+                    "color": "brown"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-02-15",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 15
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0799609322"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Trương Lâm Khanh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Trương Lâm Khanh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Tr-ng-L-m-Khanh-b9c677865d9945c185d7f96bfb66ef22",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "87f739f0-fe93-4d5f-ad8e-26e0121a7026",
+        "created_time": "2024-05-10T10:12:00.000Z",
+        "last_edited_time": "2024-05-28T15:19:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Mỹ Xuyên - Sóc Trăng",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Mỹ Xuyên - Sóc Trăng",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "5f646cf9-b5cd-49a3-808e-6f620210a1f5",
+                    "name": "Lễ Tân",
+                    "color": "yellow"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-02-15",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 12
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0332387574"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Thị Ngọc Ngà",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Thị Ngọc Ngà",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-Th-Ng-c-Ng-87f739f0fe934d5fad8e26e0121a7026",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "f973382b-037a-4eb1-84bc-e9e5318184b8",
+        "created_time": "2024-05-10T09:45:00.000Z",
+        "last_edited_time": "2024-05-23T19:51:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Mỹ Xuyên - Sóc Trăng",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Mỹ Xuyên - Sóc Trăng",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "b5f49812-f001-432a-8ae0-cad4541f5f7c",
+                    "name": "Sale",
+                    "color": "red"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-02-15",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 11
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0912931220"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Đỗ Thị Huyền Trân",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Đỗ Thị Huyền Trân",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-Huy-n-Tr-n-f973382b037a4eb184bce9e5318184b8",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405",
+        "created_time": "2024-05-10T09:41:00.000Z",
+        "last_edited_time": "2024-05-23T19:51:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ngọc Lặc - Thanh Hoá",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ngọc Lặc - Thanh Hoá",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "b5f49812-f001-432a-8ae0-cad4541f5f7c",
+                    "name": "Sale",
+                    "color": "red"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "?Jwa",
+                    "name": "Quản trị cơ sở",
+                    "color": "orange"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2023-01-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 10
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "VWB;",
+                    "name": "SÓC TRĂNG",
+                    "color": "red"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0879533217"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lê Đình Hậu",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lê Đình Hậu",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/L-nh-H-u-c463b1a94fb2425887a744193ba02405",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "7e29a9ca-b017-4ad6-a6b0-6ed9330137bc",
+        "created_time": "2024-05-10T09:38:00.000Z",
+        "last_edited_time": "2024-05-23T19:56:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "98f2e8bb-7310-4590-ad26-16d6bcfd6089",
+                    "name": "Quản lý vận hành",
+                    "color": "pink"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "]EdZ",
+                    "name": "Quản trị cấp cao",
+                    "color": "gray"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2022-01-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 9
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lê Văn Linh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lê Văn Linh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/L-V-n-Linh-7e29a9cab0174ad6a6b06ed9330137bc",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "a73ea60d-3de1-4e9b-aa7b-f22fda5742bd",
+        "created_time": "2024-05-10T09:35:00.000Z",
+        "last_edited_time": "2024-05-25T10:55:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "1053be15-a611-470c-818d-307f929a8cd3",
+                    "name": "Bác sĩ",
+                    "color": "purple"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-01-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 7
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Phạm Thanh Hoàng",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Phạm Thanh Hoàng",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Ph-m-Thanh-Ho-ng-a73ea60d3de14e9baa7bf22fda5742bd",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898",
+        "created_time": "2024-05-10T09:31:00.000Z",
+        "last_edited_time": "2024-05-25T10:48:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "98f2e8bb-7310-4590-ad26-16d6bcfd6089",
+                    "name": "Quản lý vận hành",
+                    "color": "pink"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "]EdZ",
+                    "name": "Quản trị cấp cao",
+                    "color": "gray"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2022-01-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 6
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lâm Thị Mỹ Hằng",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lâm Thị Mỹ Hằng",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/L-m-Th-M-H-ng-bc9b2b6b314044b9a1be4dc8e77d8898",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "75046948-a198-4627-89b3-3bbf5967526b",
+        "created_time": "2024-05-10T09:29:00.000Z",
+        "last_edited_time": "2024-05-28T15:17:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": {
+                    "start": "2002-08-15",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Vĩnh Long",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Vĩnh Long",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "4ff40eab-711e-4a48-995c-b5a3181e65b4",
+                    "name": "Quản trị viên",
+                    "color": "orange"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "?Jwa",
+                    "name": "Quản trị cơ sở",
+                    "color": "orange"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2022-05-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 5
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0898833566"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Hoàng Yến Quyên",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Hoàng Yến Quyên",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-Ho-ng-Y-n-Quy-n-75046948a198462789b33bbf5967526b",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "cca1354d-d585-4e09-8845-dc6dadbcb631",
+        "created_time": "2024-05-10T09:17:00.000Z",
+        "last_edited_time": "2024-05-23T18:36:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "c62f3533-c5a6-4ac3-84ad-8d1ae7c8ae2e",
+                    "name": "CTV",
+                    "color": "blue"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": null
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 4
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": ";;Tu",
+                    "name": "OUTSIDE",
+                    "color": "yellow"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Thạch Hoàng Nhân",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Thạch Hoàng Nhân",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ch-Ho-ng-Nh-n-cca1354dd5854e098845dc6dadbcb631",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "7355dc08-dad8-4f32-a691-2cbf92f70ca5",
+        "created_time": "2024-05-08T05:30:00.000Z",
+        "last_edited_time": "2024-05-28T15:24:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": {
+                    "start": "2001-11-02",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Hà Nội",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Hà Nội",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "7b471659-968e-4223-a416-2ea11902750b",
+                    "name": "Kỹ thuật viên",
+                    "color": "default"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "\\[^V",
+                    "name": "Chính thức",
+                    "color": "yellow"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-05-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 1
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0386756091"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": "hai.mda01@gmail.com"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Đỗ Tiến Hải",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Đỗ Tiến Hải",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Ti-n-H-i-7355dc08dad84f32a6912cbf92f70ca5",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "bdc3e2cc-c23d-4849-9b9b-ae1443a4cfca",
+        "created_time": "2024-05-08T05:30:00.000Z",
+        "last_edited_time": "2024-05-28T15:17:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": {
+                    "start": "2001-08-23",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Hà Nội",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Hà Nội",
+                        "href": null
+                    }
+                ]
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": {
+                    "id": "98f2e8bb-7310-4590-ad26-16d6bcfd6089",
+                    "name": "Quản lý vận hành",
+                    "color": "pink"
+                }
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": {
+                    "id": "dux}",
+                    "name": "Quản trị cấp trung",
+                    "color": "brown"
+                }
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": {
+                    "start": "2024-03-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 2
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": {
+                    "id": "KqT_",
+                    "name": "CẦN THƠ",
+                    "color": "purple"
+                }
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": "0326665814"
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": "manager.clozhcraft@gmail.com"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Hữu Quang",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Hữu Quang",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-H-u-Quang-bdc3e2ccc23d48499b9bae1443a4cfca",
+        "public_url": null
+    }
+]

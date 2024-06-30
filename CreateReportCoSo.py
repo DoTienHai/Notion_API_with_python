@@ -1,0 +1,147 @@
+import os
+from openpyxl import load_workbook, Workbook
+from openpyxl.utils.dataframe import dataframe_to_rows
+from openpyxl.styles import NamedStyle
+import pandas as pd
+from pandas import DataFrame
+from Utils import *
+
+start_date = '2024-06-01'
+end_date = '2024-06-30'
+
+def get_data_report_doanh_so(location = ""):
+    data = get_data_doanh_thu(location,["ALL"])
+    if (location):
+        data = data[data["Cơ sở"] == location]
+    query_string = f"'{start_date}' <= `Ngày thực hiện` <= '{end_date}'"
+    data = data.query(query_string)
+
+    groupDataDoanhSo = pd.DataFrame(columns=["Mã nhân viên"])
+    # Group data Sale chính
+    groupDataSaleChinh = data.groupby("Sale chính")[["Đơn giá gốc"]].sum().reset_index()
+    groupDataSaleChinh = groupDataSaleChinh.rename(columns={"Sale chính":"Mã nhân viên", "Đơn giá gốc":"Doanh số sale chính"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataSaleChinh, on='Mã nhân viên', how='outer')
+    # Group data Sale phụ
+    groupDataSalePhu = data.groupby("Sale phụ")[["Upsale"]].sum().reset_index()
+    groupDataSalePhu = groupDataSalePhu.rename(columns={"Sale phụ":"Mã nhân viên", "Upsale":"Doanh số upsale"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataSalePhu, on='Mã nhân viên', how='outer')
+    # Group data 1 bác sĩ
+    groupData1BacSi = data[data["id bác sĩ 2"].isnull()]
+    groupData1BacSi = groupData1BacSi.groupby("Bác sĩ 1")[["Đơn giá"]].sum().reset_index()
+    groupData1BacSi = groupData1BacSi.rename(columns={"Bác sĩ 1":"Mã nhân viên", "Đơn giá":"Doanh số đơn 1 bác sĩ"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupData1BacSi, on='Mã nhân viên', how='outer')
+    # Group data 2 bác sĩ
+    temp = data[~data["id bác sĩ 2"].isnull()]
+    groupData2BacSi = temp.groupby("Bác sĩ 1")[["Đơn giá"]].sum().reset_index()
+    groupData2BacSi = groupData2BacSi.rename(columns={"Bác sĩ 1":"Mã nhân viên", "Đơn giá":"A"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupData2BacSi, on='Mã nhân viên', how='outer')
+    groupData2BacSi = temp.groupby("Bác sĩ 2")[["Đơn giá"]].sum().reset_index()
+    groupData2BacSi = groupData2BacSi.rename(columns={"Bác sĩ 2":"Mã nhân viên", "Đơn giá":"B"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupData2BacSi, on='Mã nhân viên', how='outer')
+    groupDataDoanhSo["Doanh số đơn 2 bác sĩ"] = groupDataDoanhSo["A"] + groupDataDoanhSo["B"]
+    # group data phụ phẫu 1
+    groupDataCountPhuPhau1 = data["Phụ phẫu 1"].value_counts().reset_index()
+    groupDataCountPhuPhau1 = groupDataCountPhuPhau1.rename(columns={"Phụ phẫu 1":"Mã nhân viên", "count":"Số lần phụ phẫu 1"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCountPhuPhau1, on='Mã nhân viên', how='outer')
+    # group data phụ phẫu 2
+    groupDataCountPhuPhau2 = data["Phụ phẫu 2"].value_counts().reset_index()
+    groupDataCountPhuPhau2 = groupDataCountPhuPhau2.rename(columns={"Phụ phẫu 2":"Mã nhân viên", "count":"Số lần phụ phẫu 2"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCountPhuPhau2, on='Mã nhân viên', how='outer')
+    #group data thu nơ
+    groupDataThuNo = get_data_thu_no(location, ["ALL"])
+    if (location):
+        groupDataThuNo = groupDataThuNo[groupDataThuNo["Cơ sở"] == location]
+    query_string = f"'{start_date}' <= `Ngày thu` <= '{end_date}'"
+    groupDataThuNo = groupDataThuNo.query(query_string)
+    groupDataThuNo = groupDataThuNo.groupby("Sale")[["Lượng thu"]].sum().reset_index()
+    groupDataThuNo = groupDataThuNo.rename(columns={"Sale":"Mã nhân viên", "Lượng thu":"Doanh số thu nợ"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataThuNo, on='Mã nhân viên', how='outer')
+    groupDataDoanhSo = groupDataDoanhSo.drop(columns=["A","B"])
+    groupDataDoanhSo = groupDataDoanhSo.fillna(0)
+    return groupDataDoanhSo
+
+
+
+def get_data_report_chi_tieu(location = ""):
+    data = get_data_chi_tieu(location,["Ngày chi", "Phân loại", "Lượng chi"])
+    query_string = f"'{start_date}' <= `Ngày chi` <= '{end_date}'"
+    data = data.query(query_string)
+    totalChiTieu = data["Lượng chi"].sum()
+    data = data[["Phân loại", "Lượng chi"]].groupby("Phân loại").sum().reset_index()
+    blank = totalChiTieu - data["Lượng chi"].sum()
+    blankRow = pd.DataFrame({'Phân loại': ['Blank'], 'Lượng chi': blank})
+    totalRow = pd.DataFrame({'Phân loại': ['Tổng cộng'], 'Lượng chi': totalChiTieu})
+    data = pd.concat([data, blankRow], ignore_index=True)
+    data = pd.concat([data, totalRow], ignore_index=True)
+    data = data.fillna(0)
+    return data
+
+def createReportLocation(location = ""):
+    if(location != ""):
+        excelFilePath = "report_co_so/" + location + " " + start_date.replace('/', '_') + " - " + end_date.replace('/', '_') +".xlsx"
+        # Kiểm tra xem file Excel đã tồn tại hay chưa
+        if os.path.exists(excelFilePath):
+            # Nếu đã tồn tại, xóa file cũ đi
+            try:
+                os.remove(excelFilePath)
+                print(f"Đã xóa file Excel cũ '{excelFilePath}'")
+            except Exception as e:
+                print(f"Lỗi khi xóa file Excel cũ: {e}")
+        # Tạo workbook mới
+        wb = Workbook()
+        # Tạo report về Doanh số
+        ws1 = wb.active
+        ws1.title = 'DOANH SỐ CÁ NHÂN'
+        writeDataframeToSheet(ws1, get_data_report_doanh_so(location))
+
+        # Tạo report về chi tiêu
+        ws2 = wb.create_sheet(title='CHI TIÊU')
+        writeDataframeToSheet(ws2, get_data_report_chi_tieu(location))
+        
+
+        # Lưu workbook vào file Excel
+        try:
+            wb.save(excelFilePath)
+            print(f"Đã tạo file Excel mới '{excelFilePath}' thành công")
+        except Exception as e:
+            print(f"Lỗi khi tạo file Excel mới: {e}")
+    else:
+        print("Sai tên cơ sở! Không thể tạo report cho cở sở!") 
+
+def createReportSystem():
+        excelFilePath = f"report_co_so/HỆ THỐNG" + " " + start_date.replace('/', '_') + " - " + end_date.replace('/', '_') +".xlsx"
+        # Kiểm tra xem file Excel đã tồn tại hay chưa
+        if os.path.exists(excelFilePath):
+            # Nếu đã tồn tại, xóa file cũ đi
+            try:
+                os.remove(excelFilePath)
+                print(f"Đã xóa file Excel cũ '{excelFilePath}'")
+            except Exception as e:
+                print(f"Lỗi khi xóa file Excel cũ: {e}")
+
+        # Tạo workbook mới
+        wb = Workbook()
+        # Tạo report về Doanh số
+        ws1 = wb.active
+        ws1.title = 'DOANH SỐ CÁ NHÂN'
+        writeDataframeToSheet(ws1, get_data_report_doanh_so())
+
+        # Tạo report về chi tiêu
+        ws2 = wb.create_sheet(title='CHI TIÊU')
+        writeDataframeToSheet(ws2, get_data_report_chi_tieu())
+   
+
+
+
+        # Lưu workbook vào file Excel
+        try:
+            wb.save(excelFilePath)
+            print(f"Đã tạo file Excel mới '{excelFilePath}' thành công")
+        except Exception as e:
+            print(f"Lỗi khi tạo file Excel mới: {e}")
+
+createReportSystem()
+for location in vn_locations:
+    createReportLocation(location)
+
+            
