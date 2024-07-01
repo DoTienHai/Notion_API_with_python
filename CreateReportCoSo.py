@@ -78,13 +78,13 @@ def get_data_report_chi_tieu(location = ""):
 
 def createReportLocation(location = ""):
     if(location != ""):
-        excelFilePath = "report_co_so/" + location + " " + start_date.replace('/', '_') + " - " + end_date.replace('/', '_') +".xlsx"
+        excel_file_path = os.path.file("report_co_so", f"{location} {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
         # Kiểm tra xem file Excel đã tồn tại hay chưa
-        if os.path.exists(excelFilePath):
+        if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
             try:
-                os.remove(excelFilePath)
-                print(f"Đã xóa file Excel cũ '{excelFilePath}'")
+                os.remove(excel_file_path)
+                print(f"Đã xóa file Excel cũ '{excel_file_path}'")
             except Exception as e:
                 print(f"Lỗi khi xóa file Excel cũ: {e}")
         # Tạo workbook mới
@@ -101,21 +101,21 @@ def createReportLocation(location = ""):
 
         # Lưu workbook vào file Excel
         try:
-            wb.save(excelFilePath)
-            print(f"Đã tạo file Excel mới '{excelFilePath}' thành công")
+            wb.save(excel_file_path)
+            print(f"Đã tạo file Excel mới '{excel_file_path}' thành công")
         except Exception as e:
             print(f"Lỗi khi tạo file Excel mới: {e}")
     else:
         print("Sai tên cơ sở! Không thể tạo report cho cở sở!") 
 
 def createReportSystem():
-        excelFilePath = f"report_co_so/HỆ THỐNG" + " " + start_date.replace('/', '_') + " - " + end_date.replace('/', '_') +".xlsx"
+        excel_file_path = os.path.join("report_co_so", f"HỆ THỐNG {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
         # Kiểm tra xem file Excel đã tồn tại hay chưa
-        if os.path.exists(excelFilePath):
+        if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
             try:
-                os.remove(excelFilePath)
-                print(f"Đã xóa file Excel cũ '{excelFilePath}'")
+                os.remove(excel_file_path)
+                print(f"Đã xóa file Excel cũ '{excel_file_path}'")
             except Exception as e:
                 print(f"Lỗi khi xóa file Excel cũ: {e}")
 
@@ -135,8 +135,8 @@ def createReportSystem():
 
         # Lưu workbook vào file Excel
         try:
-            wb.save(excelFilePath)
-            print(f"Đã tạo file Excel mới '{excelFilePath}' thành công")
+            wb.save(excel_file_path)
+            print(f"Đã tạo file Excel mới '{excel_file_path}' thành công")
         except Exception as e:
             print(f"Lỗi khi tạo file Excel mới: {e}")
 

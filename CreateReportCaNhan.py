@@ -90,12 +90,12 @@ def create_doanh_so_ca_nhan():
         ho_va_ten = row["Họ và tên"]
         ma_nhan_vien = f"{row["Tiền tố"]}-{row["Mã nhân viên"]}"
         # Kiểm tra xem file Excel đã tồn tại hay chưa
-        excelFilePath = f"report_ca_nhan\\{ma_nhan_vien} {ho_va_ten} {today.month}-{today.year}.xlsx"
-        if os.path.exists(excelFilePath):
+        excel_file_path = os.path.join("report_ca_nhan", f"{ma_nhan_vien} {ho_va_ten} {today.month}-{today.year}.xlsx")
+        if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
             try:
-                os.remove(excelFilePath)
-                print(f"Đã xóa file Excel cũ '{excelFilePath}'")
+                os.remove(excel_file_path)
+                print(f"Đã xóa file Excel cũ '{excel_file_path}'")
             except Exception as e:
                 print(f"Lỗi khi xóa file Excel cũ: {e}")
 
@@ -138,8 +138,8 @@ def create_doanh_so_ca_nhan():
 
         # Lưu workbook vào file Excel
         try:
-            wb.save(excelFilePath)
-            print(f"Đã tạo file Excel mới '{excelFilePath}' thành công")
+            wb.save(excel_file_path)
+            print(f"Đã tạo file Excel mới '{excel_file_path}' thành công")
         except Exception as e:
             print(f"Lỗi khi tạo file Excel mới: {e}")
 

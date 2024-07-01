@@ -103,7 +103,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -185,6 +193,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -325,7 +350,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -411,6 +444,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -551,7 +601,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -633,6 +691,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -773,7 +848,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -855,6 +938,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -995,7 +1095,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -1077,6 +1185,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -1217,7 +1342,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -1299,6 +1432,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -1471,6 +1621,15 @@
                     "function": "show_original"
                 }
             },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
             "Mã đơn": {
                 "id": "title",
                 "type": "title",
@@ -1606,7 +1765,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 38000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -1688,6 +1855,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 38000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -1860,6 +2044,15 @@
                     "function": "show_original"
                 }
             },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
             "Mã đơn": {
                 "id": "title",
                 "type": "title",
@@ -2023,6 +2216,15 @@
                     "function": "show_original"
                 }
             },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
             "Mã đơn": {
                 "id": "title",
                 "type": "title",
@@ -2140,7 +2342,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 29500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -2222,6 +2432,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 29500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -2390,6 +2617,15 @@
                     "function": "show_original"
                 }
             },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
             "Mã đơn": {
                 "id": "title",
                 "type": "title",
@@ -2507,7 +2743,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -2589,6 +2833,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -2729,7 +2990,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 18000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -2811,6 +3080,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 18000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -2939,7 +3225,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 0
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -3017,6 +3311,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 0
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -3157,7 +3468,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 40000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -3239,6 +3558,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 40000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -3379,7 +3715,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -3461,6 +3805,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -3629,6 +3990,15 @@
                     "function": "show_original"
                 }
             },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
             "Mã đơn": {
                 "id": "title",
                 "type": "title",
@@ -3746,7 +4116,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -3828,6 +4206,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -3968,7 +4363,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 13000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -4050,6 +4453,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 13000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -4190,7 +4610,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 38000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -4272,6 +4700,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 38000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -4412,7 +4857,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 9000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -4494,6 +4947,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 9000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -4634,7 +5104,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -4716,6 +5194,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -4852,7 +5347,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -4934,6 +5437,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -5074,7 +5594,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 400000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -5156,6 +5684,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 400000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -5296,7 +5841,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 8386000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -5378,6 +5931,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 8386000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -5518,7 +6088,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 17000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -5604,6 +6182,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 17000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -5744,7 +6339,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -5826,6 +6429,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -5966,7 +6586,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -6048,6 +6676,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -6184,7 +6829,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -6266,6 +6919,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -6406,7 +7076,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2400000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -6488,6 +7166,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2400000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -6624,7 +7319,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -6706,6 +7409,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -6846,7 +7566,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -6928,6 +7656,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -7068,7 +7813,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -7150,6 +7903,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -7290,7 +8060,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 30000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -7372,6 +8150,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 30000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -7512,7 +8307,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -7594,6 +8397,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -7734,7 +8554,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -7816,6 +8644,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -7956,7 +8801,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -8038,6 +8891,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -8178,7 +9048,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 30000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -8260,6 +9138,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 30000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -8400,7 +9295,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 13000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -8482,6 +9385,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 13000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -8622,7 +9542,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -8704,6 +9632,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -8844,7 +9789,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -8926,6 +9879,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -9066,7 +10036,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 13000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -9144,6 +10122,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 13000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -9284,7 +10279,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -9366,6 +10369,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -9502,7 +10522,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -9584,6 +10612,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -9724,7 +10769,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 60000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -9806,6 +10859,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 60000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -9946,7 +11016,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -10028,6 +11106,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -10168,7 +11263,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -10250,6 +11353,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -10390,7 +11510,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -10472,6 +11600,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -10612,7 +11757,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 27500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -10698,6 +11851,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 27500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -10838,7 +12008,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -10920,6 +12098,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 3000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -11060,7 +12255,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -11142,6 +12345,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -11282,7 +12502,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 9000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -11364,6 +12592,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 9000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -11504,7 +12749,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 8000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -11586,6 +12839,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 8000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -11726,7 +12996,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -11808,6 +13086,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -11948,7 +13243,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -12030,6 +13333,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -12170,7 +13490,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -12252,6 +13580,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -12392,7 +13737,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -12474,6 +13827,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 25000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -12614,7 +13984,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -12696,6 +14074,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -12836,7 +14231,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 75000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -12918,6 +14321,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 75000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -13058,7 +14478,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -13140,6 +14568,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -13280,7 +14725,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -13362,6 +14815,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -13502,7 +14972,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -13584,6 +15062,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -13724,7 +15219,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -13806,6 +15309,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -13946,7 +15466,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -14028,6 +15556,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 19000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -14168,7 +15713,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -14250,6 +15803,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -14390,7 +15960,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -14472,6 +16050,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -14608,7 +16203,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -14690,6 +16293,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -14830,7 +16450,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4800000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -14912,6 +16540,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4800000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -15052,7 +16697,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -15138,6 +16791,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -15278,7 +16948,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -15360,6 +17038,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -15500,7 +17195,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -15582,6 +17285,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 12500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -15722,7 +17442,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -15804,6 +17532,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -15944,7 +17689,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -16026,6 +17779,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -16166,7 +17936,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -16248,6 +18026,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -16388,7 +18183,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -16470,6 +18273,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 15000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -16610,7 +18430,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -16692,6 +18520,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 35000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -16832,7 +18677,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -16914,6 +18767,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -17054,7 +18924,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -17136,6 +19014,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -17276,7 +19171,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -17358,6 +19261,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -17498,7 +19418,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 17000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -17580,6 +19508,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 17000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -17720,7 +19665,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -17798,6 +19751,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -17938,7 +19908,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -18020,6 +19998,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -18160,7 +20155,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 40000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -18242,6 +20245,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 40000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -18382,7 +20402,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -18464,6 +20492,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 20000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -18604,7 +20649,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -18686,6 +20739,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -18826,7 +20896,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -18908,6 +20986,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -19048,7 +21143,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -19130,6 +21233,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -19270,7 +21390,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -19352,6 +21480,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -19492,7 +21637,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -19574,6 +21727,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 2000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -19714,7 +21884,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -19796,6 +21974,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 10000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -19936,7 +22131,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1500000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -20018,6 +22221,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1500000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -20154,7 +22374,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -20236,6 +22464,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -20376,7 +22621,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 7000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -20458,6 +22711,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 7000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -20598,7 +22868,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4800000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -20680,6 +22958,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4800000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -20820,7 +23115,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -20902,6 +23205,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 1000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -21038,7 +23358,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -21116,6 +23444,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -21256,7 +23601,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 18000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -21338,6 +23691,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 18000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -21478,7 +23848,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -21560,6 +23938,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 5000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -21700,7 +24095,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -21782,6 +24185,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 6000000
+                            }
                         }
                     ],
                     "function": "show_original"
@@ -21918,7 +24338,15 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4000000
+                            }
+                        }
+                    ],
                     "function": "show_original"
                 }
             },
@@ -21996,6 +24424,23 @@
                         {
                             "type": "relation",
                             "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%7C%3BVx",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "formula",
+                            "formula": {
+                                "type": "number",
+                                "number": 4000000
+                            }
                         }
                     ],
                     "function": "show_original"

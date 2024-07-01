@@ -1,9 +1,9 @@
 [
     {
         "object": "page",
-        "id": "9c68fce3-7d4f-4432-a9b2-e94a31b35cb8",
-        "created_time": "2024-06-30T09:08:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "id": "06f84bee-3de0-4d8e-a89d-0d662e49da6f",
+        "created_time": "2024-07-01T07:45:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -30,6 +30,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -87,14 +95,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/1-9c68fce37d4f4432a9b2e94a31b35cb8",
+        "url": "https://www.notion.so/1-06f84bee3de04d8ea89d0d662e49da6f",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "f4840e29-9c1d-43c3-837e-0d16a331afc5",
-        "created_time": "2024-06-29T09:34:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "id": "9c68fce3-7d4f-4432-a9b2-e94a31b35cb8",
+        "created_time": "2024-06-30T09:08:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -121,6 +129,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 5000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -178,14 +194,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/2-f4840e299c1d43c3837e0d16a331afc5",
+        "url": "https://www.notion.so/2-9c68fce37d4f4432a9b2e94a31b35cb8",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "413abd2b-d960-425d-830b-670598ce73e3",
-        "created_time": "2024-06-27T05:20:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "id": "f4840e29-9c1d-43c3-837e-0d16a331afc5",
+        "created_time": "2024-06-29T09:34:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -212,6 +228,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -269,14 +293,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/3-413abd2bd960425d830b670598ce73e3",
+        "url": "https://www.notion.so/3-f4840e299c1d43c3837e0d16a331afc5",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "7f65d6ca-1a41-47e3-90c3-1c67b654a580",
-        "created_time": "2024-06-26T11:55:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "id": "413abd2b-d960-425d-830b-670598ce73e3",
+        "created_time": "2024-06-27T05:20:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -303,6 +327,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -360,14 +392,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/4-7f65d6ca1a4147e390c31c67b654a580",
+        "url": "https://www.notion.so/4-413abd2bd960425d830b670598ce73e3",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "5368b5a8-2d91-4fc3-a5f1-94c7162f5048",
-        "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "id": "7f65d6ca-1a41-47e3-90c3-1c67b654a580",
+        "created_time": "2024-06-26T11:55:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -394,6 +426,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 3000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -451,14 +491,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/5-5368b5a82d914fc3a5f194c7162f5048",
+        "url": "https://www.notion.so/5-7f65d6ca1a4147e390c31c67b654a580",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "8701f2d2-93c3-4e00-8567-2e3e7631cdb8",
+        "id": "5368b5a8-2d91-4fc3-a5f1-94c7162f5048",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -485,6 +525,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -542,14 +590,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/6-8701f2d293c34e0085672e3e7631cdb8",
+        "url": "https://www.notion.so/6-5368b5a82d914fc3a5f194c7162f5048",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "456dae27-3fe8-4d68-bdf8-4f10f987d889",
+        "id": "8701f2d2-93c3-4e00-8567-2e3e7631cdb8",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -576,6 +624,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 15000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -633,14 +689,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/7-456dae273fe84d68bdf84f10f987d889",
+        "url": "https://www.notion.so/7-8701f2d293c34e0085672e3e7631cdb8",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "ccfa1087-8ca8-496b-8e93-2819f304be25",
+        "id": "456dae27-3fe8-4d68-bdf8-4f10f987d889",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -667,6 +723,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -724,14 +788,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/8-ccfa10878ca8496b8e932819f304be25",
+        "url": "https://www.notion.so/8-456dae273fe84d68bdf84f10f987d889",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "1c8d6284-3aae-418c-9208-9c391cbbf64d",
+        "id": "ccfa1087-8ca8-496b-8e93-2819f304be25",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -758,6 +822,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 25000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -815,14 +887,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/9-1c8d62843aae418c92089c391cbbf64d",
+        "url": "https://www.notion.so/9-ccfa10878ca8496b8e932819f304be25",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "ac86b813-bcdf-4436-856f-f6d3737b416c",
+        "id": "1c8d6284-3aae-418c-9208-9c391cbbf64d",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -849,6 +921,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 5000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -906,14 +986,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/10-ac86b813bcdf4436856ff6d3737b416c",
+        "url": "https://www.notion.so/10-1c8d62843aae418c92089c391cbbf64d",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "8e3a71e5-f927-4e4f-b215-d54c0188294e",
+        "id": "ac86b813-bcdf-4436-856f-f6d3737b416c",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -940,6 +1020,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -997,14 +1085,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/11-8e3a71e5f9274e4fb215d54c0188294e",
+        "url": "https://www.notion.so/11-ac86b813bcdf4436856ff6d3737b416c",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "bc3f46b5-6495-4ce2-90fb-3abd2ad49c48",
+        "id": "8e3a71e5-f927-4e4f-b215-d54c0188294e",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1031,6 +1119,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1088,14 +1184,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/12-bc3f46b564954ce290fb3abd2ad49c48",
+        "url": "https://www.notion.so/12-8e3a71e5f9274e4fb215d54c0188294e",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "2dcf2fed-b2f3-45f7-8737-4acf8616b370",
+        "id": "bc3f46b5-6495-4ce2-90fb-3abd2ad49c48",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1122,6 +1218,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1179,14 +1283,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/13-2dcf2fedb2f345f787374acf8616b370",
+        "url": "https://www.notion.so/13-bc3f46b564954ce290fb3abd2ad49c48",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "887b2441-0fb9-4d5d-86f3-59c23164bb5d",
+        "id": "2dcf2fed-b2f3-45f7-8737-4acf8616b370",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1213,6 +1317,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1500000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1270,14 +1382,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/14-887b24410fb94d5d86f359c23164bb5d",
+        "url": "https://www.notion.so/14-2dcf2fedb2f345f787374acf8616b370",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "b002fbe7-cff2-401f-b9ba-d07fd6cc561f",
+        "id": "887b2441-0fb9-4d5d-86f3-59c23164bb5d",
         "created_time": "2024-06-25T15:40:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1304,6 +1416,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1361,14 +1481,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/15-b002fbe7cff2401fb9bad07fd6cc561f",
+        "url": "https://www.notion.so/15-887b24410fb94d5d86f359c23164bb5d",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "df6bda30-993c-4e7a-ab47-94d2c47b686c",
-        "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "id": "b002fbe7-cff2-401f-b9ba-d07fd6cc561f",
+        "created_time": "2024-06-25T15:40:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1395,6 +1515,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1452,14 +1580,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/16-df6bda30993c4e7aab4794d2c47b686c",
+        "url": "https://www.notion.so/16-b002fbe7cff2401fb9bad07fd6cc561f",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "05ebb8d4-9dc1-4159-9836-122e738bf488",
+        "id": "df6bda30-993c-4e7a-ab47-94d2c47b686c",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1486,6 +1614,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 5000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1543,14 +1679,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/17-05ebb8d49dc141599836122e738bf488",
+        "url": "https://www.notion.so/17-df6bda30993c4e7aab4794d2c47b686c",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "2ac05bc7-172c-4aa4-b654-799d67afe9e3",
+        "id": "05ebb8d4-9dc1-4159-9836-122e738bf488",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:22:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1577,6 +1713,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 5000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1634,14 +1778,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/18-2ac05bc7172c4aa4b654799d67afe9e3",
+        "url": "https://www.notion.so/18-05ebb8d49dc141599836122e738bf488",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "ffe6c779-91f7-4c50-b15d-d0453a138e44",
+        "id": "2ac05bc7-172c-4aa4-b654-799d67afe9e3",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1668,6 +1812,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1725,14 +1877,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/19-ffe6c77991f74c50b15dd0453a138e44",
+        "url": "https://www.notion.so/19-2ac05bc7172c4aa4b654799d67afe9e3",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "2b0f762d-d9a1-460a-b13f-2736f1b47f93",
+        "id": "ffe6c779-91f7-4c50-b15d-d0453a138e44",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1759,6 +1911,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1816,14 +1976,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/20-2b0f762dd9a1460ab13f2736f1b47f93",
+        "url": "https://www.notion.so/20-ffe6c77991f74c50b15dd0453a138e44",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "8716b812-f61b-4f9c-90a0-142d28bdca52",
+        "id": "2b0f762d-d9a1-460a-b13f-2736f1b47f93",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1850,6 +2010,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1907,14 +2075,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/21-8716b812f61b4f9c90a0142d28bdca52",
+        "url": "https://www.notion.so/21-2b0f762dd9a1460ab13f2736f1b47f93",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "670caeaf-380a-49d7-80a2-f4774180a454",
+        "id": "8716b812-f61b-4f9c-90a0-142d28bdca52",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1941,6 +2109,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -1998,14 +2174,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/22-670caeaf380a49d780a2f4774180a454",
+        "url": "https://www.notion.so/22-8716b812f61b4f9c90a0142d28bdca52",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "4159c13e-192d-4b3c-a97a-4b8514d8725c",
+        "id": "670caeaf-380a-49d7-80a2-f4774180a454",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2032,6 +2208,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 14000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 3000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2089,14 +2273,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/23-4159c13e192d4b3ca97a4b8514d8725c",
+        "url": "https://www.notion.so/23-670caeaf380a49d780a2f4774180a454",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "cf3e7eac-9355-4656-9394-e931803f630d",
+        "id": "4159c13e-192d-4b3c-a97a-4b8514d8725c",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2123,6 +2307,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2180,14 +2372,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/24-cf3e7eac935546569394e931803f630d",
+        "url": "https://www.notion.so/24-4159c13e192d4b3ca97a4b8514d8725c",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "9df73534-9716-4a8a-b249-39853ee869da",
+        "id": "cf3e7eac-9355-4656-9394-e931803f630d",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2214,6 +2406,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 3000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2271,14 +2471,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/25-9df7353497164a8ab24939853ee869da",
+        "url": "https://www.notion.so/25-cf3e7eac935546569394e931803f630d",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "5346b509-87b4-46f7-9918-eecb88e8cf6a",
+        "id": "9df73534-9716-4a8a-b249-39853ee869da",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2305,6 +2505,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2362,14 +2570,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/26-5346b50987b446f79918eecb88e8cf6a",
+        "url": "https://www.notion.so/26-9df7353497164a8ab24939853ee869da",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "a5122c43-3023-4baa-be9f-0dd89011734c",
+        "id": "5346b509-87b4-46f7-9918-eecb88e8cf6a",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2396,6 +2604,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2453,14 +2669,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/27-a5122c4330234baabe9f0dd89011734c",
+        "url": "https://www.notion.so/27-5346b50987b446f79918eecb88e8cf6a",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "a532e7cf-9091-4f2e-9e8d-88f03ae7f109",
+        "id": "a5122c43-3023-4baa-be9f-0dd89011734c",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2487,6 +2703,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2544,14 +2768,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/28-a532e7cf90914f2e9e8d88f03ae7f109",
+        "url": "https://www.notion.so/28-a5122c4330234baabe9f0dd89011734c",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "ecbeca94-5cb6-43fd-b3ea-aa736eb36655",
+        "id": "a532e7cf-9091-4f2e-9e8d-88f03ae7f109",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2578,6 +2802,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2635,14 +2867,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/29-ecbeca945cb643fdb3eaaa736eb36655",
+        "url": "https://www.notion.so/29-a532e7cf90914f2e9e8d88f03ae7f109",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "0cb9eb84-b38a-4c77-b4fb-c39974d76a86",
+        "id": "ecbeca94-5cb6-43fd-b3ea-aa736eb36655",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2669,6 +2901,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 14000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2726,14 +2966,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/30-0cb9eb84b38a4c77b4fbc39974d76a86",
+        "url": "https://www.notion.so/30-ecbeca945cb643fdb3eaaa736eb36655",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "71579228-ff4f-4c82-ab8d-e40170d28c84",
+        "id": "0cb9eb84-b38a-4c77-b4fb-c39974d76a86",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2760,6 +3000,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2817,14 +3065,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/31-71579228ff4f4c82ab8de40170d28c84",
+        "url": "https://www.notion.so/31-0cb9eb84b38a4c77b4fbc39974d76a86",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "808bf9c3-006a-4002-93f0-8edfcc7f0f77",
+        "id": "71579228-ff4f-4c82-ab8d-e40170d28c84",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2851,6 +3099,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 500000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2908,14 +3164,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/32-808bf9c3006a400293f08edfcc7f0f77",
+        "url": "https://www.notion.so/32-71579228ff4f4c82ab8de40170d28c84",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "f6aa15d5-81a7-44cd-b711-a7c11cd8091b",
+        "id": "808bf9c3-006a-4002-93f0-8edfcc7f0f77",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2942,6 +3198,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -2999,14 +3263,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/33-f6aa15d581a744cdb711a7c11cd8091b",
+        "url": "https://www.notion.so/33-808bf9c3006a400293f08edfcc7f0f77",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "8f93fb5b-6434-414d-b158-5a6d8373e0cb",
+        "id": "f6aa15d5-81a7-44cd-b711-a7c11cd8091b",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3033,6 +3297,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3090,14 +3362,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/34-8f93fb5b6434414db1585a6d8373e0cb",
+        "url": "https://www.notion.so/34-f6aa15d581a744cdb711a7c11cd8091b",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "5f697f46-bc45-47b0-af9f-b79d2f89615c",
+        "id": "8f93fb5b-6434-414d-b158-5a6d8373e0cb",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3124,6 +3396,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 7000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3181,14 +3461,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/35-5f697f46bc4547b0af9fb79d2f89615c",
+        "url": "https://www.notion.so/35-8f93fb5b6434414db1585a6d8373e0cb",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "0d51e83d-daba-4f7f-98a5-265e6f893acc",
+        "id": "5f697f46-bc45-47b0-af9f-b79d2f89615c",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3215,6 +3495,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 15000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3272,14 +3560,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/36-0d51e83ddaba4f7f98a5265e6f893acc",
+        "url": "https://www.notion.so/36-5f697f46bc4547b0af9fb79d2f89615c",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "b6442ee6-2444-4519-ba61-ee66f711f543",
+        "id": "0d51e83d-daba-4f7f-98a5-265e6f893acc",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3306,6 +3594,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 7000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3363,14 +3659,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/37-b6442ee624444519ba61ee66f711f543",
+        "url": "https://www.notion.so/37-0d51e83ddaba4f7f98a5265e6f893acc",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "5b30e0cb-e4f8-42e8-ac2f-3ca7b7a6aaaa",
+        "id": "b6442ee6-2444-4519-ba61-ee66f711f543",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3397,6 +3693,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3454,14 +3758,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/38-5b30e0cbe4f842e8ac2f3ca7b7a6aaaa",
+        "url": "https://www.notion.so/38-b6442ee624444519ba61ee66f711f543",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "7be7f5b9-f6a1-4c0f-91ec-5883dd1adf3b",
+        "id": "5b30e0cb-e4f8-42e8-ac2f-3ca7b7a6aaaa",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3488,6 +3792,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 2000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3545,14 +3857,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/39-7be7f5b9f6a14c0f91ec5883dd1adf3b",
+        "url": "https://www.notion.so/39-5b30e0cbe4f842e8ac2f3ca7b7a6aaaa",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "5ae18489-d185-40db-bfc4-1263a08c863e",
+        "id": "7be7f5b9-f6a1-4c0f-91ec-5883dd1adf3b",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3579,6 +3891,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1300000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3636,14 +3956,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/40-5ae18489d18540dbbfc41263a08c863e",
+        "url": "https://www.notion.so/40-7be7f5b9f6a14c0f91ec5883dd1adf3b",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "2cc2a873-7fd9-4612-a974-d6e1f3cfcad0",
+        "id": "5ae18489-d185-40db-bfc4-1263a08c863e",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3670,6 +3990,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 17000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3727,14 +4055,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/41-2cc2a8737fd94612a974d6e1f3cfcad0",
+        "url": "https://www.notion.so/41-5ae18489d18540dbbfc41263a08c863e",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "1bbc9ed6-97b3-463a-a707-3252641dd198",
+        "id": "2cc2a873-7fd9-4612-a974-d6e1f3cfcad0",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3761,6 +4089,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 2000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3818,14 +4154,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/42-1bbc9ed697b3463aa7073252641dd198",
+        "url": "https://www.notion.so/42-2cc2a8737fd94612a974d6e1f3cfcad0",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "c0b0d935-ef9a-45f7-879b-558e9ce4fcf3",
+        "id": "1bbc9ed6-97b3-463a-a707-3252641dd198",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3852,6 +4188,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 7000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -3909,14 +4253,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/43-c0b0d935ef9a45f7879b558e9ce4fcf3",
+        "url": "https://www.notion.so/43-1bbc9ed697b3463aa7073252641dd198",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "de2a36cf-8771-44f0-a9a3-cd55abfe271b",
+        "id": "c0b0d935-ef9a-45f7-879b-558e9ce4fcf3",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3943,6 +4287,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4000,14 +4352,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/44-de2a36cf877144f0a9a3cd55abfe271b",
+        "url": "https://www.notion.so/44-c0b0d935ef9a45f7879b558e9ce4fcf3",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "52391eb5-b8b0-4d4c-a021-f5c63b61d834",
+        "id": "de2a36cf-8771-44f0-a9a3-cd55abfe271b",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4034,6 +4386,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4091,14 +4451,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/45-52391eb5b8b04d4ca021f5c63b61d834",
+        "url": "https://www.notion.so/45-de2a36cf877144f0a9a3cd55abfe271b",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "68bb50dc-b720-47b7-9983-76df9b3742f6",
+        "id": "52391eb5-b8b0-4d4c-a021-f5c63b61d834",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4125,6 +4485,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4182,14 +4550,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/46-68bb50dcb72047b7998376df9b3742f6",
+        "url": "https://www.notion.so/46-52391eb5b8b04d4ca021f5c63b61d834",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "58b1fa10-c5cf-4bcd-be34-669b0c698923",
+        "id": "68bb50dc-b720-47b7-9983-76df9b3742f6",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:32:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4216,6 +4584,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4273,14 +4649,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/47-58b1fa10c5cf4bcdbe34669b0c698923",
+        "url": "https://www.notion.so/47-68bb50dcb72047b7998376df9b3742f6",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "c3ede5dd-eeba-4a26-8753-8586469f6e8a",
+        "id": "58b1fa10-c5cf-4bcd-be34-669b0c698923",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4307,6 +4683,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4364,14 +4748,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/48-c3ede5ddeeba4a2687538586469f6e8a",
+        "url": "https://www.notion.so/48-58b1fa10c5cf4bcdbe34669b0c698923",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "46806830-e1bd-4cb5-94a5-26deedae2a38",
+        "id": "c3ede5dd-eeba-4a26-8753-8586469f6e8a",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4398,6 +4782,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4455,14 +4847,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/49-46806830e1bd4cb594a526deedae2a38",
+        "url": "https://www.notion.so/49-c3ede5ddeeba4a2687538586469f6e8a",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "2e1d33d8-b833-4cca-acee-1f03482d66eb",
+        "id": "46806830-e1bd-4cb5-94a5-26deedae2a38",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4489,6 +4881,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4546,14 +4946,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/50-2e1d33d8b8334ccaacee1f03482d66eb",
+        "url": "https://www.notion.so/50-46806830e1bd4cb594a526deedae2a38",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "96324ff3-7f59-48f0-b916-fc6536c5dade",
+        "id": "2e1d33d8-b833-4cca-acee-1f03482d66eb",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4580,6 +4980,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4637,14 +5045,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/51-96324ff37f5948f0b916fc6536c5dade",
+        "url": "https://www.notion.so/51-2e1d33d8b8334ccaacee1f03482d66eb",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "0e7dfb28-8771-4894-8e46-4365dc6f2ad2",
+        "id": "96324ff3-7f59-48f0-b916-fc6536c5dade",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4671,6 +5079,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4728,14 +5144,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/52-0e7dfb28877148948e464365dc6f2ad2",
+        "url": "https://www.notion.so/52-96324ff37f5948f0b916fc6536c5dade",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "843f0e90-37ff-4591-9e45-0424e4cbac9e",
+        "id": "0e7dfb28-8771-4894-8e46-4365dc6f2ad2",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4762,6 +5178,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4819,14 +5243,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/53-843f0e9037ff45919e450424e4cbac9e",
+        "url": "https://www.notion.so/53-0e7dfb28877148948e464365dc6f2ad2",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "6049f3d7-42d0-4838-8a7a-1856688cc253",
+        "id": "843f0e90-37ff-4591-9e45-0424e4cbac9e",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4853,6 +5277,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 4000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -4910,14 +5342,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/54-6049f3d742d048388a7a1856688cc253",
+        "url": "https://www.notion.so/54-843f0e9037ff45919e450424e4cbac9e",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "612cdb59-27f9-493b-b674-72aff3b5927b",
+        "id": "6049f3d7-42d0-4838-8a7a-1856688cc253",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4944,6 +5376,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 1000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 3000000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5001,14 +5441,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/55-612cdb5927f9493bb67472aff3b5927b",
+        "url": "https://www.notion.so/55-6049f3d742d048388a7a1856688cc253",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "27085ca3-d514-4473-a3bb-da984c52e7e4",
+        "id": "612cdb59-27f9-493b-b674-72aff3b5927b",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5035,6 +5475,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 700000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5092,14 +5540,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/56-27085ca3d5144473a3bbda984c52e7e4",
+        "url": "https://www.notion.so/56-612cdb5927f9493bb67472aff3b5927b",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "5be9f11c-c64f-4f61-bb71-e7d2fbf96855",
+        "id": "27085ca3-d514-4473-a3bb-da984c52e7e4",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5126,6 +5574,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5183,14 +5639,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/57-5be9f11cc64f4f61bb71e7d2fbf96855",
+        "url": "https://www.notion.so/57-27085ca3d5144473a3bbda984c52e7e4",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "3f9e3e71-188e-48d5-997a-71070175e42b",
+        "id": "5be9f11c-c64f-4f61-bb71-e7d2fbf96855",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5217,6 +5673,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 700000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5274,14 +5738,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/58-3f9e3e71188e48d5997a71070175e42b",
+        "url": "https://www.notion.so/58-5be9f11cc64f4f61bb71e7d2fbf96855",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "c4a99c5c-f44e-4039-a045-8ad12b4f6046",
+        "id": "3f9e3e71-188e-48d5-997a-71070175e42b",
         "created_time": "2024-06-25T15:39:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5308,6 +5772,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5365,14 +5837,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/59-c4a99c5cf44e4039a0458ad12b4f6046",
+        "url": "https://www.notion.so/59-3f9e3e71188e48d5997a71070175e42b",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "214991f6-4649-4c4d-b595-7aa6576c69ad",
-        "created_time": "2024-06-25T15:36:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "id": "c4a99c5c-f44e-4039-a045-8ad12b4f6046",
+        "created_time": "2024-06-25T15:39:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5399,6 +5871,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5456,14 +5936,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/60-214991f646494c4db5957aa6576c69ad",
+        "url": "https://www.notion.so/60-c4a99c5cf44e4039a0458ad12b4f6046",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "d9f9ae69-896d-4f76-b572-08645f10e3fa",
+        "id": "214991f6-4649-4c4d-b595-7aa6576c69ad",
         "created_time": "2024-06-25T15:36:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5490,6 +5970,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5547,14 +6035,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/61-d9f9ae69896d4f76b57208645f10e3fa",
+        "url": "https://www.notion.so/61-214991f646494c4db5957aa6576c69ad",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "73f7f862-f114-41db-9221-0fde8f9c580d",
+        "id": "d9f9ae69-896d-4f76-b572-08645f10e3fa",
         "created_time": "2024-06-25T15:36:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5581,6 +6069,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5638,14 +6134,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/62-73f7f862f11441db92210fde8f9c580d",
+        "url": "https://www.notion.so/62-d9f9ae69896d4f76b57208645f10e3fa",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "631d954b-83a8-47d4-8683-983aad0b002d",
+        "id": "73f7f862-f114-41db-9221-0fde8f9c580d",
         "created_time": "2024-06-25T15:36:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5672,6 +6168,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1500000
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5729,14 +6233,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/63-631d954b83a847d48683983aad0b002d",
+        "url": "https://www.notion.so/63-73f7f862f11441db92210fde8f9c580d",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "3e313c45-1109-4d19-96f7-3d46baff66af",
+        "id": "631d954b-83a8-47d4-8683-983aad0b002d",
         "created_time": "2024-06-25T15:36:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5763,6 +6267,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5820,17 +6332,17 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/64-3e313c4511094d1996f73d46baff66af",
+        "url": "https://www.notion.so/64-631d954b83a847d48683983aad0b002d",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "15dc290b-de0b-4ca9-ba77-0946c5f13582",
-        "created_time": "2024-06-25T08:24:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "id": "3e313c45-1109-4d19-96f7-3d46baff66af",
+        "created_time": "2024-06-25T15:36:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "last_edited_by": {
             "object": "user",
@@ -5854,6 +6366,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 1000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -5911,14 +6431,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/65-15dc290bde0b4ca9ba770946c5f13582",
+        "url": "https://www.notion.so/65-3e313c4511094d1996f73d46baff66af",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "85a1185c-5d12-479f-808c-48ad22a864c1",
+        "id": "15dc290b-de0b-4ca9-ba77-0946c5f13582",
         "created_time": "2024-06-25T08:24:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -5945,6 +6465,14 @@
                 "id": "Nk%3CD",
                 "type": "number",
                 "number": 2000000
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chi tiêu": {
                 "id": "Vds%5C",
@@ -6002,14 +6530,14 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/66-85a1185c5d12479f808c48ad22a864c1",
+        "url": "https://www.notion.so/66-15dc290bde0b4ca9ba770946c5f13582",
         "public_url": null
     },
     {
         "object": "page",
-        "id": "b4c82aa7-7e7f-4289-b0ba-1b14e683031d",
+        "id": "85a1185c-5d12-479f-808c-48ad22a864c1",
         "created_time": "2024-06-25T08:24:00.000Z",
-        "last_edited_time": "2024-06-30T15:33:00.000Z",
+        "last_edited_time": "2024-07-01T14:23:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -6037,10 +6565,18 @@
                 "type": "number",
                 "number": 0
             },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
             "Chi tiêu": {
                 "id": "Vds%5C",
                 "type": "number",
-                "number": 7758000
+                "number": 8758000
             },
             "Đơn giá": {
                 "id": "bwGG",
@@ -6061,7 +6597,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": -4258000
+                    "number": -5258000
                 }
             },
             "Đã thanh toán": {
@@ -6093,7 +6629,106 @@
                 ]
             }
         },
-        "url": "https://www.notion.so/67-b4c82aa77e7f4289b0ba1b14e683031d",
+        "url": "https://www.notion.so/67-85a1185c5d12479f808c48ad22a864c1",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "b4c82aa7-7e7f-4289-b0ba-1b14e683031d",
+        "created_time": "2024-06-25T08:24:00.000Z",
+        "last_edited_time": "2024-07-01T14:24:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "95908de9-fba9-4247-8bcd-04b57e56bd1b"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số lượng đơn": {
+                "id": "JgG%7B",
+                "type": "number",
+                "number": 1
+            },
+            "Thu nợ": {
+                "id": "Nk%3CD",
+                "type": "number",
+                "number": 0
+            },
+            "Dư nợ phát sinh": {
+                "id": "Q%5B%5Bp",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Chi tiêu": {
+                "id": "Vds%5C",
+                "type": "number",
+                "number": 6800000
+            },
+            "Đơn giá": {
+                "id": "bwGG",
+                "type": "number",
+                "number": 3000000
+            },
+            "Ngày": {
+                "id": "kciy",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-01",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Lũy kế theo ngày": {
+                "id": "nWGB",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": -3800000
+                }
+            },
+            "Đã thanh toán": {
+                "id": "pq%3Ci",
+                "type": "number",
+                "number": 3000000
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "68",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "68",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/68-b4c82aa77e7f4289b0ba1b14e683031d",
         "public_url": null
     }
 ]
