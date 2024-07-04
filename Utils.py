@@ -82,7 +82,11 @@ def get_data_danh_muc_dich_vu(location= "" , columns=[]):
 
 def get_ho_so_nhan_su(location="", columns = []):
     data =  pd.read_excel(file_all_notion_data, sheet_name="Hồ sơ nhân sự")
-    return filter(data, location, columns)   
+    return filter(data, location, columns)  
+
+def get_danh_sach_khach_hang(location="", columns=[]):
+    data = pd.read_excel(file_all_notion_data, sheet_name="Danh sách khách hàng") 
+    return filter(data, location, columns) 
 
 ###------------------------------------------- LIÊN QUAN ĐẾN NOTION API ---------------------------------------###
 # Headers notion api token
