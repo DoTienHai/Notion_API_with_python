@@ -1,6 +1,6 @@
 from Utils import *
-from GetAllData import get_all_data_to_json
-from ConvertJsonToExcel import collect_data
+from GetNotionDataToJson import get_all_data_to_json
+from CollectJsonToExcel import collect_data
 from CreateLuyKe import update_luy_ke_theo_ngay, update_luy_ke_theo_thang
 from CreateReportCaNhan import create_doanh_so_ca_nhan
 from CreateReportCoSo import create_report_co_so

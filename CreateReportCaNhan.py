@@ -119,7 +119,7 @@ def create_doanh_so_ca_nhan():
         ho_va_ten = row["Họ và tên"]
         ma_nhan_vien = f"{row["Tiền tố"]}-{row["Mã nhân viên"]}"
         # Kiểm tra xem file Excel đã tồn tại hay chưa
-        excel_file_path = os.path.join("report_ca_nhan", f"{ma_nhan_vien} {ho_va_ten} {month}-{year}.xlsx")
+        excel_file_path = os.path.join(report_ca_nhan_folder, f"{ma_nhan_vien} {ho_va_ten} {month}-{year}.xlsx")
         if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
             try:

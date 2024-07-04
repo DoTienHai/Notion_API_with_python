@@ -4,8 +4,11 @@ import json
 from pandas import DataFrame
 import os
 
-output_folder = "notion_data"
-file_all_output = os.path.join(output_folder, "ALL.xlsx")
+notion_data_folder = "notion_data"
+file_all_notion_data = os.path.join(notion_data_folder, "ALL.xlsx")
+report_ca_nhan_folder = "report_ca_nhan"
+report_co_so_folder = "report_co_so"
+report_khach_hang = "report_khach_hang"
 notion_api_token = "secret_o7gsjeVNFo5Wpg1bUJ7eHo8VpkF7riKIEAIcB8P0HyR"
 dataBaseDict = {
     "HO_SO_NHAN_SU" : "3213b32ae23044e2afdd04abcc992e96",
@@ -62,23 +65,23 @@ def filter(data, location= "" , columns=[]):
         return None
 
 def get_data_doanh_thu(location= "" , columns=[]):
-    data = pd.read_excel(file_all_output, sheet_name="Doanh thu hệ thống", parse_dates=['Ngày thực hiện'], date_format=date_format)
+    data = pd.read_excel(file_all_notion_data, sheet_name="Doanh thu hệ thống", parse_dates=['Ngày thực hiện'], date_format=date_format)
     return filter(data, location, columns)
 
 def get_data_thu_no(location= "" , columns=[]):
-    data = pd.read_excel(file_all_output, sheet_name="Thu nợ", parse_dates=['Ngày thu'], date_format=date_format)
+    data = pd.read_excel(file_all_notion_data, sheet_name="Thu nợ", parse_dates=['Ngày thu'], date_format=date_format)
     return filter(data, location, columns)
 
 def get_data_chi_tieu(location= "" , columns=[]):
-    data =  pd.read_excel(file_all_output, sheet_name="Chi tiêu", parse_dates=['Ngày chi'], date_format=date_format)
+    data =  pd.read_excel(file_all_notion_data, sheet_name="Chi tiêu", parse_dates=['Ngày chi'], date_format=date_format)
     return filter(data, location, columns)
 
 def get_data_danh_muc_dich_vu(location= "" , columns=[]):
-    data =  pd.read_excel(file_all_output, sheet_name="danh mục dịch vụ")
+    data =  pd.read_excel(file_all_notion_data, sheet_name="danh mục dịch vụ")
     return filter(data, location, columns)   
 
 def get_ho_so_nhan_su(location="", columns = []):
-    data =  pd.read_excel(file_all_output, sheet_name="Hồ sơ nhân sự")
+    data =  pd.read_excel(file_all_notion_data, sheet_name="Hồ sơ nhân sự")
     return filter(data, location, columns)   
 
 ###------------------------------------------- LIÊN QUAN ĐẾN NOTION API ---------------------------------------###

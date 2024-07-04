@@ -96,7 +96,7 @@ def get_data_report_chi_tieu(location = ""):
 
 def createReportLocation(location = ""):
     if(location != ""):
-        excel_file_path = os.path.join("report_co_so", f"{location} {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
+        excel_file_path = os.path.join(report_co_so_folder, f"{location} {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
         # Kiểm tra xem file Excel đã tồn tại hay chưa
         if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
@@ -135,7 +135,7 @@ def createReportLocation(location = ""):
         print("Sai tên cơ sở! Không thể tạo report cho cở sở!") 
 
 def createReportSystem():
-        excel_file_path = os.path.join("report_co_so", f"HỆ THỐNG {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
+        excel_file_path = os.path.join(report_co_so_folder, f"HỆ THỐNG {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
         # Kiểm tra xem file Excel đã tồn tại hay chưa
         if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi

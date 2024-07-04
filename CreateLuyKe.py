@@ -41,10 +41,10 @@ def update_luy_ke_theo_ngay(location = ""):
     # Đường dẫn tới tệp JSON của bạn
     # API key và database ID của bạn
     database_id = dataBaseDict["LUY_KE_NGAY_HE_THONG"]
-    json_file_path = os.path.join(output_folder, 'LUY_KE_NGAY_HE_THONG.json')
+    json_file_path = os.path.join(notion_data_folder, 'LUY_KE_NGAY_HE_THONG.json')
     if (location in vn_locations):
         database_id = dataBaseDict[f"LUY_KE_NGAY_{e_locations[vn_locations.index(location)]}"]
-        json_file_path = os.path.join(output_folder, f'LUY_KE_NGAY_{e_locations[vn_locations.index(location)]}.json')
+        json_file_path = os.path.join(notion_data_folder, f'LUY_KE_NGAY_{e_locations[vn_locations.index(location)]}.json')
     
     # Đọc tệp JSON và chuyển đổi nội dung thành chuỗi JSON
     with open(json_file_path, 'r', encoding='utf-8') as file:
@@ -155,10 +155,10 @@ def update_luy_ke_theo_thang(location = ""):
     # Đường dẫn tới tệp JSON của bạn
     # API key và database ID của bạn
     database_id = dataBaseDict["LUY_KE_THANG_HE_THONG"]
-    json_file_path = os.path.join(output_folder, 'LUY_KE_THANG_HE_THONG.json')
+    json_file_path = os.path.join(notion_data_folder, 'LUY_KE_THANG_HE_THONG.json')
     if (location in vn_locations):
         database_id = dataBaseDict[f"LUY_KE_THANG_{e_locations[vn_locations.index(location)]}"]
-        json_file_path = os.path.join(output_folder, f'LUY_KE_THANG_{e_locations[vn_locations.index(location)]}.json')
+        json_file_path = os.path.join(notion_data_folder, f'LUY_KE_THANG_{e_locations[vn_locations.index(location)]}.json')
         
     # Đọc tệp JSON và chuyển đổi nội dung thành chuỗi JSON
     with open(json_file_path, 'r', encoding='utf-8') as file:

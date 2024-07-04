@@ -70,7 +70,7 @@ def convert_json_to_excel(directory = "./", suffix='.json'):
             df = pd.json_normalize(data)
             fileName = os.path.basename(json_file_path)
             part_split = fileName.split(".")
-            file_path = os.path.join(output_folder, f"{part_split[0]}.xlsx")
+            file_path = os.path.join(notion_data_folder, f"{part_split[0]}.xlsx")
             df.to_excel(file_path,sheet_name=f"{part_split[0]}", index=False)
         print("Convert all file json to excel!")
     else:
@@ -79,7 +79,7 @@ def convert_json_to_excel(directory = "./", suffix='.json'):
 
 
 def collect_ho_so_nhan_su():
-    data_file = os.path.join(output_folder, "HO_SO_NHAN_SU.xlsx")
+    data_file = os.path.join(notion_data_folder, "HO_SO_NHAN_SU.xlsx")
     data_ho_so_nhan_su = pd.read_excel(data_file)
     data_ho_so_nhan_su = data_ho_so_nhan_su[["id", "properties.Mã nhân viên.unique_id.prefix", "properties.Mã nhân viên.unique_id.number",
                                              "properties.Họ và tên.title", "properties.Quê quán.rich_text",                                          
@@ -106,7 +106,7 @@ def collect_ho_so_nhan_su():
     return data_ho_so_nhan_su.sort_values("Mã nhân viên")
 
 def collect_thong_tin_khach_hang():
-    data_file = os.path.join(output_folder, "THONG_TIN_KHACH_HANG.xlsx")
+    data_file = os.path.join(notion_data_folder, "THONG_TIN_KHACH_HANG.xlsx")
     data_thong_tin_khach_hang = pd.read_excel(data_file)
     data_thong_tin_khach_hang = data_thong_tin_khach_hang[["id", "properties.Mã khách hàng.unique_id.prefix", 
                                            "properties.Mã khách hàng.unique_id.number", "properties.Họ và tên.title", 
@@ -125,7 +125,7 @@ def collect_thong_tin_khach_hang():
     return data_thong_tin_khach_hang
 
 def collect_danh_muc_dich_vu():
-    data_file = os.path.join(output_folder, "DANH_MUC_DICH_VU.xlsx")
+    data_file = os.path.join(notion_data_folder, "DANH_MUC_DICH_VU.xlsx")
     data_danh_muc_dich_vu = pd.read_excel(data_file)
     data_danh_muc_dich_vu = data_danh_muc_dich_vu[["id", "properties.Tên dịch vụ.title", "properties.Nhóm dịch vụ.select.name",
                                            "properties.Số ca.rollup.number", "properties.Công phụ phẫu 1.number",
@@ -141,7 +141,7 @@ def collect_danh_muc_dich_vu():
     return data_danh_muc_dich_vu.sort_values("Tên dịch vụ")
 
 def collect_chi_tieu():
-    data_file = os.path.join(output_folder, "CHI_TIEU.xlsx")
+    data_file = os.path.join(notion_data_folder, "CHI_TIEU.xlsx")
     data_chi_tieu = pd.read_excel(data_file)
     data_chi_tieu = data_chi_tieu[["id", "properties.Auto mã chi tiêu.unique_id.prefix", "properties.Auto mã chi tiêu.unique_id.number",
                                "properties.Ngày chi.date.start", "properties.Cơ sở.select.name","properties.Phân loại.select.name", "properties.Nhân viên xác nhận.relation",
@@ -164,7 +164,7 @@ def collect_chi_tieu():
     return data_chi_tieu.sort_values("Mã chi tiêu")
 
 def collect_doanh_thu_he_thong():
-    data_file = os.path.join(output_folder, "DOANH_THU_HE_THONG.xlsx")
+    data_file = os.path.join(notion_data_folder, "DOANH_THU_HE_THONG.xlsx")
     data_doanh_thu_he_thong = pd.read_excel(data_file)
     data_doanh_thu_he_thong = data_doanh_thu_he_thong[["id", "properties.Auto mã dịch vụ.unique_id.prefix", 
                                                "properties.Auto mã dịch vụ.unique_id.number", "properties.Ngày thực hiện.date.start", 
@@ -230,7 +230,7 @@ def collect_doanh_thu_he_thong():
 
 
 def collect_danh_sach_thu_no():
-    data_file = os.path.join(output_folder, "DANH_SACH_THU_NO.xlsx")
+    data_file = os.path.join(notion_data_folder, "DANH_SACH_THU_NO.xlsx")
     data_thu_no = pd.read_excel(data_file)
     data_thu_no = data_thu_no[["id", "properties.Gen mã đơn.unique_id.prefix", "properties.Gen mã đơn.unique_id.number",
                            "properties.Ngày thu.date.start", "properties.Cơ sở.rollup.array",
@@ -276,7 +276,7 @@ def collect_danh_sach_thu_no():
 def collect_data():
     convert_json_to_excel()
     # Kiểm tra xem file Excel đã tồn tại hay chưa
-    excel_file_path = file_all_output
+    excel_file_path = file_all_notion_data
     if os.path.exists(excel_file_path):
         # Nếu đã tồn tại, xóa file cũ đi
         try:

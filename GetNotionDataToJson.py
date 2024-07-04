@@ -34,10 +34,10 @@ def fetch_all_notion_pages(database_name,database_id, notion_token):
 
 def save_to_json(file_name, json_data):
     if file_name:
-        if not os.path.exists(output_folder):
-            os.makedirs(output_folder)
+        if not os.path.exists(notion_data_folder):
+            os.makedirs(notion_data_folder)
             
-        file_path = os.path.join(output_folder,file_name)
+        file_path = os.path.join(notion_data_folder,file_name)
 
         # Ghi dữ liệu JSON ra file
         with open(file_path, 'w', encoding='utf-8') as f:
