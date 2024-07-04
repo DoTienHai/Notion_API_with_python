@@ -1,0 +1,3086 @@
+[
+    {
+        "object": "page",
+        "id": "0d5e3a14-348b-4faf-bca7-c1d26251d9f4",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-02T15:21:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "d1ae645f-f3dd-46cd-a715-a8c150605da6"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "Lj_l",
+                                "name": "LONG XUYÊN",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/0d5e3a14348b4fafbca7c1d26251d9f4",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "1d70a1f8-9b3e-40b3-a9bf-5c6b880367c0",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-02T15:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "VWB;",
+                                "name": "SÓC TRĂNG",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/1d70a1f89b3e40b3a9bf5c6b880367c0",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "2fcf8152-6491-4282-867c-66c3a142329b",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-02T15:22:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "3d301dfe-6e3d-4d28-a249-1fd5fac9abd3"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "VWB;",
+                                "name": "SÓC TRĂNG",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/2fcf815264914282867c66c3a142329b",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "5798eec8-459d-4047-921c-fa007407bca1",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-02T15:22:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/5798eec8459d4047921cfa007407bca1",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "6257ac53-faca-4a70-acf4-d671e78df2bc",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-04T05:05:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "e49d0ce3-124d-4e4b-b377-be2139cde3f5"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/6257ac53faca4a70acf4d671e78df2bc",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "6fb1d9e9-6643-4e21-a990-706bb7368124",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-04T05:04:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "a73ea60d-3de1-4e9b-aa7b-f22fda5742bd"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "VRLp",
+                        "name": "Nghỉ có phép",
+                        "color": "blue"
+                    }
+                ]
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/6fb1d9e966434e21a990706bb7368124",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "83351d0f-1472-40d0-8669-e49c5c16483d",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-02T17:35:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "e926d62c-e624-4663-9009-c562ae5166cf"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "Lj_l",
+                                "name": "LONG XUYÊN",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/83351d0f147240d08669e49c5c16483d",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "8f7aa3af-ad5c-4495-a2dc-a776969b5654",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-04T05:04:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "b9c67786-5d99-45c1-85d7-f96bfb66ef22"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/8f7aa3afad5c4495a2dca776969b5654",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "af72204c-80db-4b17-8ee7-acad0fc14bf5",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-04T05:05:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "f973382b-037a-4eb1-84bc-e9e5318184b8"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/af72204c80db4b178ee7acad0fc14bf5",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "ddf48f66-653c-4231-8042-f2055a64f774",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-02T15:22:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "3fac4a49-402c-4d34-aa91-419ebc20760c"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "VWB;",
+                                "name": "SÓC TRĂNG",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/ddf48f66653c42318042f2055a64f774",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "f8be1f58-013a-44a4-bc44-60305f5c9602",
+        "created_time": "2024-06-30T08:14:00.000Z",
+        "last_edited_time": "2024-07-02T15:22:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/f8be1f58013a44a4bc4460305f5c9602",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "478c5419-85bd-4cf6-b4f0-17ebc8b5d273",
+        "created_time": "2024-06-30T08:07:00.000Z",
+        "last_edited_time": "2024-07-02T15:21:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "3601e7b0-a80d-4dfd-bfa1-0d34a0e7e389"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "Lj_l",
+                                "name": "LONG XUYÊN",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/478c541985bd4cf6b4f017ebc8b5d273",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "52e54a01-883f-4b17-8181-0db1df927d3f",
+        "created_time": "2024-06-30T08:07:00.000Z",
+        "last_edited_time": "2024-07-02T17:35:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "467f676f-8f46-49b5-afea-feecb0794d23"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "Lj_l",
+                                "name": "LONG XUYÊN",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/52e54a01883f4b1781810db1df927d3f",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "d3c84516-20a0-4f9a-9895-85cd38b24c79",
+        "created_time": "2024-06-30T08:07:00.000Z",
+        "last_edited_time": "2024-07-04T05:04:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "81b74158-1c2e-4c3a-a685-ce6602d70cd7"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "multi_select",
+                "multi_select": [
+                    {
+                        "id": "DjwF",
+                        "name": "Đầy đủ",
+                        "color": "pink"
+                    }
+                ]
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/d3c8451620a04f9a989585cd38b24c79",
+        "public_url": null
+    }
+]

@@ -1,13 +1,13 @@
 import os
-from openpyxl import load_workbook, Workbook
-from openpyxl.utils.dataframe import dataframe_to_rows
-from openpyxl.styles import NamedStyle
+from openpyxl import Workbook
 import pandas as pd
-from pandas import DataFrame
 from Utils import *
+from CreateLuyKe import get_data_cho_luy_ke
+from CreateReportCaNhan import filter_date
 
 start_date = '2024-06-01'
 end_date = '2024-06-30'
+
 
 def get_data_report_doanh_so(location = ""):
     data = get_data_doanh_thu(location,["ALL"])
@@ -43,10 +43,18 @@ def get_data_report_doanh_so(location = ""):
     groupDataCountPhuPhau1 = data["Phụ phẫu 1"].value_counts().reset_index()
     groupDataCountPhuPhau1 = groupDataCountPhuPhau1.rename(columns={"Phụ phẫu 1":"Mã nhân viên", "count":"Số lần phụ phẫu 1"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCountPhuPhau1, on='Mã nhân viên', how='outer')
+    # group data công phụ phẫu 1
+    groupDataCongPhuPhau1 = data.groupby("Phụ phẫu 1")[["Công phụ phẫu 1"]].sum().reset_index()
+    groupDataCongPhuPhau1 = groupDataCongPhuPhau1.rename(columns={"Phụ phẫu 1":"Mã nhân viên"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCongPhuPhau1, on='Mã nhân viên', how='outer')
     # group data phụ phẫu 2
     groupDataCountPhuPhau2 = data["Phụ phẫu 2"].value_counts().reset_index()
     groupDataCountPhuPhau2 = groupDataCountPhuPhau2.rename(columns={"Phụ phẫu 2":"Mã nhân viên", "count":"Số lần phụ phẫu 2"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCountPhuPhau2, on='Mã nhân viên', how='outer')
+    # group data công phụ phẫu 2
+    groupDataCongPhuPhau2 = data.groupby("Phụ phẫu 2")[["Công phụ phẫu 2"]].sum().reset_index()
+    groupDataCongPhuPhau2 = groupDataCongPhuPhau2.rename(columns={"Phụ phẫu 2":"Mã nhân viên"})
+    groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCongPhuPhau2, on='Mã nhân viên', how='outer')
     #group data thu nơ
     groupDataThuNo = get_data_thu_no(location, ["ALL"])
     if (location):
@@ -58,9 +66,19 @@ def get_data_report_doanh_so(location = ""):
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataThuNo, on='Mã nhân viên', how='outer')
     groupDataDoanhSo = groupDataDoanhSo.drop(columns=["A","B"])
     groupDataDoanhSo = groupDataDoanhSo.fillna(0)
+
+    sum_data = groupDataDoanhSo.select_dtypes(include=['number']).sum()
+    total_df = pd.DataFrame(sum_data).T
+    # Thêm các cột không phải là số vào dòng tổng
+    for col in groupDataDoanhSo.columns:
+        if col not in total_df.columns:
+            total_df[col] = ''  
+    # Đặt lại thứ tự các cột để khớp với DataFrame gốc
+    total_df = total_df[groupDataDoanhSo.columns]
+    total_df["Mã nhân viên"] = "Tổng"
+    # Nối dòng tổng với DataFrame gốc
+    groupDataDoanhSo = pd.concat([groupDataDoanhSo, total_df])
     return groupDataDoanhSo
-
-
 
 def get_data_report_chi_tieu(location = ""):
     data = get_data_chi_tieu(location,["Ngày chi", "Phân loại", "Lượng chi"])
@@ -78,7 +96,7 @@ def get_data_report_chi_tieu(location = ""):
 
 def createReportLocation(location = ""):
     if(location != ""):
-        excel_file_path = os.path.file("report_co_so", f"{location} {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
+        excel_file_path = os.path.join("report_co_so", f"{location} {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
         # Kiểm tra xem file Excel đã tồn tại hay chưa
         if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
@@ -93,11 +111,19 @@ def createReportLocation(location = ""):
         ws1 = wb.active
         ws1.title = 'DOANH SỐ CÁ NHÂN'
         writeDataframeToSheet(ws1, get_data_report_doanh_so(location))
-
         # Tạo report về chi tiêu
         ws2 = wb.create_sheet(title='CHI TIÊU')
         writeDataframeToSheet(ws2, get_data_report_chi_tieu(location))
-        
+        # Tạo report về lũy kế ngày
+        ws3 = wb.create_sheet(title="LŨY KẾ NGÀY")
+        query_string = f"'{start_date}' <= `Ngày` <= '{end_date}'"
+        data = get_data_cho_luy_ke(location).query(query_string)
+        data = filter_date(data, "Ngày")
+        total_row = data.sum()
+        total_df = pd.DataFrame(total_row).T
+        total_df["Ngày"] = "Tổng"
+        data = pd.concat([data, total_df], ignore_index=True)
+        writeDataframeToSheet(ws3, data)
 
         # Lưu workbook vào file Excel
         try:
@@ -130,9 +156,6 @@ def createReportSystem():
         ws2 = wb.create_sheet(title='CHI TIÊU')
         writeDataframeToSheet(ws2, get_data_report_chi_tieu())
    
-
-
-
         # Lưu workbook vào file Excel
         try:
             wb.save(excel_file_path)
@@ -140,8 +163,10 @@ def createReportSystem():
         except Exception as e:
             print(f"Lỗi khi tạo file Excel mới: {e}")
 
-createReportSystem()
-for location in vn_locations:
-    createReportLocation(location)
+
+def create_report_co_so():
+    createReportSystem()
+    for location in vn_locations:
+        createReportLocation(location)
 
             

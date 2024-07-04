@@ -23,6 +23,13 @@ def extract_id(item):
     else:
         return ""
 
+def extract_number(item):
+    item = convert_data_in_cell_to_json(item)
+    if len(item) > 0:
+        return item[0]["number"]
+    else:
+        return ""
+
 def extract_plain_text(item):
     item = convert_data_in_cell_to_json(item)
     if len(item) > 0:
@@ -167,7 +174,8 @@ def collect_doanh_thu_he_thong():
                                                 "properties.Thanh toán lần đầu.number", "properties.Trả sau.rollup.number",
                                                 "properties.Đã thanh toán.formula.number", "properties.Dư nợ.formula.number",
                                                "properties.Bác sĩ 1.relation",  "properties.Bác sĩ 2.relation",
-                                                "properties.Phụ phẫu 1.relation", "properties.Phụ phẫu 2.relation"
+                                                "properties.Phụ phẫu 1.relation", "properties.Phụ phẫu 2.relation", "properties.Công phụ phẫu 1.rollup.array",
+                                                "properties.Công phụ phẫu 2.rollup.array"
                                                ]]
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"id":"notion id", "properties.Phụ phẫu 1.relation":"id phụ phẫu 1", 
                                                "properties.Khách hàng.relation":"id khách hàng", "properties.Auto mã dịch vụ.unique_id.prefix":"Tiền tố", 
@@ -178,7 +186,8 @@ def collect_doanh_thu_he_thong():
                                                "properties.Bác sĩ 2.relation":"id bác sĩ 2", "properties.Sale chính.relation":"id sale chính", "properties.Đơn giá gốc.number":"Đơn giá gốc",
                                                "properties.Sale phụ.relation":"id sale phụ","properties.Upsale.number":"Upsale",
                                                "properties.Nguồn khách.select.name":"Nguồn khách", "properties.Trả sau.rollup.number":"Trả sau", 
-                                               "properties.Ngày thực hiện.date.start":"Ngày thực hiện", "properties.Loại hình dịch vụ.relation":"id loại hình dịch vụ"})
+                                               "properties.Ngày thực hiện.date.start":"Ngày thực hiện", "properties.Loại hình dịch vụ.relation":"id loại hình dịch vụ", 
+                                               "properties.Công phụ phẫu 1.rollup.array":"Công phụ phẫu 1", "properties.Công phụ phẫu 2.rollup.array":"Công phụ phẫu 2"})
         # Xử lý lấy id nhân sự
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.fillna("")
 
@@ -215,6 +224,8 @@ def collect_doanh_thu_he_thong():
     
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id_y"])
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"notion id_x":"notion id"})
+    data_doanh_thu_he_thong["Công phụ phẫu 1"] =  data_doanh_thu_he_thong["Công phụ phẫu 1"].apply(extract_number)
+    data_doanh_thu_he_thong["Công phụ phẫu 2"] =  data_doanh_thu_he_thong["Công phụ phẫu 2"].apply(extract_number)
     return data_doanh_thu_he_thong.sort_values("Mã dịch vụ")
 
 

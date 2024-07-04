@@ -4,7 +4,7 @@ import json
 from pandas import DataFrame
 import os
 
-output_folder = "output"
+output_folder = "notion_data"
 file_all_output = os.path.join(output_folder, "ALL.xlsx")
 notion_api_token = "secret_o7gsjeVNFo5Wpg1bUJ7eHo8VpkF7riKIEAIcB8P0HyR"
 dataBaseDict = {
@@ -22,6 +22,10 @@ dataBaseDict = {
     "LUY_KE_NGAY_CAN_THO" : "f209a4184aa24b659cfc4a94b6af86b0",
     "LUY_KE_NGAY_LONG_XUYEN" : "95908de9fba942478bcd04b57e56bd1b",
     "LUY_KE_NGAY_SOC_TRANG" : "b881c341e6ba4fa5acba1d0d0c17746d",
+    "CHAM_CONG_HE_THONG" : "0c70fa057bda4ceea9f23ccf963208ff",
+    "CHAM_CONG_CAN_THO" : "81b741581c2e4c3aa685ce6602d70cd7",
+    "CHAM_CONG_LONG_XUYEN" : "7a9c30037d164eafa09da55aafacde5e",
+    "CHAM_CONG_SOC_TRANG" : "c3e4dde0278f416b9ee0edd617b07a1e" 
 }
 
 vn_locations = ["CẦN THƠ", "LONG XUYÊN", "SÓC TRĂNG"]
