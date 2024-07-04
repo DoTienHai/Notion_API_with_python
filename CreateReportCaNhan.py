@@ -18,7 +18,7 @@ def filter_date(data, column_name):
     data = data.rename(columns={column_name:f"{column_name}_temp"})
     data[column_name] = data[f"{column_name}_temp"].dt.strftime('%m-%d-%Y')
     data = data.drop(columns=[f"{column_name}_temp"])
-    columns = ['Ngày'] + [col for col in data.columns if col != 'Ngày']
+    columns = [column_name] + [col for col in data.columns if col != column_name]
     data = data[columns]
     return data
 
