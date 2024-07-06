@@ -2,9 +2,9 @@ import os
 from openpyxl import Workbook
 import pandas as pd
 from datetime import datetime
-from Utils import *
+from Config import *
 
-month = datetime.today().month - 1
+month = datetime.today().month
 year = datetime.today().year
 
 columns = ["Tiền tố", "Mã dịch vụ", "Ngày thực hiện",
@@ -13,8 +13,12 @@ columns = ["Tiền tố", "Mã dịch vụ", "Ngày thực hiện",
                 "Đã thanh toán", "Dư nợ", "Bác sĩ 1", "Bác sĩ 2", "Phụ phẫu 1", "Phụ phẫu 2", "Công phụ phẫu 1", "Công phụ phẫu 2" ]
 
 def filter_date(data, column_name):
+    # column_name is name of column datetime in dataframe
+    # convert data to datetime type
     data[column_name] = pd.to_datetime(data[column_name])
+    # filter data in expected month 
     data = data[(data[column_name].dt.year == year) & (data[column_name].dt.month == month)]
+    # Put the column containing the formatted datetime at the top
     data = data.rename(columns={column_name:f"{column_name}_temp"})
     data[column_name] = data[f"{column_name}_temp"].dt.strftime('%m-%d-%Y')
     data = data.drop(columns=[f"{column_name}_temp"])

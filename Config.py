@@ -31,6 +31,13 @@ dataBaseDict = {
     "CHAM_CONG_SOC_TRANG" : "c3e4dde0278f416b9ee0edd617b07a1e" 
 }
 
+cham_cong_ref = {
+    "Nghỉ không phép" : 0,
+    "Nghỉ có phép" : 1,
+    "Đầy đủ" : 1,
+    "Nửa ngày" : 0.5
+}
+
 vn_locations = ["CẦN THƠ", "LONG XUYÊN", "SÓC TRĂNG"]
 e_locations = ["CAN_THO", "LONG_XUYEN", "SOC_TRANG"]
 
@@ -88,6 +95,14 @@ def get_danh_sach_khach_hang(location="", columns=[]):
     data = pd.read_excel(file_all_notion_data, sheet_name="Danh sách khách hàng") 
     return filter(data, location, columns) 
 
+def get_data_cham_cong(location="", columns=[]):
+    if location:
+        sheet_name = f"Chấm công {location}"
+    else:
+        sheet_name = "Chấm công HỆ THỐNG"
+    data = pd.read_excel(file_all_notion_data, sheet_name)
+    location = ""
+    return filter(data, location, columns)
 ###------------------------------------------- LIÊN QUAN ĐẾN NOTION API ---------------------------------------###
 # Headers notion api token
 headers = {
@@ -106,6 +121,7 @@ def create_page(json_data):
     else:
         print(f"Tạo mới lũy kế đã xảy ra lỗi: {response.text}")
         print(response.text)
+        
 def update_page(page_id, json_data):
     url = f"https://api.notion.com/v1/pages/{page_id}"
     response = requests.patch(url, headers=headers, data=json.dumps(json_data))

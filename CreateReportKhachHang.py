@@ -1,4 +1,4 @@
-from Utils import *
+from Config import *
 import os
 from openpyxl import Workbook
 

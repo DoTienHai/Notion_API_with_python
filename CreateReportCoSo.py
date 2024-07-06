@@ -1,12 +1,12 @@
 import os
 from openpyxl import Workbook
 import pandas as pd
-from Utils import *
-from CreateLuyKe import get_data_cho_luy_ke
+from Config import *
+from UpdateLuyKe import get_data_cho_luy_ke
 from CreateReportCaNhan import filter_date
 
-start_date = '2024-06-01'
-end_date = '2024-06-30'
+start_date = '2024-07-01'
+end_date = '2024-07-30'
 
 
 def get_data_report_doanh_so(location = ""):

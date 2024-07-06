@@ -1,6 +1,220 @@
 [
     {
         "object": "page",
+        "id": "b2b3b7da-aaba-49c3-a279-2a829d314b7d",
+        "created_time": "2024-07-06T10:33:00.000Z",
+        "last_edited_time": "2024-07-06T10:33:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "c3e4dde0-278f-416b-9ee0-edd617b07a1e"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày 25": {
+                "id": "%3BW%3FG",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 6": {
+                "id": "%3CJjN",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 5": {
+                "id": "%3CK%3FH",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 20": {
+                "id": "%3FA%7C%3C",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 19": {
+                "id": "BtWM",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 11": {
+                "id": "CwPo",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 3": {
+                "id": "DT%5Bd",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 12": {
+                "id": "J%7Bt%3C",
+                "type": "select",
+                "select": null
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "d8178da7-a5cc-474f-9c6e-ed3029f89c4d"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày 21": {
+                "id": "K~Y%3D",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 10": {
+                "id": "MVnS",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 28": {
+                "id": "P%3Fjl",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 26": {
+                "id": "TVds",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 27": {
+                "id": "TY%7C_",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 2": {
+                "id": "YvCX",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 23": {
+                "id": "%5BBT%3C",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 7": {
+                "id": "_%5Erb",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 22": {
+                "id": "%60duC",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 1": {
+                "id": "avzr",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 30": {
+                "id": "b%3Fyl",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 9": {
+                "id": "bOrs",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 16": {
+                "id": "e%5EUO",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 15": {
+                "id": "fKUN",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 29": {
+                "id": "fezN",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 31": {
+                "id": "iFzs",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 13": {
+                "id": "jsqT",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 18": {
+                "id": "n%3CXZ",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 24": {
+                "id": "rsuC",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 17": {
+                "id": "yEwL",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 8": {
+                "id": "zBvN",
+                "type": "select",
+                "select": null
+            },
+            "Ngày 4": {
+                "id": "%7B%3EFf",
+                "type": "select",
+                "select": null
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "Lj_l",
+                                "name": "LONG XUYÊN",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày 14": {
+                "id": "~q%3Ax",
+                "type": "select",
+                "select": null
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/b2b3b7daaaba49c3a2792a829d314b7d",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "3ab85018-df13-41b4-80bb-c0e4bacf9b84",
         "created_time": "2024-07-02T18:03:00.000Z",
         "last_edited_time": "2024-07-02T18:03:00.000Z",
@@ -23,43 +237,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -73,113 +287,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -201,8 +415,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -211,207 +425,6 @@
             }
         },
         "url": "https://www.notion.so/3ab85018df1341b480bbc0e4bacf9b84",
-        "public_url": null
-    },
-    {
-        "object": "page",
-        "id": "6b9a3149-9788-440f-907c-afa4156faa92",
-        "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-02T18:03:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "c3e4dde0-278f-416b-9ee0-edd617b07a1e"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Ngày 25": {
-                "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 6": {
-                "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 5": {
-                "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 20": {
-                "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 19": {
-                "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 11": {
-                "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 3": {
-                "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 12": {
-                "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Nhân sự": {
-                "id": "Kfrh",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Ngày 21": {
-                "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 10": {
-                "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 28": {
-                "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 26": {
-                "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 27": {
-                "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 2": {
-                "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 23": {
-                "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 7": {
-                "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 22": {
-                "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 1": {
-                "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 30": {
-                "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 9": {
-                "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 16": {
-                "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 15": {
-                "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 29": {
-                "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 31": {
-                "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 13": {
-                "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 18": {
-                "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 24": {
-                "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 17": {
-                "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 8": {
-                "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 4": {
-                "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Cơ sở": {
-                "id": "%7BVCZ",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [],
-                    "function": "show_original"
-                }
-            },
-            "Ngày 14": {
-                "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "STT": {
-                "id": "title",
-                "type": "title",
-                "title": []
-            }
-        },
-        "url": "https://www.notion.so/6b9a31499788440f907cafa4156faa92",
         "public_url": null
     },
     {
@@ -438,43 +451,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -488,113 +501,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -616,8 +629,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -652,43 +665,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -702,113 +715,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -830,8 +843,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -866,43 +879,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -916,113 +929,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -1044,8 +1057,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -1054,207 +1067,6 @@
             }
         },
         "url": "https://www.notion.so/cff39a6ca1c34dbdbf5321701351c2ed",
-        "public_url": null
-    },
-    {
-        "object": "page",
-        "id": "0401e187-c2b2-4e51-87ee-d821920126e4",
-        "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-02T18:03:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "c3e4dde0-278f-416b-9ee0-edd617b07a1e"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Ngày 25": {
-                "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 6": {
-                "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 5": {
-                "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 20": {
-                "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 19": {
-                "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 11": {
-                "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 3": {
-                "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 12": {
-                "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Nhân sự": {
-                "id": "Kfrh",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Ngày 21": {
-                "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 10": {
-                "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 28": {
-                "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 26": {
-                "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 27": {
-                "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 2": {
-                "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 23": {
-                "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 7": {
-                "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 22": {
-                "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 1": {
-                "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 30": {
-                "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 9": {
-                "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 16": {
-                "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 15": {
-                "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 29": {
-                "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 31": {
-                "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 13": {
-                "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 18": {
-                "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 24": {
-                "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 17": {
-                "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 8": {
-                "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 4": {
-                "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Cơ sở": {
-                "id": "%7BVCZ",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [],
-                    "function": "show_original"
-                }
-            },
-            "Ngày 14": {
-                "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "STT": {
-                "id": "title",
-                "type": "title",
-                "title": []
-            }
-        },
-        "url": "https://www.notion.so/0401e187c2b24e5187eed821920126e4",
         "public_url": null
     },
     {
@@ -1281,43 +1093,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -1331,113 +1143,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -1459,8 +1271,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -1469,220 +1281,6 @@
             }
         },
         "url": "https://www.notion.so/0ea3a596a3914e499bcf3f1a1b210bee",
-        "public_url": null
-    },
-    {
-        "object": "page",
-        "id": "3f606392-58a2-47dc-9caa-0fc62b4b7755",
-        "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-02T18:03:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "c3e4dde0-278f-416b-9ee0-edd617b07a1e"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Ngày 25": {
-                "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 6": {
-                "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 5": {
-                "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 20": {
-                "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 19": {
-                "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 11": {
-                "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 3": {
-                "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 12": {
-                "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Nhân sự": {
-                "id": "Kfrh",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
-                    }
-                ],
-                "has_more": false
-            },
-            "Ngày 21": {
-                "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 10": {
-                "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 28": {
-                "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 26": {
-                "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 27": {
-                "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 2": {
-                "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 23": {
-                "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 7": {
-                "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 22": {
-                "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 1": {
-                "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 30": {
-                "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 9": {
-                "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 16": {
-                "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 15": {
-                "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 29": {
-                "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 31": {
-                "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 13": {
-                "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 18": {
-                "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 24": {
-                "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 17": {
-                "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 8": {
-                "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 4": {
-                "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Cơ sở": {
-                "id": "%7BVCZ",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [
-                        {
-                            "type": "select",
-                            "select": {
-                                "id": "KqT_",
-                                "name": "CẦN THƠ",
-                                "color": "purple"
-                            }
-                        }
-                    ],
-                    "function": "show_original"
-                }
-            },
-            "Ngày 14": {
-                "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "STT": {
-                "id": "title",
-                "type": "title",
-                "title": []
-            }
-        },
-        "url": "https://www.notion.so/3f60639258a247dc9caa0fc62b4b7755",
         "public_url": null
     },
     {
@@ -1709,43 +1307,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -1759,113 +1357,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -1887,8 +1485,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -1923,43 +1521,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -1973,113 +1571,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -2101,8 +1699,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -2137,43 +1735,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -2187,113 +1785,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -2315,8 +1913,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -2325,220 +1923,6 @@
             }
         },
         "url": "https://www.notion.so/bedf074447fa46bd8131f1a5cf03b8f1",
-        "public_url": null
-    },
-    {
-        "object": "page",
-        "id": "c3f0508c-7299-4ba3-91ec-952476cebef2",
-        "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-02T18:03:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "c3e4dde0-278f-416b-9ee0-edd617b07a1e"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Ngày 25": {
-                "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 6": {
-                "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 5": {
-                "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 20": {
-                "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 19": {
-                "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 11": {
-                "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 3": {
-                "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 12": {
-                "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Nhân sự": {
-                "id": "Kfrh",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "7e29a9ca-b017-4ad6-a6b0-6ed9330137bc"
-                    }
-                ],
-                "has_more": false
-            },
-            "Ngày 21": {
-                "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 10": {
-                "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 28": {
-                "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 26": {
-                "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 27": {
-                "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 2": {
-                "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 23": {
-                "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 7": {
-                "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 22": {
-                "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 1": {
-                "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 30": {
-                "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 9": {
-                "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 16": {
-                "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 15": {
-                "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 29": {
-                "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 31": {
-                "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 13": {
-                "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 18": {
-                "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 24": {
-                "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 17": {
-                "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 8": {
-                "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Ngày 4": {
-                "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Cơ sở": {
-                "id": "%7BVCZ",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [
-                        {
-                            "type": "select",
-                            "select": {
-                                "id": "KqT_",
-                                "name": "CẦN THƠ",
-                                "color": "purple"
-                            }
-                        }
-                    ],
-                    "function": "show_original"
-                }
-            },
-            "Ngày 14": {
-                "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "STT": {
-                "id": "title",
-                "type": "title",
-                "title": []
-            }
-        },
-        "url": "https://www.notion.so/c3f0508c72994ba391ec952476cebef2",
         "public_url": null
     },
     {
@@ -2565,43 +1949,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -2615,113 +1999,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -2743,8 +2127,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -2779,43 +2163,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -2829,113 +2213,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -2957,8 +2341,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -2993,43 +2377,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -3043,113 +2427,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -3171,8 +2555,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",
@@ -3207,43 +2591,43 @@
         "properties": {
             "Ngày 25": {
                 "id": "%3BW%3FG",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 6": {
                 "id": "%3CJjN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 19": {
                 "id": "BtWM",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 11": {
                 "id": "CwPo",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 3": {
                 "id": "DT%5Bd",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -3257,113 +2641,113 @@
             },
             "Ngày 21": {
                 "id": "K~Y%3D",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 10": {
                 "id": "MVnS",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 28": {
                 "id": "P%3Fjl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 26": {
                 "id": "TVds",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 27": {
                 "id": "TY%7C_",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 2": {
                 "id": "YvCX",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 7": {
                 "id": "_%5Erb",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 22": {
                 "id": "%60duC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 1": {
                 "id": "avzr",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 9": {
                 "id": "bOrs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 16": {
                 "id": "e%5EUO",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 15": {
                 "id": "fKUN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 29": {
                 "id": "fezN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 31": {
                 "id": "iFzs",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 13": {
                 "id": "jsqT",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 24": {
                 "id": "rsuC",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 17": {
                 "id": "yEwL",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 8": {
                 "id": "zBvN",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -3385,8 +2769,8 @@
             },
             "Ngày 14": {
                 "id": "~q%3Ax",
-                "type": "multi_select",
-                "multi_select": []
+                "type": "select",
+                "select": null
             },
             "STT": {
                 "id": "title",

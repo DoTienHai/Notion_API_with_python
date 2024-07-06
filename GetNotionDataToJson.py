@@ -1,4 +1,4 @@
-from Utils import *
+from Config import *
 import requests
 import json
 import os

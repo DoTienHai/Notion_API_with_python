@@ -1,8 +1,8 @@
 import json
 import os
 import pandas as pd
-from openpyxl import load_workbook, Workbook
-from Utils import *
+from openpyxl import Workbook
+from Config import *
 import numpy as np
 
 def convert_data_in_cell_to_json(string_data):
@@ -51,6 +51,26 @@ def extract_select_name(item):
             return item[0]["select"]["name"]
         else:
             return ""
+    else:
+        return ""
+
+def extract_relation_id(item):
+    item = convert_data_in_cell_to_json(item)
+    if len(item) > 0:
+        if len(item[0]["relation"]):
+            return item[0]["relation"][0]["id"]
+        else:
+                return ""
+    else:
+        return 0
+
+def extract_multi_select(item):
+    items = convert_data_in_cell_to_json(item)
+    ret = []
+    if len(items) > 0:
+        for i in items:
+            ret.append(i["name"])
+        return ",".join(ret)
     else:
         return ""
 
@@ -153,12 +173,11 @@ def collect_chi_tieu():
 
     data_chi_tieu["id nhân viên xác nhận"] = data_chi_tieu["id nhân viên xác nhận"].apply(extract_id)
     data_chi_tieu["id người nhận/ứng"] = data_chi_tieu["id người nhận/ứng"].apply(extract_id)
-    data_chi_tieu = pd.merge(data_chi_tieu, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id nhân viên xác nhận", right_on="notion id", how="outer")
+    data_chi_tieu = pd.merge(data_chi_tieu, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id nhân viên xác nhận", right_on="notion id", how="left")
     data_chi_tieu = data_chi_tieu.rename(columns={"Họ và tên":"Nhân viên xác nhận"})
-    data_chi_tieu = pd.merge(data_chi_tieu, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id người nhận/ứng", right_on="notion id", how="outer")
+    data_chi_tieu = pd.merge(data_chi_tieu, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id người nhận/ứng", right_on="notion id", how="left")
     data_chi_tieu = data_chi_tieu.rename(columns={"Họ và tên":"Người nhận/ứng"})
     data_chi_tieu = data_chi_tieu.drop(columns=["notion id"])
-
     data_chi_tieu = data_chi_tieu.drop(columns=["notion id_y"])
     data_chi_tieu = data_chi_tieu.rename(columns={"notion id_x":"notion id"})
     return data_chi_tieu.sort_values("Mã chi tiêu")
@@ -188,38 +207,37 @@ def collect_doanh_thu_he_thong():
                                                "properties.Nguồn khách.select.name":"Nguồn khách", "properties.Trả sau.rollup.number":"Trả sau", 
                                                "properties.Ngày thực hiện.date.start":"Ngày thực hiện", "properties.Loại hình dịch vụ.relation":"id loại hình dịch vụ", 
                                                "properties.Công phụ phẫu 1.rollup.array":"Công phụ phẫu 1", "properties.Công phụ phẫu 2.rollup.array":"Công phụ phẫu 2"})
-        # Xử lý lấy id nhân sự
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.fillna("")
 
     data_doanh_thu_he_thong["id khách hàng"] = data_doanh_thu_he_thong["id khách hàng"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_thong_tin_khach_hang()[["notion id", "Họ và tên"]], left_on="id khách hàng", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_thong_tin_khach_hang()[["notion id", "Họ và tên"]], left_on="id khách hàng", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Khách hàng"})
     data_doanh_thu_he_thong["id sale chính"] = data_doanh_thu_he_thong["id sale chính"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id sale chính", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id sale chính", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Sale chính"})
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id"])
     data_doanh_thu_he_thong["id sale phụ"] = data_doanh_thu_he_thong["id sale phụ"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id sale phụ", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id sale phụ", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Sale phụ"})
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id"])
     data_doanh_thu_he_thong["id bác sĩ 1"] = data_doanh_thu_he_thong["id bác sĩ 1"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id bác sĩ 1", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id bác sĩ 1", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Bác sĩ 1"})
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id"])
     data_doanh_thu_he_thong["id bác sĩ 2"] = data_doanh_thu_he_thong["id bác sĩ 2"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id bác sĩ 2", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id bác sĩ 2", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Bác sĩ 2"})
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id"])
     data_doanh_thu_he_thong["id phụ phẫu 1"] = data_doanh_thu_he_thong["id phụ phẫu 1"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id phụ phẫu 1", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id phụ phẫu 1", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Phụ phẫu 1"})
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id"])
     data_doanh_thu_he_thong["id phụ phẫu 2"] = data_doanh_thu_he_thong["id phụ phẫu 2"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id phụ phẫu 2", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id phụ phẫu 2", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Phụ phẫu 2"})
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id"])
     data_doanh_thu_he_thong["id loại hình dịch vụ"] = data_doanh_thu_he_thong["id loại hình dịch vụ"].apply(extract_id)
-    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_danh_muc_dich_vu()[["notion id", "Tên dịch vụ"]], left_on="id loại hình dịch vụ", right_on="notion id", how="outer")
+    data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_danh_muc_dich_vu()[["notion id", "Tên dịch vụ"]], left_on="id loại hình dịch vụ", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id"])
     
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.drop(columns=["notion id_y"])
@@ -242,36 +260,79 @@ def collect_danh_sach_thu_no():
                            "properties.Đơn nợ.relation":"id đơn nợ",
                            "properties.Người thu.relation":"id người thu", "properties.Lượng thu.number":"Lượng thu",
                            "properties.Sale.rollup.array":"id sale"})
-    def extract_relation_id(item):
-        item = convert_data_in_cell_to_json(item)
-        if len(item) > 0:
-            if len(item[0]["relation"]):
-                return item[0]["relation"][0]["id"]
-            else:
-                 return ""
-        else:
-            return 0
+
 
     data_thu_no["id đơn nợ"] = data_thu_no["id đơn nợ"].apply(extract_id)
     data_thu_no["id người thu"] = data_thu_no["id người thu"].apply(extract_id)
     data_thu_no["Cơ sở"] = data_thu_no["Cơ sở"].apply(extract_select_name)
     data_thu_no["id sale"] = data_thu_no["id sale"].apply(extract_relation_id)
 
-    data_thu_no = pd.merge(data_thu_no, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id sale", right_on="notion id", how="outer")
+    data_thu_no = pd.merge(data_thu_no, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id sale", right_on="notion id", how="left")
     data_thu_no = data_thu_no.rename(columns={"Họ và tên":"Sale"})
-    data_thu_no = pd.merge(data_thu_no, collect_doanh_thu_he_thong()[["notion id", "Mã dịch vụ"]], left_on="id đơn nợ", right_on="notion id", how="outer")
+    data_thu_no = pd.merge(data_thu_no, collect_doanh_thu_he_thong()[["notion id", "Mã dịch vụ"]], left_on="id đơn nợ", right_on="notion id", how="left")
     data_thu_no = data_thu_no.rename(columns={"Mã dịch vụ":"Đơn nợ"})
     def format_don_no(item):
         item = '{:.0f}'.format(item)
         return f"HD-LUXURY-{item}"
     data_thu_no["Đơn nợ"] = data_thu_no["Đơn nợ"].apply(format_don_no)
 
-    
     data_thu_no = data_thu_no.drop(columns=["notion id_y"])
     data_thu_no = data_thu_no.drop(columns=["notion id"])
     data_thu_no = data_thu_no.rename(columns={"notion id_x":"notion id"})
     
     return data_thu_no.sort_values("Mã đơn thu nợ")
+
+def collect_data_cham_cong_he_thong(location=""):
+    data_file = os.path.join(notion_data_folder, "CHAM_CONG_HE_THONG.xlsx")
+    data_cham_cong = pd.read_excel(data_file)
+    raw_columns = ["id","properties.Nhân sự.relation", "properties.Cơ sở.rollup.array", "properties.Tổng công.number"]
+    new_columns = ["notion id", "id nhân sự", "Cơ sở", "Tổng công"]
+    for key,value in cham_cong_ref.items():
+        raw_columns.append(f"properties.{key}.number")
+        new_columns.append(f"{key}")
+    columns_dict = dict(zip(raw_columns, new_columns))
+    data_cham_cong = data_cham_cong[raw_columns]
+    data_cham_cong = data_cham_cong.rename(columns=columns_dict)
+
+    data_cham_cong["id nhân sự"] = data_cham_cong["id nhân sự"].apply(extract_id)
+    data_cham_cong["Cơ sở"] = data_cham_cong["Cơ sở"].apply(extract_select_name)
+    data_cham_cong = pd.merge(data_cham_cong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id nhân sự", right_on="notion id", how="left")
+    
+    data_cham_cong = data_cham_cong.drop(columns=["notion id_y"])
+    data_cham_cong = data_cham_cong.rename(columns={"notion id_x":"notion id"})
+    return data_cham_cong
+
+def collect_data_cham_cong_co_so(location=""):
+    index = vn_locations.index(location)
+    data_file = os.path.join(notion_data_folder, f"CHAM_CONG_{e_locations[index]}.xlsx")
+    data_cham_cong = pd.read_excel(data_file)
+    select_name_columns = ["id","properties.Nhân sự.relation", "properties.Cơ sở.rollup.array"]
+    select_columns = ["id","properties.Nhân sự.relation", "properties.Cơ sở.rollup.array"]
+    raw_columns = []
+    new_columns = ["notion id", "id nhân sự", "Cơ sở"]
+    for i in range(31):
+        select_name_columns.append(f"properties.Ngày {i+1}.select.name")
+        select_columns.append(f"properties.Ngày {i+1}.select")
+        new_columns.append(f"Ngày {i+1}")
+    col_data = data_cham_cong.columns.to_list()
+    # nếu cột select chưa được chọn sẽ không có cột ...select.name sẽ chỉ chọn cột ...select
+    for item in select_name_columns:
+        if item in col_data:
+            raw_columns.append(item)
+        else:
+            raw_columns.append(select_columns[select_name_columns.index(item)])
+    columns_dict = dict(zip(raw_columns, new_columns))
+    data_cham_cong = data_cham_cong[raw_columns]
+    data_cham_cong = data_cham_cong.rename(columns=columns_dict)
+
+
+    data_cham_cong["id nhân sự"] = data_cham_cong["id nhân sự"].apply(extract_id)
+    data_cham_cong["Cơ sở"] = data_cham_cong["Cơ sở"].apply(extract_select_name)
+    data_cham_cong = pd.merge(data_cham_cong, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id nhân sự", right_on="notion id", how="left")
+    
+    data_cham_cong = data_cham_cong.drop(columns=["notion id_y"])
+    data_cham_cong = data_cham_cong.rename(columns={"notion id_x":"notion id"})
+    return data_cham_cong
 
 def collect_data():
     convert_json_to_excel()
@@ -306,6 +367,14 @@ def collect_data():
     # Tạo sheet Thu nợ
     ws6 = wb.create_sheet(title="Thu nợ")
     writeDataframeToSheet(ws6, collect_danh_sach_thu_no())
+    # Tạo sheet chấm công hệ thống
+    ws7 = wb.create_sheet(title=f"Chấm công HỆ THỐNG")
+    writeDataframeToSheet(ws7, collect_data_cham_cong_he_thong())
+    # Tạo sheet chấm công các cơ sở
+    for co_so in vn_locations:
+        ws_cham_cong = wb.create_sheet(title=f"Chấm công {co_so}")
+        writeDataframeToSheet(ws_cham_cong, collect_data_cham_cong_co_so(co_so))
+
 
     # Lưu workbook vào file Excel
     try:
@@ -318,4 +387,6 @@ def collect_data():
 # collect_thong_tin_khach_hang()
 # collect_doanh_thu_he_thong()
 # collect_data()
+# collect_data_cham_cong_co_so(vn_locations[1])
+
     
