@@ -206,6 +206,6 @@ def create_report_co_so():
     for location in vn_locations:
         createReportLocation(location)
 
-create_report_co_so()
+# create_report_co_so()
 
             
