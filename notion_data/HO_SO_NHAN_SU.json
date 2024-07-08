@@ -1,6 +1,103 @@
 [
     {
         "object": "page",
+        "id": "da161f60-6bcb-435e-b35f-98dc582352bd",
+        "created_time": "2024-07-06T15:57:00.000Z",
+        "last_edited_time": "2024-07-06T15:57:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "3213b32a-e230-44e2-afdd-04abcc992e96"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Ngày sinh": {
+                "id": "%3AtZ%5B",
+                "type": "date",
+                "date": null
+            },
+            "Quê quán": {
+                "id": "%3Eb%60D",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Chức vụ": {
+                "id": "LgyH",
+                "type": "select",
+                "select": null
+            },
+            "Phân cấp": {
+                "id": "OaR_",
+                "type": "select",
+                "select": null
+            },
+            "Ngày bắt đầu làm việc": {
+                "id": "jr%3F%3A",
+                "type": "date",
+                "date": null
+            },
+            "Mã nhân viên": {
+                "id": "kDDv",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "NV",
+                    "number": 41
+                }
+            },
+            "Cơ sở": {
+                "id": "nWf%3D",
+                "type": "select",
+                "select": null
+            },
+            "SĐT": {
+                "id": "tSw%40",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Email": {
+                "id": "x%7BZK",
+                "type": "email",
+                "email": null
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "huynh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "huynh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/huynh-da161f606bcb435eb35f98dc582352bd",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "d8178da7-a5cc-474f-9c6e-ed3029f89c4d",
         "created_time": "2024-07-02T17:59:00.000Z",
         "last_edited_time": "2024-07-02T18:00:00.000Z",

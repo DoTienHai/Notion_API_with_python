@@ -170,9 +170,10 @@ def create_doanh_so_ca_nhan():
         if len(data_don_thu_no) > 1:
             ws7 = wb.create_sheet("Đơn thu nợ")
             writeDataframeToSheet(ws7, data_don_thu_no)
-        # Tạo sheet Tổng hợp
-        # ws8 = wb.create_sheet("Tổng hợp")
-        # data_tong_hop = pd.DataFrame(columns=["Loại", "Đơn giá gốc", "Upsale", "Thanh toán lần đầu",  "Đơn giá", "Đã thanh toán"])
+        # Tạo sheet tính lương
+        ws8 = wb.create_sheet("Lương")
+        data_tong_hop = pd.DataFrame(columns=["Loại", "Đơn giá gốc", "Upsale", "Thanh toán lần đầu",  "Đơn giá", "Đã thanh toán"]).T
+        print(data_tong_hop)
         # writeDataframeToSheet(ws8, data_tong_hop)
 
 

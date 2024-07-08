@@ -8,6 +8,15 @@ from CreateReportCaNhan import filter_date
 start_date = '2024-07-01'
 end_date = '2024-07-30'
 
+def get_data_chi_tiet_doanh_thu(location = ""):
+    data = get_data_doanh_thu(location, ["ALL"])
+    data = filter_date(data, "Ngày thực hiện")
+    data = data[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở","Tên dịch vụ", "Khách hàng",
+                 "Nguồn khách", "Sale chính", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", 
+                 "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Trả sau", "Đã thanh toán", 
+                 "Dư nợ", "Phụ phẫu 1", "Phụ phẫu 2"]]
+    return data
+
 
 def get_data_report_doanh_so(location = ""):
     data = get_data_doanh_thu(location,["ALL"])
@@ -109,13 +118,16 @@ def createReportLocation(location = ""):
         wb = Workbook()
         # Tạo report về Doanh số
         ws1 = wb.active
-        ws1.title = 'DOANH SỐ CÁ NHÂN'
-        writeDataframeToSheet(ws1, get_data_report_doanh_so(location))
+        ws1.title = 'CHI TIẾT DOANH THU'
+        writeDataframeToSheet(ws1, get_data_chi_tiet_doanh_thu(location))
+        # Tạo report về doanh số cá nhân
+        ws2 = wb.create_sheet(title='DAONH SỐ CÁ NHÂN')
+        writeDataframeToSheet(ws2, get_data_report_doanh_so(location))
         # Tạo report về chi tiêu
-        ws2 = wb.create_sheet(title='CHI TIÊU')
-        writeDataframeToSheet(ws2, get_data_report_chi_tieu(location))
+        ws3 = wb.create_sheet(title='CHI TIÊU')
+        writeDataframeToSheet(ws3, get_data_report_chi_tieu(location))
         # Tạo report về lũy kế ngày
-        ws3 = wb.create_sheet(title="LŨY KẾ NGÀY")
+        ws4 = wb.create_sheet(title="LŨY KẾ NGÀY")
         query_string = f"'{start_date}' <= `Ngày` <= '{end_date}'"
         data = get_data_cho_luy_ke(location).query(query_string)
         data = filter_date(data, "Ngày")
@@ -123,7 +135,7 @@ def createReportLocation(location = ""):
         total_df = pd.DataFrame(total_row).T
         total_df["Ngày"] = "Tổng"
         data = pd.concat([data, total_df], ignore_index=True)
-        writeDataframeToSheet(ws3, data)
+        writeDataframeToSheet(ws4, data)
 
         # Lưu workbook vào file Excel
         try:
@@ -168,5 +180,7 @@ def create_report_co_so():
     createReportSystem()
     for location in vn_locations:
         createReportLocation(location)
+
+# create_report_co_so()
 
             
