@@ -3,7 +3,7 @@ from openpyxl import Workbook
 import pandas as pd
 from Config import *
 from UpdateLuyKe import get_data_cho_luy_ke
-from CreateReportCaNhan import filter_date
+from CreateReportCaNhan import filter_date, add_total_row
 
 start_date = '2024-07-01'
 end_date = '2024-07-30'
@@ -15,12 +15,14 @@ def get_data_chi_tiet_doanh_thu(location = ""):
                  "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Trả sau", "Đã thanh toán", 
                  "Dư nợ", "Phụ phẫu 1", "Phụ phẫu 2"]]
     data = filter_date(data, "Ngày thực hiện")
+    data = add_total_row(data)
     return data
 
 def get_data_chi_tiet_chi_tieu(location=""):
     data = get_data_chi_tieu(location, ["ALL"])
     data = filter_date(data, "Ngày chi")
     data = data[["Tiền tố", "Mã chi tiêu", "Ngày chi", "Cơ sở", "Phân loại", "Lượng chi"]]
+    data = add_total_row(data)
     return data
 
 def get_data_report_doanh_so(location = ""):
@@ -143,6 +145,7 @@ def createReportLocation(location = ""):
         total_df = pd.DataFrame(total_row).T
         total_df["Ngày"] = "Tổng"
         data = pd.concat([data, total_df], ignore_index=True)
+        data["Lũy kế ngày"] = data["Thanh toán lần đầu"] + data["Thu nợ"] - data["Lượng chi"]
         writeDataframeToSheet(ws5, data)
 
         # Lưu workbook vào file Excel

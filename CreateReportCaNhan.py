@@ -28,7 +28,12 @@ def filter_date(data, column_name):
 
 def add_total_row(data):
     sum_data = data.select_dtypes(include=['number']).sum()
-    sum_data["Mã dịch vụ"] = data["Mã dịch vụ"].count()  
+    count_col = ""
+    for col in data.columns.tolist():
+        if "Mã" in col:
+            count_col = col
+            break
+    sum_data[count_col] = data[count_col].count()  
     total_df = pd.DataFrame(sum_data).T
     # Thêm các cột không phải là số vào dòng tổng
     for col in data.columns:
