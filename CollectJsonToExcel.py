@@ -105,14 +105,14 @@ def collect_ho_so_nhan_su():
                                              "properties.Họ và tên.title", "properties.Quê quán.rich_text",                                          
                                              "properties.SĐT.phone_number", "properties.Email.email", 
                                              "properties.Ngày sinh.date.start", "properties.Chức vụ.select.name", 
-                                             "properties.Ngày bắt đầu làm việc.date.start", "properties.Cơ sở.select.name", 
+                                             "properties.Ngày bắt đầu làm việc.date.start", "properties.Cơ sở.select.name", "properties.Hình thức làm việc.select.name",
                                              "properties.Phân cấp.select.name"]]
     data_ho_so_nhan_su = data_ho_so_nhan_su.rename(columns={"id":"notion id", "properties.Mã nhân viên.unique_id.prefix":"Tiền tố", "properties.Mã nhân viên.unique_id.number":"Mã nhân viên",
                                              "properties.Họ và tên.title":"Họ và tên", "properties.Quê quán.rich_text":"Quê quán",                                          
                                              "properties.SĐT.phone_number":"SĐT", "properties.Email.email":"Email", 
                                              "properties.Ngày sinh.date.start":"Ngày sinh", "properties.Chức vụ.select.name":"Chức vụ", 
                                              "properties.Ngày bắt đầu làm việc.date.start":"Ngày bắt đầu làm việc", "properties.Cơ sở.select.name":"Cơ sở", 
-                                             "properties.Phân cấp.select.name":"Phân cấp"})
+                                             "properties.Phân cấp.select.name":"Phân cấp", "properties.Hình thức làm việc.select.name" : "Hình thức làm việc"})
 
     data_ho_so_nhan_su['Họ và tên'] = data_ho_so_nhan_su['Họ và tên'].apply(extract_text_content)
     data_ho_so_nhan_su["Quê quán"] = data_ho_so_nhan_su["Quê quán"].apply(extract_text_content)
@@ -182,12 +182,29 @@ def collect_chi_tieu():
     data_chi_tieu = data_chi_tieu.rename(columns={"notion id_x":"notion id"})
     return data_chi_tieu.sort_values("Mã chi tiêu")
 
+def calculate_ti_le_chiet_khau(nhom_dich_vu, don_gia):
+    if nhom_dich_vu:
+        ref_chiet_khau = pd.read_excel("Ref tính lương.xlsx", sheet_name="Chiết khấu")
+        cols = ref_chiet_khau.columns.to_list()
+        cols.remove("Nhóm dịch vụ")
+
+        temp = "0"
+        for col in cols:
+            if int(col) <= don_gia and int(col) > int(temp):
+                temp = col
+        
+        ti_le_chiet_khau = ref_chiet_khau[ref_chiet_khau["Nhóm dịch vụ"] == nhom_dich_vu][temp]
+        return ti_le_chiet_khau.values[0]
+    else:
+        return 0
+
 def collect_doanh_thu_he_thong():
     data_file = os.path.join(notion_data_folder, "DOANH_THU_HE_THONG.xlsx")
     data_doanh_thu_he_thong = pd.read_excel(data_file)
     data_doanh_thu_he_thong = data_doanh_thu_he_thong[["id", "properties.Auto mã dịch vụ.unique_id.prefix", 
                                                "properties.Auto mã dịch vụ.unique_id.number", "properties.Ngày thực hiện.date.start", 
-                                               "properties.Cơ sở.select.name", "properties.Loại hình dịch vụ.relation", "properties.Khách hàng.relation", "properties.Nguồn khách.select.name",
+                                               "properties.Cơ sở.select.name", "properties.Loại hình dịch vụ.relation", "properties.Nhóm dịch vụ.rollup.array",
+                                               "properties.Khách hàng.relation", "properties.Nguồn khách.select.name",
                                                "properties.Sale chính.relation", "properties.Đơn giá gốc.number",
                                                "properties.Sale phụ.relation","properties.Upsale.number","properties.Đơn giá.formula.number",
                                                 "properties.Thanh toán lần đầu.number", "properties.Trả sau.rollup.number",
@@ -206,9 +223,12 @@ def collect_doanh_thu_he_thong():
                                                "properties.Sale phụ.relation":"id sale phụ","properties.Upsale.number":"Upsale",
                                                "properties.Nguồn khách.select.name":"Nguồn khách", "properties.Trả sau.rollup.number":"Trả sau", 
                                                "properties.Ngày thực hiện.date.start":"Ngày thực hiện", "properties.Loại hình dịch vụ.relation":"id loại hình dịch vụ", 
-                                               "properties.Công phụ phẫu 1.rollup.array":"Công phụ phẫu 1", "properties.Công phụ phẫu 2.rollup.array":"Công phụ phẫu 2"})
+                                               "properties.Công phụ phẫu 1.rollup.array":"Công phụ phẫu 1", "properties.Công phụ phẫu 2.rollup.array":"Công phụ phẫu 2", 
+                                               "properties.Nhóm dịch vụ.rollup.array" : "Nhóm dịch vụ"})
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.fillna("")
 
+
+    data_doanh_thu_he_thong["Nhóm dịch vụ"] = data_doanh_thu_he_thong["Nhóm dịch vụ"].apply(extract_select_name)
     data_doanh_thu_he_thong["id khách hàng"] = data_doanh_thu_he_thong["id khách hàng"].apply(extract_id)
     data_doanh_thu_he_thong = pd.merge(data_doanh_thu_he_thong, collect_thong_tin_khach_hang()[["notion id", "Họ và tên"]], left_on="id khách hàng", right_on="notion id", how="left")
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"Họ và tên":"Khách hàng"})
@@ -244,32 +264,70 @@ def collect_doanh_thu_he_thong():
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"notion id_x":"notion id"})
     data_doanh_thu_he_thong["Công phụ phẫu 1"] =  data_doanh_thu_he_thong["Công phụ phẫu 1"].apply(extract_number)
     data_doanh_thu_he_thong["Công phụ phẫu 2"] =  data_doanh_thu_he_thong["Công phụ phẫu 2"].apply(extract_number)
+    
+    # Tính tỉ lệ chiết khấu
+    data_doanh_thu_he_thong["Tỉ lệ chiết khấu sale chính"] = 0 
+    data_doanh_thu_he_thong["Tỉ lệ chiết khấu sale phụ"] = 0 
+    data_doanh_thu_he_thong["Chiết khấu sale chính"] = 0 
+    data_doanh_thu_he_thong["Chiết khấu sale phụ"] = 0 
+    for index, row in data_doanh_thu_he_thong.iterrows():
+        if row["Nguồn khách"] == "Cá nhân":
+            ti_le_chieu_khau = calculate_ti_le_chiet_khau(row["Nhóm dịch vụ"], row["Đơn giá"])
+            data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale chính"] = ti_le_chieu_khau
+            if pd.notna(row["Sale phụ"]):
+                data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale phụ"] = 0.04
+        elif row["Nguồn khách"] == "CTV":
+            if pd.notna(row["Sale phụ"]):
+                data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale phụ"] = 0.02
+        elif row["Nguồn khách"] == "Khách cũ" or row["Nguồn khách"] == "Khách cũ giới thiệu":
+            data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale chính"] = 0.1
+            if pd.notna(row["Sale phụ"]):
+                data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale phụ"] = 0.04        
+        elif row["Nguồn khách"] == "Page":
+            pass
+        elif row["Nguồn khách"] == "Khách cửa hàng":
+            data_doanh_thu_he_thong.at[index, "Tỉ lệ chiết khấu sale chính"] = 0.04
+            if pd.notna(row["Sale phụ"]):
+                data_doanh_thu_he_thong.at[index, "Tỉ lệ chiết khấu sale phụ"] = 0.02
+    
+    # Tính chiết khấu
+    for index, row in data_doanh_thu_he_thong.iterrows():
+        don_gia_goc = row["Đơn giá gốc"]
+        da_thanh_toan = row["Đã thanh toán"]
+        if (isinstance(don_gia_goc, float) or isinstance(don_gia_goc, int)) and (isinstance(da_thanh_toan, float) or isinstance(da_thanh_toan, int)):
+            
+            if row["Nguồn khách"] == "Cá nhân" or row["Nguồn khách"] == "Khách cửa hàng" or row["Nguồn khách"] == "Khách cũ" or row["Nguồn khách"] == "Khách cũ giới thiệu":
+                if (da_thanh_toan >= don_gia_goc):
+                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = don_gia_goc*row["Tỉ lệ chiết khấu sale chính"] + (da_thanh_toan-don_gia_goc)*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
+                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = (da_thanh_toan-don_gia_goc)*row["Tỉ lệ chiết khấu sale phụ"]
+                else:
+                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale chính"]
+            elif row["Nguồn khách"] == "CTV":
+                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale phụ"]
+            elif row["Nguồn khách"] == "Page":
+                pass
+
     return data_doanh_thu_he_thong.sort_values("Mã dịch vụ")
 
 
-def collect_danh_sach_thu_no():
+def collect_danh_sach_thu_no(data_doanh_thu):
     data_file = os.path.join(notion_data_folder, "DANH_SACH_THU_NO.xlsx")
     data_thu_no = pd.read_excel(data_file)
     data_thu_no = data_thu_no[["id", "properties.Gen mã đơn.unique_id.prefix", "properties.Gen mã đơn.unique_id.number",
                            "properties.Ngày thu.date.start", "properties.Cơ sở.rollup.array",
-                           "properties.Đơn nợ.relation", "properties.Lượng thu.number",
-                           "properties.Người thu.relation",
-                           "properties.Sale.rollup.array"]]
+                           "properties.Đơn nợ.relation", "properties.Lượng thu.number"]]
     data_thu_no = data_thu_no.rename(columns={"id":"notion id", "properties.Gen mã đơn.unique_id.prefix":"Tiền tố", "properties.Gen mã đơn.unique_id.number": "Mã đơn thu nợ",
                            "properties.Ngày thu.date.start":"Ngày thu", "properties.Cơ sở.rollup.array":"Cơ sở",
-                           "properties.Đơn nợ.relation":"id đơn nợ",
-                           "properties.Người thu.relation":"id người thu", "properties.Lượng thu.number":"Lượng thu",
-                           "properties.Sale.rollup.array":"id sale"})
-
+                           "properties.Đơn nợ.relation":"id đơn nợ", "properties.Lượng thu.number":"Lượng thu"})
 
     data_thu_no["id đơn nợ"] = data_thu_no["id đơn nợ"].apply(extract_id)
-    data_thu_no["id người thu"] = data_thu_no["id người thu"].apply(extract_id)
     data_thu_no["Cơ sở"] = data_thu_no["Cơ sở"].apply(extract_select_name)
-    data_thu_no["id sale"] = data_thu_no["id sale"].apply(extract_relation_id)
 
-    data_thu_no = pd.merge(data_thu_no, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id sale", right_on="notion id", how="left")
-    data_thu_no = data_thu_no.rename(columns={"Họ và tên":"Sale"})
-    data_thu_no = pd.merge(data_thu_no, collect_doanh_thu_he_thong()[["notion id", "Mã dịch vụ"]], left_on="id đơn nợ", right_on="notion id", how="left")
+    data_doanh_thu = data_doanh_thu[["notion id", "Mã dịch vụ", "Nguồn khách", "Sale chính","Đơn giá gốc", "Sale phụ", "Upsale", 
+                                    "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Đã thanh toán", 
+                                    "Tỉ lệ chiết khấu sale chính", "Tỉ lệ chiết khấu sale phụ", "Ngày thực hiện", 
+                                    "id sale chính", "id sale phụ", "id bác sĩ 1", "id bác sĩ 2"]]
+    data_thu_no = pd.merge(data_thu_no, data_doanh_thu, left_on="id đơn nợ", right_on="notion id", how="left")
     data_thu_no = data_thu_no.rename(columns={"Mã dịch vụ":"Đơn nợ"})
     def format_don_no(item):
         item = '{:.0f}'.format(item)
@@ -277,8 +335,39 @@ def collect_danh_sach_thu_no():
     data_thu_no["Đơn nợ"] = data_thu_no["Đơn nợ"].apply(format_don_no)
 
     data_thu_no = data_thu_no.drop(columns=["notion id_y"])
-    data_thu_no = data_thu_no.drop(columns=["notion id"])
     data_thu_no = data_thu_no.rename(columns={"notion id_x":"notion id"})
+    
+    data_thu_no["Chiết khấu bác sĩ 1"] = 0
+    data_thu_no["Chiết khấu bác sĩ 2"] = 0
+    data_thu_no["Chiết khấu sale chính"] = 0
+    data_thu_no["Chiết khấu sale phụ"] = 0
+    for index, row in data_thu_no.iterrows():
+        luong_thu = row["Lượng thu"]
+        don_gia_goc = row["Đơn giá gốc"]
+        da_thanh_toan = row["Đã thanh toán"]
+        if pd.notna(row["Bác sĩ 1"]) and pd.isna(row["Bác sĩ 2"]):
+            data_thu_no.at[index, "Chiết khấu bác sĩ 1"] = luong_thu*0.1
+        if pd.notna(row["Bác sĩ 1"]) and pd.notna(row["Bác sĩ 2"]):
+            data_thu_no.at[index, "Chiết khấu bác sĩ 1"] = luong_thu*0.06
+            data_thu_no.at[index, "Chiết khấu bác sĩ 2"] = luong_thu*0.06    
+
+        if row["Nguồn khách"] == "Cá nhân" or row["Nguồn khách"] == "Khách cửa hàng" or row["Nguồn khách"] == "Khách cũ" or row["Nguồn khách"] == "Khách cũ giới thiệu":
+            if (da_thanh_toan >= don_gia_goc):
+                da_thanh_toan_truoc_thu_no = da_thanh_toan - luong_thu
+                if da_thanh_toan_truoc_thu_no <= don_gia_goc:
+                    phan_sale_phu = da_thanh_toan - don_gia_goc
+                    phan_sale_chinh = luong_thu - phan_sale_phu
+                    data_thu_no.at[index, "Chiết khấu sale chính"] = phan_sale_chinh*row["Tỉ lệ chiết khấu sale chính"] + phan_sale_phu*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
+                    data_thu_no.at[index, "Chiết khấu sale phụ"] = phan_sale_phu*row["Tỉ lệ chiết khấu sale phụ"]
+                else:
+                    data_thu_no.at[index, "Chiết khấu sale chính"] = luong_thu*row["Tỉ lệ chiết khấu sale chính"] + phan_sale_phu*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
+
+            else:
+                data_thu_no.at[index, "Chiết khấu sale chính"] = luong_thu*row["Tỉ lệ chiết khấu sale chính"]
+        elif row["Nguồn khách"] == "CTV":
+                data_thu_no.at[index, "Chiết khấu sale phụ"] = luong_thu*row["Tỉ lệ chiết khấu sale phụ"]
+        elif row["Nguồn khách"] == "Page":
+            pass
     
     return data_thu_no.sort_values("Mã đơn thu nợ")
 
@@ -363,10 +452,11 @@ def collect_data():
     writeDataframeToSheet(ws4, collect_chi_tieu())
     # Tạo sheet doanh thu hệ thống
     ws5 = wb.create_sheet(title="Doanh thu hệ thống")
-    writeDataframeToSheet(ws5, collect_doanh_thu_he_thong())
+    data_doanh_thu = collect_doanh_thu_he_thong()
+    writeDataframeToSheet(ws5, data_doanh_thu)
     # Tạo sheet Thu nợ
     ws6 = wb.create_sheet(title="Thu nợ")
-    writeDataframeToSheet(ws6, collect_danh_sach_thu_no())
+    writeDataframeToSheet(ws6, collect_danh_sach_thu_no(data_doanh_thu))
     # Tạo sheet chấm công hệ thống
     ws7 = wb.create_sheet(title=f"Chấm công HỆ THỐNG")
     writeDataframeToSheet(ws7, collect_data_cham_cong_he_thong())

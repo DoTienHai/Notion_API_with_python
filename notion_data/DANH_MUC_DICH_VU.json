@@ -1,16 +1,121 @@
 [
     {
         "object": "page",
+        "id": "0e526229-72a4-4383-8a15-fe91f9a4a968",
+        "created_time": "2024-07-16T05:46:00.000Z",
+        "last_edited_time": "2024-07-16T08:31:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "fbd8139e-c14e-455b-803e-83622717ac99"
+                    }
+                ],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 13000000,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": {
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
+                }
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "cắt sẹo ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "cắt sẹo ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/c-t-s-o-0e52622972a443838a15fe91f9a4a968",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "cb579f54-2240-41ab-9abc-21f5b506941e",
         "created_time": "2024-06-21T15:31:00.000Z",
-        "last_edited_time": "2024-06-21T15:31:00.000Z",
+        "last_edited_time": "2024-07-17T12:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -50,7 +155,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 900000,
                     "function": "sum"
                 }
             },
@@ -66,7 +171,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "8c20c3e1-370f-4be1-b533-8716cb78184c",
+                    "name": "Phun xăm",
+                    "color": "blue"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -104,14 +213,14 @@
         "object": "page",
         "id": "22f42f24-b99f-4c18-93b4-5f64deff47c3",
         "created_time": "2024-06-19T16:53:00.000Z",
-        "last_edited_time": "2024-06-19T16:53:00.000Z",
+        "last_edited_time": "2024-07-17T12:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -127,7 +236,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 5,
+                    "number": 7,
                     "function": "count"
                 }
             },
@@ -154,6 +263,12 @@
                     },
                     {
                         "id": "a68948b4-6055-443a-85d5-508e8f8f72f0"
+                    },
+                    {
+                        "id": "809f99c9-8a86-448a-b8a7-107c756853d1"
+                    },
+                    {
+                        "id": "a3bb4f64-a8b3-4473-9a72-4afc8ec81402"
                     }
                 ],
                 "has_more": false
@@ -163,7 +278,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 11900000,
                     "function": "sum"
                 }
             },
@@ -179,7 +294,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "8c20c3e1-370f-4be1-b533-8716cb78184c",
+                    "name": "Phun xăm",
+                    "color": "blue"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -215,125 +334,9 @@
     },
     {
         "object": "page",
-        "id": "7b20f824-4e30-4f2a-af5f-3926531a416b",
-        "created_time": "2024-06-18T14:45:00.000Z",
-        "last_edited_time": "2024-06-18T14:45:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Số ca": {
-                "id": "ZESS",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 6,
-                    "function": "count"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "%5C%3CS%3A",
-                "type": "number",
-                "number": null
-            },
-            "Ca dịch vụ đã làm": {
-                "id": "hBL%3B",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "ab660ea7-d879-480b-adf9-d50b1cf680d4"
-                    },
-                    {
-                        "id": "4fd2a841-5293-484d-b5ba-ec0236294574"
-                    },
-                    {
-                        "id": "d27216c4-ba32-4973-b2ce-9b04af6ff585"
-                    },
-                    {
-                        "id": "47ff8592-f0f8-4311-a1ed-663587ed2f33"
-                    },
-                    {
-                        "id": "4d1ce8ad-da1c-43bc-a0a1-96aa4c0cce3d"
-                    },
-                    {
-                        "id": "913dd373-c562-4bfd-9745-ac99cf151a88"
-                    }
-                ],
-                "has_more": false
-            },
-            "Doanh thu": {
-                "id": "l%40E~",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": null,
-                    "function": "sum"
-                }
-            },
-            "Dư nợ": {
-                "id": "mTNk",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 3000000,
-                    "function": "sum"
-                }
-            },
-            "Nhóm dịch vụ": {
-                "id": "ul%5CC",
-                "type": "select",
-                "select": null
-            },
-            "Công phụ phẫu 2": {
-                "id": "vrCq",
-                "type": "number",
-                "number": null
-            },
-            "Tên dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "Cắt mí",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "Cắt mí",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/C-t-m-7b20f8244e304f2aaf5f3926531a416b",
-        "public_url": null
-    },
-    {
-        "object": "page",
         "id": "d11744f5-5494-4bdb-8851-ba16f9eca5f0",
         "created_time": "2024-06-17T18:02:00.000Z",
-        "last_edited_time": "2024-06-17T18:02:00.000Z",
+        "last_edited_time": "2024-07-10T15:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -380,7 +383,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 1000000,
                     "function": "sum"
                 }
             },
@@ -396,7 +399,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "a81aa572-4404-4541-907a-3002242a41c0",
+                    "name": "Cọc",
+                    "color": "purple"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -434,14 +441,14 @@
         "object": "page",
         "id": "f5a85dbc-38d5-4f20-8f6f-0b25a965f2f6",
         "created_time": "2024-06-14T16:28:00.000Z",
-        "last_edited_time": "2024-06-14T16:28:00.000Z",
+        "last_edited_time": "2024-07-17T12:09:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -481,7 +488,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 10000000,
                     "function": "sum"
                 }
             },
@@ -497,7 +504,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -533,113 +544,9 @@
     },
     {
         "object": "page",
-        "id": "8955d744-442b-441f-ada5-2d313322cf84",
-        "created_time": "2024-06-12T12:58:00.000Z",
-        "last_edited_time": "2024-06-12T12:58:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Số ca": {
-                "id": "ZESS",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 2,
-                    "function": "count"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "%5C%3CS%3A",
-                "type": "number",
-                "number": null
-            },
-            "Ca dịch vụ đã làm": {
-                "id": "hBL%3B",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "9b0f7b30-9912-4b7a-aa2a-60eaf1b0b933"
-                    },
-                    {
-                        "id": "8ef03afc-c5f7-4697-b088-e0d148865e86"
-                    }
-                ],
-                "has_more": false
-            },
-            "Doanh thu": {
-                "id": "l%40E~",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": null,
-                    "function": "sum"
-                }
-            },
-            "Dư nợ": {
-                "id": "mTNk",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Nhóm dịch vụ": {
-                "id": "ul%5CC",
-                "type": "select",
-                "select": null
-            },
-            "Công phụ phẫu 2": {
-                "id": "vrCq",
-                "type": "number",
-                "number": null
-            },
-            "Tên dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "cắt mí",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "cắt mí",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/c-t-m-8955d744442b441fada52d313322cf84",
-        "public_url": null
-    },
-    {
-        "object": "page",
         "id": "4004ba45-0c0e-4492-9ee9-74eea86b7f3f",
         "created_time": "2024-06-05T04:28:00.000Z",
-        "last_edited_time": "2024-06-05T04:28:00.000Z",
+        "last_edited_time": "2024-07-10T15:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -682,7 +589,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 0,
                     "function": "sum"
                 }
             },
@@ -698,7 +605,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "a81aa572-4404-4541-907a-3002242a41c0",
+                    "name": "Cọc",
+                    "color": "purple"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -736,7 +647,7 @@
         "object": "page",
         "id": "9e9a9a86-334a-43e7-8630-67798d7a8b93",
         "created_time": "2024-06-05T04:28:00.000Z",
-        "last_edited_time": "2024-06-05T04:28:00.000Z",
+        "last_edited_time": "2024-07-10T15:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -779,7 +690,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 0,
                     "function": "sum"
                 }
             },
@@ -795,7 +706,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "a81aa572-4404-4541-907a-3002242a41c0",
+                    "name": "Cọc",
+                    "color": "purple"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -831,106 +746,9 @@
     },
     {
         "object": "page",
-        "id": "4e7797aa-41ba-4dbf-a02c-71e6840b37dc",
-        "created_time": "2024-06-02T02:38:00.000Z",
-        "last_edited_time": "2024-06-02T02:38:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Số ca": {
-                "id": "ZESS",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "count"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "%5C%3CS%3A",
-                "type": "number",
-                "number": null
-            },
-            "Ca dịch vụ đã làm": {
-                "id": "hBL%3B",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Doanh thu": {
-                "id": "l%40E~",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": null,
-                    "function": "sum"
-                }
-            },
-            "Dư nợ": {
-                "id": "mTNk",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Nhóm dịch vụ": {
-                "id": "ul%5CC",
-                "type": "select",
-                "select": null
-            },
-            "Công phụ phẫu 2": {
-                "id": "vrCq",
-                "type": "number",
-                "number": null
-            },
-            "Tên dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "Dịch vụ hậu cần tại Cần thơ",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "Dịch vụ hậu cần tại Cần thơ",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/D-ch-v-h-u-c-n-t-i-C-n-th-4e7797aa41ba4dbfa02c71e6840b37dc",
-        "public_url": null
-    },
-    {
-        "object": "page",
         "id": "36462e8c-5495-4879-91b2-e4852d8f4f0a",
         "created_time": "2024-05-30T03:10:00.000Z",
-        "last_edited_time": "2024-05-30T03:10:00.000Z",
+        "last_edited_time": "2024-07-10T15:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -977,7 +795,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -993,7 +811,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "a81aa572-4404-4541-907a-3002242a41c0",
+                    "name": "Cọc",
+                    "color": "purple"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -1031,14 +853,14 @@
         "object": "page",
         "id": "ea4d15da-4075-4b1b-9539-fb9b77419fc0",
         "created_time": "2024-05-30T02:39:00.000Z",
-        "last_edited_time": "2024-05-30T02:39:00.000Z",
+        "last_edited_time": "2024-07-17T12:06:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -1078,7 +900,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 3200000,
                     "function": "sum"
                 }
             },
@@ -1094,7 +916,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -1179,7 +1005,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -1237,7 +1063,7 @@
         "object": "page",
         "id": "0e8d32d1-9199-427b-940d-16f4a47ad843",
         "created_time": "2024-05-18T11:42:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:06:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1284,7 +1110,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 10000000,
                     "function": "sum"
                 }
             },
@@ -1301,9 +1127,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1272f84f-63be-4c7a-b775-dc6ebf245967",
-                    "name": "Hút mỡ",
-                    "color": "brown"
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
                 }
             },
             "Công phụ phẫu 2": {
@@ -1342,7 +1168,7 @@
         "object": "page",
         "id": "e35eb82e-47a3-4f59-9454-f01a4058c7ef",
         "created_time": "2024-05-18T11:41:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-17T12:09:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1389,7 +1215,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 15000000,
                     "function": "sum"
                 }
             },
@@ -1406,9 +1232,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "8c4001e7-b22b-4698-93f1-ab3b4c1d4ab7",
-                    "name": "Ngực",
-                    "color": "yellow"
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
                 }
             },
             "Công phụ phẫu 2": {
@@ -1494,7 +1320,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 500000,
                     "function": "sum"
                 }
             },
@@ -1552,7 +1378,7 @@
         "object": "page",
         "id": "44a16666-eb90-4688-b096-d3ae103bf9b7",
         "created_time": "2024-05-18T10:01:00.000Z",
-        "last_edited_time": "2024-05-28T15:08:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
@@ -1605,7 +1431,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 37000000,
                     "function": "sum"
                 }
             },
@@ -1622,8 +1448,8 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "8c4001e7-b22b-4698-93f1-ab3b4c1d4ab7",
-                    "name": "Ngực",
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
                     "color": "yellow"
                 }
             },
@@ -1713,7 +1539,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 500000,
                     "function": "sum"
                 }
             },
@@ -1824,7 +1650,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 15000000,
                     "function": "sum"
                 }
             },
@@ -1882,7 +1708,7 @@
         "object": "page",
         "id": "95fe288f-ea82-4829-8359-9fdf84594e36",
         "created_time": "2024-05-17T14:52:00.000Z",
-        "last_edited_time": "2024-05-28T15:05:00.000Z",
+        "last_edited_time": "2024-07-17T12:06:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1935,7 +1761,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 58000000,
                     "function": "sum"
                 }
             },
@@ -1952,9 +1778,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1272f84f-63be-4c7a-b775-dc6ebf245967",
-                    "name": "Hút mỡ",
-                    "color": "brown"
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
                 }
             },
             "Công phụ phẫu 2": {
@@ -1993,7 +1819,7 @@
         "object": "page",
         "id": "65cf5987-9861-48db-bb71-b57c934d6a4b",
         "created_time": "2024-05-17T14:18:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:06:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2043,7 +1869,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 83000000,
                     "function": "sum"
                 }
             },
@@ -2060,9 +1886,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1272f84f-63be-4c7a-b775-dc6ebf245967",
-                    "name": "Hút mỡ",
-                    "color": "brown"
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
                 }
             },
             "Công phụ phẫu 2": {
@@ -2101,7 +1927,7 @@
         "object": "page",
         "id": "86e95925-bfcc-4336-b28f-66bf8c6b30c5",
         "created_time": "2024-05-17T14:15:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2151,7 +1977,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 18900000,
                     "function": "sum"
                 }
             },
@@ -2168,9 +1994,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "b7b08855-a1ef-4ddf-8fc4-edb6ce985887",
-                    "name": "Môi",
-                    "color": "default"
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
                 }
             },
             "Công phụ phẫu 2": {
@@ -2209,7 +2035,7 @@
         "object": "page",
         "id": "c926f817-43c4-4bd6-b151-4af2f9786bea",
         "created_time": "2024-05-17T14:13:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-16T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2232,7 +2058,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 9,
+                    "number": 12,
                     "function": "count"
                 }
             },
@@ -2271,6 +2097,15 @@
                     },
                     {
                         "id": "ff4755f6-0850-4e45-a769-a8f4c70ca2c2"
+                    },
+                    {
+                        "id": "503b09d8-4792-400c-813e-5e23f48e9ef5"
+                    },
+                    {
+                        "id": "13361e13-7cde-45f4-bc92-fbce7d440fb6"
+                    },
+                    {
+                        "id": "29662fbe-635c-4bcc-bc10-4c611a458cc8"
                     }
                 ],
                 "has_more": false
@@ -2280,7 +2115,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 23800000,
                     "function": "sum"
                 }
             },
@@ -2289,7 +2124,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 8000000,
+                    "number": 7200000,
                     "function": "sum"
                 }
             },
@@ -2297,9 +2132,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "b7b08855-a1ef-4ddf-8fc4-edb6ce985887",
-                    "name": "Môi",
-                    "color": "default"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -2338,7 +2173,7 @@
         "object": "page",
         "id": "a1258434-60a3-4fd0-b3de-ee5db94dcdb9",
         "created_time": "2024-05-17T13:57:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-17T12:08:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2361,7 +2196,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 1,
+                    "number": 2,
                     "function": "count"
                 }
             },
@@ -2376,6 +2211,9 @@
                 "relation": [
                     {
                         "id": "9c77e551-4f42-4917-a1dc-d11b9e2fb45c"
+                    },
+                    {
+                        "id": "507731ab-6350-4d0e-b400-6c26727b8695"
                     }
                 ],
                 "has_more": false
@@ -2385,7 +2223,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 7000000,
                     "function": "sum"
                 }
             },
@@ -2403,7 +2241,7 @@
                 "type": "select",
                 "select": {
                     "id": "8147d5bb-57eb-4378-a07d-2790ea008820",
-                    "name": "Mũi",
+                    "name": "Nâng mũi",
                     "color": "red"
                 }
             },
@@ -2490,7 +2328,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 700000,
                     "function": "sum"
                 }
             },
@@ -2548,7 +2386,7 @@
         "object": "page",
         "id": "9b5fc280-7114-4fd6-ac3c-28f3042a8b40",
         "created_time": "2024-05-17T08:26:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-16T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2571,7 +2409,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 5,
+                    "number": 7,
                     "function": "count"
                 }
             },
@@ -2598,6 +2436,12 @@
                     },
                     {
                         "id": "0182c351-2448-4d7e-914c-80b4cb64dec2"
+                    },
+                    {
+                        "id": "ca9921a2-bef2-4bd9-908b-8e0357dd8abb"
+                    },
+                    {
+                        "id": "c82cd687-0a71-42c7-bce0-8598aa9c8149"
                     }
                 ],
                 "has_more": false
@@ -2607,7 +2451,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 14700000,
                     "function": "sum"
                 }
             },
@@ -2624,9 +2468,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "597cf9f9-33af-49d3-9497-12806d6733a2",
-                    "name": "Các ngoại khoa khác",
-                    "color": "pink"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -2715,7 +2559,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 60000000,
                     "function": "sum"
                 }
             },
@@ -2773,7 +2617,7 @@
         "object": "page",
         "id": "28f84581-e3dc-494f-8903-11425dcf396f",
         "created_time": "2024-05-13T13:43:00.000Z",
-        "last_edited_time": "2024-05-28T15:05:00.000Z",
+        "last_edited_time": "2024-07-16T08:21:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2826,7 +2670,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 76000000,
                     "function": "sum"
                 }
             },
@@ -2843,9 +2687,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "597cf9f9-33af-49d3-9497-12806d6733a2",
-                    "name": "Các ngoại khoa khác",
-                    "color": "pink"
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
                 }
             },
             "Công phụ phẫu 2": {
@@ -2884,7 +2728,7 @@
         "object": "page",
         "id": "c92ebcd9-938d-4c1c-a3d9-6b2c8f79b9a6",
         "created_time": "2024-05-13T13:25:00.000Z",
-        "last_edited_time": "2024-05-28T15:05:00.000Z",
+        "last_edited_time": "2024-07-17T12:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2907,7 +2751,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 17,
+                    "number": 20,
                     "function": "count"
                 }
             },
@@ -2970,6 +2814,15 @@
                     },
                     {
                         "id": "64061d9e-e676-4e4b-ba84-e6597caeb395"
+                    },
+                    {
+                        "id": "32523a58-6b4d-4913-9da9-62ab9aa53bcb"
+                    },
+                    {
+                        "id": "93f73cc0-3070-4c51-96eb-2b5fce5c18a2"
+                    },
+                    {
+                        "id": "3da3c561-467a-4415-8cbb-19279070c682"
                     }
                 ],
                 "has_more": false
@@ -2979,7 +2832,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 44200000,
                     "function": "sum"
                 }
             },
@@ -2996,8 +2849,8 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1679cc32-7980-41f4-a3c6-29cc98d62d73",
-                    "name": "Vùng mắt",
+                    "id": "8c20c3e1-370f-4be1-b533-8716cb78184c",
+                    "name": "Phun xăm",
                     "color": "blue"
                 }
             },
@@ -3037,7 +2890,7 @@
         "object": "page",
         "id": "ebc54d50-58b9-4fa4-bd2f-c4fb9bd95874",
         "created_time": "2024-05-13T13:21:00.000Z",
-        "last_edited_time": "2024-05-28T15:05:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3084,7 +2937,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 8000000,
                     "function": "sum"
                 }
             },
@@ -3101,9 +2954,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1679cc32-7980-41f4-a3c6-29cc98d62d73",
-                    "name": "Vùng mắt",
-                    "color": "blue"
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
                 }
             },
             "Công phụ phẫu 2": {
@@ -3142,7 +2995,7 @@
         "object": "page",
         "id": "57459270-b6fa-4b0c-bde9-8d25688557dd",
         "created_time": "2024-05-13T13:18:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3165,7 +3018,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3,
+                    "number": 4,
                     "function": "count"
                 }
             },
@@ -3186,6 +3039,9 @@
                     },
                     {
                         "id": "6d613630-ae9d-4877-8c65-fce6533a0854"
+                    },
+                    {
+                        "id": "ff719add-5de4-4d2e-8783-f5388f9e105d"
                     }
                 ],
                 "has_more": false
@@ -3195,7 +3051,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 20000000,
                     "function": "sum"
                 }
             },
@@ -3204,7 +3060,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 8000000,
                     "function": "sum"
                 }
             },
@@ -3212,9 +3068,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1679cc32-7980-41f4-a3c6-29cc98d62d73",
-                    "name": "Vùng mắt",
-                    "color": "blue"
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
                 }
             },
             "Công phụ phẫu 2": {
@@ -3253,7 +3109,7 @@
         "object": "page",
         "id": "518ddeb4-c722-4b5d-8353-f87f0f4208ef",
         "created_time": "2024-05-13T13:17:00.000Z",
-        "last_edited_time": "2024-05-28T15:08:00.000Z",
+        "last_edited_time": "2024-07-16T08:29:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3303,7 +3159,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 2500000,
                     "function": "sum"
                 }
             },
@@ -3320,9 +3176,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "597cf9f9-33af-49d3-9497-12806d6733a2",
-                    "name": "Các ngoại khoa khác",
-                    "color": "pink"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -3361,7 +3217,7 @@
         "object": "page",
         "id": "b4480d9a-bf48-4d8f-ba30-ce58fac5013d",
         "created_time": "2024-05-13T12:50:00.000Z",
-        "last_edited_time": "2024-05-28T15:08:00.000Z",
+        "last_edited_time": "2024-07-16T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3408,7 +3264,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 8000000,
                     "function": "sum"
                 }
             },
@@ -3425,9 +3281,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "597cf9f9-33af-49d3-9497-12806d6733a2",
-                    "name": "Các ngoại khoa khác",
-                    "color": "pink"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -3466,7 +3322,7 @@
         "object": "page",
         "id": "6f7ff8a3-d6c4-41bd-9ac8-2705817f20a8",
         "created_time": "2024-05-13T12:39:00.000Z",
-        "last_edited_time": "2024-05-28T15:05:00.000Z",
+        "last_edited_time": "2024-07-17T12:08:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3519,7 +3375,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 23000000,
                     "function": "sum"
                 }
             },
@@ -3537,7 +3393,7 @@
                 "type": "select",
                 "select": {
                     "id": "8147d5bb-57eb-4378-a07d-2790ea008820",
-                    "name": "Mũi",
+                    "name": "Nâng mũi",
                     "color": "red"
                 }
             },
@@ -3577,7 +3433,7 @@
         "object": "page",
         "id": "ebeca77b-a7ec-442a-acf9-60cd9405340e",
         "created_time": "2024-05-13T09:22:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-17T12:08:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3624,7 +3480,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 1500000,
                     "function": "sum"
                 }
             },
@@ -3642,7 +3498,7 @@
                 "type": "select",
                 "select": {
                     "id": "8147d5bb-57eb-4378-a07d-2790ea008820",
-                    "name": "Mũi",
+                    "name": "Nâng mũi",
                     "color": "red"
                 }
             },
@@ -3682,7 +3538,7 @@
         "object": "page",
         "id": "1dbed88f-6afd-41a9-943c-4cf9ee98968e",
         "created_time": "2024-05-13T05:41:00.000Z",
-        "last_edited_time": "2024-05-28T15:05:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3735,7 +3591,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 15300000,
                     "function": "sum"
                 }
             },
@@ -3752,9 +3608,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "b7b08855-a1ef-4ddf-8fc4-edb6ce985887",
-                    "name": "Môi",
-                    "color": "default"
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
                 }
             },
             "Công phụ phẫu 2": {
@@ -3793,7 +3649,7 @@
         "object": "page",
         "id": "c6e90df1-583f-4243-8476-a18f06f08034",
         "created_time": "2024-05-13T05:28:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-16T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3852,7 +3708,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 12098000,
                     "function": "sum"
                 }
             },
@@ -3869,9 +3725,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "597cf9f9-33af-49d3-9497-12806d6733a2",
-                    "name": "Các ngoại khoa khác",
-                    "color": "pink"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -3910,7 +3766,7 @@
         "object": "page",
         "id": "423a8fa3-aeef-4fd9-bddf-093fe8d7a541",
         "created_time": "2024-05-13T05:25:00.000Z",
-        "last_edited_time": "2024-05-28T15:08:00.000Z",
+        "last_edited_time": "2024-07-16T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3957,7 +3813,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -3974,9 +3830,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "597cf9f9-33af-49d3-9497-12806d6733a2",
-                    "name": "Các ngoại khoa khác",
-                    "color": "pink"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -4065,7 +3921,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 4000000,
                     "function": "sum"
                 }
             },
@@ -4123,7 +3979,7 @@
         "object": "page",
         "id": "18d4e1b4-962d-47f0-8fcb-0dd4a8390f06",
         "created_time": "2024-05-12T18:48:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:08:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4206,7 +4062,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 409500000,
                     "function": "sum"
                 }
             },
@@ -4224,7 +4080,7 @@
                 "type": "select",
                 "select": {
                     "id": "8147d5bb-57eb-4378-a07d-2790ea008820",
-                    "name": "Mũi",
+                    "name": "Nâng mũi",
                     "color": "red"
                 }
             },
@@ -4264,7 +4120,7 @@
         "object": "page",
         "id": "c74e9a1a-a515-4d57-851b-873d8ae67147",
         "created_time": "2024-05-12T18:33:00.000Z",
-        "last_edited_time": "2024-05-28T15:08:00.000Z",
+        "last_edited_time": "2024-07-16T08:55:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4329,7 +4185,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 133000000,
                     "function": "sum"
                 }
             },
@@ -4346,9 +4202,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "8c4001e7-b22b-4698-93f1-ab3b4c1d4ab7",
-                    "name": "Ngực",
-                    "color": "yellow"
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
                 }
             },
             "Công phụ phẫu 2": {
@@ -4387,7 +4243,7 @@
         "object": "page",
         "id": "bc22b8e5-4a53-4537-aa22-0a0cf1420b70",
         "created_time": "2024-05-12T18:28:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-16T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4506,7 +4362,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 204200000,
                     "function": "sum"
                 }
             },
@@ -4523,9 +4379,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "597cf9f9-33af-49d3-9497-12806d6733a2",
-                    "name": "Các ngoại khoa khác",
-                    "color": "pink"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -4564,7 +4420,7 @@
         "object": "page",
         "id": "1b29b376-dc70-44b8-800b-c651443bcf3d",
         "created_time": "2024-05-12T18:23:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4611,7 +4467,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -4628,9 +4484,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1679cc32-7980-41f4-a3c6-29cc98d62d73",
-                    "name": "Vùng mắt",
-                    "color": "blue"
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
                 }
             },
             "Công phụ phẫu 2": {
@@ -4669,7 +4525,7 @@
         "object": "page",
         "id": "fccfa659-feec-4f61-abcf-9f866b0c0f41",
         "created_time": "2024-05-12T18:20:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4749,7 +4605,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 33645000,
                     "function": "sum"
                 }
             },
@@ -4766,9 +4622,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "b7b08855-a1ef-4ddf-8fc4-edb6ce985887",
-                    "name": "Môi",
-                    "color": "default"
+                    "id": "8c20c3e1-370f-4be1-b533-8716cb78184c",
+                    "name": "Phun xăm",
+                    "color": "blue"
                 }
             },
             "Công phụ phẫu 2": {
@@ -4807,7 +4663,7 @@
         "object": "page",
         "id": "3df5317a-ce21-494c-8b30-136d7215f715",
         "created_time": "2024-05-12T18:12:00.000Z",
-        "last_edited_time": "2024-05-28T15:07:00.000Z",
+        "last_edited_time": "2024-07-16T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4854,7 +4710,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -4871,9 +4727,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "8147d5bb-57eb-4378-a07d-2790ea008820",
-                    "name": "Mũi",
-                    "color": "red"
+                    "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                    "name": "Tiêm",
+                    "color": "orange"
                 }
             },
             "Công phụ phẫu 2": {
@@ -4912,7 +4768,7 @@
         "object": "page",
         "id": "baf07de0-3373-43d3-8f4c-e75f3237e30b",
         "created_time": "2024-05-12T18:11:00.000Z",
-        "last_edited_time": "2024-05-28T15:05:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -5031,7 +4887,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 154400000,
                     "function": "sum"
                 }
             },
@@ -5048,9 +4904,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1679cc32-7980-41f4-a3c6-29cc98d62d73",
-                    "name": "Vùng mắt",
-                    "color": "blue"
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
                 }
             },
             "Công phụ phẫu 2": {
@@ -5089,7 +4945,7 @@
         "object": "page",
         "id": "5e0fd9e5-7175-4d47-972f-8bc3f04ec8b7",
         "created_time": "2024-05-12T16:41:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-16T08:43:00.000Z",
         "created_by": {
             "object": "user",
             "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
@@ -5139,7 +4995,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 76500000,
                     "function": "sum"
                 }
             },
@@ -5156,9 +5012,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "8c4001e7-b22b-4698-93f1-ab3b4c1d4ab7",
-                    "name": "Ngực",
-                    "color": "yellow"
+                    "id": "30f06f7c-7370-4400-836d-ab7b7c3a9c04",
+                    "name": "Đại phẫu",
+                    "color": "green"
                 }
             },
             "Công phụ phẫu 2": {
@@ -5197,7 +5053,7 @@
         "object": "page",
         "id": "a67c22ad-71bc-49f9-9fdb-655f7310818f",
         "created_time": "2024-05-11T17:45:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
@@ -5304,7 +5160,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 49900000,
                     "function": "sum"
                 }
             },
@@ -5321,8 +5177,8 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1679cc32-7980-41f4-a3c6-29cc98d62d73",
-                    "name": "Vùng mắt",
+                    "id": "8c20c3e1-370f-4be1-b533-8716cb78184c",
+                    "name": "Phun xăm",
                     "color": "blue"
                 }
             },
@@ -5362,7 +5218,7 @@
         "object": "page",
         "id": "f92df7c2-5305-4ec6-8f40-12514c2e4b95",
         "created_time": "2024-05-11T17:45:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:05:00.000Z",
         "created_by": {
             "object": "user",
             "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
@@ -5439,7 +5295,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 50200000,
                     "function": "sum"
                 }
             },
@@ -5456,9 +5312,9 @@
                 "id": "ul%5CC",
                 "type": "select",
                 "select": {
-                    "id": "1679cc32-7980-41f4-a3c6-29cc98d62d73",
-                    "name": "Vùng mắt",
-                    "color": "blue"
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
                 }
             },
             "Công phụ phẫu 2": {
@@ -5497,7 +5353,7 @@
         "object": "page",
         "id": "540226e3-8d3e-4d95-9152-6e75ba27997f",
         "created_time": "2024-05-11T17:45:00.000Z",
-        "last_edited_time": "2024-05-28T15:06:00.000Z",
+        "last_edited_time": "2024-07-17T12:08:00.000Z",
         "created_by": {
             "object": "user",
             "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
@@ -5613,7 +5469,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": null,
+                    "number": 356950000,
                     "function": "sum"
                 }
             },
@@ -5631,7 +5487,7 @@
                 "type": "select",
                 "select": {
                     "id": "8147d5bb-57eb-4378-a07d-2790ea008820",
-                    "name": "Mũi",
+                    "name": "Nâng mũi",
                     "color": "red"
                 }
             },
