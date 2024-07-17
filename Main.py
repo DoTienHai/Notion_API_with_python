@@ -8,6 +8,7 @@ from CreateReportKhachHang import create_all_report_khach_hang
 from UpdateLuyKe import update_luy_ke_theo_ngay, update_luy_ke_theo_thang
 from UpdateChamCong import update_cham_cong_tong_hop
 import time
+from datetime import datetime
 import multiprocessing
 
 def fetch_data():
@@ -25,17 +26,20 @@ if __name__ == "__main__":
         processes = []
         process2 = multiprocessing.Process(target=update_luy_ke_theo_ngay)
         process3 = multiprocessing.Process(target=update_luy_ke_theo_thang)
-        # process4 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
-        # process5 = multiprocessing.Process(target=create_report_co_so)
-        # process6 = multiprocessing.Process(target=create_all_report_khach_hang)            
-        process7 = multiprocessing.Process(target=update_cham_cong_tong_hop)
-
+        process4 = multiprocessing.Process(target=update_cham_cong_tong_hop)
         processes.append(process2)
         processes.append(process3)
-        # processes.append(process4)
-        # processes.append(process5)
-        # processes.append(process6)
-        processes.append(process7)
+        processes.append(process4)
+        
+        hour = datetime.now().hour
+        print(hour)
+        if hour == 0:
+            process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
+            process6 = multiprocessing.Process(target=create_report_co_so)
+            process7 = multiprocessing.Process(target=create_all_report_khach_hang)            
+            processes.append(process5)
+            processes.append(process6)
+            processes.append(process7)
 
         for i in range(len(vn_locations)):
             process_ngay = multiprocessing.Process(target=update_luy_ke_theo_ngay, args=(vn_locations[i],))

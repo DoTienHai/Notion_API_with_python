@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 from Config import *
 
-month = datetime.today().month-1
+month = datetime.today().month
 year = datetime.today().year
 
 columns = ["Tiền tố", "Mã dịch vụ", "Ngày thực hiện",
@@ -148,6 +148,7 @@ def create_doanh_so_ca_nhan():
         notion_id_nhan_su = row["notion id"]
         ho_va_ten = row["Họ và tên"]
         ma_nhan_vien = f"{row["Tiền tố"]}-{row["Mã nhân viên"]}"
+        co_so = row["Cơ sở"]
         # Kiểm tra xem file Excel đã tồn tại hay chưa
         excel_file_path = os.path.join(report_ca_nhan_folder, f"{ma_nhan_vien} {ho_va_ten} {month}-{year}.xlsx")
         if os.path.exists(excel_file_path):
@@ -197,7 +198,7 @@ def create_doanh_so_ca_nhan():
             ws7 = wb.create_sheet("Đơn thu nợ")
             writeDataframeToSheet(ws7, data_don_thu_no)
         # Tạo sheet tính lương
-        if row["Cơ sở"] != "OUTSIDE":
+        if co_so != "OUTSIDE":
             ref_luong = pd.read_excel("Ref tính lương.xlsx", sheet_name="Lương cơ bản")
             ws8 = wb.create_sheet("Lương")
             data_luong = pd.DataFrame()
@@ -211,9 +212,18 @@ def create_doanh_so_ca_nhan():
                 data_cham_cong = get_data_cham_cong_tong_hop()
                 data_luong["Ngày công"] = data_cham_cong[data_cham_cong["id nhân sự"] == notion_id_nhan_su]["Tổng công"]
                 data_luong["Phụ cấp"] = data_luong["Ngày công"]*35000
+            
+            luong_co_ban = ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Tổng lương cơ bản"]
+            if len(luong_co_ban):
+                luong_co_ban = luong_co_ban.values[0]
+            ngay_cong = data_luong["Ngày công"]
+            if len(ngay_cong):
+                ngay_cong = ngay_cong.values[0]
+            tong_luong_co_ban = luong_co_ban*ngay_cong/28
             for location in vn_locations:
-                tong_luong_co_ban = ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Tổng lương cơ bản"]*data_luong["Ngày công"]/28
                 ti_le_luong = ref_luong[ref_luong["notion id"] == notion_id_nhan_su][location]
+                if len(ti_le_luong):
+                    ti_le_luong = ti_le_luong.values[0]
                 data_luong[f"Lương cơ bản tại {location}"] = tong_luong_co_ban*ti_le_luong
             
             # Tính chiết khấu doanh số kinh doanh
@@ -251,6 +261,14 @@ def create_doanh_so_ca_nhan():
                     data_luong[f"Chiết khấu sale phụ tại {location}"] = data_luong[f"Chiết khấu sale phụ tại {location}"] + data_don_thu_no[(data_don_thu_no["id sale phụ"] == notion_id_nhan_su) & (data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum()
                     data_luong[f"Đơn 1 bác sĩ tại {location}"] = data_luong[f"Đơn 1 bác sĩ tại {location}"] + data_don_thu_no[(data_don_thu_no["id bác sĩ 1"] == notion_id_nhan_su) & (data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum()
                     data_luong[f"Đơn 2 bác sĩ tại {location}"] = data_luong[f"Đơn 2 bác sĩ tại {location}"] + data_don_thu_no[(data_don_thu_no["id bác sĩ 2"] == notion_id_nhan_su) & (data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum()       
+            # Ứng lương
+                data_ung_luong = get_data_chi_tieu("", ["ALL"])
+                data_ung_luong = filter_date(data_ung_luong, "Ngày chi")
+                data_ung_luong = data_ung_luong[(data_ung_luong["Phân loại"] == "Ứng Lương") & (data_ung_luong["id người nhận/ứng"] == notion_id_nhan_su)]
+                if len(data_ung_luong):
+                    data_luong[f"Ứng lương tại {location}"] = -data_ung_luong[data_ung_luong["Cơ sở"] == location]["Lượng chi"].sum()
+                else:
+                    data_luong[f"Ứng lương tại {location}"] = 0
             # Thưởng
             # Phạt
             # khác 
@@ -260,7 +278,9 @@ def create_doanh_so_ca_nhan():
                 data_luong[f"Tổng lương tại {location}"] = 0
                 for col in data_luong.columns.tolist():
                     if location in col:
-                        data_luong[f"Tổng lương tại {location}"] = data_luong[f"Tổng lương tại {location}"] + data_luong[col].sum()
+                        data_luong[f"Tổng lương tại {location}"] += data_luong[col].sum()
+                        if location == co_so:
+                            data_luong[f"Tổng lương tại {location}"] += data_luong["Phụ cấp"]
             # Tổng lương
             data_luong["Tổng lương"] = 0
             for location in vn_locations:

@@ -1,6 +1,414 @@
 [
     {
         "object": "page",
+        "id": "9757fb91-ea0d-450d-9caa-d4f3e24a3055",
+        "created_time": "2024-07-17T16:43:00.000Z",
+        "last_edited_time": "2024-07-17T16:43:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "86b8b942-5e62-442c-b0c1-0a019b1b64e3"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 358
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0907084330"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-17T16:43:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Sữ Thị Thanh Tuyền",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Sữ Thị Thanh Tuyền",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/S-Th-Thanh-Tuy-n-9757fb91ea0d450d9caad4f3e24a3055",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "5c6f552e-01ba-4d67-b8d9-8a32f26061a6",
+        "created_time": "2024-07-17T16:42:00.000Z",
+        "last_edited_time": "2024-07-17T16:42:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "7e7f1d15-451e-4bfc-a3c5-dfd57cd775da"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 357
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0796355441"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-17T16:42:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Đặng Thị Ngọc Huyền",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Đặng Thị Ngọc Huyền",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/ng-Th-Ng-c-Huy-n-5c6f552e01ba4d67b8d98a32f26061a6",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "63e31def-5b72-4e7b-a10a-85fa4f9a1aef",
+        "created_time": "2024-07-17T16:40:00.000Z",
+        "last_edited_time": "2024-07-17T16:40:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "838562bd-62fa-46a9-b45f-56119f049f11"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 356
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0939702563"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-17T16:40:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Bảo Nhi",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Bảo Nhi",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-B-o-Nhi-63e31def5b724e7ba10a85fa4f9a1aef",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "bbcd83f2-585d-4ff0-a2a8-3bb2b077a894",
         "created_time": "2024-07-17T10:32:00.000Z",
         "last_edited_time": "2024-07-17T10:33:00.000Z",
@@ -5376,7 +5784,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": -3000000
+                    "number": 0
                 }
             },
             "SĐT": {
@@ -5408,7 +5816,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3000000,
+                    "number": 0,
                     "function": "sum"
                 }
             },
@@ -14257,6 +14665,9 @@
                 "relation": [
                     {
                         "id": "7148bdb2-29f5-42e3-8e57-8f4387c249c4"
+                    },
+                    {
+                        "id": "d6917358-f9fb-488a-af8e-caecfe8c3540"
                     }
                 ],
                 "has_more": false
@@ -14275,6 +14686,14 @@
                 "rollup": {
                     "type": "array",
                     "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        },
                         {
                             "type": "select",
                             "select": {

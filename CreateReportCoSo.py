@@ -77,8 +77,8 @@ def get_data_report_doanh_so(location = ""):
         groupDataThuNo = groupDataThuNo[groupDataThuNo["Cơ sở"] == location]
     query_string = f"'{start_date}' <= `Ngày thu` <= '{end_date}'"
     groupDataThuNo = groupDataThuNo.query(query_string)
-    groupDataThuNo = groupDataThuNo.groupby("Sale")[["Lượng thu"]].sum().reset_index()
-    groupDataThuNo = groupDataThuNo.rename(columns={"Sale":"Mã nhân viên", "Lượng thu":"Doanh số thu nợ"})
+    groupDataThuNo = groupDataThuNo.groupby("Sale chính")[["Lượng thu"]].sum().reset_index()
+    groupDataThuNo = groupDataThuNo.rename(columns={"Sale chính":"Mã nhân viên", "Lượng thu":"Doanh số thu nợ"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataThuNo, on='Mã nhân viên', how='outer')
     groupDataDoanhSo = groupDataDoanhSo.drop(columns=["A","B"])
     groupDataDoanhSo = groupDataDoanhSo.fillna(0)
