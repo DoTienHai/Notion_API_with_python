@@ -2800,11 +2800,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "f973382b-037a-4eb1-84bc-e9e5318184b8"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -2923,7 +2919,7 @@
                             "type": "relation",
                             "relation": [
                                 {
-                                    "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                                    "id": "f973382b-037a-4eb1-84bc-e9e5318184b8"
                                 }
                             ]
                         }

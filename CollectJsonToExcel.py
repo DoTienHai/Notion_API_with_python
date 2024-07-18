@@ -264,8 +264,18 @@ def collect_doanh_thu_he_thong():
     data_doanh_thu_he_thong = data_doanh_thu_he_thong.rename(columns={"notion id_x":"notion id"})
     data_doanh_thu_he_thong["Công phụ phẫu 1"] =  data_doanh_thu_he_thong["Công phụ phẫu 1"].apply(extract_number)
     data_doanh_thu_he_thong["Công phụ phẫu 2"] =  data_doanh_thu_he_thong["Công phụ phẫu 2"].apply(extract_number)
-    
-    # Tính tỉ lệ chiết khấu
+    # Tính tỉ lẹ chiết khấu bác sĩ 
+    for index, row in data_doanh_thu_he_thong.iterrows():
+        if pd.notna(row["Bác sĩ 2"]):
+            data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 1"] = 0.06
+            data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 2"] = 0.06
+        else:
+            data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 1"] = 0.1
+            data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 2"] = 0
+
+    data_doanh_thu_he_thong["Chiết khấu bác sĩ 1"] = data_doanh_thu_he_thong["Tỉ lệ chiết khấu bác sĩ 1"]*data_doanh_thu_he_thong["Đã thanh toán"]
+    data_doanh_thu_he_thong["Chiết khấu bác sĩ 2"] = data_doanh_thu_he_thong["Tỉ lệ chiết khấu bác sĩ 2"]*data_doanh_thu_he_thong["Đã thanh toán"]
+    # Tính tỉ lệ chiết khấu sale
     data_doanh_thu_he_thong["Tỉ lệ chiết khấu sale chính"] = 0 
     data_doanh_thu_he_thong["Tỉ lệ chiết khấu sale phụ"] = 0 
     data_doanh_thu_he_thong["Chiết khấu sale chính"] = 0 
@@ -323,10 +333,11 @@ def collect_danh_sach_thu_no(data_doanh_thu):
     data_thu_no["id đơn nợ"] = data_thu_no["id đơn nợ"].apply(extract_id)
     data_thu_no["Cơ sở"] = data_thu_no["Cơ sở"].apply(extract_select_name)
 
-    data_doanh_thu = data_doanh_thu[["notion id", "Mã dịch vụ", "Nguồn khách", "Sale chính","Đơn giá gốc", "Sale phụ", "Upsale", 
-                                    "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Đã thanh toán", 
+    data_doanh_thu = data_doanh_thu[["notion id", "Mã dịch vụ", "Khách hàng", "Nguồn khách", "Sale chính","Đơn giá gốc", "Sale phụ", "Upsale", 
+                                    "Tên dịch vụ", "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Đã thanh toán", "Đơn giá", 
                                     "Tỉ lệ chiết khấu sale chính", "Tỉ lệ chiết khấu sale phụ", "Ngày thực hiện", 
-                                    "id sale chính", "id sale phụ", "id bác sĩ 1", "id bác sĩ 2"]]
+                                    "id sale chính", "id sale phụ", "id bác sĩ 1", "id bác sĩ 2", 
+                                    "Tỉ lệ chiết khấu bác sĩ 1", "Tỉ lệ chiết khấu bác sĩ 2"]]
     data_thu_no = pd.merge(data_thu_no, data_doanh_thu, left_on="id đơn nợ", right_on="notion id", how="left")
     data_thu_no = data_thu_no.rename(columns={"Mã dịch vụ":"Đơn nợ"})
     def format_don_no(item):
@@ -345,11 +356,9 @@ def collect_danh_sach_thu_no(data_doanh_thu):
         luong_thu = row["Lượng thu"]
         don_gia_goc = row["Đơn giá gốc"]
         da_thanh_toan = row["Đã thanh toán"]
-        if pd.notna(row["Bác sĩ 1"]) and pd.isna(row["Bác sĩ 2"]):
-            data_thu_no.at[index, "Chiết khấu bác sĩ 1"] = luong_thu*0.1
-        if pd.notna(row["Bác sĩ 1"]) and pd.notna(row["Bác sĩ 2"]):
-            data_thu_no.at[index, "Chiết khấu bác sĩ 1"] = luong_thu*0.06
-            data_thu_no.at[index, "Chiết khấu bác sĩ 2"] = luong_thu*0.06    
+
+        data_thu_no.at[index, "Chiết khấu bác sĩ 1"] = row["Tỉ lệ chiết khấu bác sĩ 1"]*luong_thu
+        data_thu_no.at[index, "Chiết khấu bác sĩ 2"] = row["Tỉ lệ chiết khấu bác sĩ 2"]*luong_thu
 
         if row["Nguồn khách"] == "Cá nhân" or row["Nguồn khách"] == "Khách cửa hàng" or row["Nguồn khách"] == "Khách cũ" or row["Nguồn khách"] == "Khách cũ giới thiệu":
             if (da_thanh_toan >= don_gia_goc):

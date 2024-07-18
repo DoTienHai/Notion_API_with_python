@@ -13,7 +13,9 @@ columns = ["Tiền tố", "Mã dịch vụ", "Ngày thực hiện",
                 "Đã thanh toán", "Dư nợ", "Bác sĩ 1", "Bác sĩ 2", "Phụ phẫu 1", 
                 "Phụ phẫu 2", "Công phụ phẫu 1", "Công phụ phẫu 2", 
                 "Tỉ lệ chiết khấu sale chính", "Tỉ lệ chiết khấu sale phụ",
-                "Chiết khấu sale chính", "Chiết khấu sale phụ"]
+                "Chiết khấu sale chính", "Chiết khấu sale phụ", 
+                "Tỉ lệ chiết khấu bác sĩ 1", "Tỉ lệ chiết khấu bác sĩ 2", 
+                "Chiết khấu bác sĩ 1", "Chiết khấu bác sĩ 2"]
 
 def filter_date(data, column_name):
     # column_name is name of column datetime in dataframe
@@ -116,28 +118,37 @@ def get_don_phụ_phau_2(notion_id_nhan_su):
 
 def get_don_thu_no(notion_id_nhan_su):
     data = get_data_thu_no("", ["ALL"])
-    data = data[(data["id sale chính"] == notion_id_nhan_su) | (data["id sale phụ"] == notion_id_nhan_su) | (data["id bác sĩ 1"] == notion_id_nhan_su) | (data["id bác sĩ 2"] == notion_id_nhan_su)]
     data = filter_date(data, "Ngày thu")
     data = filter_date_don_no(data, "Ngày thực hiện")
-    # data = data[["Tiền tố", "Mã đơn thu nợ", "Đơn nợ",
-    #               "Cơ sở", "Lượng thu", "Ngày thu",
-    #               "Sale chính", "Sale phụ", "Bác sĩ 1", "Bác sĩ 2", 
-    #               "Chiết khấu sale chính", "Chiết khấu sale phụ", 
-    #               "Chiết khấu bác sĩ 1", "Chiết khấu bác sĩ 2", "Ngày thực hiện"]]
-    
-    sum_data = data.select_dtypes(include=['number']).sum()
-    sum_data["Mã đơn thu nợ"] = data["Mã đơn thu nợ"].count()  
-    total_df = pd.DataFrame(sum_data).T
-    # Thêm các cột không phải là số vào dòng tổng
-    for col in data.columns:
-        if col not in total_df.columns:
-            total_df[col] = ''  
-    # Đặt lại thứ tự các cột để khớp với DataFrame gốc
-    total_df = total_df[data.columns]
-    total_df["Tiền tố"] = "Tổng"
-    # Nối dòng tổng với DataFrame gốc
-    data = pd.concat([data, total_df])
+    data = data[(data["id sale chính"] == notion_id_nhan_su) | (data["id sale phụ"] == notion_id_nhan_su) | (data["id bác sĩ 1"] == notion_id_nhan_su) | (data["id bác sĩ 2"] == notion_id_nhan_su)]
 
+    if len(data):
+        for index, row in data.iterrows():
+            if row["id sale chính"] != notion_id_nhan_su:
+                data.at[index, "Tỉ lệ chiết khấu sale chính"] = 0
+                data.at[index, "Chiết khấu sale chính"] = 0
+            if row["id sale phụ"] != notion_id_nhan_su:
+                data.at[index, "Tỉ lệ chiết khấu sale phụ"] = 0
+                data.at[index, "Chiết khấu sale phụ"] = 0
+            if row["id bác sĩ 1"] != notion_id_nhan_su:
+                data.at[index, "Tỉ lệ chiết khấu bác sĩ 1"] = 0
+                data.at[index, "Chiết khấu bác sĩ 1"] = 0
+            if row["id bác sĩ 2"] != notion_id_nhan_su:
+                data.at[index, "Tỉ lệ chiết khấu bác sĩ 2"] = 0
+                data.at[index, "Chiết khấu bác sĩ 2"] = 0
+
+        sum_data = data.select_dtypes(include=['number']).sum()
+        sum_data["Mã đơn thu nợ"] = data["Mã đơn thu nợ"].count()  
+        total_df = pd.DataFrame(sum_data).T
+        # Thêm các cột không phải là số vào dòng tổng
+        for col in data.columns:
+            if col not in total_df.columns:
+                total_df[col] = ''  
+        # Đặt lại thứ tự các cột để khớp với DataFrame gốc
+        total_df = total_df[data.columns]
+        total_df["Tiền tố"] = "Tổng"
+        # Nối dòng tổng với DataFrame gốc
+        data = pd.concat([data, total_df])
     return data
     
 
@@ -166,37 +177,52 @@ def create_doanh_so_ca_nhan():
         ws1.title = 'Đơn sale chính'
         data_sale_chinh = get_don_sale_chinh(notion_id_nhan_su)
         if len(data_sale_chinh) > 1:
-            writeDataframeToSheet(ws1, data_sale_chinh)
+            writeDataframeToSheet(ws1, data_sale_chinh[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở", "Khách hàng", "Nguồn khách", 
+                                                        "Tên dịch vụ", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", "Đã thanh toán",
+                                                        "Tỉ lệ chiết khấu sale chính", "Chiết khấu sale chính"]])
         # Tạo sheet Đơn sale phụ
         data_sale_phu = get_don_sale_phu(notion_id_nhan_su)
         if len(data_sale_phu) > 1:
             ws2 = wb.create_sheet(title='Đơn sale phụ')
-            writeDataframeToSheet(ws2, data_sale_phu)
+            writeDataframeToSheet(ws2, data_sale_phu[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở", "Khách hàng", "Nguồn khách", 
+                                                        "Tên dịch vụ", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", "Đã thanh toán",
+                                                        "Tỉ lệ chiết khấu sale phụ", "Chiết khấu sale phụ"]])
         # Tạo sheet Đơn 1 bác sĩ 
         data_don_1_bac_si = get_don_1_bac_si(notion_id_nhan_su)
         if len(data_don_1_bac_si) > 1:
             ws3 = wb.create_sheet(title="Đơn 1 bác sĩ")
-            writeDataframeToSheet(ws3, data_don_1_bac_si)
+            writeDataframeToSheet(ws3, data_don_1_bac_si[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở", "Khách hàng", "Nguồn khách", 
+                                                        "Tên dịch vụ", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", "Đã thanh toán",
+                                                        "Tỉ lệ chiết khấu bác sĩ 1", "Chiết khấu bác sĩ 1"]])
         # Tạo sheet Đơn 2 bác sĩ
         data_don_2_bac_si = get_don_2_bac_si(notion_id_nhan_su)
         if len(data_don_2_bac_si) > 1:
             ws4 = wb.create_sheet(title="Đơn 2 bác sĩ")
-            writeDataframeToSheet(ws4, data_don_2_bac_si)
+            writeDataframeToSheet(ws4, data_don_2_bac_si[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở", "Khách hàng", "Nguồn khách", 
+                                                        "Tên dịch vụ", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", "Đã thanh toán",
+                                                        "Tỉ lệ chiết khấu bác sĩ 2", "Chiết khấu bác sĩ 2"]])
         # Tạo sheet Đơn phụ phẫu 1
         data_phu_phau_1 = get_don_phụ_phau_1(notion_id_nhan_su)
         if len(data_phu_phau_1) > 1:
             ws5 = wb.create_sheet("Đơn phụ phẫu 1")
-            writeDataframeToSheet(ws5, data_phu_phau_1)
+            writeDataframeToSheet(ws5, data_phu_phau_1[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở", "Khách hàng", "Nguồn khách", 
+                                                        "Tên dịch vụ", "Phụ phẫu 1", "Công phụ phẫu 1"]])
         # Tạo sheet Đơn phụ phẫu 2
         data_phu_phau_2 = get_don_phụ_phau_2(notion_id_nhan_su)
         if len(data_phu_phau_2) > 1:
             ws6 = wb.create_sheet("Đơn phụ phẫu 2")
-            writeDataframeToSheet(ws6, data_phu_phau_2)
+            writeDataframeToSheet(ws6, data_phu_phau_2[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở", "Khách hàng", "Nguồn khách", 
+                                                        "Tên dịch vụ", "Phụ phẫu 2", "Công phụ phẫu 2"]])
         # Tạo sheet Đơn thu nợ
         data_don_thu_no = get_don_thu_no(notion_id_nhan_su)
         if len(data_don_thu_no) > 1:
             ws7 = wb.create_sheet("Đơn thu nợ")
-            writeDataframeToSheet(ws7, data_don_thu_no)
+            writeDataframeToSheet(ws7, data_don_thu_no[["Tiền tố", "Mã đơn thu nợ", "Lượng thu", "Ngày thu", "Cơ sở", "Đơn nợ", "Tên dịch vụ", "Khách hàng", "Nguồn khách", 
+                                                        "Sale chính", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", "Đã thanh toán", "Bác sĩ 1", "Bác sĩ 2",
+                                                        "Tỉ lệ chiết khấu sale chính", "Chiết khấu sale chính", 
+                                                        "Tỉ lệ chiết khấu sale phụ", "Chiết khấu sale phụ", 
+                                                        "Tỉ lệ chiết khấu bác sĩ 1", "Chiết khấu bác sĩ 1",
+                                                        "Tỉ lệ chiết khấu bác sĩ 2", "Chiết khấu bác sĩ 2"]])
         # Tạo sheet tính lương
         if co_so != "OUTSIDE":
             ref_luong = pd.read_excel("Ref tính lương.xlsx", sheet_name="Lương cơ bản")
@@ -237,12 +263,12 @@ def create_doanh_so_ca_nhan():
                     data_luong[f"Chiết khấu sale phụ tại {location}"] = 0
             # Tính chiết khấu phẫu thuật
                 if len(data_don_1_bac_si):
-                    data_luong[f"Đơn 1 bác sĩ tại {location}"] = data_don_1_bac_si[data_don_1_bac_si["Cơ sở"] == location]["Đã thanh toán"].sum()*0.1
+                    data_luong[f"Đơn 1 bác sĩ tại {location}"] = data_don_1_bac_si[data_don_1_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 1"].sum()
                 else:
                     data_luong[f"Đơn 1 bác sĩ tại {location}"] = 0
 
                 if len(data_don_2_bac_si):
-                    data_luong[f"Đơn 2 bác sĩ tại {location}"] = data_don_2_bac_si[data_don_2_bac_si["Cơ sở"] == location]["Đã thanh toán"].sum()*0.06
+                    data_luong[f"Đơn 2 bác sĩ tại {location}"] = data_don_2_bac_si[data_don_2_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 2"].sum()
                 else:
                     data_luong[f"Đơn 2 bác sĩ tại {location}"] = 0       
             # Tính công phụ phẫu
@@ -257,10 +283,11 @@ def create_doanh_so_ca_nhan():
                     data_luong[f"Công phụ phẫu 2 tại {location}"] = 0   
             # Tính chiết khấu thu nợ
                 if len(data_don_thu_no):
-                    data_luong[f"Chiết khấu sale chính tại {location}"] = data_luong[f"Chiết khấu sale chính tại {location}"] + data_don_thu_no[(data_don_thu_no["id sale chính"] == notion_id_nhan_su) & (data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum()
-                    data_luong[f"Chiết khấu sale phụ tại {location}"] = data_luong[f"Chiết khấu sale phụ tại {location}"] + data_don_thu_no[(data_don_thu_no["id sale phụ"] == notion_id_nhan_su) & (data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum()
-                    data_luong[f"Đơn 1 bác sĩ tại {location}"] = data_luong[f"Đơn 1 bác sĩ tại {location}"] + data_don_thu_no[(data_don_thu_no["id bác sĩ 1"] == notion_id_nhan_su) & (data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum()
-                    data_luong[f"Đơn 2 bác sĩ tại {location}"] = data_luong[f"Đơn 2 bác sĩ tại {location}"] + data_don_thu_no[(data_don_thu_no["id bác sĩ 2"] == notion_id_nhan_su) & (data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum()       
+                    data_luong[f"Chiết khấu thu nợ tại {location}"] = data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum() + \
+                                                                        data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale phụ"].sum() + \
+                                                                        data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu bác sĩ 1"].sum() + \
+                                                                        data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu bác sĩ 2"].sum()
+                                                                        
             # Ứng lương
                 data_ung_luong = get_data_chi_tieu("", ["ALL"])
                 data_ung_luong = filter_date(data_ung_luong, "Ngày chi")
@@ -279,8 +306,8 @@ def create_doanh_so_ca_nhan():
                 for col in data_luong.columns.tolist():
                     if location in col:
                         data_luong[f"Tổng lương tại {location}"] += data_luong[col].sum()
-                        if location == co_so:
-                            data_luong[f"Tổng lương tại {location}"] += data_luong["Phụ cấp"]
+                if location == co_so:
+                    data_luong[f"Tổng lương tại {location}"] += data_luong["Phụ cấp"]*2
             # Tổng lương
             data_luong["Tổng lương"] = 0
             for location in vn_locations:
@@ -290,8 +317,7 @@ def create_doanh_so_ca_nhan():
             # Đặt lại tên cột
             data_luong_T.columns = data_luong.index
             data_luong_T = data_luong_T.reset_index()
-            # Đổi tên cột đầu tiên thành "Original Columns" (tùy ý)
-            data_luong_T.rename(columns={'index': 'Danh mục'}, inplace=True)
+            data_luong_T.rename(columns={'index': 'Danh mục lương'}, inplace=True)
             writeDataframeToSheet(ws8, data_luong_T)
             # print(data_luong)
 

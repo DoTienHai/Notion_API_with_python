@@ -1,6 +1,872 @@
 [
     {
         "object": "page",
+        "id": "f963053f-6c7c-4e24-89bf-308e001f42fa",
+        "created_time": "2024-07-18T11:21:00.000Z",
+        "last_edited_time": "2024-07-18T11:24:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "30eeb9f5-c324-4993-8797-3eba8662f1d0"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Upsale": {
+                "id": "%3ATu%3A",
+                "type": "number",
+                "number": null
+            },
+            "Phụ phẫu 1": {
+                "id": "%3ClbN",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Đơn giá gốc": {
+                "id": "%40nwX",
+                "type": "number",
+                "number": 1500000
+            },
+            "Khách hàng": {
+                "id": "FUP%5D",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "d5d361fd-2608-4607-9d29-d737bd5c19d1"
+                    }
+                ],
+                "has_more": false
+            },
+            "Auto mã dịch vụ": {
+                "id": "IHyS",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "HD-LUXURY",
+                    "number": 570
+                }
+            },
+            "Created time": {
+                "id": "IkOH",
+                "type": "created_time",
+                "created_time": "2024-07-18T11:21:00.000Z"
+            },
+            "Feedback": {
+                "id": "KTCZ",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Last edited by": {
+                "id": "KrgC",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Đã thanh toán": {
+                "id": "MZ%5E%7B",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1500000
+                }
+            },
+            "Cơ sở": {
+                "id": "OW%3C%5E",
+                "type": "select",
+                "select": {
+                    "id": "\\[\\o",
+                    "name": "SÓC TRĂNG",
+                    "color": "green"
+                }
+            },
+            "Bác sĩ 1": {
+                "id": "PuSA",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                    }
+                ],
+                "has_more": false
+            },
+            "Thanh toán lần đầu": {
+                "id": "QK%3Dj",
+                "type": "number",
+                "number": 1500000
+            },
+            "Đơn nợ đã thu": {
+                "id": "U_%5Ek",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Nhóm dịch vụ": {
+                "id": "%5BGOC",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                                "name": "Tiêm",
+                                "color": "orange"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%5BQ%5CS",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1500000
+                }
+            },
+            "Sale phụ": {
+                "id": "%5CsWq",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Loại hình dịch vụ": {
+                "id": "h%3D%3Bj",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c926f817-43c4-4bd6-b151-4af2f9786bea"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited time": {
+                "id": "iyIU",
+                "type": "last_edited_time",
+                "last_edited_time": "2024-07-18T11:24:00.000Z"
+            },
+            "Dư nợ": {
+                "id": "mp%3Dd",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Phụ phẫu 2": {
+                "id": "oj%3B%7C",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Bác sĩ 2": {
+                "id": "o%7Dtc",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Sale chính": {
+                "id": "pBdI",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ghi chú": {
+                "id": "p%5CH%3B",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Nguồn khách": {
+                "id": "q%7D%3E%7C",
+                "type": "select",
+                "select": {
+                    "id": "0fdf9658-8621-4392-96f5-88da96f8339f",
+                    "name": "Cá nhân",
+                    "color": "green"
+                }
+            },
+            "Trả sau": {
+                "id": "s%5Eha",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "ty%40%3F",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "number",
+                            "number": 0
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Trạng thái chăm sóc": {
+                "id": "uCuZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Tình trạng khách hàng": {
+                "id": "uenW",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Công phụ phẫu 2": {
+                "id": "vO%7BZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "number",
+                            "number": 0
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày thực hiện": {
+                "id": "yJMK",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-18",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "HD-LUXURY-570",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "HD-LUXURY-570",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/HD-LUXURY-570-f963053f6c7c4e2489bf308e001f42fa",
+        "public_url": "https://salty-handsaw-797.notion.site/HD-LUXURY-570-f963053f6c7c4e2489bf308e001f42fa"
+    },
+    {
+        "object": "page",
+        "id": "2b0cd0ec-cd1b-40c1-a91f-e4c3c881b4b1",
+        "created_time": "2024-07-18T11:19:00.000Z",
+        "last_edited_time": "2024-07-18T11:21:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "30eeb9f5-c324-4993-8797-3eba8662f1d0"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Upsale": {
+                "id": "%3ATu%3A",
+                "type": "number",
+                "number": null
+            },
+            "Phụ phẫu 1": {
+                "id": "%3ClbN",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Đơn giá gốc": {
+                "id": "%40nwX",
+                "type": "number",
+                "number": 1500000
+            },
+            "Khách hàng": {
+                "id": "FUP%5D",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "9be0c1fe-979c-4454-b2cd-b649e882e586"
+                    }
+                ],
+                "has_more": false
+            },
+            "Auto mã dịch vụ": {
+                "id": "IHyS",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "HD-LUXURY",
+                    "number": 569
+                }
+            },
+            "Created time": {
+                "id": "IkOH",
+                "type": "created_time",
+                "created_time": "2024-07-18T11:19:00.000Z"
+            },
+            "Feedback": {
+                "id": "KTCZ",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Last edited by": {
+                "id": "KrgC",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Đã thanh toán": {
+                "id": "MZ%5E%7B",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1500000
+                }
+            },
+            "Cơ sở": {
+                "id": "OW%3C%5E",
+                "type": "select",
+                "select": {
+                    "id": "\\[\\o",
+                    "name": "SÓC TRĂNG",
+                    "color": "green"
+                }
+            },
+            "Bác sĩ 1": {
+                "id": "PuSA",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                    }
+                ],
+                "has_more": false
+            },
+            "Thanh toán lần đầu": {
+                "id": "QK%3Dj",
+                "type": "number",
+                "number": 1500000
+            },
+            "Đơn nợ đã thu": {
+                "id": "U_%5Ek",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Nhóm dịch vụ": {
+                "id": "%5BGOC",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "45dab270-7660-444d-9317-bbdc06d05237",
+                                "name": "Tiêm",
+                                "color": "orange"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%5BQ%5CS",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1500000
+                }
+            },
+            "Sale phụ": {
+                "id": "%5CsWq",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Loại hình dịch vụ": {
+                "id": "h%3D%3Bj",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c926f817-43c4-4bd6-b151-4af2f9786bea"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited time": {
+                "id": "iyIU",
+                "type": "last_edited_time",
+                "last_edited_time": "2024-07-18T11:21:00.000Z"
+            },
+            "Dư nợ": {
+                "id": "mp%3Dd",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Phụ phẫu 2": {
+                "id": "oj%3B%7C",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Bác sĩ 2": {
+                "id": "o%7Dtc",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Sale chính": {
+                "id": "pBdI",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ghi chú": {
+                "id": "p%5CH%3B",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Nguồn khách": {
+                "id": "q%7D%3E%7C",
+                "type": "select",
+                "select": {
+                    "id": "0fdf9658-8621-4392-96f5-88da96f8339f",
+                    "name": "Cá nhân",
+                    "color": "green"
+                }
+            },
+            "Trả sau": {
+                "id": "s%5Eha",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "ty%40%3F",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "number",
+                            "number": 0
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Trạng thái chăm sóc": {
+                "id": "uCuZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Tình trạng khách hàng": {
+                "id": "uenW",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Công phụ phẫu 2": {
+                "id": "vO%7BZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "number",
+                            "number": 0
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày thực hiện": {
+                "id": "yJMK",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-18",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "HD-LUXURY-569",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "HD-LUXURY-569",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/HD-LUXURY-569-2b0cd0eccd1b40c1a91fe4c3c881b4b1",
+        "public_url": "https://salty-handsaw-797.notion.site/HD-LUXURY-569-2b0cd0eccd1b40c1a91fe4c3c881b4b1"
+    },
+    {
+        "object": "page",
+        "id": "31d5b47f-d352-46d5-bb80-6f871ec8551a",
+        "created_time": "2024-07-18T11:17:00.000Z",
+        "last_edited_time": "2024-07-18T11:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "30eeb9f5-c324-4993-8797-3eba8662f1d0"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Upsale": {
+                "id": "%3ATu%3A",
+                "type": "number",
+                "number": 3000000
+            },
+            "Phụ phẫu 1": {
+                "id": "%3ClbN",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "3d301dfe-6e3d-4d28-a249-1fd5fac9abd3"
+                    }
+                ],
+                "has_more": false
+            },
+            "Đơn giá gốc": {
+                "id": "%40nwX",
+                "type": "number",
+                "number": 17000000
+            },
+            "Khách hàng": {
+                "id": "FUP%5D",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "ad7d4b23-d89b-4db6-8c4a-307bcd7b8f0b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Auto mã dịch vụ": {
+                "id": "IHyS",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "HD-LUXURY",
+                    "number": 568
+                }
+            },
+            "Created time": {
+                "id": "IkOH",
+                "type": "created_time",
+                "created_time": "2024-07-18T11:17:00.000Z"
+            },
+            "Feedback": {
+                "id": "KTCZ",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Last edited by": {
+                "id": "KrgC",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Đã thanh toán": {
+                "id": "MZ%5E%7B",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 20000000
+                }
+            },
+            "Cơ sở": {
+                "id": "OW%3C%5E",
+                "type": "select",
+                "select": {
+                    "id": "\\[\\o",
+                    "name": "SÓC TRĂNG",
+                    "color": "green"
+                }
+            },
+            "Bác sĩ 1": {
+                "id": "PuSA",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "a73ea60d-3de1-4e9b-aa7b-f22fda5742bd"
+                    }
+                ],
+                "has_more": false
+            },
+            "Thanh toán lần đầu": {
+                "id": "QK%3Dj",
+                "type": "number",
+                "number": 20000000
+            },
+            "Đơn nợ đã thu": {
+                "id": "U_%5Ek",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Nhóm dịch vụ": {
+                "id": "%5BGOC",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "8147d5bb-57eb-4378-a07d-2790ea008820",
+                                "name": "Nâng mũi",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn giá": {
+                "id": "%5BQ%5CS",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 20000000
+                }
+            },
+            "Sale phụ": {
+                "id": "%5CsWq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
+                    }
+                ],
+                "has_more": false
+            },
+            "Loại hình dịch vụ": {
+                "id": "h%3D%3Bj",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "540226e3-8d3e-4d95-9152-6e75ba27997f"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited time": {
+                "id": "iyIU",
+                "type": "last_edited_time",
+                "last_edited_time": "2024-07-18T11:23:00.000Z"
+            },
+            "Dư nợ": {
+                "id": "mp%3Dd",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Phụ phẫu 2": {
+                "id": "oj%3B%7C",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Bác sĩ 2": {
+                "id": "o%7Dtc",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Sale chính": {
+                "id": "pBdI",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ghi chú": {
+                "id": "p%5CH%3B",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Nguồn khách": {
+                "id": "q%7D%3E%7C",
+                "type": "select",
+                "select": {
+                    "id": "0fdf9658-8621-4392-96f5-88da96f8339f",
+                    "name": "Cá nhân",
+                    "color": "green"
+                }
+            },
+            "Trả sau": {
+                "id": "s%5Eha",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "ty%40%3F",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "number",
+                            "number": 100000
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Trạng thái chăm sóc": {
+                "id": "uCuZ",
+                "type": "multi_select",
+                "multi_select": []
+            },
+            "Tình trạng khách hàng": {
+                "id": "uenW",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Công phụ phẫu 2": {
+                "id": "vO%7BZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "number",
+                            "number": 50000
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày thực hiện": {
+                "id": "yJMK",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-18",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Mã dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "HD-LUXURY-568",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "HD-LUXURY-568",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/HD-LUXURY-568-31d5b47fd35246d5bb806f871ec8551a",
+        "public_url": "https://salty-handsaw-797.notion.site/HD-LUXURY-568-31d5b47fd35246d5bb806f871ec8551a"
+    },
+    {
+        "object": "page",
         "id": "d6917358-f9fb-488a-af8e-caecfe8c3540",
         "created_time": "2024-07-17T16:45:00.000Z",
         "last_edited_time": "2024-07-17T17:02:00.000Z",
@@ -289,14 +1155,14 @@
         "object": "page",
         "id": "86b8b942-5e62-442c-b0c1-0a019b1b64e3",
         "created_time": "2024-07-17T16:43:00.000Z",
-        "last_edited_time": "2024-07-17T16:44:00.000Z",
+        "last_edited_time": "2024-07-18T08:34:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -360,7 +1226,7 @@
                 "type": "last_edited_by",
                 "last_edited_by": {
                     "object": "user",
-                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                    "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
                 }
             },
             "Đã thanh toán": {
@@ -446,7 +1312,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-17T16:44:00.000Z"
+                "last_edited_time": "2024-07-18T08:34:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -1155,14 +2021,14 @@
         "object": "page",
         "id": "e738312c-8540-454f-9984-e68ae7797f22",
         "created_time": "2024-07-17T10:32:00.000Z",
-        "last_edited_time": "2024-07-17T10:33:00.000Z",
+        "last_edited_time": "2024-07-17T17:47:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -1222,7 +2088,7 @@
                 "type": "last_edited_by",
                 "last_edited_by": {
                     "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                    "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
                 }
             },
             "Đã thanh toán": {
@@ -1230,7 +2096,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 1600000
                 }
             },
             "Cơ sở": {
@@ -1255,7 +2121,7 @@
             "Thanh toán lần đầu": {
                 "id": "QK%3Dj",
                 "type": "number",
-                "number": null
+                "number": 1600000
             },
             "Đơn nợ đã thu": {
                 "id": "U_%5Ek",
@@ -1308,14 +2174,14 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-17T10:33:00.000Z"
+                "last_edited_time": "2024-07-17T17:47:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 1600000
+                    "number": 0
                 }
             },
             "Phụ phẫu 2": {
@@ -1727,7 +2593,7 @@
         "object": "page",
         "id": "ff719add-5de4-4d2e-8783-f5388f9e105d",
         "created_time": "2024-07-16T12:05:00.000Z",
-        "last_edited_time": "2024-07-16T12:06:00.000Z",
+        "last_edited_time": "2024-07-18T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
@@ -1884,7 +2750,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-16T12:06:00.000Z"
+                "last_edited_time": "2024-07-18T08:26:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -1919,7 +2785,25 @@
             "Ghi chú": {
                 "id": "p%5CH%3B",
                 "type": "rich_text",
-                "rich_text": []
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "23/7 tt nợ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "23/7 tt nợ",
+                        "href": null
+                    }
+                ]
             },
             "Nguồn khách": {
                 "id": "q%7D%3E%7C",
@@ -2017,7 +2901,7 @@
         "object": "page",
         "id": "3a9aa1a1-b78a-4ddd-be4e-c735973ebbda",
         "created_time": "2024-07-16T12:03:00.000Z",
-        "last_edited_time": "2024-07-17T02:08:00.000Z",
+        "last_edited_time": "2024-07-18T08:26:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
@@ -2174,7 +3058,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-17T02:08:00.000Z"
+                "last_edited_time": "2024-07-18T08:26:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -2209,7 +3093,25 @@
             "Ghi chú": {
                 "id": "p%5CH%3B",
                 "type": "rich_text",
-                "rich_text": []
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "23/7 tt nợ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "23/7 tt nợ",
+                        "href": null
+                    }
+                ]
             },
             "Nguồn khách": {
                 "id": "q%7D%3E%7C",
@@ -2307,7 +3209,7 @@
         "object": "page",
         "id": "6159251b-acf5-45ac-8868-656b2cfceca0",
         "created_time": "2024-07-16T12:00:00.000Z",
-        "last_edited_time": "2024-07-16T12:03:00.000Z",
+        "last_edited_time": "2024-07-18T08:32:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
@@ -2464,7 +3366,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-16T12:03:00.000Z"
+                "last_edited_time": "2024-07-18T08:32:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -2499,7 +3401,25 @@
             "Ghi chú": {
                 "id": "p%5CH%3B",
                 "type": "rich_text",
-                "rich_text": []
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "26/7 tt nợ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "26/7 tt nợ",
+                        "href": null
+                    }
+                ]
             },
             "Nguồn khách": {
                 "id": "q%7D%3E%7C",
@@ -7434,7 +8354,7 @@
         "object": "page",
         "id": "1eb7ca14-3355-4d85-9d80-5f88799f1199",
         "created_time": "2024-07-12T03:20:00.000Z",
-        "last_edited_time": "2024-07-12T03:23:00.000Z",
+        "last_edited_time": "2024-07-18T08:33:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
@@ -7595,7 +8515,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-12T03:23:00.000Z"
+                "last_edited_time": "2024-07-18T08:33:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -7630,7 +8550,25 @@
             "Ghi chú": {
                 "id": "p%5CH%3B",
                 "type": "rich_text",
-                "rich_text": []
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Góp ngày 11 hàng tháng , 3tr/th",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Góp ngày 11 hàng tháng , 3tr/th",
+                        "href": null
+                    }
+                ]
             },
             "Nguồn khách": {
                 "id": "q%7D%3E%7C",
@@ -15876,253 +16814,6 @@
     },
     {
         "object": "page",
-        "id": "42274a70-dc4a-4d09-9eea-5e344685bace",
-        "created_time": "2024-07-01T03:45:00.000Z",
-        "last_edited_time": "2024-07-01T12:21:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "85a8e718-2ea3-4771-9ad9-089063cef0bd"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "30eeb9f5-c324-4993-8797-3eba8662f1d0"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Upsale": {
-                "id": "%3ATu%3A",
-                "type": "number",
-                "number": null
-            },
-            "Phụ phẫu 1": {
-                "id": "%3ClbN",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Đơn giá gốc": {
-                "id": "%40nwX",
-                "type": "number",
-                "number": null
-            },
-            "Khách hàng": {
-                "id": "FUP%5D",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Auto mã dịch vụ": {
-                "id": "IHyS",
-                "type": "unique_id",
-                "unique_id": {
-                    "prefix": "HD-LUXURY",
-                    "number": 505
-                }
-            },
-            "Created time": {
-                "id": "IkOH",
-                "type": "created_time",
-                "created_time": "2024-07-01T03:45:00.000Z"
-            },
-            "Feedback": {
-                "id": "KTCZ",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Last edited by": {
-                "id": "KrgC",
-                "type": "last_edited_by",
-                "last_edited_by": {
-                    "object": "user",
-                    "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-                }
-            },
-            "Đã thanh toán": {
-                "id": "MZ%5E%7B",
-                "type": "formula",
-                "formula": {
-                    "type": "number",
-                    "number": 0
-                }
-            },
-            "Cơ sở": {
-                "id": "OW%3C%5E",
-                "type": "select",
-                "select": {
-                    "id": "\\[\\o",
-                    "name": "SÓC TRĂNG",
-                    "color": "green"
-                }
-            },
-            "Bác sĩ 1": {
-                "id": "PuSA",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Thanh toán lần đầu": {
-                "id": "QK%3Dj",
-                "type": "number",
-                "number": null
-            },
-            "Đơn nợ đã thu": {
-                "id": "U_%5Ek",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Nhóm dịch vụ": {
-                "id": "%5BGOC",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [],
-                    "function": "show_original"
-                }
-            },
-            "Đơn giá": {
-                "id": "%5BQ%5CS",
-                "type": "formula",
-                "formula": {
-                    "type": "number",
-                    "number": 0
-                }
-            },
-            "Sale phụ": {
-                "id": "%5CsWq",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Loại hình dịch vụ": {
-                "id": "h%3D%3Bj",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Last edited time": {
-                "id": "iyIU",
-                "type": "last_edited_time",
-                "last_edited_time": "2024-07-01T12:21:00.000Z"
-            },
-            "Dư nợ": {
-                "id": "mp%3Dd",
-                "type": "formula",
-                "formula": {
-                    "type": "number",
-                    "number": 0
-                }
-            },
-            "Phụ phẫu 2": {
-                "id": "oj%3B%7C",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Bác sĩ 2": {
-                "id": "o%7Dtc",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Sale chính": {
-                "id": "pBdI",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Ghi chú": {
-                "id": "p%5CH%3B",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Nguồn khách": {
-                "id": "q%7D%3E%7C",
-                "type": "select",
-                "select": null
-            },
-            "Trả sau": {
-                "id": "s%5Eha",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "ty%40%3F",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [],
-                    "function": "show_original"
-                }
-            },
-            "Trạng thái chăm sóc": {
-                "id": "uCuZ",
-                "type": "multi_select",
-                "multi_select": []
-            },
-            "Tình trạng khách hàng": {
-                "id": "uenW",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Công phụ phẫu 2": {
-                "id": "vO%7BZ",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [],
-                    "function": "show_original"
-                }
-            },
-            "Ngày thực hiện": {
-                "id": "yJMK",
-                "type": "date",
-                "date": {
-                    "start": "2024-07-01",
-                    "end": null,
-                    "time_zone": null
-                }
-            },
-            "Mã dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "HD-LUXURY-505",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "HD-LUXURY-505",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/HD-LUXURY-505-42274a70dc4a4d099eea5e344685bace",
-        "public_url": "https://salty-handsaw-797.notion.site/HD-LUXURY-505-42274a70dc4a4d099eea5e344685bace"
-    },
-    {
-        "object": "page",
         "id": "e6c4c0f6-7129-4e93-b382-61eb152f11f3",
         "created_time": "2024-06-30T14:55:00.000Z",
         "last_edited_time": "2024-06-30T14:56:00.000Z",
@@ -16415,7 +17106,7 @@
         "object": "page",
         "id": "7fd92044-b934-43de-9646-21004f1e6711",
         "created_time": "2024-06-30T14:50:00.000Z",
-        "last_edited_time": "2024-06-30T15:19:00.000Z",
+        "last_edited_time": "2024-07-18T13:56:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
@@ -16556,11 +17247,7 @@
             "Sale phụ": {
                 "id": "%5CsWq",
                 "type": "relation",
-                "relation": [
-                    {
-                        "id": "f973382b-037a-4eb1-84bc-e9e5318184b8"
-                    }
-                ],
+                "relation": [],
                 "has_more": false
             },
             "Loại hình dịch vụ": {
@@ -16576,7 +17263,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-06-30T15:19:00.000Z"
+                "last_edited_time": "2024-07-18T13:56:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -16603,7 +17290,7 @@
                 "type": "relation",
                 "relation": [
                     {
-                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                        "id": "f973382b-037a-4eb1-84bc-e9e5318184b8"
                     }
                 ],
                 "has_more": false
@@ -16617,9 +17304,9 @@
                 "id": "q%7D%3E%7C",
                 "type": "select",
                 "select": {
-                    "id": "0fdf9658-8621-4392-96f5-88da96f8339f",
-                    "name": "Cá nhân",
-                    "color": "green"
+                    "id": "8f9fdf83-103a-491d-9363-debab51e414b",
+                    "name": "Khách cũ",
+                    "color": "blue"
                 }
             },
             "Trả sau": {

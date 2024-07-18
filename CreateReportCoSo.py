@@ -13,7 +13,7 @@ def get_data_chi_tiet_doanh_thu(location = ""):
     data = data[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở","Tên dịch vụ", "Khách hàng",
                  "Nguồn khách", "Sale chính", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", 
                  "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Trả sau", "Đã thanh toán", 
-                 "Dư nợ", "Phụ phẫu 1", "Phụ phẫu 2"]]
+                 "Dư nợ", "Phụ phẫu 1", "Phụ phẫu 2", "Công phụ phẫu 1", "Công phụ phẫu 2"]]
     data = filter_date(data, "Ngày thực hiện")
     data = add_total_row(data)
     return data
@@ -35,24 +35,24 @@ def get_data_report_doanh_so(location = ""):
     groupDataDoanhSo = pd.DataFrame(columns=["Mã nhân viên"])
     # Group data Sale chính
     groupDataSaleChinh = data.groupby("Sale chính")[["Đơn giá gốc"]].sum().reset_index()
-    groupDataSaleChinh = groupDataSaleChinh.rename(columns={"Sale chính":"Mã nhân viên", "Đơn giá gốc":"Doanh số sale chính"})
+    groupDataSaleChinh = groupDataSaleChinh.rename(columns={"Sale chính":"Mã nhân viên", "Đơn giá gốc":"Tổng đơn giá sale vòng 1"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataSaleChinh, on='Mã nhân viên', how='outer')
     # Group data Sale phụ
     groupDataSalePhu = data.groupby("Sale phụ")[["Upsale"]].sum().reset_index()
-    groupDataSalePhu = groupDataSalePhu.rename(columns={"Sale phụ":"Mã nhân viên", "Upsale":"Doanh số upsale"})
+    groupDataSalePhu = groupDataSalePhu.rename(columns={"Sale phụ":"Mã nhân viên", "Upsale":"Tổng đơn giá vòng upsale"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataSalePhu, on='Mã nhân viên', how='outer')
     # Group data 1 bác sĩ
     groupData1BacSi = data[data["id bác sĩ 2"].isnull()]
-    groupData1BacSi = groupData1BacSi.groupby("Bác sĩ 1")[["Đơn giá"]].sum().reset_index()
-    groupData1BacSi = groupData1BacSi.rename(columns={"Bác sĩ 1":"Mã nhân viên", "Đơn giá":"Doanh số đơn 1 bác sĩ"})
+    groupData1BacSi = groupData1BacSi.groupby("Bác sĩ 1")[["Đã thanh toán"]].sum().reset_index()
+    groupData1BacSi = groupData1BacSi.rename(columns={"Bác sĩ 1":"Mã nhân viên", "Đã thanh toán":"Doanh số đơn 1 bác sĩ"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupData1BacSi, on='Mã nhân viên', how='outer')
     # Group data 2 bác sĩ
     temp = data[~data["id bác sĩ 2"].isnull()]
-    groupData2BacSi = temp.groupby("Bác sĩ 1")[["Đơn giá"]].sum().reset_index()
-    groupData2BacSi = groupData2BacSi.rename(columns={"Bác sĩ 1":"Mã nhân viên", "Đơn giá":"A"})
+    groupData2BacSi = temp.groupby("Bác sĩ 1")[["Đã thanh toán"]].sum().reset_index()
+    groupData2BacSi = groupData2BacSi.rename(columns={"Bác sĩ 1":"Mã nhân viên", "Đã thanh toán":"A"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupData2BacSi, on='Mã nhân viên', how='outer')
-    groupData2BacSi = temp.groupby("Bác sĩ 2")[["Đơn giá"]].sum().reset_index()
-    groupData2BacSi = groupData2BacSi.rename(columns={"Bác sĩ 2":"Mã nhân viên", "Đơn giá":"B"})
+    groupData2BacSi = temp.groupby("Bác sĩ 2")[["Đã thanh toán"]].sum().reset_index()
+    groupData2BacSi = groupData2BacSi.rename(columns={"Bác sĩ 2":"Mã nhân viên", "Đã thanh toán":"B"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupData2BacSi, on='Mã nhân viên', how='outer')
     groupDataDoanhSo["Doanh số đơn 2 bác sĩ"] = groupDataDoanhSo["A"] + groupDataDoanhSo["B"]
     # group data phụ phẫu 1
