@@ -31,21 +31,21 @@ if __name__ == "__main__":
         processes.append(process3)
         processes.append(process4)
         
-        # hour = datetime.now().hour
-        # if hour == 0:
-        #     process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
-        #     process6 = multiprocessing.Process(target=create_report_co_so)
-        #     process7 = multiprocessing.Process(target=create_all_report_khach_hang)            
-        #     processes.append(process5)
-        #     processes.append(process6)
-        #     processes.append(process7)
+        hour = datetime.now().hour
+        if hour == 0:
+            process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
+            process6 = multiprocessing.Process(target=create_report_co_so)
+            process7 = multiprocessing.Process(target=create_all_report_khach_hang)            
+            processes.append(process5)
+            processes.append(process6)
+            processes.append(process7)
 
-        process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
-        process6 = multiprocessing.Process(target=create_report_co_so)
-        process7 = multiprocessing.Process(target=create_all_report_khach_hang)            
-        processes.append(process5)
-        processes.append(process6)
-        processes.append(process7)
+        # process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
+        # process6 = multiprocessing.Process(target=create_report_co_so)
+        # process7 = multiprocessing.Process(target=create_all_report_khach_hang)            
+        # processes.append(process5)
+        # processes.append(process6)
+        # processes.append(process7)
         for i in range(len(vn_locations)):
             process_ngay = multiprocessing.Process(target=update_luy_ke_theo_ngay, args=(vn_locations[i],))
             process_thang = multiprocessing.Process(target=update_luy_ke_theo_thang, args=(vn_locations[i],))
