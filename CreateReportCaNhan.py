@@ -158,7 +158,7 @@ def create_tong_hop_luong_co_so():
         list_of_report_ca_nhan_path = []
         for root, dir, files in os.walk(folder_path):
             for file in files:
-                if file.endswith(".xlsx"):
+                if file.endswith(".xlsx") and ("Tổng hợp lương nhân viên" not in file):
                     list_of_report_ca_nhan_path.append(os.path.join(root, file))
 
         cols = ["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}"]
@@ -193,7 +193,7 @@ def create_tong_hop_luong_co_so():
         data = pd.concat([data, df_row_data])
             
         # Kiểm tra xem file Excel đã tồn tại hay chưa
-        excel_file_path = os.path.join(report_ca_nhan_folder, location, f"Tổng hợp lương nhân viên tại {location}.xlsx")
+        excel_file_path = os.path.join(report_ca_nhan_folder, location, f"Tổng hợp lương nhân viên tại {location} {file_name_part[-1]}.xlsx")
         if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
             try:
@@ -395,7 +395,7 @@ def create_doanh_so_ca_nhan():
             print(f"Lỗi khi tạo file Excel mới: {e}")
 
     # Tổng hợp lương của cơ sở
-
+    create_tong_hop_luong_co_so()
 
 # create_doanh_so_ca_nhan()
-create_tong_hop_luong_co_so()
+# create_tong_hop_luong_co_so()

@@ -18,9 +18,9 @@ def fetch_data():
 if __name__ == "__main__":
     while(1):
         start_time = time.time()
-        # process1 = multiprocessing.Process(target=fetch_data)
-        # process1.start()
-        # process1.join()
+        process1 = multiprocessing.Process(target=fetch_data)
+        process1.start()
+        process1.join()
         print(f"Cập nhật toàn bộ data {(time.time() - start_time):.6f} giây\n")
         
         processes = []

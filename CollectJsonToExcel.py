@@ -272,6 +272,12 @@ def collect_doanh_thu_he_thong():
         else:
             data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 1"] = 0.1
             data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 2"] = 0
+            # Tỉ lệ chiết khấu đơn 1 bác sĩ của NV-5 Nguyễn Hoàng Yến Quyên 75046948-a198-4627-89b3-3bbf5967526b
+            if (row["id bác sĩ 1"] == "75046948-a198-4627-89b3-3bbf5967526b"):
+                if (row["Nhóm dịch vụ"] == "Tiêm") or (row["Nhóm dịch vụ"] == "Tiểu phẫu"):
+                    data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 1"] = 0.08
+
+
 
     data_doanh_thu_he_thong["Chiết khấu bác sĩ 1"] = data_doanh_thu_he_thong["Tỉ lệ chiết khấu bác sĩ 1"]*data_doanh_thu_he_thong["Đã thanh toán"]
     data_doanh_thu_he_thong["Chiết khấu bác sĩ 2"] = data_doanh_thu_he_thong["Tỉ lệ chiết khấu bác sĩ 2"]*data_doanh_thu_he_thong["Đã thanh toán"]
@@ -283,6 +289,10 @@ def collect_doanh_thu_he_thong():
     for index, row in data_doanh_thu_he_thong.iterrows():
         if row["Nguồn khách"] == "Cá nhân":
             ti_le_chieu_khau = calculate_ti_le_chiet_khau(row["Nhóm dịch vụ"], row["Đơn giá"])
+            # Tỉ lệ chiết khấu trường hợp Lê Đình Hâu NV-10 c463b1a9-4fb2-4258-87a7-44193ba02405
+            if (row["id sale chính"] == "c463b1a9-4fb2-4258-87a7-44193ba02405") and ((row["Cơ sở"] == "CẦN THƠ") or (row["Cơ sở"] == "LONG XUYÊN")):
+                ti_le_chieu_khau = 0.15
+            
             data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale chính"] = ti_le_chieu_khau
             if pd.notna(row["Sale phụ"]):
                 data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale phụ"] = 0.04
@@ -299,7 +309,9 @@ def collect_doanh_thu_he_thong():
             data_doanh_thu_he_thong.at[index, "Tỉ lệ chiết khấu sale chính"] = 0.04
             if pd.notna(row["Sale phụ"]):
                 data_doanh_thu_he_thong.at[index, "Tỉ lệ chiết khấu sale phụ"] = 0.02
-    
+
+
+
     # Tính chiết khấu
     for index, row in data_doanh_thu_he_thong.iterrows():
         don_gia_goc = row["Đơn giá gốc"]
@@ -317,6 +329,9 @@ def collect_doanh_thu_he_thong():
             elif row["Nguồn khách"] == "Page":
                 pass
 
+
+
+    
     return data_doanh_thu_he_thong.sort_values("Mã dịch vụ")
 
 
