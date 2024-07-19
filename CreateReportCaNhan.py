@@ -152,6 +152,71 @@ def get_don_thu_no(notion_id_nhan_su):
     return data
     
 
+def create_tong_hop_luong_co_so():
+    for location in vn_locations:
+        folder_path = os.path.join(report_ca_nhan_folder, location)
+        list_of_report_ca_nhan_path = []
+        for root, dir, files in os.walk(folder_path):
+            for file in files:
+                if file.endswith(".xlsx"):
+                    list_of_report_ca_nhan_path.append(os.path.join(root, file))
+
+        cols = ["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}"]
+        data = pd.DataFrame()
+        for report_ca_nhan_path in list_of_report_ca_nhan_path:
+            file_name = report_ca_nhan_path.split("\\")[-1]
+            file_name_part = file_name.split(" ")
+            ma_nhan_vien = file_name_part[0]
+            ten_nhan_vien = ' '.join(file_name_part[1:-1])
+            data_luong = pd.read_excel(report_ca_nhan_path, sheet_name="Lương")
+            tong_luong_tai_co_so = data_luong.set_index("Danh mục lương").transpose()[f"Tổng lương tại {location}"]
+            if len(tong_luong_tai_co_so):
+                tong_luong_tai_co_so = tong_luong_tai_co_so.values[0]
+            else:
+                tong_luong_tai_co_so = 0
+            # print(tong_luong_tai_co_so)
+            row_data = {
+                "Mã nhân viên" : [ma_nhan_vien], 
+                "Tên nhân viên" : [ten_nhan_vien], 
+                f"Tổng lương tại {location}" : [tong_luong_tai_co_so]
+            }
+            df_row_data = pd.DataFrame(row_data, columns=cols)
+            data = pd.concat([data, df_row_data])
+        
+        Tong_luong = data[f"Tổng lương tại {location}"].sum()
+        row_data = {
+            "Mã nhân viên" : "Tổng lương", 
+            "Tên nhân viên" : [""], 
+            f"Tổng lương tại {location}" : [Tong_luong]
+        }
+        df_row_data = pd.DataFrame(row_data, columns=cols)
+        data = pd.concat([data, df_row_data])
+            
+        # Kiểm tra xem file Excel đã tồn tại hay chưa
+        excel_file_path = os.path.join(report_ca_nhan_folder, location, f"Tổng hợp lương nhân viên tại {location}.xlsx")
+        if os.path.exists(excel_file_path):
+            # Nếu đã tồn tại, xóa file cũ đi
+            try:
+                os.remove(excel_file_path)
+                print(f"Đã xóa file Excel cũ '{excel_file_path}'")
+            except Exception as e:
+                print(f"Lỗi khi xóa file Excel cũ: {e}")
+        # Tạo workbook mới
+        wb = Workbook()
+        # Tạo sheet Đơn sale chính
+        ws1 = wb.active
+        ws1.title = 'Tổng hợp lương'
+        if len(data) > 1:
+            writeDataframeToSheet(ws1, data)
+
+        # Lưu workbook vào file Excel
+        try:
+            wb.save(excel_file_path)
+            print(f"Đã tạo file Excel mới '{excel_file_path}' thành công")
+        except Exception as e:
+            print(f"Lỗi khi tạo file Excel mới: {e}")
+ 
+
 def create_doanh_so_ca_nhan():
     danh_sach_nhan_su = get_ho_so_nhan_su("",["ALL"])
     for index_row in range(len(danh_sach_nhan_su)):
@@ -161,7 +226,7 @@ def create_doanh_so_ca_nhan():
         ma_nhan_vien = f"{row["Tiền tố"]}-{row["Mã nhân viên"]}"
         co_so = row["Cơ sở"]
         # Kiểm tra xem file Excel đã tồn tại hay chưa
-        excel_file_path = os.path.join(report_ca_nhan_folder, f"{ma_nhan_vien} {ho_va_ten} {month}-{year}.xlsx")
+        excel_file_path = os.path.join(report_ca_nhan_folder, co_so,f"{ma_nhan_vien} {ho_va_ten} {month}-{year}.xlsx")
         if os.path.exists(excel_file_path):
             # Nếu đã tồn tại, xóa file cũ đi
             try:
@@ -329,4 +394,8 @@ def create_doanh_so_ca_nhan():
         except Exception as e:
             print(f"Lỗi khi tạo file Excel mới: {e}")
 
+    # Tổng hợp lương của cơ sở
+
+
 # create_doanh_so_ca_nhan()
+create_tong_hop_luong_co_so()
