@@ -32527,7 +32527,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": -9000000
+                    "number": 0
                 }
             },
             "SĐT": {
@@ -32559,7 +32559,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 9000000,
+                    "number": 0,
                     "function": "sum"
                 }
             },

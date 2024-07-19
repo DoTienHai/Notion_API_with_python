@@ -12833,7 +12833,7 @@
         "object": "page",
         "id": "1260266f-900f-4307-a3f4-98ae5f2b10de",
         "created_time": "2024-07-06T15:58:00.000Z",
-        "last_edited_time": "2024-07-06T16:00:00.000Z",
+        "last_edited_time": "2024-07-19T11:52:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
@@ -12927,7 +12927,11 @@
             "Bác sĩ 1": {
                 "id": "PuSA",
                 "type": "relation",
-                "relation": [],
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
                 "has_more": false
             },
             "Thanh toán lần đầu": {
@@ -12986,7 +12990,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-06T16:00:00.000Z"
+                "last_edited_time": "2024-07-19T11:52:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -13405,7 +13409,7 @@
         "object": "page",
         "id": "dd939abc-3300-44a1-878a-a273407adb8a",
         "created_time": "2024-07-06T15:52:00.000Z",
-        "last_edited_time": "2024-07-06T15:57:00.000Z",
+        "last_edited_time": "2024-07-19T11:54:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
@@ -13499,7 +13503,11 @@
             "Bác sĩ 1": {
                 "id": "PuSA",
                 "type": "relation",
-                "relation": [],
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
                 "has_more": false
             },
             "Thanh toán lần đầu": {
@@ -13558,7 +13566,7 @@
             "Last edited time": {
                 "id": "iyIU",
                 "type": "last_edited_time",
-                "last_edited_time": "2024-07-06T15:57:00.000Z"
+                "last_edited_time": "2024-07-19T11:54:00.000Z"
             },
             "Dư nợ": {
                 "id": "mp%3Dd",
@@ -89371,7 +89379,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 21000000
+                    "number": 30000000
                 }
             },
             "Cơ sở": {
@@ -89410,6 +89418,9 @@
                     },
                     {
                         "id": "862cb20b-6bc0-44dc-9c77-2530c9289295"
+                    },
+                    {
+                        "id": "655f8527-ff0f-4199-939b-069f4579cdf5"
                     }
                 ],
                 "has_more": false
@@ -89466,7 +89477,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 9000000
+                    "number": 0
                 }
             },
             "Phụ phẫu 2": {
@@ -89510,7 +89521,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 18000000,
+                    "number": 27000000,
                     "function": "sum"
                 }
             },
