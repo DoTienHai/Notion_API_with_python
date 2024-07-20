@@ -398,4 +398,4 @@ def create_doanh_so_ca_nhan():
     create_tong_hop_luong_co_so()
 
 # create_doanh_so_ca_nhan()
-create_tong_hop_luong_co_so()
+# create_tong_hop_luong_co_so()
