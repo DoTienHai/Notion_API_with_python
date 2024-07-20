@@ -31,6 +31,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -40,6 +45,11 @@
                 "id": "Mb%3CL",
                 "type": "select",
                 "select": null
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -137,6 +147,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -154,6 +169,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -277,6 +297,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -294,6 +319,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -403,6 +433,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -420,6 +455,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -525,6 +565,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -542,6 +587,11 @@
                     "name": "Remote",
                     "color": "orange"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -661,6 +711,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -678,6 +733,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -783,6 +843,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -796,6 +861,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -893,6 +963,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -910,6 +985,11 @@
                     "name": "Remote",
                     "color": "orange"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1007,6 +1087,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1024,6 +1109,11 @@
                     "name": "Remote",
                     "color": "orange"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1147,6 +1237,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1164,6 +1259,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1287,6 +1387,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1304,6 +1409,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1409,6 +1519,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1426,6 +1541,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1549,6 +1669,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1566,6 +1691,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1689,6 +1819,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1706,6 +1841,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1829,6 +1969,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1846,6 +1991,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1951,6 +2101,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -1968,6 +2123,11 @@
                     "name": "Remote",
                     "color": "orange"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2087,6 +2247,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -2104,6 +2269,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2227,6 +2397,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -2244,6 +2419,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2367,6 +2547,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -2384,6 +2569,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2507,6 +2697,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -2524,6 +2719,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2629,6 +2829,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -2646,6 +2851,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2751,6 +2961,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -2768,6 +2983,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2873,6 +3093,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -2890,6 +3115,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3017,6 +3247,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -3034,6 +3269,11 @@
                     "name": "Onsite",
                     "color": "green"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3139,6 +3379,11 @@
                 "type": "rich_text",
                 "rich_text": []
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -3156,6 +3401,11 @@
                     "name": "Remote",
                     "color": "orange"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3229,7 +3479,7 @@
         "object": "page",
         "id": "7355dc08-dad8-4f32-a691-2cbf92f70ca5",
         "created_time": "2024-05-08T05:30:00.000Z",
-        "last_edited_time": "2024-07-08T15:21:00.000Z",
+        "last_edited_time": "2024-07-19T13:28:00.000Z",
         "created_by": {
             "object": "user",
             "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
@@ -3279,6 +3529,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -3296,6 +3551,11 @@
                     "name": "Remote",
                     "color": "orange"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3373,7 +3633,7 @@
         "object": "page",
         "id": "bdc3e2cc-c23d-4849-9b9b-ae1443a4cfca",
         "created_time": "2024-05-08T05:30:00.000Z",
-        "last_edited_time": "2024-07-08T15:21:00.000Z",
+        "last_edited_time": "2024-07-19T13:28:00.000Z",
         "created_by": {
             "object": "user",
             "id": "6c64fa83-34dd-4a87-b43b-29aaf5806800"
@@ -3423,6 +3683,11 @@
                     }
                 ]
             },
+            "Tỉ lệ đạt KPI": {
+                "id": "%3Enmt",
+                "type": "number",
+                "number": null
+            },
             "Chức vụ": {
                 "id": "LgyH",
                 "type": "select",
@@ -3440,6 +3705,11 @@
                     "name": "Remote",
                     "color": "orange"
                 }
+            },
+            "KPI": {
+                "id": "O%5BJN",
+                "type": "number",
+                "number": null
             },
             "Phân cấp": {
                 "id": "OaR_",

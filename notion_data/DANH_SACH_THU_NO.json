@@ -1,6 +1,370 @@
 [
     {
         "object": "page",
+        "id": "ba6867f9-3c39-4a3e-8f1b-72ae0bb316ba",
+        "created_time": "2024-07-20T12:27:00.000Z",
+        "last_edited_time": "2024-07-20T12:27:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "34df6c27-358c-4872-9e6a-f38f304a4a8f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Sale phụ": {
+                "id": "%3FM%5E%5E",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày thu": {
+                "id": "%40%60%5Bk",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-20",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Cơ sở": {
+                "id": "I%5DG~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Bác sĩ 1": {
+                "id": "I%7B%5Dt",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn nợ": {
+                "id": "N%40jJ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "0024375d-9fe7-4c17-837d-17e9ef52fabc"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "Rl%7Cd",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Gen mã đơn": {
+                "id": "XOve",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TN",
+                    "number": 160
+                }
+            },
+            "Ngày thực hiện": {
+                "id": "YeX%40",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "date",
+                            "date": {
+                                "start": "2023-11-07",
+                                "end": null,
+                                "time_zone": null
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Khách nợ": {
+                "id": "%5ChEA",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Sale chính": {
+                "id": "gwFn",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Lượng thu": {
+                "id": "oFII",
+                "type": "number",
+                "number": 1000000
+            },
+            "Người thu": {
+                "id": "oH%3FZ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                    }
+                ],
+                "has_more": false
+            },
+            "Bác sĩ 2": {
+                "id": "rC~P",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "dịch vụ": {
+                "id": "uQgV",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Mã đơn": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "TN-160",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "TN-160",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/TN-160-ba6867f93c394a3e8f1b72ae0bb316ba",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "8abc3af9-710f-4521-8cf3-864bec767ef5",
+        "created_time": "2024-07-20T10:33:00.000Z",
+        "last_edited_time": "2024-07-20T10:33:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "34df6c27-358c-4872-9e6a-f38f304a4a8f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Sale phụ": {
+                "id": "%3FM%5E%5E",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Ngày thu": {
+                "id": "%40%60%5Bk",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-20",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Cơ sở": {
+                "id": "I%5DG~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Bác sĩ 1": {
+                "id": "I%7B%5Dt",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Đơn nợ": {
+                "id": "N%40jJ",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "Rl%7Cd",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Gen mã đơn": {
+                "id": "XOve",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TN",
+                    "number": 159
+                }
+            },
+            "Ngày thực hiện": {
+                "id": "YeX%40",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Khách nợ": {
+                "id": "%5ChEA",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Sale chính": {
+                "id": "gwFn",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Lượng thu": {
+                "id": "oFII",
+                "type": "number",
+                "number": null
+            },
+            "Người thu": {
+                "id": "oH%3FZ",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Bác sĩ 2": {
+                "id": "rC~P",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "dịch vụ": {
+                "id": "uQgV",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Mã đơn": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/8abc3af9710f45218cf3864bec767ef5",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "655f8527-ff0f-4199-939b-069f4579cdf5",
         "created_time": "2024-07-19T11:09:00.000Z",
         "last_edited_time": "2024-07-19T11:10:00.000Z",
@@ -21912,11 +22276,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"

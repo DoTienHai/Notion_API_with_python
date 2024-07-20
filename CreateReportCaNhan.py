@@ -164,7 +164,7 @@ def create_tong_hop_luong_co_so():
         cols = ["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}"]
         data = pd.DataFrame()
         for report_ca_nhan_path in list_of_report_ca_nhan_path:
-            file_name = report_ca_nhan_path.split("\\")[-1]
+            file_name = os.path.basename(report_ca_nhan_path)
             file_name_part = file_name.split(" ")
             ma_nhan_vien = file_name_part[0]
             ten_nhan_vien = ' '.join(file_name_part[1:-1])
@@ -398,4 +398,4 @@ def create_doanh_so_ca_nhan():
     create_tong_hop_luong_co_so()
 
 # create_doanh_so_ca_nhan()
-# create_tong_hop_luong_co_so()
+create_tong_hop_luong_co_so()

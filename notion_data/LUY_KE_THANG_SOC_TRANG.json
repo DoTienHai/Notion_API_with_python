@@ -3,7 +3,7 @@
         "object": "page",
         "id": "0cf2885d-a955-464b-ba24-838aa8df8185",
         "created_time": "2024-06-26T06:02:00.000Z",
-        "last_edited_time": "2024-07-19T12:51:00.000Z",
+        "last_edited_time": "2024-07-20T13:39:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -101,7 +101,7 @@
         "object": "page",
         "id": "80c9ed8c-8c3c-4d3c-852e-054cb6dc4fe7",
         "created_time": "2024-06-26T06:02:00.000Z",
-        "last_edited_time": "2024-07-19T12:51:00.000Z",
+        "last_edited_time": "2024-07-20T13:39:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -395,7 +395,7 @@
         "object": "page",
         "id": "e1f2a3fd-ed5e-45bc-b568-92bdff672a81",
         "created_time": "2024-06-26T06:02:00.000Z",
-        "last_edited_time": "2024-07-19T12:51:00.000Z",
+        "last_edited_time": "2024-07-20T13:39:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -591,7 +591,7 @@
         "object": "page",
         "id": "161fabd6-d46e-42e4-b3a8-a147df59cc79",
         "created_time": "2024-06-26T06:02:00.000Z",
-        "last_edited_time": "2024-07-19T12:51:00.000Z",
+        "last_edited_time": "2024-07-20T13:39:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -885,7 +885,7 @@
         "object": "page",
         "id": "abb6b07e-20ac-459d-a436-2c63fe9c5d01",
         "created_time": "2024-06-26T06:02:00.000Z",
-        "last_edited_time": "2024-07-19T12:51:00.000Z",
+        "last_edited_time": "2024-07-20T13:39:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1081,7 +1081,7 @@
         "object": "page",
         "id": "ea84651f-ac4e-493b-a4b6-8a319814bdd3",
         "created_time": "2024-06-26T06:02:00.000Z",
-        "last_edited_time": "2024-07-19T12:51:00.000Z",
+        "last_edited_time": "2024-07-20T13:39:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1102,14 +1102,14 @@
             "Chi tiêu": {
                 "id": "IynB",
                 "type": "number",
-                "number": 141172000
+                "number": 143722000
             },
             "Lũy kế": {
                 "id": "PSic",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 21416000
+                    "number": 19866000
                 }
             },
             "Dư nợ phát sinh": {
@@ -1125,7 +1125,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 162588000
+                    "number": 163588000
                 }
             },
             "Đã thanh toán": {
@@ -1141,7 +1141,7 @@
             "Thu nợ": {
                 "id": "iRq%5E",
                 "type": "number",
-                "number": 25000000
+                "number": 26000000
             },
             "Đơn giá": {
                 "id": "oNis",
