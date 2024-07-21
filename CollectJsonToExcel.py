@@ -318,16 +318,16 @@ def collect_doanh_thu_he_thong():
         da_thanh_toan = row["Đã thanh toán"]
         if (isinstance(don_gia_goc, float) or isinstance(don_gia_goc, int)) and (isinstance(da_thanh_toan, float) or isinstance(da_thanh_toan, int)):
             
-            if row["Nguồn khách"] == "Cá nhân" or row["Nguồn khách"] == "Khách cửa hàng" or row["Nguồn khách"] == "Khách cũ" or row["Nguồn khách"] == "Khách cũ giới thiệu":
-                if (da_thanh_toan >= don_gia_goc):
-                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = don_gia_goc*row["Tỉ lệ chiết khấu sale chính"] + (da_thanh_toan-don_gia_goc)*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
-                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = (da_thanh_toan-don_gia_goc)*row["Tỉ lệ chiết khấu sale phụ"]
-                else:
-                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale chính"]
-            elif row["Nguồn khách"] == "CTV":
-                    data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale phụ"]
-            elif row["Nguồn khách"] == "Page":
-                pass
+            # if row["Nguồn khách"] == "Cá nhân" or row["Nguồn khách"] == "Khách cửa hàng" or row["Nguồn khách"] == "Khách cũ" or row["Nguồn khách"] == "Khách cũ giới thiệu":
+            if (da_thanh_toan >= don_gia_goc):
+                data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = don_gia_goc*row["Tỉ lệ chiết khấu sale chính"] + (da_thanh_toan-don_gia_goc)*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
+                data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = (da_thanh_toan-don_gia_goc)*row["Tỉ lệ chiết khấu sale phụ"]
+            else:
+                data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale chính"]
+            # elif row["Nguồn khách"] == "CTV":
+            #         data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale phụ"]
+            # elif row["Nguồn khách"] == "Page":
+            #     pass
 
 
 

@@ -31,8 +31,8 @@ if __name__ == "__main__":
         processes.append(process3)
         processes.append(process4)
         
-        hour = datetime.now().hour
-        if hour == 0:
+        min = datetime.now().minute
+        if min < 5:
             process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
             process6 = multiprocessing.Process(target=create_report_co_so)
             process7 = multiprocessing.Process(target=create_all_report_khach_hang)            

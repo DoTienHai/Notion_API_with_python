@@ -1,6 +1,554 @@
 [
     {
         "object": "page",
+        "id": "b405b66c-98dd-477b-abb5-a4305cb48ae4",
+        "created_time": "2024-07-21T13:34:00.000Z",
+        "last_edited_time": "2024-07-21T13:34:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "f02967b7-5890-4d69-9c20-d9afd3085a9e"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 367
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 7000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0949407389"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-21T13:34:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "đường thị út",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "đường thị út",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/ng-th-t-b405b66c98dd477babb5a4305cb48ae4",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "421b3999-cb11-4efb-9ad4-3e3fbf10eb3f",
+        "created_time": "2024-07-21T11:23:00.000Z",
+        "last_edited_time": "2024-07-21T11:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "5b845701-71a0-445d-99f9-2a1619705322"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 366
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 5000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0962101850"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-21T11:23:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Thị Phương",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Thị Phương",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-Th-Ph-ng-421b3999cb114efb9ad43e3fbf10eb3f",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "c2b71eb3-dee3-4ecf-bb18-2b209299ae66",
+        "created_time": "2024-07-21T11:21:00.000Z",
+        "last_edited_time": "2024-07-21T11:21:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "d543bbf7-988d-4f15-909e-bcbe01d34918"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 365
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 25000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0564820827"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-21T11:21:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Thị Lan Anh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Thị Lan Anh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-Th-Lan-Anh-c2b71eb3dee34ecfbb182b209299ae66",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "21351aca-7725-40e3-a3d4-79b27dfdc34a",
+        "created_time": "2024-07-21T10:05:00.000Z",
+        "last_edited_time": "2024-07-21T10:05:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "9862d5d7-abf7-4e61-9b97-211012980c1c"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 364
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "f}tM",
+                                "name": "LONG XUYÊN",
+                                "color": "pink"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 5000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0912239800"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-21T10:05:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Trần thị mỹ duyên",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Trần thị mỹ duyên",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Tr-n-th-m-duy-n-21351aca772540e3a3d479b27dfdc34a",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "69cea399-7661-4e0b-a211-99a9575b087d",
         "created_time": "2024-07-20T09:44:00.000Z",
         "last_edited_time": "2024-07-20T09:44:00.000Z",
@@ -64,10 +612,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -200,10 +749,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -336,10 +886,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 20000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -472,10 +1023,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -608,10 +1160,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -744,10 +1297,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 18000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -880,10 +1434,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1050000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1016,10 +1571,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1800000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1152,10 +1708,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1600000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1288,10 +1845,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1300000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1435,10 +1993,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -10500000
+                    "number": 7500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1571,10 +2130,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -3000000
+                    "number": 32000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1707,10 +2267,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1300000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1843,10 +2404,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 7000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -1979,10 +2541,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 13000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -2115,10 +2678,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -2150,7 +2714,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -2251,10 +2815,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -2387,10 +2952,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -2534,10 +3100,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 21200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -2670,10 +3237,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -300000
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -2806,10 +3374,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -2942,10 +3511,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2800000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -3078,10 +3648,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1800000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -3214,10 +3785,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -2500000
+                    "number": 9000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -3350,10 +3922,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -11000000
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -3385,7 +3958,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 11000000,
+                    "number": 20000000,
                     "function": "sum"
                 }
             },
@@ -3486,10 +4059,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -3622,10 +4196,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -3758,10 +4333,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -3894,10 +4470,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -8500000
+                    "number": 9500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4030,10 +4607,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4166,10 +4744,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4302,10 +4881,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4438,10 +5018,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1350000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4574,10 +5155,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 688000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4710,10 +5292,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2600000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4846,10 +5429,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -4881,7 +5465,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -4982,10 +5566,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 800000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -5105,10 +5690,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -5228,10 +5814,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -5364,10 +5951,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -5399,7 +5987,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 500000,
                     "function": "sum"
                 }
             },
@@ -5500,10 +6088,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3700000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -5636,10 +6225,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -5783,10 +6373,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 16500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -5919,10 +6510,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 21500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -6042,10 +6634,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -6178,10 +6771,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -6325,10 +6919,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 6000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -6461,10 +7056,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 14730000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -6496,7 +7092,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -6597,10 +7193,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -6744,10 +7341,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 14000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -6880,10 +7478,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7016,10 +7615,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 20000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7152,10 +7752,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -3600000
+                    "number": 2850000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7187,7 +7788,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3600000,
+                    "number": 5600000,
                     "function": "sum"
                 }
             },
@@ -7288,10 +7889,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -15000000
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7424,10 +8026,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -21000000
+                    "number": 22000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7560,10 +8163,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 8000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7696,10 +8300,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7731,7 +8336,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -7832,10 +8437,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -7968,10 +8574,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 600000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -8104,10 +8711,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -7000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -8240,10 +8848,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -10500000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -8376,10 +8985,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -15000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -8512,10 +9122,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -7000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -8648,10 +9259,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -6900000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -8683,7 +9295,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 6900000,
+                    "number": 7900000,
                     "function": "sum"
                 }
             },
@@ -8784,10 +9396,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -16500000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -8920,10 +9533,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 32000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9056,10 +9670,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 8100000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9179,10 +9794,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9315,10 +9931,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9451,10 +10068,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9587,10 +10205,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9710,10 +10329,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9846,10 +10466,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -1500000
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -9982,10 +10603,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -10118,10 +10740,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -5000000
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -10254,10 +10877,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1400000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -10390,10 +11014,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -10526,10 +11151,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 750000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -10601,7 +11227,7 @@
         "object": "page",
         "id": "8f046dd6-8818-4717-abdf-21f08f23e59b",
         "created_time": "2024-06-21T15:40:00.000Z",
-        "last_edited_time": "2024-06-21T15:40:00.000Z",
+        "last_edited_time": "2024-07-21T11:25:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
@@ -10636,6 +11262,9 @@
                     },
                     {
                         "id": "fed60196-082e-42aa-8160-a9bec0a04c7e"
+                    },
+                    {
+                        "id": "5c75ad27-3e04-4d31-8ee2-d45c3bc661cf"
                     }
                 ],
                 "has_more": false
@@ -10677,6 +11306,14 @@
                                 "name": "CẦN THƠ",
                                 "color": "red"
                             }
+                        },
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
                         }
                     ],
                     "function": "show_unique"
@@ -10684,16 +11321,17 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 21000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
                 "id": "b%3BEd",
                 "type": "phone_number",
-                "phone_number": null
+                "phone_number": "0347433400"
             },
             "Link Facebook": {
                 "id": "li%5Bd",
@@ -10831,10 +11469,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 20500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -10967,10 +11606,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11103,10 +11743,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11226,10 +11867,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11362,10 +12004,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11498,10 +12141,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 30500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11634,10 +12278,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11770,10 +12415,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11906,10 +12552,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -11941,7 +12588,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -12042,10 +12689,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 8000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -12196,10 +12844,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -12332,10 +12981,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -12468,10 +13118,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -12503,7 +13154,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 500000,
                     "function": "sum"
                 }
             },
@@ -12604,10 +13255,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 30000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -12751,10 +13403,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 53000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -12898,10 +13551,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -500000
+                    "number": 5800000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -12933,7 +13587,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 500000,
+                    "number": 1700000,
                     "function": "sum"
                 }
             },
@@ -13021,10 +13675,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -13157,10 +13812,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -13293,10 +13949,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -13328,7 +13985,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 400000,
                     "function": "sum"
                 }
             },
@@ -13440,10 +14097,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 40000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -13576,10 +14234,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -13712,10 +14371,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -500000
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -13848,10 +14508,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -13984,10 +14645,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -14131,10 +14793,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 34000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -14278,10 +14941,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4400000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -14425,10 +15089,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -2000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -14460,7 +15125,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 2000000,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -14561,10 +15226,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1600000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -14697,10 +15363,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -14833,10 +15500,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -14969,10 +15637,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -2000000
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -15004,7 +15673,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 2000000,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -15105,10 +15774,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -15140,7 +15810,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 3386000,
                     "function": "sum"
                 }
             },
@@ -15241,10 +15911,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 7000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -15388,10 +16059,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 27500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -15524,10 +16196,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -15660,10 +16333,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -15796,10 +16470,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -15932,10 +16607,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -16055,10 +16731,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -16191,10 +16868,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -16327,10 +17005,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -7000000
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -16362,7 +17041,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 7000000,
+                    "number": 15000000,
                     "function": "sum"
                 }
             },
@@ -16474,10 +17153,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 9000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -16621,10 +17301,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 35000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -16757,10 +17438,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -4000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -16893,10 +17575,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 8000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17029,10 +17712,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17165,10 +17849,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17200,7 +17885,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 25000000,
                     "function": "sum"
                 }
             },
@@ -17301,10 +17986,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17448,10 +18134,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 30000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17584,10 +18271,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 7000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17720,10 +18408,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 6500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17856,10 +18545,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 30000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -17992,10 +18682,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -18128,10 +18819,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2800000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -18264,10 +18956,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -18411,10 +19104,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 31500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -18558,10 +19252,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 45000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -18694,10 +19389,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -18830,10 +19526,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 26000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -18865,7 +19562,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 9000000,
                     "function": "sum"
                 }
             },
@@ -18966,10 +19663,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -19135,10 +19833,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 40500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -19293,10 +19992,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 24300000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -19328,7 +20028,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -19429,10 +20129,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -3000000
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -19464,7 +20165,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3000000,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -19576,10 +20277,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -19611,7 +20313,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 18000000,
                     "function": "sum"
                 }
             },
@@ -19741,10 +20443,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -19776,7 +20479,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 12000000,
                     "function": "sum"
                 }
             },
@@ -19864,10 +20567,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20000,10 +20704,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 7000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20154,10 +20859,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20308,10 +21014,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 8000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20343,7 +21050,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -20444,10 +21151,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 33000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20580,10 +21288,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 16000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20615,7 +21324,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 4000000,
                     "function": "sum"
                 }
             },
@@ -20716,10 +21425,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20751,7 +21461,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -20852,10 +21562,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -17000000
+                    "number": 8000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -20988,10 +21699,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -500000
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -21023,7 +21735,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 500000,
+                    "number": 1300000,
                     "function": "sum"
                 }
             },
@@ -21111,10 +21823,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -21247,10 +21960,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3700000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -21405,10 +22119,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 19000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -21541,10 +22256,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -5000000
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -21699,10 +22415,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 33000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -21846,10 +22563,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 38000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -21982,10 +22700,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 6000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -22151,10 +22870,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 17000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -22287,10 +23007,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -22322,7 +23043,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -22423,10 +23144,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 53000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -22458,7 +23180,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 7000000,
                     "function": "sum"
                 }
             },
@@ -22559,10 +23281,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -5000000
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -22594,7 +23317,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 5000000,
+                    "number": 10000000,
                     "function": "sum"
                 }
             },
@@ -22706,10 +23429,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 23500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -22842,10 +23566,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -3000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -22978,10 +23703,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 33500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -23114,10 +23840,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 27500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -23250,10 +23977,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 22500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -23285,7 +24013,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -23386,10 +24114,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -23522,10 +24251,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 17500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -23658,10 +24388,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -23693,7 +24424,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 1500000,
                     "function": "sum"
                 }
             },
@@ -23794,10 +24525,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1800000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -23930,10 +24662,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -24053,10 +24786,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -24194,10 +24928,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -24353,10 +25088,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -24514,10 +25250,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -24655,10 +25392,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -24791,10 +25529,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -24927,10 +25666,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -25063,10 +25803,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -9000000
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -25098,7 +25839,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 9000000,
+                    "number": 12000000,
                     "function": "sum"
                 }
             },
@@ -25199,10 +25940,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -25335,10 +26077,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -25471,10 +26214,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 45000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -25607,10 +26351,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -25642,7 +26387,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -25743,10 +26488,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -25879,10 +26625,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -26015,10 +26762,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -26151,10 +26899,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -26287,10 +27036,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -26322,7 +27072,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -26434,10 +27184,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 50000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -26603,10 +27354,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 85000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -26638,7 +27390,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 30000000,
                     "function": "sum"
                 }
             },
@@ -26750,10 +27502,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 70000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -26886,10 +27639,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 40000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27022,10 +27776,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 12000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27158,10 +27913,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -500000
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27294,10 +28050,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27430,10 +28187,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27566,10 +28324,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -2000000
+                    "number": 2500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27702,10 +28461,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27849,10 +28609,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -27985,10 +28746,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -28020,7 +28782,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -28132,10 +28894,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -28167,7 +28930,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 6000000,
                     "function": "sum"
                 }
             },
@@ -28301,10 +29064,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -14000000
+                    "number": 36900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -28437,10 +29201,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -28472,7 +29237,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 1000000,
                     "function": "sum"
                 }
             },
@@ -28573,10 +29338,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -28709,10 +29475,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -28845,10 +29612,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -28880,7 +29648,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -29014,10 +29782,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 1600000
+                    "number": 18900000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -29049,7 +29818,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": -1600000,
+                    "number": 7200000,
                     "function": "sum"
                 }
             },
@@ -29150,10 +29919,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 13000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -29286,10 +30056,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -29321,7 +30092,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -29422,10 +30193,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -29457,7 +30229,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 10000000,
                     "function": "sum"
                 }
             },
@@ -29558,10 +30330,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -29694,10 +30467,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 7000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -29841,10 +30615,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 63000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -29977,10 +30752,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -30113,10 +30889,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -30249,10 +31026,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2300000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -30385,10 +31163,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -30521,10 +31300,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -30657,10 +31437,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -30793,10 +31574,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -30940,10 +31722,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 9100000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -31087,10 +31870,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -31234,10 +32018,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 22000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -31370,10 +32155,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -31528,10 +32314,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 110000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -31664,10 +32451,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 20000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -31800,10 +32588,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 700000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -31947,10 +32736,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 53000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -32105,10 +32895,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 57000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -32241,10 +33032,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -32377,10 +33169,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -32513,10 +33306,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -32548,7 +33342,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 4000000,
                     "function": "sum"
                 }
             },
@@ -32660,10 +33454,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 33500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -32796,10 +33591,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -32831,7 +33627,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 27000000,
                     "function": "sum"
                 }
             },
@@ -32943,10 +33739,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 22000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -33090,10 +33887,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -33125,7 +33923,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -33226,10 +34024,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -10400000
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -33261,7 +34060,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 10400000,
+                    "number": 23000000,
                     "function": "sum"
                 }
             },
@@ -33391,10 +34190,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -10000000
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -33426,7 +34226,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 10000000,
+                    "number": 24000000,
                     "function": "sum"
                 }
             },
@@ -33527,10 +34327,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -33685,10 +34486,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4700000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -33720,7 +34522,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 20000000,
                     "function": "sum"
                 }
             },
@@ -33821,10 +34623,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -33957,10 +34760,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34093,10 +34897,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34229,10 +35034,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 20000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34376,10 +35182,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 35000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34512,10 +35319,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34547,7 +35355,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -34659,10 +35467,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -15000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34694,7 +35503,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 15000000,
+                    "number": 21000000,
                     "function": "sum"
                 }
             },
@@ -34795,10 +35604,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 20000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34931,10 +35741,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -22000000
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -34966,7 +35777,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 22000000,
+                    "number": 28000000,
                     "function": "sum"
                 }
             },
@@ -35067,10 +35878,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 12000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -35214,10 +36026,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 18000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -35350,10 +36163,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -300000
+                    "number": 1200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -35486,10 +36300,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -35644,10 +36459,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -26500000
+                    "number": 4300000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -35679,7 +36495,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 26500000,
+                    "number": 29500000,
                     "function": "sum"
                 }
             },
@@ -35780,10 +36596,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -35815,7 +36632,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 6000000,
                     "function": "sum"
                 }
             },
@@ -35916,10 +36733,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -9500000
+                    "number": 13000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -35951,7 +36769,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 9500000,
+                    "number": 12000000,
                     "function": "sum"
                 }
             },
@@ -36063,10 +36881,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 43000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -36199,10 +37018,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -36335,10 +37155,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -36471,10 +37292,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 4500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -36607,10 +37429,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -36642,7 +37465,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -36743,10 +37566,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -36879,10 +37703,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37015,10 +37840,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37151,10 +37977,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37186,7 +38013,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 1000000,
                     "function": "sum"
                 }
             },
@@ -37287,10 +38114,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 8000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37423,10 +38251,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 8000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37559,10 +38388,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37695,10 +38525,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37831,10 +38662,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -10500000
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -37866,7 +38698,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 10500000,
+                    "number": 12000000,
                     "function": "sum"
                 }
             },
@@ -37967,10 +38799,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 20000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -38103,10 +38936,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 6000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -38250,10 +39084,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -38285,7 +39120,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 1500000,
                     "function": "sum"
                 }
             },
@@ -38386,10 +39221,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -38522,10 +39358,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 11000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -38658,10 +39495,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 11000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -38794,10 +39632,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -38829,7 +39668,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 7000000,
                     "function": "sum"
                 }
             },
@@ -38930,10 +39769,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39066,10 +39906,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -1500000
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39202,10 +40043,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 11000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39338,10 +40180,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -5000000
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39474,10 +40317,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -22000000
+                    "number": 10000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39509,7 +40353,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 22000000,
+                    "number": 25000000,
                     "function": "sum"
                 }
             },
@@ -39610,10 +40454,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39757,10 +40602,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39904,10 +40750,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -3000000
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -39939,7 +40786,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3000000,
+                    "number": 4000000,
                     "function": "sum"
                 }
             },
@@ -40040,10 +40887,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -6000000
+                    "number": 12000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -40075,7 +40923,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 6000000,
+                    "number": 13000000,
                     "function": "sum"
                 }
             },
@@ -40198,10 +41046,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -1000000
+                    "number": 6000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -40334,10 +41183,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -40369,7 +41219,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -40481,10 +41331,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 21000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -40617,10 +41468,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -4000000
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -40652,7 +41504,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 4000000,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -40764,10 +41616,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -1000000
+                    "number": 7000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -40799,7 +41652,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 1000000,
+                    "number": 6000000,
                     "function": "sum"
                 }
             },
@@ -40900,10 +41753,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -40935,7 +41789,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 1000000,
                     "function": "sum"
                 }
             },
@@ -41047,10 +41901,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 53550000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -41183,10 +42038,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 15000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -41218,7 +42074,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -41330,10 +42186,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5400000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -41466,10 +42323,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 13000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -41501,7 +42359,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 5000000,
                     "function": "sum"
                 }
             },
@@ -41602,10 +42460,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": -1498000
+                    "number": 2500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -41738,10 +42597,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -41885,10 +42745,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -41920,7 +42781,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 10000000,
                     "function": "sum"
                 }
             },
@@ -42021,10 +42882,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -42190,10 +43052,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 17500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -42225,7 +43088,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 9500000,
                     "function": "sum"
                 }
             },
@@ -42337,10 +43200,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 14000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -42473,10 +43337,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -42508,7 +43373,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
@@ -42609,10 +43474,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -42644,7 +43510,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 6000000,
                     "function": "sum"
                 }
             },
@@ -42756,10 +43622,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 30000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -42903,10 +43770,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 18000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -43039,10 +43907,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 12000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -43175,10 +44044,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -43210,7 +44080,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 7000000,
                     "function": "sum"
                 }
             },
@@ -43311,10 +44181,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -43447,10 +44318,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -43594,10 +44466,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 2700000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -43752,10 +44625,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 27500000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -43888,10 +44762,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 18000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -44024,10 +44899,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -44171,10 +45047,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 34200000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -44307,10 +45184,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 0,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -44342,7 +45220,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 4000000,
                     "function": "sum"
                 }
             },
@@ -44443,10 +45321,11 @@
             },
             "Tích lũy": {
                 "id": "%5BUc%5D",
-                "type": "formula",
-                "formula": {
+                "type": "rollup",
+                "rollup": {
                     "type": "number",
-                    "number": 0
+                    "number": 16000000,
+                    "function": "sum"
                 }
             },
             "SĐT": {
@@ -44478,7 +45357,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
