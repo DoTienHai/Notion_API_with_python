@@ -1,0 +1,1178 @@
+[
+    {
+        "object": "page",
+        "id": "392831df-ce68-4f08-86b7-e0fd941ca4ea",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-06-26T06:03:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": null
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": null
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": null
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": null
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": null
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 12",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 12",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-12-392831dfce684f0886b7e0fd941ca4ea",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "4284cf75-7e28-4301-922a-d5bf8ea128b6",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-07-23T19:51:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 21000000
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": 60558000
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 63642000
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 124200000
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": 106500000
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": 21
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": 17700000
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": 127500000
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 6",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 6",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-6-4284cf757e284301922ad5bf8ea128b6",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "8c66cf3c-0b3d-46a8-aa9d-93dbde3c21f7",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-07-23T19:51:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 16500000
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": 80201000
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 66199000
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 146400000
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": 129400000
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": 17
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": 17000000
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": 145900000
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 4",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 4",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-4-8c66cf3c0b3d46a8aa9d93dbde3c21f7",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "9995b750-eabc-45b0-8009-6045312b02e8",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-07-23T19:51:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 5000000
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": 28324000
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 18126000
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 46450000
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": 43150000
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": 13
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": 3300000
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": 48150000
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 7",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 7",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-7-9995b750eabc45b080096045312b02e8",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "affa900e-3f71-43b0-a808-f194d469463a",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-06-26T06:03:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": null
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": null
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": null
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": null
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": null
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 10",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 10",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-10-affa900e3f7143b0a808f194d469463a",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "b5842dbd-a430-40a0-9cbe-43c7f159b476",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-07-23T19:51:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 40500000
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": 61008000
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 43992000
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 105000000
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": 105000000
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": 18
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": 0
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": 145500000
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 3",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 3",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-3-b5842dbda43040a09cbe43c7f159b476",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "be52cf86-f6e9-43c1-bf70-a7dbda6f0ff1",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-06-26T06:03:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": null
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": null
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": null
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": null
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": null
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 1",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 1",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-1-be52cf86f6e943c1bf70a7dbda6f0ff1",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "e3a08c0a-82e2-4e03-b7b6-2cb53e825403",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-06-26T06:03:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": null
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": null
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": null
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": null
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": null
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 11",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 11",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-11-e3a08c0a82e24e03b7b62cb53e825403",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "2cdbfe7a-912a-4094-9ca9-5ed9c357d1d5",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-06-26T06:03:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": null
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": null
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": null
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": null
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": null
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 8",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 8",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-8-2cdbfe7a912a40949ca95ed9c357d1d5",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "3ac0c3fa-b6ea-44f5-a4db-8e322db635e9",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-06-26T06:03:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": null
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": null
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": null
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": null
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": null
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 9",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 9",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-9-3ac0c3fab6ea44f5a4db8e322db635e9",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "c38df415-70fc-4cba-948e-850dd92b3ec8",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-06-26T06:03:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 15498000
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": 115802000
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 295993000
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 411795000
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": 383795000
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": 42
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": 28000000
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": 399293000
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 2",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 2",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-2-c38df41570fc4cba948e850dd92b3ec8",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "cab5d5c6-4b9d-49f2-9afd-2949775c2a52",
+        "created_time": "2024-06-26T06:03:00.000Z",
+        "last_edited_time": "2024-07-23T19:51:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "497028c1-36b0-4c74-a230-586750c5fa5f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Dư nợ phát sinh": {
+                "id": "AvhK",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 7000000
+                }
+            },
+            "Chi tiêu": {
+                "id": "IynB",
+                "type": "number",
+                "number": 2500000
+            },
+            "Lũy kế": {
+                "id": "PSic",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 88500000
+                }
+            },
+            "Tổng doanh thu": {
+                "id": "Uc%3A%5E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 91000000
+                }
+            },
+            "Đã thanh toán": {
+                "id": "V%3CuY",
+                "type": "number",
+                "number": 84000000
+            },
+            "Số lượng đơn": {
+                "id": "%5Be%3DQ",
+                "type": "number",
+                "number": 3
+            },
+            "Thu nợ": {
+                "id": "iRq%5E",
+                "type": "number",
+                "number": 7000000
+            },
+            "Đơn giá": {
+                "id": "oNis",
+                "type": "number",
+                "number": 91000000
+            },
+            "Tháng": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Tháng 5",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Tháng 5",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-ng-5-cab5d5c64b9d49f29afd2949775c2a52",
+        "public_url": null
+    }
+]
