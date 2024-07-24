@@ -1,6 +1,246 @@
 [
     {
         "object": "page",
+        "id": "55b385a4-2cac-4570-8bbc-61cf9b0704fb",
+        "created_time": "2024-07-24T12:03:00.000Z",
+        "last_edited_time": "2024-07-24T12:04:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-07-24T12:03:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-24",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "UN<L",
+                    "name": "CẦN THƠ",
+                    "color": "pink"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "9ca37943-378e-4618-856d-4d2f42f4b51e",
+                    "name": "Chi Phí Vận Hành",
+                    "color": "default"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 702
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 175000
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-702",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-702",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-702-55b385a42cac45708bbc61cf9b0704fb",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "1299c8fb-540f-47b1-a1e0-f8e89d189d2c",
+        "created_time": "2024-07-24T12:02:00.000Z",
+        "last_edited_time": "2024-07-24T12:02:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-07-24T12:02:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-24",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "UN<L",
+                    "name": "CẦN THƠ",
+                    "color": "pink"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "e49d0ce3-124d-4e4b-b377-be2139cde3f5"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "d607d55c-d266-4764-a35e-ec4d20b3e7b7",
+                    "name": "Ứng Lương",
+                    "color": "purple"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 701
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 500000
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-701",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-701",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-701-1299c8fb540f47b1a1e0f8e89d189d2c",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "17053fd4-54f3-4158-9011-6f2f89e3cf84",
         "created_time": "2024-07-23T14:18:00.000Z",
         "last_edited_time": "2024-07-23T14:18:00.000Z",
@@ -1899,14 +2139,14 @@
         "object": "page",
         "id": "9abcc46d-a310-49f4-bf98-70beb1ca5277",
         "created_time": "2024-07-22T17:36:00.000Z",
-        "last_edited_time": "2024-07-22T17:37:00.000Z",
+        "last_edited_time": "2024-07-24T06:16:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -1926,7 +2166,7 @@
                 "id": "%40%5BE%60",
                 "type": "date",
                 "date": {
-                    "start": "2024-07-23",
+                    "start": "2024-07-22",
                     "end": null,
                     "time_zone": null
                 }
@@ -1965,7 +2205,7 @@
                 "type": "last_edited_by",
                 "last_edited_by": {
                     "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                    "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
                 }
             },
             "Phân loại": {
@@ -2021,14 +2261,14 @@
         "object": "page",
         "id": "4d38b915-5ac6-4b9d-9a8f-3a145c13b273",
         "created_time": "2024-07-22T17:35:00.000Z",
-        "last_edited_time": "2024-07-22T17:36:00.000Z",
+        "last_edited_time": "2024-07-24T06:16:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -2048,7 +2288,7 @@
                 "id": "%40%5BE%60",
                 "type": "date",
                 "date": {
-                    "start": "2024-07-23",
+                    "start": "2024-07-22",
                     "end": null,
                     "time_zone": null
                 }
@@ -2083,7 +2323,7 @@
                 "type": "last_edited_by",
                 "last_edited_by": {
                     "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                    "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
                 }
             },
             "Phân loại": {
@@ -2139,14 +2379,14 @@
         "object": "page",
         "id": "3ed83c8f-b564-4297-b5fd-56b65b4c083d",
         "created_time": "2024-07-22T17:34:00.000Z",
-        "last_edited_time": "2024-07-22T17:35:00.000Z",
+        "last_edited_time": "2024-07-24T06:16:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -2166,7 +2406,7 @@
                 "id": "%40%5BE%60",
                 "type": "date",
                 "date": {
-                    "start": "2024-07-23",
+                    "start": "2024-07-22",
                     "end": null,
                     "time_zone": null
                 }
@@ -2201,7 +2441,7 @@
                 "type": "last_edited_by",
                 "last_edited_by": {
                     "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                    "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
                 }
             },
             "Phân loại": {

@@ -4,6 +4,7 @@ from GetNotionDataToJson import get_all_data_to_json
 from CollectJsonToExcel import collect_data
 from UpdateLuyKe import update_luy_ke_theo_ngay, update_luy_ke_theo_thang
 from UpdateChamCong import update_cham_cong_tong_hop
+from CreateReport import create_all_report
 import time
 from datetime import datetime
 import multiprocessing
@@ -21,27 +22,21 @@ if __name__ == "__main__":
         print(f"Cập nhật toàn bộ data {(time.time() - start_time):.6f} giây\n")
         
         processes = []
+        process1 = multiprocessing.Process(target=update_cham_cong_tong_hop)
+        processes.append(process1)
         
-        # min = datetime.now().minute
-        # if min < 5:
-        #     process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
-        #     process6 = multiprocessing.Process(target=create_report_co_so)
-        #     process7 = multiprocessing.Process(target=create_all_report_khach_hang)            
-        #     processes.append(process5)
-        #     processes.append(process6)
-        #     processes.append(process7)
+        min = datetime.now().minute
 
-        # process5 = multiprocessing.Process(target=create_doanh_so_ca_nhan)
-        # process6 = multiprocessing.Process(target=create_report_co_so)
-        # process7 = multiprocessing.Process(target=create_all_report_khach_hang)            
-        # processes.append(process5)
-        # processes.append(process6)
-        # processes.append(process7)
         for location in location_list:
             process_ngay = multiprocessing.Process(target=update_luy_ke_theo_ngay, args=(location,))
             process_thang = multiprocessing.Process(target=update_luy_ke_theo_thang, args=(location,))
             processes.append(process_ngay)
             processes.append(process_thang)
+            if (min < 5):
+                process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
+                processes.append(process_create_report)
+            # process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
+            # processes.append(process_create_report)
 
         for process in processes:
             process.start()

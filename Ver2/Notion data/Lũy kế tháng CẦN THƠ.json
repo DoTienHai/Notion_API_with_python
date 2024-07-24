@@ -199,7 +199,7 @@
         "object": "page",
         "id": "8cbb3a03-32f8-44d4-92cf-c3ef71fcb757",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -222,7 +222,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 42300000
+                    "number": 82800000
                 }
             },
             "Chi tiêu": {
@@ -235,7 +235,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 238321000
+                    "number": 197821000
                 }
             },
             "Tổng doanh thu": {
@@ -243,13 +243,13 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 326850000
+                    "number": 286350000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 291350000
+                "number": 250850000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
@@ -297,7 +297,7 @@
         "object": "page",
         "id": "983972f2-6cc8-4815-8b70-fc849d9eaa02",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -320,7 +320,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 26000000
+                    "number": 65500000
                 }
             },
             "Chi tiêu": {
@@ -333,7 +333,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 262267000
+                    "number": 222767000
                 }
             },
             "Tổng doanh thu": {
@@ -341,13 +341,13 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 271200000
+                    "number": 231700000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 226000000
+                "number": 186500000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
@@ -395,7 +395,7 @@
         "object": "page",
         "id": "a1bdd368-a4ad-4ef0-8b3a-1c090b554216",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -418,7 +418,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 26000000
                 }
             },
             "Chi tiêu": {
@@ -431,7 +431,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 191774000
+                    "number": 165774000
                 }
             },
             "Tổng doanh thu": {
@@ -439,13 +439,13 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 283900000
+                    "number": 257900000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 268900000
+                "number": 242900000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
@@ -591,7 +591,7 @@
         "object": "page",
         "id": "73f11cf8-a630-4caa-8e11-7ed5a5c0bfa2",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -614,7 +614,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 10000000
+                    "number": 35500000
                 }
             },
             "Chi tiêu": {
@@ -627,7 +627,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 512827000
+                    "number": 487327000
                 }
             },
             "Tổng doanh thu": {
@@ -635,13 +635,13 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 677300000
+                    "number": 651800000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 608100000
+                "number": 582600000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
@@ -983,7 +983,7 @@
         "object": "page",
         "id": "e2413053-981b-4dfd-b003-91607b1fc96c",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1006,7 +1006,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 46900000
+                    "number": 130500000
                 }
             },
             "Chi tiêu": {
@@ -1019,7 +1019,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 229554000
+                    "number": 145954000
                 }
             },
             "Tổng doanh thu": {
@@ -1027,13 +1027,13 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 320500000
+                    "number": 236900000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 301500000
+                "number": 217900000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
@@ -1081,7 +1081,7 @@
         "object": "page",
         "id": "fdacbeb0-9623-4ba3-9b17-0f195a7be0ea",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1104,20 +1104,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 11800000
+                    "number": 35800000
                 }
             },
             "Chi tiêu": {
                 "id": "IynB",
                 "type": "number",
-                "number": 87337000
+                "number": 88012000
             },
             "Lũy kế": {
                 "id": "PSic",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 184793000
+                    "number": 184918000
                 }
             },
             "Tổng doanh thu": {
@@ -1125,18 +1125,18 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 272130000
+                    "number": 272930000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 226930000
+                "number": 227730000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
                 "type": "number",
-                "number": 34
+                "number": 37
             },
             "Thu nợ": {
                 "id": "iRq%5E",
@@ -1146,7 +1146,7 @@
             "Đơn giá": {
                 "id": "oNis",
                 "type": "number",
-                "number": 238730000
+                "number": 263530000
             },
             "Tháng": {
                 "id": "title",

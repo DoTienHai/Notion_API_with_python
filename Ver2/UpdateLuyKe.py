@@ -12,7 +12,7 @@ update_from_date = datetime.strptime(start_date, date_format)
 # Dữ liệu của trang mới
 def get_data_cho_luy_ke(location):
     # lấy data đơn giá và đã thanh toán
-    data = get_data_doanh_thu(location=location, columns=["Ngày thực hiện", "Đơn giá", "Đã thanh toán"]).groupby("Ngày thực hiện").sum().reset_index()
+    data = get_data_doanh_thu(location=location, columns=["Ngày thực hiện", "Đơn giá", "Thanh toán lần đầu"]).groupby("Ngày thực hiện").sum().reset_index()
     data = data.rename(columns={"Ngày thực hiện":"Ngày"})
     # lấy data số lượng đơn
     data_so_don = get_data_doanh_thu(location=location, columns=["Ngày thực hiện"]).groupby('Ngày thực hiện').size().reset_index(name='Số lượng đơn')
@@ -37,7 +37,7 @@ def update_luy_ke_theo_ngay(location):
     print(f"Update luy kế theo ngày {location}")
     data = get_data_cho_luy_ke(location=location)
     number_of_row = len(data)
-    print(f"Update luy kế theo ngày {location} : {number_of_row}")
+    print(f"Update luy kế theo ngày tại {location}")
 
     # Đường dẫn tới tệp JSON của bạn
     # API key và database ID của bạn
@@ -70,7 +70,7 @@ def update_luy_ke_theo_ngay(location):
                                     "number": row["Lượng chi"]
                                 },
                                 "Đã thanh toán": {
-                                    "number": row["Đã thanh toán"]
+                                    "number": row["Thanh toán lần đầu"]
                                 },
                                 "Số lượng đơn": {
                                     "number": row["Số lượng đơn"]
@@ -107,7 +107,7 @@ def update_luy_ke_theo_ngay(location):
                                     "number": row["Lượng chi"]
                                 },
                                 "Đã thanh toán": {
-                                    "number": row["Đã thanh toán"]
+                                    "number": row["Thanh toán lần đầu"]
                                 },
                                 "Số lượng đơn": {
                                     "number": row["Số lượng đơn"]
@@ -138,11 +138,11 @@ def update_luy_ke_theo_ngay(location):
             
             create_page(template_json)
         print(f"{location} {index+1}/{number_of_row}")
-    print(f"Đã update luy kế theo ngày {location}")
+    print(f"Đã update luy kế theo ngày tại {location}")
 
 
 def update_luy_ke_theo_thang(location):
-    print(f"Update luy kế theo tháng {location}")
+    print(f"Update luy kế theo tháng tại {location}")
 
     data = get_data_cho_luy_ke(location=location)
     data["Ngày"] = pd.to_datetime(data["Ngày"]).dt.month
@@ -181,7 +181,7 @@ def update_luy_ke_theo_thang(location):
                                         "number": row["Lượng chi"]
                                     },
                                     "Đã thanh toán": {
-                                        "number": row["Đã thanh toán"]
+                                        "number": row["Thanh toán lần đầu"]
                                     },
                                     "Số lượng đơn": {
                                         "number": row["Số lượng đơn"]
@@ -195,4 +195,4 @@ def update_luy_ke_theo_thang(location):
                                 },
                             }
                 update_page(page_id, template_json)
-    print(f"Đã update luy kế theo tháng {location}")
+    print(f"Đã update luy kế theo tháng tại {location}")

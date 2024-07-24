@@ -6,6 +6,7 @@ import os
 
 notion_data_folder = "Notion data"
 file_all_notion_data = os.path.join(notion_data_folder, "ALL.xlsx")
+report_folder = "Báo cáo"
 
 notion_api_token = "secret_o7gsjeVNFo5Wpg1bUJ7eHo8VpkF7riKIEAIcB8P0HyR"
 dataBaseDict = {
@@ -46,8 +47,6 @@ def filter(data, location, columns):
         if (location):
             if (location in location_list) and (location != "HỆ THỐNG"):
                 data = data[data["Cơ sở"] == location]
-            else:
-                print("Đây là HỆ THỐNG")
 
     if (columns[0] == "ALL"):
         return data   

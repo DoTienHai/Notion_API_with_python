@@ -236,7 +236,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 6,
+                    "number": 8,
                     "function": "count"
                 }
             },
@@ -266,6 +266,12 @@
                     },
                     {
                         "id": "809f99c9-8a86-448a-b8a7-107c756853d1"
+                    },
+                    {
+                        "id": "a3bb4f64-a8b3-4473-9a72-4afc8ec81402"
+                    },
+                    {
+                        "id": "9f1ec962-eb0c-47e8-bfed-067c6db89b62"
                     }
                 ],
                 "has_more": false
@@ -275,7 +281,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 10900000,
+                    "number": 13100000,
                     "function": "sum"
                 }
             },

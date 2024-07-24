@@ -3,7 +3,7 @@
         "object": "page",
         "id": "eb1917d2-2b4d-4f7b-b79e-ff857255129e",
         "created_time": "2024-07-23T09:35:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -102,7 +102,7 @@
         "object": "page",
         "id": "fb78fefc-7999-4918-b5f2-107dceb5a27c",
         "created_time": "2024-07-23T09:35:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -201,7 +201,7 @@
         "object": "page",
         "id": "1a1c7b7e-5069-4aa5-b9d1-6190d9208856",
         "created_time": "2024-07-23T09:35:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -253,20 +253,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 7710000
+                    "number": 2710000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 8000000
+                "number": 3000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000
                 }
             },
             "STT": {
@@ -300,7 +300,7 @@
         "object": "page",
         "id": "cb9831ab-4bda-424b-b89a-4b99698be55b",
         "created_time": "2024-07-23T09:35:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -399,7 +399,7 @@
         "object": "page",
         "id": "f9556d6f-1025-4bef-b766-50353482f1fd",
         "created_time": "2024-07-21T13:36:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -498,7 +498,7 @@
         "object": "page",
         "id": "2d093075-26a2-4524-88cb-f6f046b711ee",
         "created_time": "2024-07-20T12:34:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -597,7 +597,7 @@
         "object": "page",
         "id": "08cef136-e4b6-497d-9fac-d7ababb06d4d",
         "created_time": "2024-07-19T07:43:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -649,20 +649,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 23260000
+                    "number": 18260000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 23400000
+                "number": 18400000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000
                 }
             },
             "STT": {
@@ -696,7 +696,7 @@
         "object": "page",
         "id": "2c2ffa37-24de-460f-8876-8653224f2ff0",
         "created_time": "2024-07-17T12:18:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -748,20 +748,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 3608000
+                    "number": 2608000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 1000000
+                "number": 0
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 2000000
+                    "number": 3000000
                 }
             },
             "STT": {
@@ -795,7 +795,7 @@
         "object": "page",
         "id": "cced709d-cbb3-4950-963d-64748a3f96c9",
         "created_time": "2024-07-17T12:18:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -847,20 +847,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 65433000
+                    "number": 63433000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 71995000
+                "number": 69995000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000
                 }
             },
             "STT": {
@@ -894,7 +894,7 @@
         "object": "page",
         "id": "f1d8ccda-f637-4f2d-915b-92da1400d99d",
         "created_time": "2024-07-17T12:18:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -946,20 +946,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 5390000
+                    "number": 4390000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 6000000
+                "number": 5000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000
                 }
             },
             "STT": {
@@ -993,7 +993,7 @@
         "object": "page",
         "id": "8768deab-b9a3-473d-ba15-f02758483fdb",
         "created_time": "2024-07-13T12:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1092,7 +1092,7 @@
         "object": "page",
         "id": "222150b9-53a1-49d6-b41d-de3a0437e170",
         "created_time": "2024-07-12T11:25:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1144,20 +1144,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 11180000
+                    "number": 6180000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 11500000
+                "number": 6500000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 1000000
+                    "number": 6000000
                 }
             },
             "STT": {
@@ -1191,7 +1191,7 @@
         "object": "page",
         "id": "2d8adca0-1726-4176-bfc3-e44a4fe97b13",
         "created_time": "2024-07-11T14:41:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1290,7 +1290,7 @@
         "object": "page",
         "id": "7e8943d7-33eb-44a0-96b4-c7370eb06873",
         "created_time": "2024-07-08T15:14:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1389,7 +1389,7 @@
         "object": "page",
         "id": "8ea311fb-b86c-4d56-ad05-7fed94812a32",
         "created_time": "2024-07-07T14:57:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1488,7 +1488,7 @@
         "object": "page",
         "id": "1060fd8d-47b8-4f3a-8ec7-b5bfd89ec67e",
         "created_time": "2024-07-06T16:05:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1587,7 +1587,7 @@
         "object": "page",
         "id": "3185c0ad-0c6d-45f3-9ab0-17634502cc55",
         "created_time": "2024-07-06T15:49:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1639,20 +1639,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 1560000
+                    "number": 560000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 1700000
+                "number": 700000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000
                 }
             },
             "STT": {
@@ -1686,7 +1686,7 @@
         "object": "page",
         "id": "d54f1efa-a863-42d5-9189-765fd4983cec",
         "created_time": "2024-07-03T13:26:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1785,7 +1785,7 @@
         "object": "page",
         "id": "52f1c71c-fb9a-4a52-b420-d5ba78d84357",
         "created_time": "2024-07-03T13:20:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1884,7 +1884,7 @@
         "object": "page",
         "id": "7791c7c1-0d0e-45e8-8da4-065604bcd21f",
         "created_time": "2024-07-01T04:19:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -1983,7 +1983,7 @@
         "object": "page",
         "id": "00222ff8-cefb-4ae8-9158-3d12bac0731a",
         "created_time": "2024-06-30T15:24:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2082,7 +2082,7 @@
         "object": "page",
         "id": "6187aa46-68a2-4a2d-8045-4548c4b66af9",
         "created_time": "2024-06-30T15:24:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2181,7 +2181,7 @@
         "object": "page",
         "id": "464a57ea-ba65-4c01-9124-e01717e3f099",
         "created_time": "2024-06-30T15:24:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2280,7 +2280,7 @@
         "object": "page",
         "id": "94d7f750-1494-430b-8178-f828dd9b7995",
         "created_time": "2024-06-30T15:24:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2379,7 +2379,7 @@
         "object": "page",
         "id": "594b617c-1c12-4b59-a161-3b855ace2697",
         "created_time": "2024-06-30T15:24:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2478,7 +2478,7 @@
         "object": "page",
         "id": "2f779725-2184-4679-954f-d9057ac30b88",
         "created_time": "2024-06-30T15:24:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2577,7 +2577,7 @@
         "object": "page",
         "id": "d2550ac2-132f-49ff-ae25-eaca9136f3e4",
         "created_time": "2024-06-26T11:55:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2676,7 +2676,7 @@
         "object": "page",
         "id": "004ae277-0f96-4f1c-acb0-13a1cf8d7cc0",
         "created_time": "2024-06-26T01:42:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2775,7 +2775,7 @@
         "object": "page",
         "id": "3c276d55-7b72-423e-8f84-5129c576bb8c",
         "created_time": "2024-06-26T01:41:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2874,7 +2874,7 @@
         "object": "page",
         "id": "6b50a32b-5db4-4167-be33-8a430747a091",
         "created_time": "2024-06-26T01:41:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -2926,20 +2926,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 23613000
+                    "number": 13613000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 29000000
+                "number": 19000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 10000000
                 }
             },
             "STT": {
@@ -2973,7 +2973,7 @@
         "object": "page",
         "id": "39facd95-bd4d-4426-90e7-8a4d9968d5e3",
         "created_time": "2024-06-26T01:41:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3072,7 +3072,7 @@
         "object": "page",
         "id": "584ac372-86fe-4fcb-85b9-7b563f2d0fbd",
         "created_time": "2024-06-26T01:41:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3171,7 +3171,7 @@
         "object": "page",
         "id": "9e960e79-60a7-46dd-9260-80dea0b94e8e",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3223,20 +3223,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 8090000
+                    "number": 3090000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 5000000
+                "number": 0
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000
                 }
             },
             "STT": {
@@ -3270,7 +3270,7 @@
         "object": "page",
         "id": "82ce8aa2-3f83-4a5a-8bb4-8b6e0fa431d4",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3322,20 +3322,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 40210000
+                    "number": 35210000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 46900000
+                "number": 41900000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000
                 }
             },
             "STT": {
@@ -3369,7 +3369,7 @@
         "object": "page",
         "id": "f73d7cb7-2537-4af8-97a2-02fc4ab15d9e",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3421,20 +3421,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 11038000
+                    "number": 9038000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 12000000
+                "number": 10000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 2000000
                 }
             },
             "STT": {
@@ -3468,7 +3468,7 @@
         "object": "page",
         "id": "96b2ae74-933b-4a59-b431-8f36dd90de80",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3567,7 +3567,7 @@
         "object": "page",
         "id": "8ddf806c-8a8b-4528-b218-2039b0175052",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3666,7 +3666,7 @@
         "object": "page",
         "id": "2990b1ef-c2ec-4fc0-a44d-b8bac4db74b9",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:34:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3765,7 +3765,7 @@
         "object": "page",
         "id": "7f37cb5c-5821-42ea-a19b-8910fba84fb5",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3817,20 +3817,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 7082000
+                    "number": 682000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 7400000
+                "number": 1000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": -1600000
+                    "number": 4800000
                 }
             },
             "STT": {
@@ -3864,7 +3864,7 @@
         "object": "page",
         "id": "0b7379bc-f352-4302-a3e8-8df0ea8dc0d5",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -3963,7 +3963,7 @@
         "object": "page",
         "id": "b379d1e4-550e-4cb2-af0c-b6810ff97bb8",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4062,7 +4062,7 @@
         "object": "page",
         "id": "3646bf89-7b7c-46b0-8c14-3ac95984359e",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4161,7 +4161,7 @@
         "object": "page",
         "id": "b10005d8-518d-4edd-bc59-8449a5129fd8",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4213,20 +4213,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": -7299000
+                    "number": -8299000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 1000000
+                "number": 0
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 1000000
                 }
             },
             "STT": {
@@ -4260,7 +4260,7 @@
         "object": "page",
         "id": "f06f8dd5-e07d-4056-914b-088f2bf058fa",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4359,7 +4359,7 @@
         "object": "page",
         "id": "380732e8-c5bd-46b8-bff1-9fbd6f6c42f4",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4458,7 +4458,7 @@
         "object": "page",
         "id": "e33e5d89-8000-4fdf-81c1-18a3d5babcb5",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4557,7 +4557,7 @@
         "object": "page",
         "id": "a43add4c-e37b-465c-a76a-0282423a6997",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4609,20 +4609,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 59915000
+                    "number": 29915000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 155000000
+                "number": 125000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 30000000
                 }
             },
             "STT": {
@@ -4656,7 +4656,7 @@
         "object": "page",
         "id": "0f6131e3-cc67-4a48-8b6d-de4ef7d1b40f",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4755,7 +4755,7 @@
         "object": "page",
         "id": "80e96903-d54f-4d06-ad2f-a980d77dccb2",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4807,20 +4807,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 8645000
+                    "number": 3645000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 20000000
+                "number": 15000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000
                 }
             },
             "STT": {
@@ -4854,7 +4854,7 @@
         "object": "page",
         "id": "ec05a2ee-b7a6-4a55-bb1f-a891a55add0a",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -4953,7 +4953,7 @@
         "object": "page",
         "id": "c3840748-0026-48d1-85e6-db7edb3c0504",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5052,7 +5052,7 @@
         "object": "page",
         "id": "e41d1598-1d6c-4a38-a5ed-13a3bf7d0bc7",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5151,7 +5151,7 @@
         "object": "page",
         "id": "f935ce96-d7be-4cac-881b-b804231d5eea",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5250,7 +5250,7 @@
         "object": "page",
         "id": "af426fdc-06e6-4499-90da-573a73641241",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5302,20 +5302,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 20252000
+                    "number": 12852000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 22400000
+                "number": 15000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 7400000
                 }
             },
             "STT": {
@@ -5349,7 +5349,7 @@
         "object": "page",
         "id": "84b1b189-fbd5-4f8f-b3f7-593faaa1042b",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5448,7 +5448,7 @@
         "object": "page",
         "id": "2c707af5-923c-4344-98d5-e3bb47c7e443",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5547,7 +5547,7 @@
         "object": "page",
         "id": "801e99d3-7aef-4e90-b819-9626450680b6",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5646,7 +5646,7 @@
         "object": "page",
         "id": "589c8f49-bcb1-4fe9-9280-01f50e7f65e9",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5698,20 +5698,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 7790000
+                    "number": 4790000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 8000000
+                "number": 5000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 9000000
+                    "number": 12000000
                 }
             },
             "STT": {
@@ -5745,7 +5745,7 @@
         "object": "page",
         "id": "0952e540-9579-4e94-896c-937858a124d1",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5844,7 +5844,7 @@
         "object": "page",
         "id": "f5529a3c-c2cd-4cc3-9daf-faee511ed521",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -5943,7 +5943,7 @@
         "object": "page",
         "id": "f492049b-ec0e-4cc3-ba2a-ff05d9bc1b9b",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6042,7 +6042,7 @@
         "object": "page",
         "id": "1aa2fc39-ea35-41ca-8f39-b083de502a63",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6141,7 +6141,7 @@
         "object": "page",
         "id": "cb6000f4-2feb-4a98-8144-4628f0f82d9e",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6240,7 +6240,7 @@
         "object": "page",
         "id": "e541355e-46b0-4e13-add8-1a769ba877c5",
         "created_time": "2024-06-25T15:46:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6339,7 +6339,7 @@
         "object": "page",
         "id": "c515f008-b17f-48c5-878e-502c037a0818",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6438,7 +6438,7 @@
         "object": "page",
         "id": "434e47e8-b704-495b-a187-ae5b8a77bd8d",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6537,7 +6537,7 @@
         "object": "page",
         "id": "d6e37602-1487-486e-beb8-6c14b5f3edca",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6636,7 +6636,7 @@
         "object": "page",
         "id": "7e00ea89-7a0f-4e22-a8dc-2776c56702cd",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6735,7 +6735,7 @@
         "object": "page",
         "id": "7f0916e4-0d04-4a1d-ae32-ef60f001f862",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6834,7 +6834,7 @@
         "object": "page",
         "id": "168276c3-ef55-4ff9-9b8e-ea4af91d3dbe",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -6933,7 +6933,7 @@
         "object": "page",
         "id": "d13bcc52-f036-4a4f-82a2-2a6e310eee1e",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7032,7 +7032,7 @@
         "object": "page",
         "id": "109069f6-0fa0-4a94-a905-95a32e8bf30d",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7084,20 +7084,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 16385000
+                    "number": 7385000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 24000000
+                "number": 15000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 11000000
+                    "number": 20000000
                 }
             },
             "STT": {
@@ -7131,7 +7131,7 @@
         "object": "page",
         "id": "7cafd8bf-3912-4c28-aebb-2c01fe4a14d9",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7230,7 +7230,7 @@
         "object": "page",
         "id": "c5aa38aa-b7c8-4ffa-89ee-93c581d320cb",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7282,20 +7282,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 10060000
+                    "number": 9660000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 7400000
+                "number": 7000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 7000000
+                    "number": 7400000
                 }
             },
             "STT": {
@@ -7329,7 +7329,7 @@
         "object": "page",
         "id": "6daa2647-cb00-496e-b719-cd733569f662",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7428,7 +7428,7 @@
         "object": "page",
         "id": "fc89e627-ac81-4d73-8eb7-6c98511632f3",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7480,20 +7480,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 16517000
+                    "number": 10131000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 19386000
+                "number": 13000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 2000000
+                    "number": 8386000
                 }
             },
             "STT": {
@@ -7527,7 +7527,7 @@
         "object": "page",
         "id": "111ad337-40f3-4b55-86b8-31259b1570fe",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7626,7 +7626,7 @@
         "object": "page",
         "id": "5c0f41ae-978e-4fab-a3e4-8af8d19c6f73",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7725,7 +7725,7 @@
         "object": "page",
         "id": "856a3cd5-f46a-4018-9149-626d50d539ae",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7824,7 +7824,7 @@
         "object": "page",
         "id": "3ef7f7a7-7144-4602-b6ff-afe3149c76f3",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -7923,7 +7923,7 @@
         "object": "page",
         "id": "e8285e8e-bcad-4bf7-9bda-2bc436cc7c77",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8022,7 +8022,7 @@
         "object": "page",
         "id": "3d9b798d-e8d7-47da-afb7-e456bc579964",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8074,20 +8074,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 5500000
+                    "number": 2500000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 4000000
+                "number": 1000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000
                 }
             },
             "STT": {
@@ -8121,7 +8121,7 @@
         "object": "page",
         "id": "39475552-6400-483e-a749-c503f5bacb66",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8220,7 +8220,7 @@
         "object": "page",
         "id": "4fcf70d6-d25a-43d6-bf81-8042b1523735",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8319,7 +8319,7 @@
         "object": "page",
         "id": "1744c014-cf66-471c-8b3e-38faec3a07e9",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8418,7 +8418,7 @@
         "object": "page",
         "id": "300d58e1-86d2-4cf3-a1a0-bf0d53b82bcf",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8517,7 +8517,7 @@
         "object": "page",
         "id": "99c24a5a-826f-4151-a69f-885ecdd28821",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8616,7 +8616,7 @@
         "object": "page",
         "id": "9b80c98a-f74d-4a5a-85c1-9876e46b346c",
         "created_time": "2024-06-25T15:45:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8715,7 +8715,7 @@
         "object": "page",
         "id": "68fe2bc2-21c0-48cb-ae81-1d7f6dcc7932",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8814,7 +8814,7 @@
         "object": "page",
         "id": "94cda438-3192-4b5f-a31c-c84e0ff157cd",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -8913,7 +8913,7 @@
         "object": "page",
         "id": "ca53893d-bfb7-4584-8516-39aef063440b",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9012,7 +9012,7 @@
         "object": "page",
         "id": "3a542931-2b6e-40c6-b1ba-6c4531fbffa4",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9111,7 +9111,7 @@
         "object": "page",
         "id": "4d69d396-cf6e-42ef-b972-4b7ca1bb1cec",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9210,7 +9210,7 @@
         "object": "page",
         "id": "6b989ee4-9b14-4c20-a499-65208ae18ba5",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9262,20 +9262,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 64000000
+                    "number": 39000000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 64000000
+                "number": 39000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 25000000
                 }
             },
             "STT": {
@@ -9309,7 +9309,7 @@
         "object": "page",
         "id": "7eb7a2aa-f1bb-4421-8aa4-518ecfff625e",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9408,7 +9408,7 @@
         "object": "page",
         "id": "2d371737-ff99-4b65-9a22-cbd894b2ac1f",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9507,7 +9507,7 @@
         "object": "page",
         "id": "c5384494-b98f-4e9f-b016-3548157c2178",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9606,7 +9606,7 @@
         "object": "page",
         "id": "12c869d9-2f55-4bff-8409-2cfc8fc5d429",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:35:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9705,7 +9705,7 @@
         "object": "page",
         "id": "ac5a0e65-c26d-4fe6-a273-a921c749d513",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9804,7 +9804,7 @@
         "object": "page",
         "id": "c3c0c752-885b-4329-9404-a29b0a9efd01",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -9856,20 +9856,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 28790000
+                    "number": 16790000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 37000000
+                "number": 25000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 12000000
                 }
             },
             "STT": {
@@ -9903,7 +9903,7 @@
         "object": "page",
         "id": "66c02225-dbe2-4eac-8bf7-ecdbdda09d48",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10002,7 +10002,7 @@
         "object": "page",
         "id": "94a638d5-726d-4740-9797-8e4f3775a742",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T16:03:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10101,7 +10101,7 @@
         "object": "page",
         "id": "916f4c61-6a8f-4943-b6c0-1a7b46ee4cde",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10200,7 +10200,7 @@
         "object": "page",
         "id": "dc936191-5fd9-42da-8682-caa4e1831593",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10299,7 +10299,7 @@
         "object": "page",
         "id": "98971b82-bc7e-406c-b5a8-32f078924e5b",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10398,7 +10398,7 @@
         "object": "page",
         "id": "1dae0078-b2a7-4998-aee4-1469b4c89311",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10497,7 +10497,7 @@
         "object": "page",
         "id": "c22f73f9-4cfe-41f0-b1e8-d20983b5801c",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10596,7 +10596,7 @@
         "object": "page",
         "id": "e1eea6d7-d5a7-40ae-b005-ace756e63003",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10695,7 +10695,7 @@
         "object": "page",
         "id": "b12a2dc1-7743-4fe1-8a66-784604ceff83",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10794,7 +10794,7 @@
         "object": "page",
         "id": "a896264d-d720-447c-9605-ce9aed400e41",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10893,7 +10893,7 @@
         "object": "page",
         "id": "cbb64990-6e53-4766-9c60-ebbb82343224",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -10992,7 +10992,7 @@
         "object": "page",
         "id": "4ec5bc4b-bd02-4d8d-a967-12b00846611f",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11091,7 +11091,7 @@
         "object": "page",
         "id": "1ca34285-7b7b-45b3-8d63-0db08e839147",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11190,7 +11190,7 @@
         "object": "page",
         "id": "726c6db9-1331-49a4-ac95-b8bb50a908cf",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11289,7 +11289,7 @@
         "object": "page",
         "id": "995f8767-dacb-4c2d-b37f-4a15b392ea08",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11388,7 +11388,7 @@
         "object": "page",
         "id": "54c06f86-85fe-495c-8eed-c14761bc69d2",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11487,7 +11487,7 @@
         "object": "page",
         "id": "4cf0cc74-afa5-4872-bc1e-a4b64ec04118",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11539,20 +11539,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 57886000
+                    "number": 53886000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 71850000
+                "number": 67850000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 39600000
+                    "number": 43600000
                 }
             },
             "STT": {
@@ -11586,7 +11586,7 @@
         "object": "page",
         "id": "2b9d2b03-2235-456c-b073-7d2b8cefe8a1",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11685,7 +11685,7 @@
         "object": "page",
         "id": "a0afcb05-dbae-4f43-9611-7c939a084d20",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11784,7 +11784,7 @@
         "object": "page",
         "id": "74b364b1-15ec-4b14-aff9-65d64ce12e12",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11883,7 +11883,7 @@
         "object": "page",
         "id": "3c225fea-a1de-4673-aed9-f2ec10bf6e31",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -11982,7 +11982,7 @@
         "object": "page",
         "id": "88832275-d56a-4d93-9d6b-2189a13085b3",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12034,20 +12034,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 10715000
+                    "number": 7715000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 7000000
+                "number": 4000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 3000000
                 }
             },
             "STT": {
@@ -12081,7 +12081,7 @@
         "object": "page",
         "id": "9d451a84-6b7c-4019-a31c-9fed17f25dec",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12180,7 +12180,7 @@
         "object": "page",
         "id": "0b237756-0adf-4566-9ceb-29df4911a1fc",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12201,7 +12201,7 @@
             "Số lượng đơn": {
                 "id": "JgG%7B",
                 "type": "number",
-                "number": 0
+                "number": 1
             },
             "Thu nợ": {
                 "id": "Nk%3CD",
@@ -12216,7 +12216,7 @@
             "Đơn giá": {
                 "id": "bwGG",
                 "type": "number",
-                "number": 0
+                "number": 1000000
             },
             "Ngày": {
                 "id": "kciy",
@@ -12232,13 +12232,13 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": -1300000
+                    "number": -300000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 0
+                "number": 1000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
@@ -12279,7 +12279,7 @@
         "object": "page",
         "id": "aef2fde4-29f5-41a1-a393-4191f3aab1fb",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12378,7 +12378,7 @@
         "object": "page",
         "id": "a5805d2a-974e-494d-8547-db6202ff0e8b",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12477,7 +12477,7 @@
         "object": "page",
         "id": "907bfe00-b515-4d8d-896f-259cdf7d2552",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12529,20 +12529,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 35310000
+                    "number": 30310000
                 }
             },
             "Đã thanh toán": {
                 "id": "pq%3Ci",
                 "type": "number",
-                "number": 43000000
+                "number": 38000000
             },
             "Dư nợ phát sinh": {
                 "id": "vSqJ",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 0
+                    "number": 5000000
                 }
             },
             "STT": {
@@ -12576,7 +12576,7 @@
         "object": "page",
         "id": "251b433b-4baa-41e0-9ec5-737b077a8955",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12675,7 +12675,7 @@
         "object": "page",
         "id": "5b406471-905f-4cb1-ab92-7b89d36b8114",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12774,7 +12774,7 @@
         "object": "page",
         "id": "aef49589-f864-4815-b926-fad034a6d746",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12873,7 +12873,7 @@
         "object": "page",
         "id": "dfcce9f3-165b-4c27-9a80-34317c295020",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -12972,7 +12972,7 @@
         "object": "page",
         "id": "5b513ab5-ea12-45a2-b96b-4bf9df9995ed",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -13071,7 +13071,7 @@
         "object": "page",
         "id": "1ca4b9be-2ea6-46e8-bee9-100028cec31e",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -13102,7 +13102,7 @@
             "Chi tiêu": {
                 "id": "Vds%5C",
                 "type": "number",
-                "number": 0
+                "number": 1428000
             },
             "Đơn giá": {
                 "id": "bwGG",
@@ -13123,7 +13123,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 13000000
+                    "number": 11572000
                 }
             },
             "Đã thanh toán": {
@@ -13170,7 +13170,7 @@
         "object": "page",
         "id": "a16599b2-66e4-45d6-ba0c-3d49dff6c687",
         "created_time": "2024-06-25T15:44:00.000Z",
-        "last_edited_time": "2024-07-23T19:36:00.000Z",
+        "last_edited_time": "2024-07-24T15:57:00.000Z",
         "created_by": {
             "object": "user",
             "id": "41cabcaf-915d-46a5-8eff-38727be27269"
@@ -13201,7 +13201,7 @@
             "Chi tiêu": {
                 "id": "Vds%5C",
                 "type": "number",
-                "number": 7488000
+                "number": 6060000
             },
             "Đơn giá": {
                 "id": "bwGG",
@@ -13222,7 +13222,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 14512000
+                    "number": 15940000
                 }
             },
             "Đã thanh toán": {

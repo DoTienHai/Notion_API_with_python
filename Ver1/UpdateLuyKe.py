@@ -12,7 +12,7 @@ update_from_date = datetime.strptime(start_date, date_format)
 # Dữ liệu của trang mới
 def get_data_cho_luy_ke(location = ""):
     # lấy data đơn giá và đã thanh toán
-    data = get_data_doanh_thu(location=location, columns=["Ngày thực hiện", "Đơn giá", "Đã thanh toán"]).groupby("Ngày thực hiện").sum().reset_index()
+    data = get_data_doanh_thu(location=location, columns=["Ngày thực hiện", "Đơn giá", "Thanh toán lần đầu"]).groupby("Ngày thực hiện").sum().reset_index()
     data = data.rename(columns={"Ngày thực hiện":"Ngày"})
     # lấy data số lượng đơn
     data_so_don = get_data_doanh_thu(location=location, columns=["Ngày thực hiện"]).groupby('Ngày thực hiện').size().reset_index(name='Số lượng đơn')
@@ -69,7 +69,7 @@ def update_luy_ke_theo_ngay(location = ""):
                                     "number": row["Lượng chi"]
                                 },
                                 "Đã thanh toán": {
-                                    "number": row["Đã thanh toán"]
+                                    "number": row["Thanh toán lần đầu"]
                                 },
                                 "Số lượng đơn": {
                                     "number": row["Số lượng đơn"]
@@ -106,7 +106,7 @@ def update_luy_ke_theo_ngay(location = ""):
                                     "number": row["Lượng chi"]
                                 },
                                 "Đã thanh toán": {
-                                    "number": row["Đã thanh toán"]
+                                    "number": row["Thanh toán lần đầu"]
                                 },
                                 "Số lượng đơn": {
                                     "number": row["Số lượng đơn"]
@@ -180,7 +180,7 @@ def update_luy_ke_theo_thang(location = ""):
                                         "number": row["Lượng chi"]
                                     },
                                     "Đã thanh toán": {
-                                        "number": row["Đã thanh toán"]
+                                        "number": row["Thanh toán lần đầu"]
                                     },
                                     "Số lượng đơn": {
                                         "number": row["Số lượng đơn"]

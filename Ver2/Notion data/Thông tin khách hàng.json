@@ -1,6 +1,143 @@
 [
     {
         "object": "page",
+        "id": "07fe2094-1b50-4114-9eb1-26dda0e480b1",
+        "created_time": "2024-07-24T11:55:00.000Z",
+        "last_edited_time": "2024-07-24T11:56:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "5c48fc10-09d6-4661-be16-29bdb0a6d44c"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 375
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 10000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0766931276"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 10000000,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-24T11:55:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lâm Minh Ngọc",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lâm Minh Ngọc",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/L-m-Minh-Ng-c-07fe20941b5041149eb126dda0e480b1",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "08ae384f-51b5-4a1d-8649-d4cd6bff535d",
         "created_time": "2024-07-23T14:19:00.000Z",
         "last_edited_time": "2024-07-23T14:20:00.000Z",
@@ -306,6 +443,9 @@
                 "relation": [
                     {
                         "id": "4962d2fd-7a4f-4990-bf55-45998f1c9875"
+                    },
+                    {
+                        "id": "9f1ec962-eb0c-47e8-bfed-067c6db89b62"
                     }
                 ],
                 "has_more": false
@@ -331,6 +471,14 @@
                                 "name": "CẦN THƠ",
                                 "color": "red"
                             }
+                        },
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
                         }
                     ],
                     "function": "show_unique"
@@ -341,7 +489,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 300000,
+                    "number": 1500000,
                     "function": "sum"
                 }
             },
@@ -4006,6 +4154,9 @@
                     },
                     {
                         "id": "85a6e3ab-78fe-4f5e-884f-80eca0bc8ccb"
+                    },
+                    {
+                        "id": "588e7631-42d8-46bd-bfd0-b351eda4486e"
                     }
                 ],
                 "has_more": false
@@ -4039,6 +4190,14 @@
                                 "name": "CẦN THƠ",
                                 "color": "red"
                             }
+                        },
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
                         }
                     ],
                     "function": "show_unique"
@@ -4049,7 +4208,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 21200000,
+                    "number": 24800000,
                     "function": "sum"
                 }
             },
@@ -5518,7 +5677,11 @@
             "Lịch sử dịch vụ": {
                 "id": "RNjq",
                 "type": "relation",
-                "relation": [],
+                "relation": [
+                    {
+                        "id": "a3bb4f64-a8b3-4473-9a72-4afc8ec81402"
+                    }
+                ],
                 "has_more": false
             },
             "Mã khách hàng": {
@@ -5534,7 +5697,16 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "array",
-                    "array": [],
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
                     "function": "show_unique"
                 }
             },
@@ -5543,7 +5715,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 0,
+                    "number": 1000000,
                     "function": "sum"
                 }
             },

@@ -131,12 +131,14 @@ def collect_thong_tin_khach_hang():
     data_thong_tin_khach_hang = data_thong_tin_khach_hang[["id", "properties.Mã khách hàng.unique_id.prefix", 
                                            "properties.Mã khách hàng.unique_id.number", "properties.Họ và tên.title", 
                                            "properties.Cơ sở.rollup.array", "properties.CCCD.rich_text",  "properties.SĐT.phone_number", 
-                                           "properties.Link Facebook.url", "properties.Địa chỉ.rich_text"
-                                           ]]     
+                                           "properties.Link Facebook.url", "properties.Địa chỉ.rich_text", "properties.Tích lũy.rollup.number",
+                                           "properties.Dư nợ.rollup.number"]]     
     data_thong_tin_khach_hang = data_thong_tin_khach_hang.rename(columns={"id":"notion id", "properties.Mã khách hàng.unique_id.prefix":"Tiền tố", 
                                            "properties.Mã khách hàng.unique_id.number":"Mã khách hàng", "properties.Họ và tên.title":"Họ và tên", 
                                            "properties.CCCD.rich_text":"CCCD",  "properties.SĐT.phone_number":"SĐT", 
-                                           "properties.Link Facebook.url":"Facebook", "properties.Địa chỉ.rich_text":"Địa chỉ", "properties.Cơ sở.rollup.array" : "Cơ sở"})
+                                           "properties.Link Facebook.url":"Facebook", "properties.Địa chỉ.rich_text":"Địa chỉ",
+                                            "properties.Cơ sở.rollup.array" : "Cơ sở", "properties.Tích lũy.rollup.number" : "Tích lũy",
+                                            "properties.Dư nợ.rollup.number" : "Dư nợ"})
 
     data_thong_tin_khach_hang["Họ và tên"] = data_thong_tin_khach_hang["Họ và tên"].apply(extract_plain_text)
     data_thong_tin_khach_hang["CCCD"] = data_thong_tin_khach_hang["CCCD"].apply(extract_text_content)
