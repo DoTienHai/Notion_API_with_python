@@ -3,6 +3,8 @@ from Config import *
 def update_cham_cong_tong_hop():
     data_cham_cong_tong_hop = get_data_cham_cong("HỆ THỐNG", ["ALL"])
     data_cham_cong_tong_hop = data_cham_cong_tong_hop.fillna(0)
+
+    # Tính Tổng công
     for col in cham_cong_ref.keys():
         data_cham_cong_tong_hop[col] = 0
     for id_nhan_su in data_cham_cong_tong_hop["id nhân sự"]:

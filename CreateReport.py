@@ -10,8 +10,7 @@ def create_all_report(location):
     location_report_folder_path = os.path.join(report_folder,location_report_folder_name)
     if not os.path.exists(location_report_folder_path):
         os.makedirs(location_report_folder_path)
-    # else:
-    #     os.remove(location_report_folder_path)
+
 
     if location != "HỆ THỐNG":
         danh_sach_nhan_su = get_ho_so_nhan_su("",["ALL"])

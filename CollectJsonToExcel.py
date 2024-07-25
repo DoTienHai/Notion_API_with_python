@@ -106,13 +106,16 @@ def collect_ho_so_nhan_su():
                                              "properties.SĐT.phone_number", "properties.Email.email", 
                                              "properties.Ngày sinh.date.start", "properties.Chức vụ.select.name", 
                                              "properties.Ngày bắt đầu làm việc.date.start", "properties.Cơ sở.select.name", "properties.Hình thức làm việc.select.name",
-                                             "properties.Phân cấp.select.name"]]
+                                             "properties.Phân cấp.select.name", "properties.Doanh số.number",
+                                             "properties.KPI.number","properties.Tỉ lệ đạt KPI.formula.number"]]
     data_ho_so_nhan_su = data_ho_so_nhan_su.rename(columns={"id":"notion id", "properties.Mã nhân viên.unique_id.prefix":"Tiền tố", "properties.Mã nhân viên.unique_id.number":"Mã nhân viên",
                                              "properties.Họ và tên.title":"Họ và tên", "properties.Quê quán.rich_text":"Quê quán",                                          
                                              "properties.SĐT.phone_number":"SĐT", "properties.Email.email":"Email", 
                                              "properties.Ngày sinh.date.start":"Ngày sinh", "properties.Chức vụ.select.name":"Chức vụ", 
                                              "properties.Ngày bắt đầu làm việc.date.start":"Ngày bắt đầu làm việc", "properties.Cơ sở.select.name":"Cơ sở", 
-                                             "properties.Phân cấp.select.name":"Phân cấp", "properties.Hình thức làm việc.select.name" : "Hình thức làm việc"})
+                                             "properties.Phân cấp.select.name":"Phân cấp", "properties.Hình thức làm việc.select.name" : "Hình thức làm việc", 
+                                             "properties.KPI.number":"KPI", "properties.Doanh số.number" : "Doanh số",
+                                             "properties.Tỉ lệ đạt KPI.formula.number" : "Tỉ lệ đạt KPI"})
 
     data_ho_so_nhan_su['Họ và tên'] = data_ho_so_nhan_su['Họ và tên'].apply(extract_text_content)
     data_ho_so_nhan_su["Quê quán"] = data_ho_so_nhan_su["Quê quán"].apply(extract_text_content)

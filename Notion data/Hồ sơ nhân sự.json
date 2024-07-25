@@ -3,14 +3,14 @@
         "object": "page",
         "id": "35f44955-2223-488a-8274-8db6f726d9f7",
         "created_time": "2024-07-10T03:16:00.000Z",
-        "last_edited_time": "2024-07-22T16:51:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -33,8 +33,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -53,7 +56,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -63,6 +66,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -127,14 +135,14 @@
         "object": "page",
         "id": "d8178da7-a5cc-474f-9c6e-ed3029f89c4d",
         "created_time": "2024-07-02T17:59:00.000Z",
-        "last_edited_time": "2024-07-08T14:00:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -157,8 +165,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.05
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -181,7 +192,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -191,6 +202,11 @@
                     "name": "Thử việc",
                     "color": "blue"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 1500000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -255,14 +271,14 @@
         "object": "page",
         "id": "ea0572af-f8c9-430d-9d95-23303a4ce4cd",
         "created_time": "2024-07-02T17:24:00.000Z",
-        "last_edited_time": "2024-07-08T14:00:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -307,8 +323,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.06
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -331,7 +350,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -341,6 +360,11 @@
                     "name": "Học việc",
                     "color": "default"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 1800000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -409,14 +433,14 @@
         "object": "page",
         "id": "90bc02c2-bd1e-4c33-884a-38a1db528c78",
         "created_time": "2024-07-02T17:18:00.000Z",
-        "last_edited_time": "2024-07-08T14:00:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -443,8 +467,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -467,7 +494,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -477,6 +504,11 @@
                     "name": "Thử việc",
                     "color": "blue"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -545,14 +577,14 @@
         "object": "page",
         "id": "049e08c7-01e5-4ac6-bb22-4d52622559f1",
         "created_time": "2024-06-17T17:35:00.000Z",
-        "last_edited_time": "2024-07-08T16:46:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -575,8 +607,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -599,12 +634,17 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
                 "type": "select",
                 "select": null
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -669,14 +709,14 @@
         "object": "page",
         "id": "467f676f-8f46-49b5-afea-feecb0794d23",
         "created_time": "2024-06-16T09:45:00.000Z",
-        "last_edited_time": "2024-07-08T14:00:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -721,8 +761,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -745,7 +788,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -755,6 +798,11 @@
                     "name": "Thử việc",
                     "color": "blue"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -823,14 +871,14 @@
         "object": "page",
         "id": "e0ac0375-0b3a-4c88-a613-cb8df33ebe6b",
         "created_time": "2024-06-05T12:48:00.000Z",
-        "last_edited_time": "2024-07-22T16:51:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -853,8 +901,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -877,7 +928,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -887,6 +938,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -951,14 +1007,14 @@
         "object": "page",
         "id": "545126c4-c319-4d90-a506-2627e3e232a0",
         "created_time": "2024-06-05T05:44:00.000Z",
-        "last_edited_time": "2024-07-22T16:50:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -981,8 +1037,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -1005,7 +1064,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1015,6 +1074,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -1079,14 +1143,14 @@
         "object": "page",
         "id": "3db76400-46c0-4adb-9d9c-51542f2de2f9",
         "created_time": "2024-05-23T19:15:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -1109,8 +1173,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -1133,7 +1200,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1143,6 +1210,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -1211,14 +1283,14 @@
         "object": "page",
         "id": "3601e7b0-a80d-4dfd-bfa1-0d34a0e7e389",
         "created_time": "2024-05-22T12:32:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -1259,8 +1331,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -1283,7 +1358,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1293,6 +1368,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -1361,14 +1441,14 @@
         "object": "page",
         "id": "e49d0ce3-124d-4e4b-b377-be2139cde3f5",
         "created_time": "2024-05-22T12:32:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -1409,8 +1489,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.3563
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -1433,7 +1516,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1443,6 +1526,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 10688000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -1511,14 +1599,14 @@
         "object": "page",
         "id": "6454d5e5-8a20-473b-a597-dc1973dd1e0e",
         "created_time": "2024-05-17T14:53:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -1541,8 +1629,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -1565,7 +1656,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1575,6 +1666,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -1643,14 +1739,14 @@
         "object": "page",
         "id": "3fac4a49-402c-4d34-aa91-419ebc20760c",
         "created_time": "2024-05-17T14:52:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -1691,8 +1787,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -1715,7 +1814,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1725,6 +1824,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 0
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -1793,14 +1897,14 @@
         "object": "page",
         "id": "d1ae645f-f3dd-46cd-a715-a8c150605da6",
         "created_time": "2024-05-13T09:27:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -1841,8 +1945,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.06
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -1865,7 +1972,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -1875,6 +1982,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 1800000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -1943,14 +2055,14 @@
         "object": "page",
         "id": "e926d62c-e624-4663-9009-c562ae5166cf",
         "created_time": "2024-05-13T08:12:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -1991,8 +2103,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.9617
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -2015,7 +2130,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2025,6 +2140,11 @@
                     "name": "Quản trị cơ sở",
                     "color": "orange"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 28850000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -2093,14 +2213,14 @@
         "object": "page",
         "id": "7bb857c9-f973-440b-88f2-97e138ee6082",
         "created_time": "2024-05-13T05:42:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -2123,8 +2243,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.15
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -2147,7 +2270,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2157,6 +2280,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 4500000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -2221,14 +2349,14 @@
         "object": "page",
         "id": "3d301dfe-6e3d-4d28-a249-1fd5fac9abd3",
         "created_time": "2024-05-12T18:07:00.000Z",
-        "last_edited_time": "2024-07-23T18:57:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -2269,8 +2397,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.1067
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -2293,7 +2424,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2303,6 +2434,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 3200000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -2371,14 +2507,14 @@
         "object": "page",
         "id": "b9c67786-5d99-45c1-85d7-f96bfb66ef22",
         "created_time": "2024-05-10T10:27:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -2419,8 +2555,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.0867
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -2443,7 +2582,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2453,6 +2592,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 2600000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -2521,14 +2665,14 @@
         "object": "page",
         "id": "f973382b-037a-4eb1-84bc-e9e5318184b8",
         "created_time": "2024-05-10T09:45:00.000Z",
-        "last_edited_time": "2024-07-08T13:59:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -2569,8 +2713,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 2.141
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -2593,7 +2740,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2603,6 +2750,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 64230000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -2671,14 +2823,14 @@
         "object": "page",
         "id": "c463b1a9-4fb2-4258-87a7-44193ba02405",
         "created_time": "2024-05-10T09:41:00.000Z",
-        "last_edited_time": "2024-07-08T13:58:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -2719,8 +2871,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 4.2333
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -2743,7 +2898,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2753,6 +2908,11 @@
                     "name": "Quản trị cơ sở",
                     "color": "orange"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 127000000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -2821,14 +2981,14 @@
         "object": "page",
         "id": "7e29a9ca-b017-4ad6-a6b0-6ed9330137bc",
         "created_time": "2024-05-10T09:38:00.000Z",
-        "last_edited_time": "2024-07-08T13:58:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -2851,8 +3011,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.9
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -2875,7 +3038,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -2885,6 +3048,11 @@
                     "name": "Quản trị cấp cao",
                     "color": "gray"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 27000000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -2953,14 +3121,14 @@
         "object": "page",
         "id": "a73ea60d-3de1-4e9b-aa7b-f22fda5742bd",
         "created_time": "2024-05-10T09:35:00.000Z",
-        "last_edited_time": "2024-07-08T13:58:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -2983,8 +3151,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 2.2333
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -3007,7 +3178,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3017,6 +3188,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 67000000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -3085,14 +3261,14 @@
         "object": "page",
         "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898",
         "created_time": "2024-05-10T09:31:00.000Z",
-        "last_edited_time": "2024-07-08T13:58:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -3115,8 +3291,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 3.2233
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -3139,7 +3318,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3149,6 +3328,11 @@
                     "name": "Quản trị cấp cao",
                     "color": "gray"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 96700000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -3217,14 +3401,14 @@
         "object": "page",
         "id": "75046948-a198-4627-89b3-3bbf5967526b",
         "created_time": "2024-05-10T09:29:00.000Z",
-        "last_edited_time": "2024-07-08T13:58:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -3269,8 +3453,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 0.3967
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -3293,7 +3480,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3303,6 +3490,11 @@
                     "name": "Quản trị cơ sở",
                     "color": "orange"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 11900000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
@@ -3371,14 +3563,14 @@
         "object": "page",
         "id": "cca1354d-d585-4e09-8845-dc6dadbcb631",
         "created_time": "2024-05-10T09:17:00.000Z",
-        "last_edited_time": "2024-07-08T13:58:00.000Z",
+        "last_edited_time": "2024-07-25T16:53:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
         },
         "cover": null,
         "icon": null,
@@ -3401,8 +3593,11 @@
             },
             "Tỉ lệ đạt KPI": {
                 "id": "%3Enmt",
-                "type": "number",
-                "number": null
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 2.2
+                }
             },
             "Chức vụ": {
                 "id": "LgyH",
@@ -3425,7 +3620,7 @@
             "KPI": {
                 "id": "O%5BJN",
                 "type": "number",
-                "number": null
+                "number": 30000000
             },
             "Phân cấp": {
                 "id": "OaR_",
@@ -3435,6 +3630,11 @@
                     "name": "Chính thức",
                     "color": "yellow"
                 }
+            },
+            "Doanh số": {
+                "id": "jn%3BH",
+                "type": "number",
+                "number": 66000000
             },
             "Ngày bắt đầu làm việc": {
                 "id": "jr%3F%3A",
