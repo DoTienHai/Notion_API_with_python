@@ -1,6 +1,456 @@
 [
     {
         "object": "page",
+        "id": "1a83c7da-4b26-4da6-b912-a3a849d2e781",
+        "created_time": "2024-07-25T03:37:00.000Z",
+        "last_edited_time": "2024-07-25T03:37:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "34df6c27-358c-4872-9e6a-f38f304a4a8f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Sale phụ": {
+                "id": "%3FM%5E%5E",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày thu": {
+                "id": "%40%60%5Bk",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-25",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Cơ sở": {
+                "id": "I%5DG~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Bác sĩ 1": {
+                "id": "I%7B%5Dt",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn nợ": {
+                "id": "N%40jJ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bd8ba619-95f9-4d0d-b325-f1260086c729"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "Rl%7Cd",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Gen mã đơn": {
+                "id": "XOve",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TN",
+                    "number": 164
+                }
+            },
+            "Ngày thực hiện": {
+                "id": "YeX%40",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "date",
+                            "date": {
+                                "start": "2024-04-11",
+                                "end": null,
+                                "time_zone": null
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Khách nợ": {
+                "id": "%5ChEA",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Sale chính": {
+                "id": "gwFn",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": [
+                                {
+                                    "id": "7e29a9ca-b017-4ad6-a6b0-6ed9330137bc"
+                                }
+                            ]
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Lượng thu": {
+                "id": "oFII",
+                "type": "number",
+                "number": 3000000
+            },
+            "Người thu": {
+                "id": "oH%3FZ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "7e29a9ca-b017-4ad6-a6b0-6ed9330137bc"
+                    }
+                ],
+                "has_more": false
+            },
+            "Bác sĩ 2": {
+                "id": "rC~P",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "dịch vụ": {
+                "id": "uQgV",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Mã đơn": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "TN-164",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "TN-164",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/TN-164-1a83c7da4b264da6b912a3a849d2e781",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "c073bb28-5706-44e9-bf60-eeaa2c8f946d",
+        "created_time": "2024-07-25T02:11:00.000Z",
+        "last_edited_time": "2024-07-25T02:11:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "34df6c27-358c-4872-9e6a-f38f304a4a8f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Sale phụ": {
+                "id": "%3FM%5E%5E",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Ngày thu": {
+                "id": "%40%60%5Bk",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-25",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Cơ sở": {
+                "id": "I%5DG~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Bác sĩ 1": {
+                "id": "I%7B%5Dt",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": [
+                                {
+                                    "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                                }
+                            ]
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Đơn nợ": {
+                "id": "N%40jJ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "f064dabe-fb0d-40bd-9289-33c46d63ae56"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "Rl%7Cd",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Gen mã đơn": {
+                "id": "XOve",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TN",
+                    "number": 163
+                }
+            },
+            "Ngày thực hiện": {
+                "id": "YeX%40",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "date",
+                            "date": {
+                                "start": "2024-05-30",
+                                "end": null,
+                                "time_zone": null
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Khách nợ": {
+                "id": "%5ChEA",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Sale chính": {
+                "id": "gwFn",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": [
+                                {
+                                    "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                                }
+                            ]
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Lượng thu": {
+                "id": "oFII",
+                "type": "number",
+                "number": 500000
+            },
+            "Người thu": {
+                "id": "oH%3FZ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "f973382b-037a-4eb1-84bc-e9e5318184b8"
+                    }
+                ],
+                "has_more": false
+            },
+            "Bác sĩ 2": {
+                "id": "rC~P",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "dịch vụ": {
+                "id": "uQgV",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "relation",
+                            "relation": []
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Mã đơn": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "TN-163",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "TN-163",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/TN-163-c073bb28570644e9bf60eeaa2c8f946d",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "0cbc0716-bd53-46d1-955d-9bd19f9c99e8",
         "created_time": "2024-07-23T14:16:00.000Z",
         "last_edited_time": "2024-07-23T14:16:00.000Z",
@@ -888,11 +1338,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -2266,11 +2712,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -2417,11 +2859,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -5256,11 +5694,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -5407,11 +5841,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -6080,11 +6510,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -7215,11 +7641,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -7291,11 +7713,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -7442,11 +7860,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -8230,11 +8644,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -8457,11 +8867,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -12973,11 +13379,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -13200,11 +13602,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -14108,11 +14506,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -15689,11 +16083,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -18190,11 +18580,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -18266,11 +18652,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -18417,11 +18799,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -18871,11 +19249,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -19098,11 +19472,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"
@@ -20460,11 +20830,7 @@
                     "array": [
                         {
                             "type": "relation",
-                            "relation": [
-                                {
-                                    "id": "7bb857c9-f973-440b-88f2-97e138ee6082"
-                                }
-                            ]
+                            "relation": []
                         }
                     ],
                     "function": "show_original"

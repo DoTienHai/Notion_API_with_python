@@ -72,7 +72,7 @@ def get_don_sale_chinh(notion_id_nhan_su):
     data = filter_date(data, "Ngày thực hiện")
     data = data[columns]
     data = add_total_row(data)
-    
+    data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu sale chính'] = 0
     return data
 
 def get_don_sale_phu(notion_id_nhan_su):
@@ -81,6 +81,7 @@ def get_don_sale_phu(notion_id_nhan_su):
     data = filter_date(data, "Ngày thực hiện")
     data = data[columns]
     data = add_total_row(data) 
+    data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu sale phụ'] = 0
     return data
 
 def get_don_1_bac_si(notion_id_nhan_su):
@@ -89,6 +90,8 @@ def get_don_1_bac_si(notion_id_nhan_su):
     data = filter_date(data, "Ngày thực hiện")
     data = data[columns]
     data = add_total_row(data) 
+    data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 1'] = 0
+
     return data
 
 def get_don_2_bac_si(notion_id_nhan_su):
@@ -97,6 +100,8 @@ def get_don_2_bac_si(notion_id_nhan_su):
     data = filter_date(data, "Ngày thực hiện")
     data = data[columns]
     data = add_total_row(data) 
+    data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 1'] = 0
+    data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 2'] = 0
     return data
 
 def get_don_phụ_phau_1(notion_id_nhan_su):
@@ -149,6 +154,10 @@ def get_don_thu_no(notion_id_nhan_su):
         total_df["Tiền tố"] = "Tổng"
         # Nối dòng tổng với DataFrame gốc
         data = pd.concat([data, total_df])
+        data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu sale chính'] = 0
+        data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu sale phụ'] = 0
+        data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 1'] = 0
+        data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 2'] = 0
     return data
     
 
@@ -317,67 +326,69 @@ def create_report_ca_nhan(path, info_nhan_su):
                     ti_le_luong = ti_le_luong.values[0]
                 data_luong[f"Lương cơ bản tại {location}"] = tong_luong_co_ban*ti_le_luong
         
-        # Tính chiết khấu doanh số kinh doanh
-            if len(data_sale_chinh):
-                data_luong[f"Chiết khấu sale chính tại {location}"] = data_sale_chinh[data_sale_chinh["Cơ sở"] == location]["Chiết khấu sale chính"].sum()
-            else:
-                data_luong[f"Chiết khấu sale chính tại {location}"] = 0
-            if len(data_sale_phu):
-                data_luong[f"Chiết khấu sale phụ tại {location}"] = data_sale_phu[data_sale_phu["Cơ sở"] == location]["Chiết khấu sale phụ"].sum()
-            else:
-                data_luong[f"Chiết khấu sale phụ tại {location}"] = 0
-        # Tính chiết khấu phẫu thuật
-            if len(data_don_1_bac_si):
-                data_luong[f"Đơn 1 bác sĩ tại {location}"] = data_don_1_bac_si[data_don_1_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 1"].sum()
-            else:
-                data_luong[f"Đơn 1 bác sĩ tại {location}"] = 0
+            # Tính chiết khấu doanh số kinh doanh
+                if len(data_sale_chinh):
+                    data_luong[f"Chiết khấu sale chính tại {location}"] = data_sale_chinh[data_sale_chinh["Cơ sở"] == location]["Chiết khấu sale chính"].sum()
+                else:
+                    data_luong[f"Chiết khấu sale chính tại {location}"] = 0
+                if len(data_sale_phu):
+                    data_luong[f"Chiết khấu sale phụ tại {location}"] = data_sale_phu[data_sale_phu["Cơ sở"] == location]["Chiết khấu sale phụ"].sum()
+                else:
+                    data_luong[f"Chiết khấu sale phụ tại {location}"] = 0
+            # Tính chiết khấu phẫu thuật
+                if len(data_don_1_bac_si):
+                    data_luong[f"Đơn 1 bác sĩ tại {location}"] = data_don_1_bac_si[data_don_1_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 1"].sum()
+                else:
+                    data_luong[f"Đơn 1 bác sĩ tại {location}"] = 0
 
-            if len(data_don_2_bac_si):
-                data_luong[f"Đơn 2 bác sĩ tại {location}"] = data_don_2_bac_si[data_don_2_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 2"].sum()
-            else:
-                data_luong[f"Đơn 2 bác sĩ tại {location}"] = 0       
-        # Tính công phụ phẫu
-            if len(data_phu_phau_1):
-                data_luong[f"Công phụ phẫu 1 tại {location}"] = data_phu_phau_1[data_phu_phau_1["Cơ sở"] == location]["Công phụ phẫu 1"].sum()
-            else:
-                data_luong[f"Công phụ phẫu 1 tại {location}"] = 0
+                if len(data_don_2_bac_si):
+                    data_luong[f"Đơn 2 bác sĩ tại {location}"] = data_don_2_bac_si[data_don_2_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 2"].sum()
+                else:
+                    data_luong[f"Đơn 2 bác sĩ tại {location}"] = 0       
+            # Tính công phụ phẫu
+                if len(data_phu_phau_1):
+                    data_luong[f"Công phụ phẫu 1 tại {location}"] = data_phu_phau_1[data_phu_phau_1["Cơ sở"] == location]["Công phụ phẫu 1"].sum()
+                else:
+                    data_luong[f"Công phụ phẫu 1 tại {location}"] = 0
 
-            if len(data_phu_phau_2):
-                data_luong[f"Công phụ phẫu 2 tại {location}"] = data_phu_phau_2[data_phu_phau_2["Cơ sở"] == location]["Công phụ phẫu 2"].sum()
-            else:
-                data_luong[f"Công phụ phẫu 2 tại {location}"] = 0   
-        # Tính chiết khấu thu nợ
-            if len(data_don_thu_no):
-                data_luong[f"Chiết khấu thu nợ tại {location}"] = data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum() + \
-                                                                    data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale phụ"].sum() + \
-                                                                    data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu bác sĩ 1"].sum() + \
-                                                                    data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu bác sĩ 2"].sum()
-                                                                    
-        # Ứng lương
-            data_ung_luong = get_data_chi_tieu("", ["ALL"])
-            data_ung_luong = filter_date(data_ung_luong, "Ngày chi")
-            data_ung_luong = data_ung_luong[(data_ung_luong["Phân loại"] == "Ứng Lương") & (data_ung_luong["id người nhận/ứng"] == notion_id_nhan_su)]
-            if len(data_ung_luong):
-                data_luong[f"Ứng lương tại {location}"] = -data_ung_luong[data_ung_luong["Cơ sở"] == location]["Lượng chi"].sum()
-            else:
-                data_luong[f"Ứng lương tại {location}"] = 0
+                if len(data_phu_phau_2):
+                    data_luong[f"Công phụ phẫu 2 tại {location}"] = data_phu_phau_2[data_phu_phau_2["Cơ sở"] == location]["Công phụ phẫu 2"].sum()
+                else:
+                    data_luong[f"Công phụ phẫu 2 tại {location}"] = 0   
+            # Tính chiết khấu thu nợ
+                if len(data_don_thu_no):
+                    data_luong[f"Chiết khấu thu nợ tại {location}"] = data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum() + \
+                                                                        data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale phụ"].sum() + \
+                                                                        data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu bác sĩ 1"].sum() + \
+                                                                        data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu bác sĩ 2"].sum()
+                                                                        
+            # Ứng lương
+                data_ung_luong = get_data_chi_tieu("", ["ALL"])
+                data_ung_luong = filter_date(data_ung_luong, "Ngày chi")
+                data_ung_luong = data_ung_luong[(data_ung_luong["Phân loại"] == "Ứng Lương") & (data_ung_luong["id người nhận/ứng"] == notion_id_nhan_su)]
+                if len(data_ung_luong):
+                    data_luong[f"Ứng lương tại {location}"] = -data_ung_luong[data_ung_luong["Cơ sở"] == location]["Lượng chi"].sum()
+                else:
+                    data_luong[f"Ứng lương tại {location}"] = 0
         # Thưởng
         # Phạt
         # khác 
 
         # Tổng kết lương theo cơ sở
         for location in location_list:
-            data_luong[f"Tổng lương tại {location}"] = 0
-            for col in data_luong.columns.tolist():
-                if location in col:
-                    data_luong[f"Tổng lương tại {location}"] += data_luong[col].sum()
-            if location == co_so:
-                data_luong[f"Tổng lương tại {location}"] += data_luong["Phụ cấp"]*2
+            if location != "HỆ THỐNG":
+                data_luong[f"Tổng lương tại {location}"] = 0
+                for col in data_luong.columns.tolist():
+                    if location in col:
+                        data_luong[f"Tổng lương tại {location}"] += data_luong[col].sum()
+                if location == co_so:
+                    data_luong[f"Tổng lương tại {location}"] += data_luong["Phụ cấp"]*2
         # Tổng lương
         data_luong["Tổng lương"] = 0
         for location in location_list:
-            data_luong[f"Tổng lương tại {location}"] = data_luong[f"Tổng lương tại {location}"]/2
-            data_luong["Tổng lương"] = data_luong["Tổng lương"] + data_luong[f"Tổng lương tại {location}"]
+            if location != "HỆ THỐNG":
+                data_luong[f"Tổng lương tại {location}"] = data_luong[f"Tổng lương tại {location}"]/2
+                data_luong["Tổng lương"] = data_luong["Tổng lương"] + data_luong[f"Tổng lương tại {location}"]
         data_luong_T = data_luong.transpose()
         # Đặt lại tên cột
         data_luong_T.columns = data_luong.index
