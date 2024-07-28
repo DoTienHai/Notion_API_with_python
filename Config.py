@@ -3,6 +3,7 @@ import requests
 import json
 from pandas import DataFrame
 import os
+from openpyxl.styles import numbers
 
 notion_data_folder = "Notion data"
 file_all_notion_data = os.path.join(notion_data_folder, "ALL.xlsx")
@@ -157,3 +158,6 @@ def moveRowToEnd(dataframe, columnName, rowName):
     dataframe = pd.concat([dataframe, row], ignore_index=True)
     
     return dataframe
+
+def format_percent(ws, col):
+    pass

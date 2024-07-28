@@ -279,7 +279,7 @@ def collect_doanh_thu_he_thong():
             data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 2"] = 0
             # Tỉ lệ chiết khấu đơn 1 bác sĩ của NV-5 Nguyễn Hoàng Yến Quyên 75046948-a198-4627-89b3-3bbf5967526b
             if (row["id bác sĩ 1"] == "75046948-a198-4627-89b3-3bbf5967526b"):
-                if (row["Nhóm dịch vụ"] == "Tiêm") or (row["Nhóm dịch vụ"] == "Tiểu phẫu"):
+                if ((row["Nhóm dịch vụ"] == "Tiêm") or (row["Nhóm dịch vụ"] == "Tiểu phẫu")) and (row["Cơ sở"] == "CẦN THƠ"):
                     data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu bác sĩ 1"] = 0.08
     data_doanh_thu_he_thong["Chiết khấu bác sĩ 1"] = data_doanh_thu_he_thong["Tỉ lệ chiết khấu bác sĩ 1"]*data_doanh_thu_he_thong["Đã thanh toán"]
     data_doanh_thu_he_thong["Chiết khấu bác sĩ 2"] = data_doanh_thu_he_thong["Tỉ lệ chiết khấu bác sĩ 2"]*data_doanh_thu_he_thong["Đã thanh toán"]
@@ -389,11 +389,15 @@ def collect_danh_sach_thu_no(data_doanh_thu):
 def collect_data_cham_cong_he_thong(location=""):
     excel_file_path = os.path.join(notion_data_folder, "Chấm công HỆ THỐNG.xlsx")
     data_cham_cong = pd.read_excel(excel_file_path)
-    raw_columns = ["id","properties.Nhân sự.relation", "properties.Cơ sở.rollup.array", "properties.Tổng công.number"]
+    raw_columns = ["id","properties.Nhân sự.relation", "properties.Cơ sở.rollup.array", "properties.Tổng công.formula.number"]
     new_columns = ["notion id", "id nhân sự", "Cơ sở", "Tổng công"]
     for key,value in cham_cong_ref.items():
         raw_columns.append(f"properties.{key}.number")
         new_columns.append(f"{key}")
+    for location in location_list:
+        if location != "HỆ THỐNG":
+            raw_columns.append(f"properties.Tổng công tại {location}.number")
+            new_columns.append(f"Tổng công tại {location}")
     columns_dict = dict(zip(raw_columns, new_columns))
     data_cham_cong = data_cham_cong[raw_columns]
     data_cham_cong = data_cham_cong.rename(columns=columns_dict)

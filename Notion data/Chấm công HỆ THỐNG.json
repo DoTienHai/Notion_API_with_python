@@ -3,7 +3,7 @@
         "object": "page",
         "id": "3591e46b-a1b0-448e-a0a6-afcd443b310e",
         "created_time": "2024-07-24T15:30:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -21,6 +21,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -44,12 +49,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 8
+                "number": 28
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 8
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -74,6 +87,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -87,7 +105,7 @@
         "object": "page",
         "id": "29f35f86-976a-4c89-9a70-f1c1f07bcf2a",
         "created_time": "2024-07-24T15:30:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -105,6 +123,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -128,12 +151,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 25
+                "number": 28
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 25
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -158,6 +189,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -171,7 +207,7 @@
         "object": "page",
         "id": "44a59162-be99-4049-96cd-2374839aa086",
         "created_time": "2024-07-08T16:49:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -189,6 +225,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -212,12 +253,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 25
+                "number": 28
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 25
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -242,6 +291,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -255,7 +309,7 @@
         "object": "page",
         "id": "39c98d7f-b7d0-49ef-9652-f406a3e62029",
         "created_time": "2024-07-08T16:48:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -273,6 +327,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -296,12 +355,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 25
+                "number": 28
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 25
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -326,6 +393,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -339,7 +411,7 @@
         "object": "page",
         "id": "4a76f2d2-b0f3-4746-8b60-6095030ce9a4",
         "created_time": "2024-07-08T16:48:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -357,6 +429,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -380,12 +457,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 24
+                "number": 26
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 24
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 26
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -410,6 +495,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 26
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -423,7 +513,7 @@
         "object": "page",
         "id": "8e8f7e77-65ea-4667-9635-359ff100cf58",
         "created_time": "2024-07-08T16:47:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -441,6 +531,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -464,12 +559,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 24
+                "number": 26
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 24
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 26
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -494,6 +597,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 26
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -507,7 +615,7 @@
         "object": "page",
         "id": "0326afbb-4995-4ae7-8b30-901ef3dd038c",
         "created_time": "2024-07-08T16:45:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -525,6 +633,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -548,12 +661,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 25
+                "number": 28
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 25
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -578,6 +699,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -591,7 +717,7 @@
         "object": "page",
         "id": "8170c5f7-1afc-4ec2-b5bf-4dfa06dfd8a8",
         "created_time": "2024-07-08T16:45:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -609,6 +735,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -632,12 +763,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 25
+                "number": 28
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 25
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -662,6 +801,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -675,7 +819,7 @@
         "object": "page",
         "id": "0f6b9d94-3550-435e-9360-d1dd8933363f",
         "created_time": "2024-07-06T10:33:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -693,6 +837,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 28
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -716,17 +865,25 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 23
+                "number": 25
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 24
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
                 "type": "number",
-                "number": 1
+                "number": 3
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -746,6 +903,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -759,7 +921,7 @@
         "object": "page",
         "id": "05de003a-828f-46b1-ba9c-63df15fb2410",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -777,6 +939,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -800,12 +967,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 24
+                "number": 27
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 25
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -830,6 +1005,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -843,7 +1023,7 @@
         "object": "page",
         "id": "1cf1ba2b-e08a-4452-b208-684506d74f54",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -861,6 +1041,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -884,12 +1069,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 24
+                "number": 26
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 24
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 26
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -914,6 +1107,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 26
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -927,7 +1125,7 @@
         "object": "page",
         "id": "dda0b264-3b1d-46ab-85d8-06a4ac6fc467",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -945,6 +1143,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 2
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -968,12 +1171,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 26
+                "number": 29
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 26.5
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 28.5
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 31.5
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -998,6 +1209,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 3
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1011,7 +1227,7 @@
         "object": "page",
         "id": "36015951-56f5-48c6-b457-456fdded4f32",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1029,6 +1245,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -1052,12 +1273,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 22
+                "number": 25
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 27.5
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 24.5
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 27.5
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -1082,6 +1311,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1095,7 +1329,7 @@
         "object": "page",
         "id": "48a1d5d5-449f-4119-b338-1f7d4ea3464f",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1113,6 +1347,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -1136,12 +1375,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 20
+                "number": 22
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 1
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 20
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 22
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -1166,6 +1413,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 21
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1179,7 +1431,7 @@
         "object": "page",
         "id": "4a2d1406-11a9-4e3c-80ff-0b01e9355c9b",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1197,6 +1449,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 27.5
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -1220,17 +1477,25 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 23
+                "number": 26
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 23.5
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 27.5
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
                 "type": "number",
-                "number": 0
+                "number": 1
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -1250,6 +1515,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1263,7 +1533,7 @@
         "object": "page",
         "id": "71bb8625-d14d-41b5-8a04-475b11876eae",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1281,10 +1551,15 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
-                "number": 3
+                "number": 4
             },
             "Nghỉ không phép": {
                 "id": "%3CK%3FH",
@@ -1304,12 +1579,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 20
+                "number": 21
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 21.5
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 23
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -1334,6 +1617,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 23
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1347,7 +1635,7 @@
         "object": "page",
         "id": "82923c0d-8cf4-4fa1-a3b5-52255c0fbc91",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1365,6 +1653,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -1373,7 +1666,7 @@
             "Nghỉ không phép": {
                 "id": "%3CK%3FH",
                 "type": "number",
-                "number": 2
+                "number": 3
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -1388,12 +1681,20 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 19
+                "number": 21
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 24
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 22
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 24
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -1418,6 +1719,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1431,7 +1737,7 @@
         "object": "page",
         "id": "8838c6b8-138d-4a51-b94c-a61e43096f82",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1449,6 +1755,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 27.5
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -1472,17 +1783,25 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 23
+                "number": 26
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 23.5
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 27.5
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
                 "type": "number",
-                "number": 0
+                "number": 1
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -1502,6 +1821,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1515,7 +1839,7 @@
         "object": "page",
         "id": "ce5aa8e2-193e-4cfb-85c8-d1f2bb956fbc",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1533,6 +1857,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 0
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -1556,17 +1885,25 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 25
+                "number": 26
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 28
             },
             "Tổng công": {
                 "id": "rCIq",
-                "type": "number",
-                "number": 25
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
                 "type": "number",
-                "number": 0
+                "number": 2
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -1586,6 +1923,11 @@
                     "function": "show_original"
                 }
             },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
             "STT": {
                 "id": "title",
                 "type": "title",
@@ -1599,7 +1941,7 @@
         "object": "page",
         "id": "d482bb7f-6b24-4f14-958b-0282197809bf",
         "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1617,6 +1959,11 @@
         "archived": false,
         "in_trash": false,
         "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 27.5
+            },
             "Nửa ngày": {
                 "id": "%3CJjN",
                 "type": "number",
@@ -1640,12 +1987,122 @@
             "Đầy đủ": {
                 "id": "avzr",
                 "type": "number",
-                "number": 22
+                "number": 25
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
             },
             "Tổng công": {
                 "id": "rCIq",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 27.5
+                }
+            },
+            "Nghỉ có phép": {
+                "id": "%7B%3EFf",
                 "type": "number",
-                "number": 23.5
+                "number": 2
+            },
+            "Cơ sở": {
+                "id": "%7BVCZ",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "Lj_l",
+                                "name": "LONG XUYÊN",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
+                "type": "number",
+                "number": 0
+            },
+            "STT": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/d482bb7f6b244f14958b0282197809bf",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "f16ce82e-4786-421e-a21c-3d6a57cbc51d",
+        "created_time": "2024-07-02T18:08:00.000Z",
+        "last_edited_time": "2024-07-28T16:35:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0c70fa05-7bda-4cee-a9f2-3ccf963208ff"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Tổng công tại LONG XUYÊN": {
+                "id": "%3An%60V",
+                "type": "number",
+                "number": 28
+            },
+            "Nửa ngày": {
+                "id": "%3CJjN",
+                "type": "number",
+                "number": 0
+            },
+            "Nghỉ không phép": {
+                "id": "%3CK%3FH",
+                "type": "number",
+                "number": 0
+            },
+            "Nhân sự": {
+                "id": "Kfrh",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "d1ae645f-f3dd-46cd-a715-a8c150605da6"
+                    }
+                ],
+                "has_more": false
+            },
+            "Đầy đủ": {
+                "id": "avzr",
+                "type": "number",
+                "number": 27
+            },
+            "Tổng công tại CẦN THƠ": {
+                "id": "gbHP",
+                "type": "number",
+                "number": 0
+            },
+            "Tổng công": {
+                "id": "rCIq",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 28
+                }
             },
             "Nghỉ có phép": {
                 "id": "%7B%3EFf",
@@ -1670,89 +2127,10 @@
                     "function": "show_original"
                 }
             },
-            "STT": {
-                "id": "title",
-                "type": "title",
-                "title": []
-            }
-        },
-        "url": "https://www.notion.so/d482bb7f6b244f14958b0282197809bf",
-        "public_url": null
-    },
-    {
-        "object": "page",
-        "id": "f16ce82e-4786-421e-a21c-3d6a57cbc51d",
-        "created_time": "2024-07-02T18:08:00.000Z",
-        "last_edited_time": "2024-07-25T16:53:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "41cabcaf-915d-46a5-8eff-38727be27269"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "0c70fa05-7bda-4cee-a9f2-3ccf963208ff"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Nửa ngày": {
-                "id": "%3CJjN",
+            "Tổng công tại SÓC TRĂNG": {
+                "id": "%7B%5EPt",
                 "type": "number",
                 "number": 0
-            },
-            "Nghỉ không phép": {
-                "id": "%3CK%3FH",
-                "type": "number",
-                "number": 0
-            },
-            "Nhân sự": {
-                "id": "Kfrh",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "d1ae645f-f3dd-46cd-a715-a8c150605da6"
-                    }
-                ],
-                "has_more": false
-            },
-            "Đầy đủ": {
-                "id": "avzr",
-                "type": "number",
-                "number": 24
-            },
-            "Tổng công": {
-                "id": "rCIq",
-                "type": "number",
-                "number": 24
-            },
-            "Nghỉ có phép": {
-                "id": "%7B%3EFf",
-                "type": "number",
-                "number": 0
-            },
-            "Cơ sở": {
-                "id": "%7BVCZ",
-                "type": "rollup",
-                "rollup": {
-                    "type": "array",
-                    "array": [
-                        {
-                            "type": "select",
-                            "select": {
-                                "id": "Lj_l",
-                                "name": "LONG XUYÊN",
-                                "color": "green"
-                            }
-                        }
-                    ],
-                    "function": "show_original"
-                }
             },
             "STT": {
                 "id": "title",

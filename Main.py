@@ -23,10 +23,10 @@ if __name__ == "__main__":
         print(f"Cập nhật toàn bộ data {(time.time() - start_time):.6f} giây\n")
         
         processes = []
-        process1 = multiprocessing.Process(target=update_cham_cong_tong_hop)
-        process2 = multiprocessing.Process(target=update_KPI)
-        processes.append(process1)
+        process2 = multiprocessing.Process(target=update_cham_cong_tong_hop)
+        process3 = multiprocessing.Process(target=update_KPI)
         processes.append(process2)
+        processes.append(process3)
         
         min = datetime.now().minute
 
@@ -35,9 +35,9 @@ if __name__ == "__main__":
             process_thang = multiprocessing.Process(target=update_luy_ke_theo_thang, args=(location,))
             processes.append(process_ngay)
             processes.append(process_thang)
-        #     if (min < 5):
-        #         process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
-        #         processes.append(process_create_report)
+            if (min < 5):
+                process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
+                processes.append(process_create_report)
             process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
             processes.append(process_create_report)
 

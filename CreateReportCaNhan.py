@@ -302,30 +302,32 @@ def create_report_ca_nhan(path, info_nhan_su):
         ws8 = wb.create_sheet("Lương")
         data_luong = pd.DataFrame()
         # Tính lương cơ bản theo ngày công
-        if info_nhan_su["Hình thức làm việc"] == "Remote":
-            # Lấy số ngày lương
-            data_luong["Ngày công"] = 28
-            data_luong["Phụ cấp"] = 0
-        else:
-            # Lấy số ngày lương
-            data_cham_cong = get_data_cham_cong_tong_hop()
-            data_luong["Ngày công"] = data_cham_cong[data_cham_cong["id nhân sự"] == notion_id_nhan_su]["Tổng công"]
-            data_luong["Phụ cấp"] = data_luong["Ngày công"]*35000
-        
+        data_cham_cong = get_data_cham_cong_tong_hop()
+        # Tính luong 1 ngày công
         luong_co_ban = ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Tổng lương cơ bản"]
         if len(luong_co_ban):
             luong_co_ban = luong_co_ban.values[0]
-        ngay_cong = data_luong["Ngày công"]
-        if len(ngay_cong):
-            ngay_cong = ngay_cong.values[0]
-        tong_luong_co_ban = luong_co_ban*ngay_cong/28
+        luong_1_cong = luong_co_ban/28
+        tong_luong_co_ban = 0
         for location in location_list:
             if location != "HỆ THỐNG":
+                ngay_cong = data_cham_cong[data_cham_cong["id nhân sự"] == notion_id_nhan_su][f"Tổng công tại {location}"]
+                data_luong[f"Tổng công tại {location}"] = ngay_cong
+                # Tính phụ cấp
+                if ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Phụ cấp"].values[0] == 1:
+                    data_luong[f"Phụ cấp tại {location}"] = 35000*ngay_cong
+                if location == co_so:
+                    # Lấy tổng lương cơ bản
+                    tong_luong_co_ban = ngay_cong*luong_1_cong
+                else:
+                    # Tính lương công tác
+                    data_luong[f"Lương công tác tại {location}"] = ngay_cong*luong_1_cong
+                # Tính lương cơ bản theo ngày công
                 ti_le_luong = ref_luong[ref_luong["notion id"] == notion_id_nhan_su][location]
                 if len(ti_le_luong):
                     ti_le_luong = ti_le_luong.values[0]
                 data_luong[f"Lương cơ bản tại {location}"] = tong_luong_co_ban*ti_le_luong
-        
+
             # Tính chiết khấu doanh số kinh doanh
                 if len(data_sale_chinh):
                     data_luong[f"Chiết khấu sale chính tại {location}"] = data_sale_chinh[data_sale_chinh["Cơ sở"] == location]["Chiết khấu sale chính"].sum()
@@ -370,6 +372,7 @@ def create_report_ca_nhan(path, info_nhan_su):
                     data_luong[f"Ứng lương tại {location}"] = -data_ung_luong[data_ung_luong["Cơ sở"] == location]["Lượng chi"].sum()
                 else:
                     data_luong[f"Ứng lương tại {location}"] = 0
+
         # Thưởng
         # Phạt
         # khác 
@@ -379,18 +382,16 @@ def create_report_ca_nhan(path, info_nhan_su):
             if location != "HỆ THỐNG":
                 data_luong[f"Tổng lương tại {location}"] = 0
                 for col in data_luong.columns.tolist():
-                    if location in col:
+                    if location in col and "Tổng công" not in col:
                         data_luong[f"Tổng lương tại {location}"] += data_luong[col].sum()
-                if location == co_so:
-                    data_luong[f"Tổng lương tại {location}"] += data_luong["Phụ cấp"]*2
         # Tổng lương
         data_luong["Tổng lương"] = 0
         for location in location_list:
             if location != "HỆ THỐNG":
                 data_luong[f"Tổng lương tại {location}"] = data_luong[f"Tổng lương tại {location}"]/2
                 data_luong["Tổng lương"] = data_luong["Tổng lương"] + data_luong[f"Tổng lương tại {location}"]
+        # # Chuyển vị và đặt lại tên cột
         data_luong_T = data_luong.transpose()
-        # Đặt lại tên cột
         data_luong_T.columns = data_luong.index
         data_luong_T = data_luong_T.reset_index()
         data_luong_T.rename(columns={'index': 'Danh mục lương'}, inplace=True)

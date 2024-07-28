@@ -1,6 +1,828 @@
 [
     {
         "object": "page",
+        "id": "d4f34d0d-6aef-47eb-8705-102453ab0056",
+        "created_time": "2024-07-28T15:04:00.000Z",
+        "last_edited_time": "2024-07-28T15:04:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "a512f27b-95c1-4f37-b75e-f3e1e4ebe5c2"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 382
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 200000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0988903782"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-28T15:04:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Thị Minh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Thị Minh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Th-Minh-d4f34d0d6aef47eb8705102453ab0056",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "c0f0651a-8761-414d-82b6-6093366fab01",
+        "created_time": "2024-07-28T11:23:00.000Z",
+        "last_edited_time": "2024-07-28T11:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "8d323e18-4c5c-4383-b1cb-a03e32c041a9"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 381
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 2000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-28T11:23:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "bảo trân",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "bảo trân",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/b-o-tr-n-c0f0651a8761414d82b66093366fab01",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "25604b16-cf06-4b23-aef3-7202013d11d3",
+        "created_time": "2024-07-28T11:22:00.000Z",
+        "last_edited_time": "2024-07-28T11:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "8f9da8eb-d4bf-4768-abe7-a2ad7a32d86c"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 380
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 18000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0824445443"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-28T11:22:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "trương thị lan ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "trương thị lan ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/tr-ng-th-lan-25604b16cf064b23aef37202013d11d3",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "ebef9718-f832-492d-9287-ebceb29c8b20",
+        "created_time": "2024-07-28T11:20:00.000Z",
+        "last_edited_time": "2024-07-28T11:21:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c206778e-3d9c-423f-a1f7-b20ce0aced1b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 379
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 35000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "034925472"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-28T11:20:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "thạch thị sơ ri",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "thạch thị sơ ri",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/th-ch-th-s-ri-ebef9718f832492d9287ebceb29c8b20",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "d6507490-5e56-43c8-baad-3a223a715db1",
+        "created_time": "2024-07-28T11:18:00.000Z",
+        "last_edited_time": "2024-07-28T11:18:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bde316a6-679b-472c-8b2e-4d4433692079"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 378
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 15000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0777999926"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-28T11:18:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "trần thị ngọc bích ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "trần thị ngọc bích ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/tr-n-th-ng-c-b-ch-d65074905e5643c8baad3a223a715db1",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "8abb4ce6-9475-45a8-925a-55fb5f6bd0e4",
+        "created_time": "2024-07-26T13:50:00.000Z",
+        "last_edited_time": "2024-07-26T13:50:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "8697b279-facb-46d5-aeba-240526e34eb8"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 377
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 6000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-07-26T13:50:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Huỳnh Huyền Trân",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Huỳnh Huyền Trân",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Hu-nh-Huy-n-Tr-n-8abb4ce6947545a8925a55fb5f6bd0e4",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "f99c5504-6794-4783-b66c-8f0a6ced06d4",
         "created_time": "2024-07-25T12:25:00.000Z",
         "last_edited_time": "2024-07-25T12:25:00.000Z",
