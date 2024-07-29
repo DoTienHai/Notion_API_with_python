@@ -314,7 +314,7 @@ def create_report_ca_nhan(path, info_nhan_su):
                 ngay_cong = data_cham_cong[data_cham_cong["id nhân sự"] == notion_id_nhan_su][f"Tổng công tại {location}"]
                 data_luong[f"Tổng công tại {location}"] = ngay_cong
                 # Tính phụ cấp
-                if ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Phụ cấp"].values[0] == 1:
+                if ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Phụ cấp"].values[0] == 1 and location == co_so:
                     data_luong[f"Phụ cấp tại {location}"] = 35000*ngay_cong
                 if location == co_so:
                     # Lấy tổng lương cơ bản
