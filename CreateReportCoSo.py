@@ -6,7 +6,7 @@ from UpdateLuyKe import get_data_cho_luy_ke
 from CreateReportCaNhan import filter_date, add_total_row
 
 start_date = '2024-07-01'
-end_date = '2024-07-30'
+end_date = '2024-07-31'
 
 def get_data_chi_tiet_doanh_thu(location):
     data = get_data_doanh_thu(location, ["ALL"])
