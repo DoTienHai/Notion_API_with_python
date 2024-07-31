@@ -3,7 +3,7 @@ import requests
 import json
 from pandas import DataFrame
 import os
-from openpyxl.styles import numbers
+from datetime import datetime
 
 notion_data_folder = "Notion data"
 file_all_notion_data = os.path.join(notion_data_folder, "ALL.xlsx")
@@ -41,9 +41,11 @@ cham_cong_ref = {
 location_list = ["HỆ THỐNG", "CẦN THƠ", "LONG XUYÊN", "SÓC TRĂNG"]
 
 date_format = "%Y-%m-%d"
+month = datetime.today().month
+year = datetime.today().year
 
 ###-------------------------- LIÊN QUAN ĐẾN DATAFRAME ---------------------------###
-def filter(data, location, columns):
+def filter_column(data, location, columns):
     if ("Cơ sở" in data.columns.tolist()):
         if (location):
             if (location in location_list) and (location != "HỆ THỐNG"):
@@ -63,33 +65,33 @@ def filter(data, location, columns):
 
 def get_data_doanh_thu(location, columns):
     data = pd.read_excel(file_all_notion_data, sheet_name="Doanh thu HỆ THỐNG", parse_dates=['Ngày thực hiện'], date_format=date_format)
-    return filter(data, location, columns)
+    return filter_column(data, location, columns)
 
 def get_data_thu_no(location, columns):
     data = pd.read_excel(file_all_notion_data, sheet_name="Thu nợ", parse_dates=['Ngày thu'], date_format=date_format)
-    return filter(data, location, columns)
+    return filter_column(data, location, columns)
 
 def get_data_chi_tieu(location, columns):
     data =  pd.read_excel(file_all_notion_data, sheet_name="Chi tiêu", parse_dates=['Ngày chi'], date_format=date_format)
-    return filter(data, location, columns)
+    return filter_column(data, location, columns)
 
 def get_data_danh_muc_dich_vu(location, columns):
     data =  pd.read_excel(file_all_notion_data, sheet_name="danh mục dịch vụ")
-    return filter(data, location, columns)   
+    return filter_column(data, location, columns)   
 
 def get_ho_so_nhan_su(location, columns):
     data =  pd.read_excel(file_all_notion_data, sheet_name="Hồ sơ nhân sự")
-    return filter(data, location, columns)  
+    return filter_column(data, location, columns)  
 
 def get_danh_sach_khach_hang(location, columns):
     data = pd.read_excel(file_all_notion_data, sheet_name="Danh sách khách hàng") 
-    return filter(data, location, columns) 
+    return filter_column(data, location, columns) 
 
 def get_data_cham_cong(location, columns):
     sheet_name = f"Chấm công {location}"
     data = pd.read_excel(file_all_notion_data, sheet_name)
     location = ""
-    return filter(data, location, columns)
+    return filter_column(data, location, columns)
 
 def get_data_cham_cong_tong_hop():
     data = pd.read_excel(file_all_notion_data, "Chấm công HỆ THỐNG")

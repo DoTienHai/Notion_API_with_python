@@ -35,11 +35,11 @@ if __name__ == "__main__":
             process_thang = multiprocessing.Process(target=update_luy_ke_theo_thang, args=(location,))
             processes.append(process_ngay)
             processes.append(process_thang)
-            if (min < 5):
-                process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
-                processes.append(process_create_report)
-            # process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
-            # processes.append(process_create_report)
+            # if (min < 5):
+            #     process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
+            #     processes.append(process_create_report)
+            process_create_report = multiprocessing.Process(target=create_all_report, args=(location,))
+            processes.append(process_create_report)
 
         for process in processes:
             process.start()

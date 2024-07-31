@@ -1,6 +1,208 @@
 [
     {
         "object": "page",
+        "id": "ab2f4b73-227c-4089-867d-87ed124ac352",
+        "created_time": "2024-07-31T13:41:00.000Z",
+        "last_edited_time": "2024-07-31T13:41:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "df2d63bf-492b-40e7-815d-1a3f52d7708e"
+                    }
+                ],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1500000,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Phun mày",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Phun mày",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Phun-m-y-ab2f4b73227c4089867d87ed124ac352",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "2e442470-7702-4f98-923a-4f4a606db080",
+        "created_time": "2024-07-30T14:47:00.000Z",
+        "last_edited_time": "2024-07-30T14:47:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "26bb5da2-f8bd-42ea-82c3-ee7d1fd2de19"
+                    }
+                ],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 500000,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "cắt chỉ ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "cắt chỉ ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/c-t-ch-2e44247077024f98923a4f4a606db080",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "0e526229-72a4-4383-8a15-fe91f9a4a968",
         "created_time": "2024-07-16T05:46:00.000Z",
         "last_edited_time": "2024-07-16T08:31:00.000Z",
@@ -236,7 +438,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 8,
+                    "number": 9,
                     "function": "count"
                 }
             },
@@ -272,6 +474,9 @@
                     },
                     {
                         "id": "9f1ec962-eb0c-47e8-bfed-067c6db89b62"
+                    },
+                    {
+                        "id": "0a903e96-49f6-46d4-ac1c-58a4b9bb3211"
                     }
                 ],
                 "has_more": false
@@ -281,7 +486,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 13100000,
+                    "number": 13600000,
                     "function": "sum"
                 }
             },
@@ -1410,7 +1615,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3,
+                    "number": 4,
                     "function": "count"
                 }
             },
@@ -1431,6 +1636,9 @@
                     },
                     {
                         "id": "8c78214c-0902-4e61-a4c3-ac0cbc1da84e"
+                    },
+                    {
+                        "id": "30d7b4c8-43ae-4c52-9837-d6633853507e"
                     }
                 ],
                 "has_more": false
@@ -1440,7 +1648,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 37000000,
+                    "number": 45000000,
                     "function": "sum"
                 }
             },
@@ -2067,7 +2275,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 14,
+                    "number": 15,
                     "function": "count"
                 }
             },
@@ -2121,6 +2329,9 @@
                     },
                     {
                         "id": "f963053f-6c7c-4e24-89bf-308e001f42fa"
+                    },
+                    {
+                        "id": "436bafcc-cc2f-4978-8251-0baa2ead74c3"
                     }
                 ],
                 "has_more": false
@@ -2130,7 +2341,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 26800000,
+                    "number": 29600000,
                     "function": "sum"
                 }
             },
@@ -2424,7 +2635,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 7,
+                    "number": 8,
                     "function": "count"
                 }
             },
@@ -2457,6 +2668,9 @@
                     },
                     {
                         "id": "c82cd687-0a71-42c7-bce0-8598aa9c8149"
+                    },
+                    {
+                        "id": "a984bd25-5eae-4288-ab00-a9a15ec4fd03"
                     }
                 ],
                 "has_more": false
@@ -2466,7 +2680,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 14700000,
+                    "number": 16700000,
                     "function": "sum"
                 }
             },

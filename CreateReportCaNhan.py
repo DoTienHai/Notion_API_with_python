@@ -1,11 +1,9 @@
 import os
 from openpyxl import Workbook
 import pandas as pd
-from datetime import datetime
 from Config import *
 
-month = datetime.today().month
-year = datetime.today().year
+
 
 columns = ["Tiền tố", "Mã dịch vụ", "Ngày thực hiện",
                 "Cơ sở", "Khách hàng", "Nguồn khách", "Nhóm dịch vụ", "Tên dịch vụ", "Sale chính", "Đơn giá gốc", 

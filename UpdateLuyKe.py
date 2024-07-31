@@ -4,9 +4,7 @@ import pandas as pd
 import json
 
 # Lấy ngày hôm nay
-today = datetime.today()
-start_date = f"{today.year}-01-01"
-# start_date = f"{today.year}-{today.month}-01"
+start_date = f"{year}-01-01"
 update_from_date = datetime.strptime(start_date, date_format)
 
 # Dữ liệu của trang mới
