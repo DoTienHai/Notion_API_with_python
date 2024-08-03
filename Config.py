@@ -34,7 +34,7 @@ dataBaseDict = {
 
 cham_cong_ref = {
     "Nghỉ không phép" : 0,
-    "Nghỉ có phép" : 1,
+    "Nghỉ có phép" : 0,
     "Đầy đủ" : 1,
     "Nửa ngày" : 0.5
 }
