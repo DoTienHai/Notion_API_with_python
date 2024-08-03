@@ -114,7 +114,6 @@ def get_don_phụ_phau_2(notion_id_nhan_su):
     data = filter_date(data, "Ngày thực hiện")
     data = data[columns]
     data = add_total_row(data) 
-
     return data
 
 def get_don_thu_no(notion_id_nhan_su):
@@ -154,6 +153,20 @@ def get_don_thu_no(notion_id_nhan_su):
         data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu sale phụ'] = 0
         data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 1'] = 0
         data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 2'] = 0
+    return data
+
+def get_data_thuong(notion_id_nhan_su):
+    data = get_data_thuong_phat("", ["ALL"])
+    data = data[(data["id nhân sự"] == notion_id_nhan_su) & (data["Loại"] == "Thưởng")]
+    data = filter_date(data, "Ngày phát sinh")
+    data = add_total_row(data) 
+    return data
+
+def get_data_phat(notion_id_nhan_su):
+    data = get_data_thuong_phat("", ["ALL"])
+    data = data[(data["id nhân sự"] == notion_id_nhan_su) & (data["Loại"] == "Phạt")]
+    data = filter_date(data, "Ngày phát sinh")
+    data = add_total_row(data) 
     return data
 
 def create_report_ca_nhan(path, info_nhan_su):
@@ -227,10 +240,20 @@ def create_report_ca_nhan(path, info_nhan_su):
                                                     "Tỉ lệ chiết khấu sale phụ", "Chiết khấu sale phụ", 
                                                     "Tỉ lệ chiết khấu bác sĩ 1", "Chiết khấu bác sĩ 1",
                                                     "Tỉ lệ chiết khấu bác sĩ 2", "Chiết khấu bác sĩ 2"]])
+    # Tạo sheet Thưởng
+    data_thuong = get_data_thuong(notion_id_nhan_su)
+    if len(data_thuong) > 1:
+        ws8 = wb.create_sheet("Thưởng")
+        writeDataframeToSheet(ws8, data_thuong)
+    # Tạo sheet Phạt
+    data_phat = get_data_phat(notion_id_nhan_su)
+    if len(data_phat) > 1:
+        ws9 = wb.create_sheet("Phạt")
+        writeDataframeToSheet(ws9, data_phat)
     # Tạo sheet tính lương
     if co_so != "OUTSIDE":
         ref_luong = pd.read_excel("Ref tính lương.xlsx", sheet_name="Lương cơ bản")
-        ws8 = wb.create_sheet("Lương")
+        ws10 = wb.create_sheet("Lương")
         data_luong = pd.DataFrame()
         # Tính lương cơ bản theo ngày công
         data_cham_cong = get_data_cham_cong_tong_hop()
@@ -262,36 +285,36 @@ def create_report_ca_nhan(path, info_nhan_su):
                 data_luong[f"Lương cơ bản tại {location}"] = tong_luong_co_ban*ti_le_luong
 
             # Tính chiết khấu doanh số kinh doanh
-                if len(data_sale_chinh):
+                if len(data_sale_chinh) > 1:
                     data_luong[f"Chiết khấu sale chính tại {location}"] = data_sale_chinh[data_sale_chinh["Cơ sở"] == location]["Chiết khấu sale chính"].sum()
                 else:
                     data_luong[f"Chiết khấu sale chính tại {location}"] = 0
-                if len(data_sale_phu):
+                if len(data_sale_phu) > 1:
                     data_luong[f"Chiết khấu sale phụ tại {location}"] = data_sale_phu[data_sale_phu["Cơ sở"] == location]["Chiết khấu sale phụ"].sum()
                 else:
                     data_luong[f"Chiết khấu sale phụ tại {location}"] = 0
             # Tính chiết khấu phẫu thuật
-                if len(data_don_1_bac_si):
+                if len(data_don_1_bac_si) > 1:
                     data_luong[f"Đơn 1 bác sĩ tại {location}"] = data_don_1_bac_si[data_don_1_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 1"].sum()
                 else:
                     data_luong[f"Đơn 1 bác sĩ tại {location}"] = 0
 
-                if len(data_don_2_bac_si):
+                if len(data_don_2_bac_si) > 1:
                     data_luong[f"Đơn 2 bác sĩ tại {location}"] = data_don_2_bac_si[data_don_2_bac_si["Cơ sở"] == location]["Chiết khấu bác sĩ 2"].sum()
                 else:
                     data_luong[f"Đơn 2 bác sĩ tại {location}"] = 0       
             # Tính công phụ phẫu
-                if len(data_phu_phau_1):
+                if len(data_phu_phau_1) > 1:
                     data_luong[f"Công phụ phẫu 1 tại {location}"] = data_phu_phau_1[data_phu_phau_1["Cơ sở"] == location]["Công phụ phẫu 1"].sum()
                 else:
                     data_luong[f"Công phụ phẫu 1 tại {location}"] = 0
 
-                if len(data_phu_phau_2):
+                if len(data_phu_phau_2) > 1:
                     data_luong[f"Công phụ phẫu 2 tại {location}"] = data_phu_phau_2[data_phu_phau_2["Cơ sở"] == location]["Công phụ phẫu 2"].sum()
                 else:
                     data_luong[f"Công phụ phẫu 2 tại {location}"] = 0   
             # Tính chiết khấu thu nợ
-                if len(data_don_thu_no):
+                if len(data_don_thu_no) > 1:
                     data_luong[f"Chiết khấu thu nợ tại {location}"] = data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale chính"].sum() + \
                                                                         data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu sale phụ"].sum() + \
                                                                         data_don_thu_no[(data_don_thu_no["Cơ sở"] == location)]["Chiết khấu bác sĩ 1"].sum() + \
@@ -306,9 +329,13 @@ def create_report_ca_nhan(path, info_nhan_su):
                 else:
                     data_luong[f"Ứng lương tại {location}"] = 0
 
-        # Thưởng
-        # Phạt
-        # khác 
+            # Thưởng & Phạt
+                if location == co_so:
+                    if len(data_thuong) > 1:
+                        data_luong[f"Thưởng tại {co_so}"] = data_thuong["Lượng thưởng phạt"].sum()/2
+                    if len(data_phat) > 1:
+                        data_luong[f"Phạt tại {co_so}"] = -data_phat["Lượng thưởng phạt"].sum()/2
+            # khác 
 
         # Tổng kết lương theo cơ sở
         for location in location_list:
@@ -328,7 +355,7 @@ def create_report_ca_nhan(path, info_nhan_su):
         data_luong_T.columns = data_luong.index
         data_luong_T = data_luong_T.reset_index()
         data_luong_T.rename(columns={'index': 'Danh mục lương'}, inplace=True)
-        writeDataframeToSheet(ws8, data_luong_T)
+        writeDataframeToSheet(ws10, data_luong_T)
         # print(data_luong)
 
 

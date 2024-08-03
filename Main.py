@@ -51,7 +51,7 @@ if __name__ == "__main__":
         processes = []
         processes.append(multiprocessing.Process(target=update_notion))
         min = datetime.now().minute
-        if (min < 7):
+        if (min < 70):
             processes.append(multiprocessing.Process(target=create_report))
 
         for process in processes:

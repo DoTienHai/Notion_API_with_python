@@ -97,6 +97,11 @@ def get_data_cham_cong(location, columns):
 def get_data_cham_cong_tong_hop():
     data = pd.read_excel(file_all_notion_data, "Chấm công HỆ THỐNG")
     return data
+
+def get_data_thuong_phat(location, columns):
+    data = pd.read_excel(file_all_notion_data, "Thưởng phạt")
+    return filter_column(data, location, columns) 
+
 ###------------------------------------------- LIÊN QUAN ĐẾN NOTION API ---------------------------------------###
 # Headers notion api token
 headers = {

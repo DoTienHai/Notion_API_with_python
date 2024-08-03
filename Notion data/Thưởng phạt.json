@@ -1,6 +1,250 @@
 [
     {
         "object": "page",
+        "id": "f1df828e-4b4e-4cec-93fb-1de41e0d82f5",
+        "created_time": "2024-08-03T21:21:00.000Z",
+        "last_edited_time": "2024-08-03T21:22:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "99c4d685-a2c9-44b0-9d2b-8371687040e6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Lượng thưởng phạt": {
+                "id": "Ainr",
+                "type": "number",
+                "number": 4000000
+            },
+            "Loại": {
+                "id": "F%3DMB",
+                "type": "select",
+                "select": {
+                    "id": "ffsF",
+                    "name": "Thưởng",
+                    "color": "yellow"
+                }
+            },
+            "Cơ sở": {
+                "id": "Z_~f",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Auto mã": {
+                "id": "dA%3DJ",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TP",
+                    "number": 9
+                }
+            },
+            "Nhân sự": {
+                "id": "eR%7BJ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "e49d0ce3-124d-4e4b-b377-be2139cde3f5"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày phát sinh": {
+                "id": "qCpd",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-05",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Lí do": {
+                "id": "qxB%5B",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã thưởng phạt": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "TP-9",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "TP-9",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/TP-9-f1df828e4b4e4cec93fb1de41e0d82f5",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "92e7be0e-24c6-42ca-ba2c-65a7ecc68882",
+        "created_time": "2024-08-03T21:21:00.000Z",
+        "last_edited_time": "2024-08-03T21:21:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "99c4d685-a2c9-44b0-9d2b-8371687040e6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Lượng thưởng phạt": {
+                "id": "Ainr",
+                "type": "number",
+                "number": 4000000
+            },
+            "Loại": {
+                "id": "F%3DMB",
+                "type": "select",
+                "select": {
+                    "id": "@D=Z",
+                    "name": "Phạt",
+                    "color": "red"
+                }
+            },
+            "Cơ sở": {
+                "id": "Z_~f",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "Lj_l",
+                                "name": "LONG XUYÊN",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Auto mã": {
+                "id": "dA%3DJ",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TP",
+                    "number": 8
+                }
+            },
+            "Nhân sự": {
+                "id": "eR%7BJ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "d1ae645f-f3dd-46cd-a715-a8c150605da6"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày phát sinh": {
+                "id": "qCpd",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-06",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Lí do": {
+                "id": "qxB%5B",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "ggggg",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "ggggg",
+                        "href": null
+                    }
+                ]
+            },
+            "Mã thưởng phạt": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "TP-8",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "TP-8",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/TP-8-92e7be0e24c642caba2c65a7ecc68882",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "5b5a12cb-1f5b-4c2a-9a66-e196a6486f80",
         "created_time": "2024-07-26T07:25:00.000Z",
         "last_edited_time": "2024-07-31T17:46:00.000Z",
