@@ -1,6 +1,280 @@
 [
     {
         "object": "page",
+        "id": "ab6f6c77-f17b-4599-82f8-a2f0b3dc5b65",
+        "created_time": "2024-08-03T09:06:00.000Z",
+        "last_edited_time": "2024-08-03T09:06:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "7964d66f-dbcd-4cde-92b0-c902226e8d74"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 400
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 9000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-03T09:06:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Trần Thị Ngọc Dung",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Trần Thị Ngọc Dung",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Tr-n-Th-Ng-c-Dung-ab6f6c77f17b459982f8a2f0b3dc5b65",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "5f124cb2-e16f-4c7c-a263-0741cdb42db8",
+        "created_time": "2024-08-03T09:04:00.000Z",
+        "last_edited_time": "2024-08-03T09:04:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "4877ffa2-f047-43ef-ae53-e62c7f64ebc3"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 399
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 28000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0981499994"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Đã thanh toán": {
+                "id": "p%5D_%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": null,
+                    "function": "sum"
+                }
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-03T09:04:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Trần Thị Thanh Nhàn",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Trần Thị Thanh Nhàn",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Tr-n-Th-Thanh-Nh-n-5f124cb2e16f4c7ca2630741cdb42db8",
+        "public_url": null
+    },
+    {
+        "object": "page",
         "id": "c649235a-f1ba-48e3-b848-e5df8e5306b0",
         "created_time": "2024-08-02T13:20:00.000Z",
         "last_edited_time": "2024-08-02T13:20:00.000Z",
@@ -4288,6 +4562,9 @@
                 "relation": [
                     {
                         "id": "f02967b7-5890-4d69-9c20-d9afd3085a9e"
+                    },
+                    {
+                        "id": "6d6df822-26ec-4bab-ba60-0a850b6b6226"
                     }
                 ],
                 "has_more": false
@@ -4313,6 +4590,14 @@
                                 "name": "SÓC TRĂNG",
                                 "color": "green"
                             }
+                        },
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
                         }
                     ],
                     "function": "show_unique"
@@ -4323,7 +4608,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 7000000,
+                    "number": 13000000,
                     "function": "sum"
                 }
             },

@@ -238,7 +238,7 @@ def create_report_ca_nhan(path, info_nhan_su):
         luong_co_ban = ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Tổng lương cơ bản"]
         if len(luong_co_ban):
             luong_co_ban = luong_co_ban.values[0]
-            if ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Sinh hoạt tại cơ sở"]:
+            if ref_luong[ref_luong["notion id"] == notion_id_nhan_su]["Sinh hoạt tại cơ sở"].values[0] == 1:
                 luong_co_ban -= 750000
         luong_1_cong = luong_co_ban/28
         tong_luong_co_ban = 0

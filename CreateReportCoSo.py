@@ -3,7 +3,7 @@ from openpyxl import Workbook
 import pandas as pd
 from Config import *
 from UpdateLuyKe import get_data_cho_luy_ke
-from CreateReportCaNhan import filter_date, add_total_row
+from CreateReportCaNhan import filter_date, add_total_row, filter_date_don_no
 
 def get_data_chi_tiet_doanh_thu(location):
     data = get_data_doanh_thu(location, ["ALL"])
@@ -19,7 +19,7 @@ def get_data_chi_tiet_thu_no(location):
     data = get_data_thu_no(location, ["ALL"])
     data = filter_date(data, "Ngày thu")
     data = data[["Tiền tố", "Mã đơn thu nợ", "Ngày thu", 
-                 "Cơ sở", "Đơn nợ", "Lượng thu"]]
+                 "Cơ sở", "Đơn nợ", "Ngày thực hiện","Lượng thu"]]
     data = add_total_row(data)
     return data
 
@@ -164,6 +164,37 @@ def get_data_luong_tong_hop():
     else:
         return None
 
+def get_data_loi_nhuan(location, data_doanh_thu, data_thu_no, data_chi_tieu, data_luong):
+    data_thu_no = filter_date_don_no(data_thu_no, "Ngày thực hiện")
+    if location == "HỆ THỐNG":
+        don_gia = data_doanh_thu["Đơn giá"].sum()/2
+        doanh_thu_sale = data_doanh_thu["Đã thanh toán"].sum()/2
+        doanh_thu_thu_no = data_thu_no["Lượng thu"].sum()/2
+        chi_tieu = data_chi_tieu["Lượng chi"].sum()/2
+    else:
+        don_gia = data_doanh_thu[data_doanh_thu["Cơ sở"] == location]["Đơn giá"].sum()/2
+        doanh_thu_sale = data_doanh_thu[data_doanh_thu["Cơ sở"] == location]["Đã thanh toán"].sum()/2
+        doanh_thu_thu_no = data_thu_no[data_thu_no["Cơ sở"] == location]["Lượng thu"].sum()/2
+        chi_tieu = data_chi_tieu[data_chi_tieu["Cơ sở"] == location]["Lượng chi"].sum()/2
+    luong = data_luong[f"Tổng lương tại {location}"].sum()/2
+    loi_nhuan = doanh_thu_sale + doanh_thu_thu_no - (chi_tieu + luong)
+    row = {
+        "Cơ sở" : [location],
+        "Tổng đơn giá" : [don_gia],
+        "Đã thanh toán" : [doanh_thu_sale],
+        "Tỉ lệ thanh toán" : [doanh_thu_sale/don_gia],
+        "Tỉ lệ nợ" : [1-doanh_thu_sale/don_gia],
+        "Thu nợ" : [doanh_thu_thu_no],
+        "Tổng doanh thu" : [doanh_thu_sale + doanh_thu_thu_no],
+        "Chi tiêu" : [chi_tieu],
+        "Quỹ lương" : [luong],
+        "Tổng chi phí" : [chi_tieu + luong],
+        "Lợi nhuận" : [loi_nhuan],
+        "Tỉ lệ lợi nhuận" : [loi_nhuan/(doanh_thu_sale + doanh_thu_thu_no)]
+    }
+    df_row = pd.DataFrame(row, columns=list(row.keys()))
+    return df_row
+
 def create_report_co_so(path, location):
     excel_file_path = os.path.join(path, f"{location} {month} - {year}.xlsx")
     # Kiểm tra xem file Excel đã tồn tại hay chưa
@@ -207,31 +238,38 @@ def create_report_co_so(path, location):
     writeDataframeToSheet(ws6, data)
     # Tạo report về lương tại các cơ sở
     data_luong = get_data_luong_tong_hop()
+    ws7 = wb.create_sheet(title="QUỸ LƯƠNG")
     if location != "HỆ THỐNG":
-        ws7 = wb.create_sheet(title="QUỸ LƯƠNG")
         writeDataframeToSheet(ws7, data_luong[["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}"]])
     else:
-        ws7 = wb.create_sheet(title="QUỸ LƯƠNG")
         writeDataframeToSheet(ws7, data_luong)
     # Tạo report lợi nhuận
     ws8 = wb.create_sheet(title="LỢI NHUẬN")
-    doanh_thu_sale = data_doanh_thu["Thanh toán lần đầu"].sum()/2
-    doanh_thu_thu_no = data_thu_no["Lượng thu"].sum()/2
-    chi_tieu = data_chi_tieu["Lượng chi"].sum()/2
-    luong = data_luong[f"Tổng lương tại {location}"].sum()/2
-    loi_nhuan = doanh_thu_sale + doanh_thu_thu_no - (chi_tieu + luong)
-    row = {
-        "Doanh thu" : [doanh_thu_sale],
-        "Thu nợ" : [doanh_thu_thu_no],
-        "Tổng doanh thu" : [doanh_thu_sale + doanh_thu_thu_no],
-        "Chi tiêu" : [chi_tieu],
-        "Quỹ lương" : [luong],
-        "Tổng chi phí" : [chi_tieu + luong],
-        "Lợi nhuận" : [loi_nhuan],
-        "Tỉ lệ lợi nhuận" : [loi_nhuan/(doanh_thu_sale + doanh_thu_thu_no)]
-    }
-    df_row = pd.DataFrame(row, columns=list(row.keys()))
-    writeDataframeToSheet(ws8, df_row)
+    # doanh_thu_sale = data_doanh_thu["Thanh toán lần đầu"].sum()/2
+    # doanh_thu_thu_no = data_thu_no["Lượng thu"].sum()/2
+    # chi_tieu = data_chi_tieu["Lượng chi"].sum()/2
+    # luong = data_luong[f"Tổng lương tại {location}"].sum()/2
+    # loi_nhuan = doanh_thu_sale + doanh_thu_thu_no - (chi_tieu + luong)
+    # row = {
+    #     "Doanh thu" : [doanh_thu_sale],
+    #     "Thu nợ" : [doanh_thu_thu_no],
+    #     "Tổng doanh thu" : [doanh_thu_sale + doanh_thu_thu_no],
+    #     "Chi tiêu" : [chi_tieu],
+    #     "Quỹ lương" : [luong],
+    #     "Tổng chi phí" : [chi_tieu + luong],
+    #     "Lợi nhuận" : [loi_nhuan],
+    #     "Tỉ lệ lợi nhuận" : [loi_nhuan/(doanh_thu_sale + doanh_thu_thu_no)]
+    # }
+    # df_row = pd.DataFrame(row, columns=list(row.keys()))
+    if location != "HỆ THỐNG":
+        writeDataframeToSheet(ws8, get_data_loi_nhuan(location, data_doanh_thu, data_thu_no, data_chi_tieu, data_luong))
+    else:
+        loi_nhuan_he_thong = get_data_loi_nhuan(location_list[0], data_doanh_thu, data_thu_no, data_chi_tieu, data_luong)
+        for i in range(1, len(location_list)):
+            loi_nhuan_he_thong = pd.concat([loi_nhuan_he_thong,get_data_loi_nhuan(location_list[i], data_doanh_thu, data_thu_no, data_chi_tieu, data_luong)])
+        
+        writeDataframeToSheet(ws8, loi_nhuan_he_thong)
+
 
     # Lưu workbook vào file Excel
     try:
