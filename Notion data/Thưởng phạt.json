@@ -1,0 +1,133 @@
+[
+    {
+        "object": "page",
+        "id": "5b5a12cb-1f5b-4c2a-9a66-e196a6486f80",
+        "created_time": "2024-07-26T07:25:00.000Z",
+        "last_edited_time": "2024-07-31T17:46:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "99c4d685-a2c9-44b0-9d2b-8371687040e6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Lượng thưởng phạt": {
+                "id": "Ainr",
+                "type": "number",
+                "number": 300000
+            },
+            "Loại": {
+                "id": "F%3DMB",
+                "type": "select",
+                "select": {
+                    "id": "@D=Z",
+                    "name": "Phạt",
+                    "color": "red"
+                }
+            },
+            "Cơ sở": {
+                "id": "Z_~f",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Auto mã": {
+                "id": "dA%3DJ",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TP",
+                    "number": 7
+                }
+            },
+            "Nhân sự": {
+                "id": "eR%7BJ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "a73ea60d-3de1-4e9b-aa7b-f22fda5742bd"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày phát sinh": {
+                "id": "qCpd",
+                "type": "date",
+                "date": {
+                    "start": "2024-07-26",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Lí do": {
+                "id": "qxB%5B",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "vắng không lí do",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "vắng không lí do",
+                        "href": null
+                    }
+                ]
+            },
+            "Mã thưởng phạt": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "TP-7",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "TP-7",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/TP-7-5b5a12cb1f5b4c2a9a66e196a6486f80",
+        "public_url": null
+    }
+]

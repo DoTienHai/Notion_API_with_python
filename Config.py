@@ -28,7 +28,8 @@ dataBaseDict = {
     "Chấm công HỆ THỐNG" : "0c70fa057bda4ceea9f23ccf963208ff",
     "Chấm công CẦN THƠ" : "81b741581c2e4c3aa685ce6602d70cd7",
     "Chấm công LONG XUYÊN" : "7a9c30037d164eafa09da55aafacde5e",
-    "Chấm công SÓC TRĂNG" : "c3e4dde0278f416b9ee0edd617b07a1e" 
+    "Chấm công SÓC TRĂNG" : "c3e4dde0278f416b9ee0edd617b07a1e",
+    "Thưởng phạt" : "99c4d685a2c944b09d2b8371687040e6"
 }
 
 cham_cong_ref = {

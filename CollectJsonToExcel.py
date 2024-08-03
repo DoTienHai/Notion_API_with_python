@@ -386,7 +386,7 @@ def collect_danh_sach_thu_no(data_doanh_thu):
     
     return data_thu_no.sort_values("Mã đơn thu nợ")
 
-def collect_data_cham_cong_he_thong(location=""):
+def collect_data_cham_cong_he_thong():
     excel_file_path = os.path.join(notion_data_folder, "Chấm công HỆ THỐNG.xlsx")
     data_cham_cong = pd.read_excel(excel_file_path)
     raw_columns = ["id","properties.Nhân sự.relation", "properties.Cơ sở.rollup.array", "properties.Tổng công.formula.number"]
@@ -410,7 +410,7 @@ def collect_data_cham_cong_he_thong(location=""):
     data_cham_cong = data_cham_cong.rename(columns={"notion id_x":"notion id"})
     return data_cham_cong
 
-def collect_data_cham_cong_co_so(location=""):
+def collect_data_cham_cong_co_so(location):
     excel_file_path = os.path.join(notion_data_folder, f"Chấm công {location}.xlsx")
     data_cham_cong = pd.read_excel(excel_file_path)
     select_name_columns = ["id","properties.Nhân sự.relation", "properties.Cơ sở.rollup.array"]
@@ -440,6 +440,27 @@ def collect_data_cham_cong_co_so(location=""):
     data_cham_cong = data_cham_cong.drop(columns=["notion id_y"])
     data_cham_cong = data_cham_cong.rename(columns={"notion id_x":"notion id"})
     return data_cham_cong
+
+def collect_data_thuong_phat():
+    excel_file_path = os.path.join(notion_data_folder, "Thưởng phạt.xlsx")
+    data_thuong_phat = pd.read_excel(excel_file_path)
+    data_thuong_phat = data_thuong_phat[["id", "properties.Auto mã.unique_id.prefix", "properties.Auto mã.unique_id.number",
+                                         "properties.Nhân sự.relation", "properties.Cơ sở.rollup.array",
+                                         "properties.Loại.select.name", "properties.Lượng thưởng phạt.number", 
+                                          "properties.Ngày phát sinh.date.start", "properties.Lí do.rich_text" ]]
+    data_thuong_phat = data_thuong_phat.rename(columns={"id":"notion id", "properties.Auto mã.unique_id.prefix" : "Tiền tố", 
+                                                        "properties.Auto mã.unique_id.number" : "Mã thưởng phạt",
+                                                        "properties.Nhân sự.relation" : "id nhân sự", "properties.Cơ sở.rollup.array" : "Cơ sở",
+                                                        "properties.Loại.select.name" : "Loại", "properties.Lượng thưởng phạt.number" : "Lượng thưởng phạt", 
+                                                        "properties.Ngày phát sinh.date.start" : "Ngày phát sinh", "properties.Lí do.rich_text" : "Lí do" })
+    data_thuong_phat["id nhân sự"] = data_thuong_phat["id nhân sự"].apply(extract_id)
+    data_thuong_phat = pd.merge(data_thuong_phat, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id nhân sự", right_on="notion id", how="left")
+    data_thuong_phat = data_thuong_phat.drop(columns=["notion id_y"])
+    data_thuong_phat = data_thuong_phat.rename(columns={"notion id_x":"notion id"})
+    data_thuong_phat["Cơ sở"] = data_thuong_phat["Cơ sở"].apply(extract_select_name)
+    data_thuong_phat["Lí do"] = data_thuong_phat["Lí do"].apply(extract_text_content)
+    return data_thuong_phat
+
 
 def collect_data():
     convert_json_to_excel()
@@ -483,6 +504,9 @@ def collect_data():
         if location != "HỆ THỐNG": 
             ws_cham_cong = wb.create_sheet(title=f"Chấm công {location}")
             writeDataframeToSheet(ws_cham_cong, collect_data_cham_cong_co_so(location))
+    # Tạo sheet thưởng phạt
+    ws8 = wb.create_sheet("Thưởng phạt")
+    writeDataframeToSheet(ws8, collect_data_thuong_phat())
 
     # Lưu workbook vào file Excel
     try:
