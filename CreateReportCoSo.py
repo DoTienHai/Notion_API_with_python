@@ -245,22 +245,6 @@ def create_report_co_so(path, location):
         writeDataframeToSheet(ws7, data_luong)
     # Tạo report lợi nhuận
     ws8 = wb.create_sheet(title="LỢI NHUẬN")
-    # doanh_thu_sale = data_doanh_thu["Thanh toán lần đầu"].sum()/2
-    # doanh_thu_thu_no = data_thu_no["Lượng thu"].sum()/2
-    # chi_tieu = data_chi_tieu["Lượng chi"].sum()/2
-    # luong = data_luong[f"Tổng lương tại {location}"].sum()/2
-    # loi_nhuan = doanh_thu_sale + doanh_thu_thu_no - (chi_tieu + luong)
-    # row = {
-    #     "Doanh thu" : [doanh_thu_sale],
-    #     "Thu nợ" : [doanh_thu_thu_no],
-    #     "Tổng doanh thu" : [doanh_thu_sale + doanh_thu_thu_no],
-    #     "Chi tiêu" : [chi_tieu],
-    #     "Quỹ lương" : [luong],
-    #     "Tổng chi phí" : [chi_tieu + luong],
-    #     "Lợi nhuận" : [loi_nhuan],
-    #     "Tỉ lệ lợi nhuận" : [loi_nhuan/(doanh_thu_sale + doanh_thu_thu_no)]
-    # }
-    # df_row = pd.DataFrame(row, columns=list(row.keys()))
     if location != "HỆ THỐNG":
         writeDataframeToSheet(ws8, get_data_loi_nhuan(location, data_doanh_thu, data_thu_no, data_chi_tieu, data_luong))
     else:
