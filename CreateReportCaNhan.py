@@ -3,8 +3,6 @@ from openpyxl import Workbook
 import pandas as pd
 from Config import *
 
-
-
 columns = ["Tiền tố", "Mã dịch vụ", "Ngày thực hiện",
                 "Cơ sở", "Khách hàng", "Nguồn khách", "Nhóm dịch vụ", "Tên dịch vụ", "Sale chính", "Đơn giá gốc", 
                 "Sale phụ", "Upsale", "Đơn giá", "Thanh toán lần đầu", "Trả sau",

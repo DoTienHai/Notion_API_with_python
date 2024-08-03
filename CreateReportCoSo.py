@@ -5,9 +5,6 @@ from Config import *
 from UpdateLuyKe import get_data_cho_luy_ke
 from CreateReportCaNhan import filter_date, add_total_row
 
-start_date = '2024-08-01'
-end_date = '2024-08-31'
-
 def get_data_chi_tiet_doanh_thu(location):
     data = get_data_doanh_thu(location, ["ALL"])
     data = data[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở","Tên dịch vụ", "Khách hàng",
@@ -168,7 +165,7 @@ def get_data_luong_tong_hop():
         return None
 
 def create_report_co_so(path, location):
-    excel_file_path = os.path.join(path, f"{location} {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
+    excel_file_path = os.path.join(path, f"{location} {month} - {year}.xlsx")
     # Kiểm tra xem file Excel đã tồn tại hay chưa
     if os.path.exists(excel_file_path):
         # Nếu đã tồn tại, xóa file cũ đi
