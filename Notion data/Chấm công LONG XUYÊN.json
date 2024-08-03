@@ -1859,14 +1859,14 @@
         "object": "page",
         "id": "67db7df7-e666-4013-9a95-fb6193d882c4",
         "created_time": "2024-07-06T10:33:00.000Z",
-        "last_edited_time": "2024-07-31T17:37:00.000Z",
+        "last_edited_time": "2024-08-02T04:13:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
         },
         "cover": null,
         "icon": null,
@@ -1955,7 +1955,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -1975,7 +1979,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -2787,14 +2795,14 @@
         "object": "page",
         "id": "573d5bec-3710-4734-8576-78480675e709",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-07-31T17:37:00.000Z",
+        "last_edited_time": "2024-08-02T04:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
         },
         "cover": null,
         "icon": null,
@@ -2883,7 +2891,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -2903,7 +2915,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -3019,14 +3035,14 @@
         "object": "page",
         "id": "671720b3-96d1-4d6b-9a74-8d57582dd948",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-07-31T17:37:00.000Z",
+        "last_edited_time": "2024-08-02T04:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
         },
         "cover": null,
         "icon": null,
@@ -3115,7 +3131,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -3135,7 +3155,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -3251,14 +3275,14 @@
         "object": "page",
         "id": "b6c770d0-bb31-4e81-9bb1-58097d2fa0a7",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-07-31T17:37:00.000Z",
+        "last_edited_time": "2024-08-02T04:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
         },
         "cover": null,
         "icon": null,
@@ -3347,7 +3371,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -3947,14 +3975,14 @@
         "object": "page",
         "id": "ed3b34cd-1de3-46d7-8e4f-84e80940c393",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-07-31T17:37:00.000Z",
+        "last_edited_time": "2024-08-02T04:13:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
         },
         "cover": null,
         "icon": null,
@@ -4043,7 +4071,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -4063,7 +4095,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -4179,14 +4215,14 @@
         "object": "page",
         "id": "000f1b67-a930-45df-a5ea-f1edee6ad917",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-07-31T17:37:00.000Z",
+        "last_edited_time": "2024-08-02T04:13:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
         },
         "cover": null,
         "icon": null,
@@ -4275,7 +4311,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -4295,7 +4335,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",

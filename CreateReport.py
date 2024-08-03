@@ -6,7 +6,7 @@ from CreateReportKhachHang import *
 
 def create_all_report(location):
     index = location_list.index(location)
-    location_report_folder_name = str(index)+"_"+location
+    location_report_folder_name = str(index + 1)+"_"+location
     location_report_folder_path = os.path.join(report_folder,location_report_folder_name)
     if not os.path.exists(location_report_folder_path):
         os.makedirs(location_report_folder_path)
@@ -18,7 +18,6 @@ def create_all_report(location):
         for index_row in range(len(danh_sach_nhan_su)):
             info_nhan_su = danh_sach_nhan_su.iloc[index_row]
             create_report_ca_nhan(location_report_folder_path, info_nhan_su)
-        create_tong_hop_luong_co_so(location_report_folder_path, location)
 
     create_report_co_so(location_report_folder_path, location)
 

@@ -38,7 +38,7 @@ cham_cong_ref = {
     "Nửa ngày" : 0.5
 }
 
-location_list = ["HỆ THỐNG", "CẦN THƠ", "LONG XUYÊN", "SÓC TRĂNG"]
+location_list = ["CẦN THƠ", "LONG XUYÊN", "SÓC TRĂNG", "HỆ THỐNG"]
 
 date_format = "%Y-%m-%d"
 month = datetime.today().month

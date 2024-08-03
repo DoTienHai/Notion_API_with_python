@@ -157,71 +157,6 @@ def get_don_thu_no(notion_id_nhan_su):
         data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 1'] = 0
         data.loc[data['Tiền tố'] == 'Tổng', 'Tỉ lệ chiết khấu bác sĩ 2'] = 0
     return data
-    
-
-def create_tong_hop_luong_co_so(path, location):
-    path = os.path.join(path, "Báo cáo cá nhân")
-    list_of_report_ca_nhan_path = []
-    for root, dir, files in os.walk(path):
-        for file in files:
-            if file.endswith(".xlsx") and ("Tổng hợp lương nhân viên" not in file):
-                list_of_report_ca_nhan_path.append(os.path.join(root, file))
-
-    cols = ["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}"]
-    data = pd.DataFrame()
-    for report_ca_nhan_path in list_of_report_ca_nhan_path:
-        file_name = os.path.basename(report_ca_nhan_path)
-        file_name_part = file_name.split(" ")
-        ma_nhan_vien = file_name_part[0]
-        ten_nhan_vien = ' '.join(file_name_part[1:-1])
-        data_luong = pd.read_excel(report_ca_nhan_path, sheet_name="Lương")
-        tong_luong_tai_co_so = data_luong.set_index("Danh mục lương").transpose()[f"Tổng lương tại {location}"]
-        if len(tong_luong_tai_co_so):
-            tong_luong_tai_co_so = tong_luong_tai_co_so.values[0]
-        else:
-            tong_luong_tai_co_so = 0
-        # print(tong_luong_tai_co_so)
-        row_data = {
-            "Mã nhân viên" : [ma_nhan_vien], 
-            "Tên nhân viên" : [ten_nhan_vien], 
-            f"Tổng lương tại {location}" : [tong_luong_tai_co_so]
-        }
-        df_row_data = pd.DataFrame(row_data, columns=cols)
-        data = pd.concat([data, df_row_data])
-    
-    Tong_luong = data[f"Tổng lương tại {location}"].sum()
-    row_data = {
-        "Mã nhân viên" : "Tổng lương", 
-        "Tên nhân viên" : [""], 
-        f"Tổng lương tại {location}" : [Tong_luong]
-    }
-    df_row_data = pd.DataFrame(row_data, columns=cols)
-    data = pd.concat([data, df_row_data])
-        
-    # Kiểm tra xem file Excel đã tồn tại hay chưa
-    excel_file_path = os.path.join(path, f"Tổng hợp lương nhân viên tại {location} {file_name_part[-1]}.xlsx")
-    if os.path.exists(excel_file_path):
-        # Nếu đã tồn tại, xóa file cũ đi
-        try:
-            os.remove(excel_file_path)
-            print(f"Đã xóa file Excel cũ '{excel_file_path}'")
-        except Exception as e:
-            print(f"Lỗi khi xóa file Excel cũ: {e}")
-    # Tạo workbook mới
-    wb = Workbook()
-    # Tạo sheet Đơn sale chính
-    ws1 = wb.active
-    ws1.title = 'Tổng hợp lương'
-    if len(data) > 1:
-        writeDataframeToSheet(ws1, data)
-
-    # Lưu workbook vào file Excel
-    try:
-        wb.save(excel_file_path)
-        print(f"Đã tạo file Excel mới '{excel_file_path}' thành công")
-    except Exception as e:
-        print(f"Lỗi khi tạo file Excel mới: {e}")
- 
 
 def create_report_ca_nhan(path, info_nhan_su):
     notion_id_nhan_su = info_nhan_su["notion id"]
@@ -383,11 +318,11 @@ def create_report_ca_nhan(path, info_nhan_su):
                     if location in col and "Tổng công" not in col:
                         data_luong[f"Tổng lương tại {location}"] += data_luong[col].sum()
         # Tổng lương
-        data_luong["Tổng lương"] = 0
+        data_luong["Tổng lương tại HỆ THỐNG"] = 0
         for location in location_list:
             if location != "HỆ THỐNG":
                 data_luong[f"Tổng lương tại {location}"] = data_luong[f"Tổng lương tại {location}"]/2
-                data_luong["Tổng lương"] = data_luong["Tổng lương"] + data_luong[f"Tổng lương tại {location}"]
+                data_luong["Tổng lương tại HỆ THỐNG"] = data_luong["Tổng lương tại HỆ THỐNG"] + data_luong[f"Tổng lương tại {location}"]
         # # Chuyển vị và đặt lại tên cột
         data_luong_T = data_luong.transpose()
         data_luong_T.columns = data_luong.index
@@ -403,9 +338,3 @@ def create_report_ca_nhan(path, info_nhan_su):
         print(f"Đã tạo file Excel mới '{excel_file_path}' thành công")
     except Exception as e:
         print(f"Lỗi khi tạo file Excel mới: {e}")
-
-    # Tổng hợp lương của cơ sở
-    # create_tong_hop_luong_co_so(folder_path, co_so)
-
-# create_doanh_so_ca_nhan()
-# create_tong_hop_luong_co_so()

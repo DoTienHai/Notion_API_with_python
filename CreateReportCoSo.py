@@ -18,6 +18,14 @@ def get_data_chi_tiet_doanh_thu(location):
     data = add_total_row(data)
     return data
 
+def get_data_chi_tiet_thu_no(location):
+    data = get_data_thu_no(location, ["ALL"])
+    data = filter_date(data, "Ngày thu")
+    data = data[["Tiền tố", "Mã đơn thu nợ", "Ngày thu", 
+                 "Cơ sở", "Đơn nợ", "Lượng thu"]]
+    data = add_total_row(data)
+    return data
+
 def get_data_chi_tiet_chi_tieu(location):
     data = get_data_chi_tieu(location, ["ALL"])
     data = filter_date(data, "Ngày chi")
@@ -29,8 +37,7 @@ def get_data_report_doanh_so(location):
     data = get_data_doanh_thu(location,["ALL"])
     if (location != "HỆ THỐNG"):
         data = data[data["Cơ sở"] == location]
-    query_string = f"'{start_date}' <= `Ngày thực hiện` <= '{end_date}'"
-    data = data.query(query_string)
+    data = filter_date(data, "Ngày thực hiện")
 
     groupDataDoanhSo = pd.DataFrame(columns=["Nhân viên"])
     # Group data Sale chính
@@ -76,10 +83,8 @@ def get_data_report_doanh_so(location):
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCongPhuPhau2, on='Nhân viên', how='outer')
     #group data thu nơ
     groupDataThuNo = get_data_thu_no(location, ["ALL"])
-    if (location):
-        groupDataThuNo = groupDataThuNo[groupDataThuNo["Cơ sở"] == location]
-    query_string = f"'{start_date}' <= `Ngày thu` <= '{end_date}'"
-    groupDataThuNo = groupDataThuNo.query(query_string)
+    data = filter_date(groupDataThuNo, "Ngày thu")
+
     groupDataThuNo = groupDataThuNo.groupby("Sale chính")[["Lượng thu"]].sum().reset_index()
     groupDataThuNo = groupDataThuNo.rename(columns={"Sale chính":"Nhân viên", "Lượng thu":"Doanh số thu nợ"})
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataThuNo, on='Nhân viên', how='outer')
@@ -102,8 +107,8 @@ def get_data_report_doanh_so(location):
 
 def get_data_report_chi_tieu(location):
     data = get_data_chi_tieu(location,["Ngày chi", "Phân loại", "Lượng chi"])
-    query_string = f"'{start_date}' <= `Ngày chi` <= '{end_date}'"
-    data = data.query(query_string)
+    data = filter_date(data, "Ngày chi")
+
     totalChiTieu = data["Lượng chi"].sum()
     data = data[["Phân loại", "Lượng chi"]].groupby("Phân loại").sum().reset_index()
     blank = totalChiTieu - data["Lượng chi"].sum()
@@ -113,6 +118,54 @@ def get_data_report_chi_tieu(location):
     data = pd.concat([data, totalRow], ignore_index=True)
     data = data.fillna(0)
     return data
+
+def get_data_luong_tong_hop():
+    # list all excel file luong nhân viên
+    list_of_report_ca_nhan_path = []
+    for root, dir, files in os.walk(report_folder):
+        for file in files:
+            if file.endswith(".xlsx") and ("NV-" in file) and ("Tổng hợp lương nhân viên" not in file):
+                list_of_report_ca_nhan_path.append(os.path.join(root, file))
+    if list_of_report_ca_nhan_path:
+        ret_data = pd.DataFrame()
+        for report_ca_nhan_path in list_of_report_ca_nhan_path:
+            file_name = os.path.basename(report_ca_nhan_path)
+            file_name_part = file_name.split(" ")
+            ma_nhan_vien = file_name_part[0]
+            ten_nhan_vien = ' '.join(file_name_part[1:-1])
+            data_luong = pd.read_excel(report_ca_nhan_path, sheet_name="Lương")
+
+            row_data = {
+                "Mã nhân viên" : [ma_nhan_vien], 
+                "Tên nhân viên" : [ten_nhan_vien], 
+            }
+            for location in location_list:
+                tong_luong_tai_co_so = data_luong.set_index("Danh mục lương").transpose()[f"Tổng lương tại {location}"]
+                if len(tong_luong_tai_co_so):
+                    tong_luong_tai_co_so = tong_luong_tai_co_so.values[0]
+                else:
+                    tong_luong_tai_co_so = 0
+                row_data[f"Tổng lương tại {location}"] = [tong_luong_tai_co_so]
+
+            df_row_data = pd.DataFrame(row_data, columns=list(row_data.keys()))
+            ret_data = pd.concat([ret_data, df_row_data])
+
+        # Tạo dòng tính tổng lương
+        row_total = {
+            "Mã nhân viên" : "Tổng lương", 
+            "Tên nhân viên" : [""], 
+        }
+        for location in location_list:
+            tong_luong = ret_data[f"Tổng lương tại {location}"].sum()
+            row_total[f"Tổng lương tại {location}"] = [tong_luong]
+            df_row_total = pd.DataFrame(row_total, columns=list(row_data.keys()))
+
+        ret_data = pd.concat([ret_data, df_row_total]) 
+        # Chuyển cột lương HỆ THỐNG xuống cuối
+        ret_data["Tổng lương tại HỆ THỐNG"] = ret_data.pop("Tổng lương tại HỆ THỐNG")
+        return ret_data 
+    else:
+        return None
 
 def create_report_co_so(path, location):
     excel_file_path = os.path.join(path, f"{location} {start_date.replace('/', '_')} - {end_date.replace('/', '_')}.xlsx")
@@ -129,27 +182,59 @@ def create_report_co_so(path, location):
     # Tạo report về Doanh số
     ws1 = wb.active
     ws1.title = 'CHI TIẾT DOANH THU'
-    writeDataframeToSheet(ws1, get_data_chi_tiet_doanh_thu(location))
+    data_doanh_thu = get_data_chi_tiet_doanh_thu(location)
+    writeDataframeToSheet(ws1, data_doanh_thu)
+    # Tại report chi tiết về thu nợ
+    ws2 = wb.create_sheet(title="CHI TIẾT VỀ THU NỢ")
+    data_thu_no = get_data_chi_tiet_thu_no(location)
+    writeDataframeToSheet(ws2, data_thu_no)
     # Tạo report chi tiết về chi tiêu
-    ws2 = wb.create_sheet(title="CHI TIẾT CHI TIÊU")
-    writeDataframeToSheet(ws2, get_data_chi_tiet_chi_tieu(location))
+    ws3 = wb.create_sheet(title="CHI TIẾT CHI TIÊU")
+    data_chi_tieu = get_data_chi_tiet_chi_tieu(location)
+    writeDataframeToSheet(ws3, data_chi_tieu)
     # Tạo report về doanh số cá nhân
-    ws3 = wb.create_sheet(title='DOANH SỐ CÁ NHÂN')
-    writeDataframeToSheet(ws3, get_data_report_doanh_so(location))
+    ws4 = wb.create_sheet(title='DOANH SỐ CÁ NHÂN')
+    writeDataframeToSheet(ws4, get_data_report_doanh_so(location))
     # Tạo report về chi tiêu
-    ws4 = wb.create_sheet(title='CHI TIÊU TỔNG HỢP')
-    writeDataframeToSheet(ws4, get_data_report_chi_tieu(location))
+    ws5 = wb.create_sheet(title='CHI TIÊU TỔNG HỢP')
+    writeDataframeToSheet(ws5, get_data_report_chi_tieu(location))
     # Tạo report về lũy kế ngày
-    ws5 = wb.create_sheet(title="LŨY KẾ NGÀY")
-    query_string = f"'{start_date}' <= `Ngày` <= '{end_date}'"
-    data = get_data_cho_luy_ke(location).query(query_string)
+    ws6 = wb.create_sheet(title="LŨY KẾ NGÀY")
+    data = get_data_cho_luy_ke(location)
     data = filter_date(data, "Ngày")
     total_row = data.sum()
     total_df = pd.DataFrame(total_row).T
     total_df["Ngày"] = "Tổng"
     data = pd.concat([data, total_df], ignore_index=True)
     data["Lũy kế ngày"] = data["Thanh toán lần đầu"] + data["Thu nợ"] - data["Lượng chi"]
-    writeDataframeToSheet(ws5, data)
+    writeDataframeToSheet(ws6, data)
+    # Tạo report về lương tại các cơ sở
+    data_luong = get_data_luong_tong_hop()
+    if location != "HỆ THỐNG":
+        ws7 = wb.create_sheet(title="QUỸ LƯƠNG")
+        writeDataframeToSheet(ws7, data_luong[["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}"]])
+    else:
+        ws7 = wb.create_sheet(title="QUỸ LƯƠNG")
+        writeDataframeToSheet(ws7, data_luong)
+    # Tạo report lợi nhuận
+    ws8 = wb.create_sheet(title="LỢI NHUẬN")
+    doanh_thu_sale = data_doanh_thu["Thanh toán lần đầu"].sum()/2
+    doanh_thu_thu_no = data_thu_no["Lượng thu"].sum()/2
+    chi_tieu = data_chi_tieu["Lượng chi"].sum()/2
+    luong = data_luong[f"Tổng lương tại {location}"].sum()/2
+    loi_nhuan = doanh_thu_sale + doanh_thu_thu_no - (chi_tieu + luong)
+    row = {
+        "Doanh thu" : [doanh_thu_sale],
+        "Thu nợ" : [doanh_thu_thu_no],
+        "Tổng doanh thu" : [doanh_thu_sale + doanh_thu_thu_no],
+        "Chi tiêu" : [chi_tieu],
+        "Quỹ lương" : [luong],
+        "Tổng chi phí" : [chi_tieu + luong],
+        "Lợi nhuận" : [loi_nhuan],
+        "Tỉ lệ lợi nhuận" : [loi_nhuan/(doanh_thu_sale + doanh_thu_thu_no)]
+    }
+    df_row = pd.DataFrame(row, columns=list(row.keys()))
+    writeDataframeToSheet(ws8, df_row)
 
     # Lưu workbook vào file Excel
     try:
