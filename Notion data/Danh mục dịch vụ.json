@@ -1,16 +1,16 @@
 [
     {
         "object": "page",
-        "id": "ab2f4b73-227c-4089-867d-87ed124ac352",
-        "created_time": "2024-07-31T13:41:00.000Z",
-        "last_edited_time": "2024-07-31T13:41:00.000Z",
+        "id": "87a76089-a9fc-4141-9031-08f66861847b",
+        "created_time": "2024-08-09T07:39:00.000Z",
+        "last_edited_time": "2024-08-09T07:39:00.000Z",
         "created_by": {
             "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "cover": null,
         "icon": null,
@@ -40,7 +40,7 @@
                 "type": "relation",
                 "relation": [
                     {
-                        "id": "df2d63bf-492b-40e7-815d-1a3f52d7708e"
+                        "id": "41dd5a52-bc83-4aba-9079-7f093f3667ed"
                     }
                 ],
                 "has_more": false
@@ -50,7 +50,406 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 1500000,
+                    "number": 36000000,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "cấy mỡ mặt ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "cấy mỡ mặt ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/c-y-m-m-t-87a76089a9fc4141903108f66861847b",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "6100d07e-5035-4b12-a357-224471be12b2",
+        "created_time": "2024-08-09T07:39:00.000Z",
+        "last_edited_time": "2024-08-09T07:39:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "cấy mỡ mặt ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "cấy mỡ mặt ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/c-y-m-m-t-6100d07e50354b12a357224471be12b2",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "0f43b3fb-2a7a-4d89-9716-835faff67b28",
+        "created_time": "2024-08-04T13:43:00.000Z",
+        "last_edited_time": "2024-08-04T13:43:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "b92b8247-db73-47cf-9cf8-e260dd3e0f64"
+                    }
+                ],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 7000000,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "nhấn đồng tiền",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "nhấn đồng tiền",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/nh-n-ng-ti-n-0f43b3fb2a7a4d899716835faff67b28",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "d3309b29-c69b-4a88-88fc-1beafeefca76",
+        "created_time": "2024-08-04T13:43:00.000Z",
+        "last_edited_time": "2024-08-04T13:43:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "nguyễn thị mỹ trinh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "nguyễn thị mỹ trinh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/nguy-n-th-m-trinh-d3309b29c69b4a8888fc1beafeefca76",
+        "public_url": null
+    },
+    {
+        "object": "page",
+        "id": "ab2f4b73-227c-4089-867d-87ed124ac352",
+        "created_time": "2024-07-31T13:41:00.000Z",
+        "last_edited_time": "2024-07-31T13:41:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 2,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "df2d63bf-492b-40e7-815d-1a3f52d7708e"
+                    },
+                    {
+                        "id": "bf35af16-d129-47db-bc0b-c6c1d2ffdafb"
+                    }
+                ],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 3000000,
                     "function": "sum"
                 }
             },
@@ -2638,7 +3037,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 8,
+                    "number": 9,
                     "function": "count"
                 }
             },
@@ -2674,6 +3073,9 @@
                     },
                     {
                         "id": "a984bd25-5eae-4288-ab00-a9a15ec4fd03"
+                    },
+                    {
+                        "id": "3e2b8a26-bda0-407c-9119-f817bbdd850a"
                     }
                 ],
                 "has_more": false
@@ -2683,7 +3085,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 16700000,
+                    "number": 18700000,
                     "function": "sum"
                 }
             },
@@ -4786,7 +5188,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 12,
+                    "number": 13,
                     "function": "count"
                 }
             },
@@ -4834,6 +5236,9 @@
                     },
                     {
                         "id": "e2beda79-0b93-4717-977c-c0ea2d579453"
+                    },
+                    {
+                        "id": "91bd6ad5-844b-4685-84e4-baf75a9d3576"
                     }
                 ],
                 "has_more": false
@@ -4843,7 +5248,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 33645000,
+                    "number": 35645000,
                     "function": "sum"
                 }
             },

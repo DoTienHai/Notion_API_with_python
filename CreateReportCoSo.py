@@ -26,7 +26,7 @@ def get_data_chi_tiet_thu_no(location):
 def get_data_chi_tiet_chi_tieu(location):
     data = get_data_chi_tieu(location, ["ALL"])
     data = filter_date(data, "Ngày chi")
-    data = data[["Tiền tố", "Mã chi tiêu", "Ngày chi", "Cơ sở", "Phân loại", "Lượng chi"]]
+    data = data[["Tiền tố", "Mã chi tiêu", "Ngày chi", "Cơ sở", "Phân loại", "Lượng chi", "Ghi chú"]]
     data = add_total_row(data)
     return data
 
@@ -80,7 +80,7 @@ def get_data_report_doanh_so(location):
     groupDataDoanhSo = pd.merge(groupDataDoanhSo, groupDataCongPhuPhau2, on='Nhân viên', how='outer')
     #group data thu nơ
     groupDataThuNo = get_data_thu_no(location, ["ALL"])
-    data = filter_date(groupDataThuNo, "Ngày thu")
+    groupDataThuNo = filter_date(groupDataThuNo, "Ngày thu")
 
     groupDataThuNo = groupDataThuNo.groupby("Sale chính")[["Lượng thu"]].sum().reset_index()
     groupDataThuNo = groupDataThuNo.rename(columns={"Sale chính":"Nhân viên", "Lượng thu":"Doanh số thu nợ"})
@@ -172,10 +172,10 @@ def get_data_loi_nhuan(location, data_doanh_thu, data_thu_no, data_chi_tieu, dat
         doanh_thu_thu_no = data_thu_no["Lượng thu"].sum()/2
         chi_tieu = data_chi_tieu["Lượng chi"].sum()/2
     else:
-        don_gia = data_doanh_thu[data_doanh_thu["Cơ sở"] == location]["Đơn giá"].sum()/2
-        doanh_thu_sale = data_doanh_thu[data_doanh_thu["Cơ sở"] == location]["Đã thanh toán"].sum()/2
-        doanh_thu_thu_no = data_thu_no[data_thu_no["Cơ sở"] == location]["Lượng thu"].sum()/2
-        chi_tieu = data_chi_tieu[data_chi_tieu["Cơ sở"] == location]["Lượng chi"].sum()/2
+        don_gia = data_doanh_thu[data_doanh_thu["Cơ sở"] == location]["Đơn giá"].sum()
+        doanh_thu_sale = data_doanh_thu[data_doanh_thu["Cơ sở"] == location]["Đã thanh toán"].sum()
+        doanh_thu_thu_no = data_thu_no[data_thu_no["Cơ sở"] == location]["Lượng thu"].sum()
+        chi_tieu = data_chi_tieu[data_chi_tieu["Cơ sở"] == location]["Lượng chi"].sum()
     luong = data_luong[f"Tổng lương tại {location}"].sum()/2
     loi_nhuan = doanh_thu_sale + doanh_thu_thu_no - (chi_tieu + luong)
     row = {

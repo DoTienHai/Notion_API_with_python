@@ -1163,14 +1163,14 @@
         "object": "page",
         "id": "a59f4f48-5e46-4827-bc32-cf235c11c41a",
         "created_time": "2024-07-08T16:52:00.000Z",
-        "last_edited_time": "2024-07-31T17:34:00.000Z",
+        "last_edited_time": "2024-08-08T10:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "cover": null,
         "icon": null,
@@ -1189,12 +1189,20 @@
             "Ngày 6": {
                 "id": "%3CJjN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
@@ -1214,7 +1222,11 @@
             "Ngày 3": {
                 "id": "DT%5Bd",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
@@ -1259,7 +1271,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -1269,7 +1285,11 @@
             "Ngày 7": {
                 "id": "_%5Erb",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 22": {
                 "id": "%60duC",
@@ -1279,7 +1299,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -1334,12 +1358,20 @@
             "Ngày 8": {
                 "id": "zBvN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -1627,14 +1659,14 @@
         "object": "page",
         "id": "569198e0-9c07-4f06-bd01-1918776a0ff0",
         "created_time": "2024-07-08T16:52:00.000Z",
-        "last_edited_time": "2024-07-31T17:34:00.000Z",
+        "last_edited_time": "2024-08-08T10:09:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "cover": null,
         "icon": null,
@@ -1653,12 +1685,20 @@
             "Ngày 6": {
                 "id": "%3CJjN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
@@ -1678,7 +1718,11 @@
             "Ngày 3": {
                 "id": "DT%5Bd",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
@@ -1723,7 +1767,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -1733,7 +1781,11 @@
             "Ngày 7": {
                 "id": "_%5Erb",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 22": {
                 "id": "%60duC",
@@ -1743,7 +1795,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -1798,12 +1854,20 @@
             "Ngày 8": {
                 "id": "zBvN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -2091,14 +2155,14 @@
         "object": "page",
         "id": "3ab85018-df13-41b4-80bb-c0e4bacf9b84",
         "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-31T17:34:00.000Z",
+        "last_edited_time": "2024-08-08T10:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "cover": null,
         "icon": null,
@@ -2117,12 +2181,20 @@
             "Ngày 6": {
                 "id": "%3CJjN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
@@ -2142,7 +2214,11 @@
             "Ngày 3": {
                 "id": "DT%5Bd",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
@@ -2187,7 +2263,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -2197,7 +2277,11 @@
             "Ngày 7": {
                 "id": "_%5Erb",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "tWI[",
+                    "name": "Nửa ngày",
+                    "color": "yellow"
+                }
             },
             "Ngày 22": {
                 "id": "%60duC",
@@ -2207,7 +2291,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -2262,12 +2350,20 @@
             "Ngày 8": {
                 "id": "zBvN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -2555,14 +2651,14 @@
         "object": "page",
         "id": "8283ffd4-4a9b-4e07-863c-f03e6e89e0fa",
         "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-31T17:34:00.000Z",
+        "last_edited_time": "2024-08-08T10:13:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "cover": null,
         "icon": null,
@@ -2581,12 +2677,20 @@
             "Ngày 6": {
                 "id": "%3CJjN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
@@ -2606,7 +2710,11 @@
             "Ngày 3": {
                 "id": "DT%5Bd",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
@@ -2651,7 +2759,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -2661,7 +2773,11 @@
             "Ngày 7": {
                 "id": "_%5Erb",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 22": {
                 "id": "%60duC",
@@ -2671,7 +2787,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -2726,12 +2846,20 @@
             "Ngày 8": {
                 "id": "zBvN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -3019,14 +3147,14 @@
         "object": "page",
         "id": "0ea3a596-a391-4e49-9bcf-3f1a1b210bee",
         "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-31T17:34:00.000Z",
+        "last_edited_time": "2024-08-08T10:13:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "cover": null,
         "icon": null,
@@ -3070,7 +3198,11 @@
             "Ngày 3": {
                 "id": "DT%5Bd",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
@@ -3135,7 +3267,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -3195,7 +3331,11 @@
             "Ngày 4": {
                 "id": "%7B%3EFf",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Cơ sở": {
                 "id": "%7BVCZ",
@@ -3947,14 +4087,14 @@
         "object": "page",
         "id": "e55ac8a0-ddb9-4c28-a8ba-f4b6b6bf3d16",
         "created_time": "2024-07-02T18:03:00.000Z",
-        "last_edited_time": "2024-07-31T17:34:00.000Z",
+        "last_edited_time": "2024-08-08T10:12:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "cover": null,
         "icon": null,
@@ -3973,12 +4113,20 @@
             "Ngày 6": {
                 "id": "%3CJjN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 5": {
                 "id": "%3CK%3FH",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
@@ -3998,7 +4146,11 @@
             "Ngày 3": {
                 "id": "DT%5Bd",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 12": {
                 "id": "J%7Bt%3C",
@@ -4043,7 +4195,11 @@
             "Ngày 2": {
                 "id": "YvCX",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 23": {
                 "id": "%5BBT%3C",
@@ -4053,7 +4209,11 @@
             "Ngày 7": {
                 "id": "_%5Erb",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 22": {
                 "id": "%60duC",
@@ -4063,7 +4223,11 @@
             "Ngày 1": {
                 "id": "avzr",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 30": {
                 "id": "b%3Fyl",
@@ -4118,12 +4282,20 @@
             "Ngày 8": {
                 "id": "zBvN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 4": {
                 "id": "%7B%3EFf",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Cơ sở": {
                 "id": "%7BVCZ",

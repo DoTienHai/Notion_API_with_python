@@ -170,14 +170,15 @@ def collect_chi_tieu():
     data_chi_tieu = pd.read_excel(excel_file_path)
     data_chi_tieu = data_chi_tieu[["id", "properties.Auto mã chi tiêu.unique_id.prefix", "properties.Auto mã chi tiêu.unique_id.number",
                                "properties.Ngày chi.date.start", "properties.Cơ sở.select.name","properties.Phân loại.select.name", "properties.Nhân viên xác nhận.relation",
-                               "properties.Lượng chi.number", "properties.Người Nhận/Ứng.relation"]]
+                               "properties.Lượng chi.number", "properties.Người Nhận/Ứng.relation", "properties.Ghi chú.rich_text"]]
     data_chi_tieu = data_chi_tieu.rename(columns={"id":"notion id", "properties.Ngày chi.date.start":"Ngày chi", "properties.Nhân viên xác nhận.relation":"id nhân viên xác nhận",
                                "properties.Cơ sở.select.name":"Cơ sở", "properties.Người Nhận/Ứng.relation":"id người nhận/ứng", 
                                "properties.Phân loại.select.name":"Phân loại", "properties.Auto mã chi tiêu.unique_id.prefix":"Tiền tố", 
-                               "properties.Auto mã chi tiêu.unique_id.number":"Mã chi tiêu", "properties.Lượng chi.number":"Lượng chi"})
+                               "properties.Auto mã chi tiêu.unique_id.number":"Mã chi tiêu", "properties.Lượng chi.number":"Lượng chi", "properties.Ghi chú.rich_text" : "Ghi chú"})
 
     data_chi_tieu["id nhân viên xác nhận"] = data_chi_tieu["id nhân viên xác nhận"].apply(extract_id)
     data_chi_tieu["id người nhận/ứng"] = data_chi_tieu["id người nhận/ứng"].apply(extract_id)
+    data_chi_tieu["Ghi chú"] = data_chi_tieu["Ghi chú"].apply(extract_text_content)
     data_chi_tieu = pd.merge(data_chi_tieu, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id nhân viên xác nhận", right_on="notion id", how="left")
     data_chi_tieu = data_chi_tieu.rename(columns={"Họ và tên":"Nhân viên xác nhận"})
     data_chi_tieu = pd.merge(data_chi_tieu, collect_ho_so_nhan_su()[["notion id", "Họ và tên"]], left_on="id người nhận/ứng", right_on="notion id", how="left")
