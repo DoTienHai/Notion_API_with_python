@@ -2,6 +2,7 @@ from Config import *
 from CreateReportCaNhan import *
 from CreateReportCoSo import *
 from CreateReportKhachHang import *
+from CreateReportLuongTongHop import *
 
 
 def create_all_report(location):
@@ -21,6 +22,7 @@ def create_all_report(location):
     create_report_co_so(location_report_folder_path, location)
 
     create_report_khach_hang(location_report_folder_path, location)
-
+    if location == "HỆ THỐNG":
+        create_report_luong()
 # for item in location_list:
 #     create_all_report(item)
