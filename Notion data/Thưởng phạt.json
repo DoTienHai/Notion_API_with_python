@@ -1,6 +1,215 @@
 [
     {
         "object": "page",
+        "id": "d998e336-8b66-410e-beaa-f1d9fb15ee06",
+        "created_time": "2024-08-22T10:42:00.000Z",
+        "last_edited_time": "2024-08-22T10:43:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "99c4d685-a2c9-44b0-9d2b-8371687040e6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Lượng thưởng phạt": {
+                "id": "Ainr",
+                "type": "number",
+                "number": 300000
+            },
+            "Loại": {
+                "id": "F%3DMB",
+                "type": "select",
+                "select": {
+                    "id": "@D=Z",
+                    "name": "Phạt",
+                    "color": "red"
+                }
+            },
+            "Cơ sở": {
+                "id": "Z_~f",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "KqT_",
+                                "name": "CẦN THƠ",
+                                "color": "purple"
+                            }
+                        }
+                    ],
+                    "function": "show_original"
+                }
+            },
+            "Auto mã": {
+                "id": "dA%3DJ",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TP",
+                    "number": 11
+                }
+            },
+            "Nhân sự": {
+                "id": "eR%7BJ",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "a73ea60d-3de1-4e9b-aa7b-f22fda5742bd"
+                    }
+                ],
+                "has_more": false
+            },
+            "Ngày phát sinh": {
+                "id": "qCpd",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-22",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Lí do": {
+                "id": "qxB%5B",
+                "type": "rich_text",
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Vắng không phép",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Vắng không phép",
+                        "href": null
+                    }
+                ]
+            },
+            "Mã thưởng phạt": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "TP-11",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "TP-11",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/TP-11-d998e3368b66410ebeaaf1d9fb15ee06",
+        "public_url": "https://salty-handsaw-797.notion.site/TP-11-d998e3368b66410ebeaaf1d9fb15ee06"
+    },
+    {
+        "object": "page",
+        "id": "acfc9ac1-f2af-4fea-b77e-e1fc97b7937a",
+        "created_time": "2024-08-22T10:42:00.000Z",
+        "last_edited_time": "2024-08-22T10:42:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "99c4d685-a2c9-44b0-9d2b-8371687040e6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Lượng thưởng phạt": {
+                "id": "Ainr",
+                "type": "number",
+                "number": null
+            },
+            "Loại": {
+                "id": "F%3DMB",
+                "type": "select",
+                "select": null
+            },
+            "Cơ sở": {
+                "id": "Z_~f",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [],
+                    "function": "show_original"
+                }
+            },
+            "Auto mã": {
+                "id": "dA%3DJ",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "TP",
+                    "number": 10
+                }
+            },
+            "Nhân sự": {
+                "id": "eR%7BJ",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Ngày phát sinh": {
+                "id": "qCpd",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-22",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Lí do": {
+                "id": "qxB%5B",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã thưởng phạt": {
+                "id": "title",
+                "type": "title",
+                "title": []
+            }
+        },
+        "url": "https://www.notion.so/acfc9ac1f2af4feab77ee1fc97b7937a",
+        "public_url": "https://salty-handsaw-797.notion.site/acfc9ac1f2af4feab77ee1fc97b7937a"
+    },
+    {
+        "object": "page",
         "id": "5b5a12cb-1f5b-4c2a-9a66-e196a6486f80",
         "created_time": "2024-07-26T07:25:00.000Z",
         "last_edited_time": "2024-07-31T17:46:00.000Z",
@@ -128,6 +337,6 @@
             }
         },
         "url": "https://www.notion.so/TP-7-5b5a12cb1f5b4c2a9a66e196a6486f80",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/TP-7-5b5a12cb1f5b4c2a9a66e196a6486f80"
     }
 ]

@@ -1,6 +1,301 @@
 [
     {
         "object": "page",
+        "id": "089c1bd2-7014-42bd-8c72-a9b2c427d7d3",
+        "created_time": "2024-08-16T16:08:00.000Z",
+        "last_edited_time": "2024-08-16T16:08:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "b551d3db-5978-4b3d-b412-ec6e21968fa6"
+                    }
+                ],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 4000000,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Căng chỉ mặt",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Căng chỉ mặt",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/C-ng-ch-m-t-089c1bd2701442bd8c72a9b2c427d7d3",
+        "public_url": "https://salty-handsaw-797.notion.site/C-ng-ch-m-t-089c1bd2701442bd8c72a9b2c427d7d3"
+    },
+    {
+        "object": "page",
+        "id": "78297e5a-c09d-4cc5-af90-3ff767d73087",
+        "created_time": "2024-08-16T11:29:00.000Z",
+        "last_edited_time": "2024-08-16T11:29:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "trương thị vẹn ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "trương thị vẹn ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/tr-ng-th-v-n-78297e5ac09d4cc5af903ff767d73087",
+        "public_url": "https://salty-handsaw-797.notion.site/tr-ng-th-v-n-78297e5ac09d4cc5af903ff767d73087"
+    },
+    {
+        "object": "page",
+        "id": "eb75b213-ce44-4bac-b63c-fe0e39e671b6",
+        "created_time": "2024-08-16T11:23:00.000Z",
+        "last_edited_time": "2024-08-16T11:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "ngọc khanh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "ngọc khanh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/ng-c-khanh-eb75b213ce444bacb63cfe0e39e671b6",
+        "public_url": "https://salty-handsaw-797.notion.site/ng-c-khanh-eb75b213ce444bacb63cfe0e39e671b6"
+    },
+    {
+        "object": "page",
         "id": "87a76089-a9fc-4141-9031-08f66861847b",
         "created_time": "2024-08-09T07:39:00.000Z",
         "last_edited_time": "2024-08-09T07:39:00.000Z",
@@ -98,7 +393,7 @@
             }
         },
         "url": "https://www.notion.so/c-y-m-m-t-87a76089a9fc4141903108f66861847b",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/c-y-m-m-t-87a76089a9fc4141903108f66861847b"
     },
     {
         "object": "page",
@@ -195,7 +490,7 @@
             }
         },
         "url": "https://www.notion.so/c-y-m-m-t-6100d07e50354b12a357224471be12b2",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/c-y-m-m-t-6100d07e50354b12a357224471be12b2"
     },
     {
         "object": "page",
@@ -296,7 +591,7 @@
             }
         },
         "url": "https://www.notion.so/nh-n-ng-ti-n-0f43b3fb2a7a4d899716835faff67b28",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/nh-n-ng-ti-n-0f43b3fb2a7a4d899716835faff67b28"
     },
     {
         "object": "page",
@@ -393,7 +688,7 @@
             }
         },
         "url": "https://www.notion.so/nguy-n-th-m-trinh-d3309b29c69b4a8888fc1beafeefca76",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/nguy-n-th-m-trinh-d3309b29c69b4a8888fc1beafeefca76"
     },
     {
         "object": "page",
@@ -422,7 +717,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 2,
+                    "number": 3,
                     "function": "count"
                 }
             },
@@ -440,6 +735,9 @@
                     },
                     {
                         "id": "bf35af16-d129-47db-bc0b-c6c1d2ffdafb"
+                    },
+                    {
+                        "id": "203d82c1-fe27-4866-a898-51cb530f8fce"
                     }
                 ],
                 "has_more": false
@@ -449,7 +747,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3000000,
+                    "number": 4500000,
                     "function": "sum"
                 }
             },
@@ -497,7 +795,7 @@
             }
         },
         "url": "https://www.notion.so/Phun-m-y-ab2f4b73227c4089867d87ed124ac352",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Phun-m-y-ab2f4b73227c4089867d87ed124ac352"
     },
     {
         "object": "page",
@@ -598,7 +896,7 @@
             }
         },
         "url": "https://www.notion.so/c-t-ch-2e44247077024f98923a4f4a606db080",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/c-t-ch-2e44247077024f98923a4f4a606db080"
     },
     {
         "object": "page",
@@ -703,7 +1001,7 @@
             }
         },
         "url": "https://www.notion.so/c-t-s-o-0e52622972a443838a15fe91f9a4a968",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/c-t-s-o-0e52622972a443838a15fe91f9a4a968"
     },
     {
         "object": "page",
@@ -808,7 +1106,7 @@
             }
         },
         "url": "https://www.notion.so/Phun-m-cb579f54224041ab9abc21f5b506941e",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Phun-m-cb579f54224041ab9abc21f5b506941e"
     },
     {
         "object": "page",
@@ -937,7 +1235,7 @@
             }
         },
         "url": "https://www.notion.so/Phun-m-y-22f42f24b99f4c1893b45f64deff47c3",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Phun-m-y-22f42f24b99f4c1893b45f64deff47c3"
     },
     {
         "object": "page",
@@ -1051,7 +1349,7 @@
             }
         },
         "url": "https://www.notion.so/C-c-D-ch-V-L-m-p-d11744f554944bdb8851ba16f9eca5f0",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/C-c-D-ch-V-L-m-p-d11744f554944bdb8851ba16f9eca5f0"
     },
     {
         "object": "page",
@@ -1156,7 +1454,7 @@
             }
         },
         "url": "https://www.notion.so/Thu-qu-ng-ti-f5a85dbc38d54f208f6f0b25a965f2f6",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Thu-qu-ng-ti-f5a85dbc38d54f208f6f0b25a965f2f6"
     },
     {
         "object": "page",
@@ -1257,7 +1555,7 @@
             }
         },
         "url": "https://www.notion.so/Cost-d-ch-v-S-c-tr-ng-4004ba450c0e44929ee974eea86b7f3f",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Cost-d-ch-v-S-c-tr-ng-4004ba450c0e44929ee974eea86b7f3f"
     },
     {
         "object": "page",
@@ -1358,7 +1656,7 @@
             }
         },
         "url": "https://www.notion.so/Cost-d-ch-v-C-n-th-9e9a9a86334a43e7863067798d7a8b93",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Cost-d-ch-v-C-n-th-9e9a9a86334a43e7863067798d7a8b93"
     },
     {
         "object": "page",
@@ -1463,7 +1761,7 @@
             }
         },
         "url": "https://www.notion.so/Cost-d-ch-v-Long-Xuy-n-36462e8c5495487991b2e4852d8f4f0a",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Cost-d-ch-v-Long-Xuy-n-36462e8c5495487991b2e4852d8f4f0a"
     },
     {
         "object": "page",
@@ -1568,7 +1866,7 @@
             }
         },
         "url": "https://www.notion.so/S-n-ph-m-l-m-h-ng-ea4d15da40754b1b9539fb9b77419fc0",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/S-n-ph-m-l-m-h-ng-ea4d15da40754b1b9539fb9b77419fc0"
     },
     {
         "object": "page",
@@ -1673,7 +1971,7 @@
             }
         },
         "url": "https://www.notion.so/Thu-h-p-tai-a699007187534c019b2f0739b4f66f2c",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Thu-h-p-tai-a699007187534c019b2f0739b4f66f2c"
     },
     {
         "object": "page",
@@ -1778,7 +2076,7 @@
             }
         },
         "url": "https://www.notion.so/H-t-m-n-ch-0e8d32d19199427b940d16f4a47ad843",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/H-t-m-n-ch-0e8d32d19199427b940d16f4a47ad843"
     },
     {
         "object": "page",
@@ -1883,7 +2181,7 @@
             }
         },
         "url": "https://www.notion.so/Thu-u-ti-e35eb82e47a34f599454f01a4058c7ef",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Thu-u-ti-e35eb82e47a34f599454f01a4058c7ef"
     },
     {
         "object": "page",
@@ -1988,7 +2286,7 @@
             }
         },
         "url": "https://www.notion.so/Up-m-c-M-8f39c4f8640e40d98c2652759475caa4",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Up-m-c-M-8f39c4f8640e40d98c2652759475caa4"
     },
     {
         "object": "page",
@@ -2102,7 +2400,7 @@
             }
         },
         "url": "https://www.notion.so/Treo-cung-44a16666eb904688b096d3ae103bf9b7",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Treo-cung-44a16666eb904688b096d3ae103bf9b7"
     },
     {
         "object": "page",
@@ -2210,7 +2508,7 @@
             }
         },
         "url": "https://www.notion.so/C-t-ch-b81cc8c06ec748c4ab93c7a21b17c696",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/C-t-ch-b81cc8c06ec748c4ab93c7a21b17c696"
     },
     {
         "object": "page",
@@ -2321,7 +2619,7 @@
             }
         },
         "url": "https://www.notion.so/B-o-h-nh-e52a4e9e4dce4299b01edf3a7908b8bf",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/B-o-h-nh-e52a4e9e4dce4299b01edf3a7908b8bf"
     },
     {
         "object": "page",
@@ -2432,7 +2730,7 @@
             }
         },
         "url": "https://www.notion.so/H-t-m-b-p-tay-95fe288fea82482983599fdf84594e36",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/H-t-m-b-p-tay-95fe288fea82482983599fdf84594e36"
     },
     {
         "object": "page",
@@ -2540,7 +2838,7 @@
             }
         },
         "url": "https://www.notion.so/H-t-m-b-ng-65cf5987986148dbbb71b57c934d6a4b",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/H-t-m-b-ng-65cf5987986148dbbb71b57c934d6a4b"
     },
     {
         "object": "page",
@@ -2648,7 +2946,7 @@
             }
         },
         "url": "https://www.notion.so/T-o-h-nh-m-i-tr-i-tim-86e95925bfcc4336b28f66bf8c6b30c5",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/T-o-h-nh-m-i-tr-i-tim-86e95925bfcc4336b28f66bf8c6b30c5"
     },
     {
         "object": "page",
@@ -2795,7 +3093,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-m-i-c926f81743c44bd6b1514af2f9786bea",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-m-i-c926f81743c44bd6b1514af2f9786bea"
     },
     {
         "object": "page",
@@ -2906,7 +3204,7 @@
             }
         },
         "url": "https://www.notion.so/Thu-c-nh-m-i-a125843460a34fd0b3deee5db94dcdb9",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Thu-c-nh-m-i-a125843460a34fd0b3deee5db94dcdb9"
     },
     {
         "object": "page",
@@ -3011,7 +3309,7 @@
             }
         },
         "url": "https://www.notion.so/Nu-i-ru-i-31b50c8d0bb0498ba61808bd11839ead",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Nu-i-ru-i-31b50c8d0bb0498ba61808bd11839ead"
     },
     {
         "object": "page",
@@ -3143,7 +3441,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-botox-9b5fc28071144fd6ac3c28f3042a8b40",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-botox-9b5fc28071144fd6ac3c28f3042a8b40"
     },
     {
         "object": "page",
@@ -3251,7 +3549,7 @@
             }
         },
         "url": "https://www.notion.so/L-m-c-b-de31c647d65146c0a20f131216dd3e46",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/L-m-c-b-de31c647d65146c0a20f131216dd3e46"
     },
     {
         "object": "page",
@@ -3362,7 +3660,7 @@
             }
         },
         "url": "https://www.notion.so/C-ng-da-th-i-d-ng-28f84581e3dc494f890311425dcf396f",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/C-ng-da-th-i-d-ng-28f84581e3dc494f890311425dcf396f"
     },
     {
         "object": "page",
@@ -3391,7 +3689,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 22,
+                    "number": 23,
                     "function": "count"
                 }
             },
@@ -3469,6 +3767,9 @@
                     },
                     {
                         "id": "25403dfd-3620-496c-91bb-4a5cdc3a579c"
+                    },
+                    {
+                        "id": "437bc949-7ce9-4f41-a262-e7bfa0b18a7a"
                     }
                 ],
                 "has_more": false
@@ -3478,7 +3779,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 49200000,
+                    "number": 55200000,
                     "function": "sum"
                 }
             },
@@ -3487,7 +3788,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 5000000,
+                    "number": 8000000,
                     "function": "sum"
                 }
             },
@@ -3530,7 +3831,7 @@
             }
         },
         "url": "https://www.notion.so/i-u-kh-c-m-y-c92ebcd9938d4c1ca3d96b2c8f79b9a6",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/i-u-kh-c-m-y-c92ebcd9938d4c1ca3d96b2c8f79b9a6"
     },
     {
         "object": "page",
@@ -3559,7 +3860,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 1,
+                    "number": 2,
                     "function": "count"
                 }
             },
@@ -3574,6 +3875,9 @@
                 "relation": [
                     {
                         "id": "59b69bc3-22b7-4b29-9450-64b83ca70a98"
+                    },
+                    {
+                        "id": "1d689c57-3d5c-417e-8b12-f095bfaad057"
                     }
                 ],
                 "has_more": false
@@ -3583,7 +3887,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 8000000,
+                    "number": 13000000,
                     "function": "sum"
                 }
             },
@@ -3635,7 +3939,7 @@
             }
         },
         "url": "https://www.notion.so/C-t-m-t-ph-ng-ebc54d5058b94fa4bd2fc4fb9bd95874",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/C-t-m-t-ph-ng-ebc54d5058b94fa4bd2fc4fb9bd95874"
     },
     {
         "object": "page",
@@ -3664,7 +3968,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 4,
+                    "number": 5,
                     "function": "count"
                 }
             },
@@ -3688,6 +3992,9 @@
                     },
                     {
                         "id": "ff719add-5de4-4d2e-8783-f5388f9e105d"
+                    },
+                    {
+                        "id": "5c59e8e0-16f0-4701-8b00-9536473efda9"
                     }
                 ],
                 "has_more": false
@@ -3697,7 +4004,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 20000000,
+                    "number": 23000000,
                     "function": "sum"
                 }
             },
@@ -3749,7 +4056,7 @@
             }
         },
         "url": "https://www.notion.so/M-g-c-m-t-57459270b6fa4b0cbde98d25688557dd",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/M-g-c-m-t-57459270b6fa4b0cbde98d25688557dd"
     },
     {
         "object": "page",
@@ -3857,7 +4164,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-tan-m-m-518ddeb4c7224b5d8353f87f0f4208ef",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-tan-m-m-518ddeb4c7224b5d8353f87f0f4208ef"
     },
     {
         "object": "page",
@@ -3962,7 +4269,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-Meso-b4480d9abf484d8fba30ce58fac5013d",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-Meso-b4480d9abf484d8fba30ce58fac5013d"
     },
     {
         "object": "page",
@@ -4073,7 +4380,7 @@
             }
         },
         "url": "https://www.notion.so/C-y-trung-b-m-i-6f7ff8a3d6c441bd9ac82705817f20a8",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/C-y-trung-b-m-i-6f7ff8a3d6c441bd9ac82705817f20a8"
     },
     {
         "object": "page",
@@ -4178,7 +4485,7 @@
             }
         },
         "url": "https://www.notion.so/Th-o-m-i-b-c-c-ng-c-ebeca77ba7ec442aacf960cd9405340e",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-o-m-i-b-c-c-ng-c-ebeca77ba7ec442aacf960cd9405340e"
     },
     {
         "object": "page",
@@ -4207,7 +4514,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3,
+                    "number": 4,
                     "function": "count"
                 }
             },
@@ -4228,6 +4535,9 @@
                     },
                     {
                         "id": "6e685a9e-dd27-494d-8308-fbea23aa0376"
+                    },
+                    {
+                        "id": "49c02394-6cbd-496c-a6ab-a746582b58c6"
                     }
                 ],
                 "has_more": false
@@ -4237,7 +4547,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 15300000,
+                    "number": 20300000,
                     "function": "sum"
                 }
             },
@@ -4246,7 +4556,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 2000000,
+                    "number": 7000000,
                     "function": "sum"
                 }
             },
@@ -4289,7 +4599,7 @@
             }
         },
         "url": "https://www.notion.so/C-t-m-i-1dbed88f6afd41a9943c4cf9ee98968e",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/C-t-m-i-1dbed88f6afd41a9943c4cf9ee98968e"
     },
     {
         "object": "page",
@@ -4318,7 +4628,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 5,
+                    "number": 7,
                     "function": "count"
                 }
             },
@@ -4345,6 +4655,12 @@
                     },
                     {
                         "id": "6f2705c2-4b83-4320-b7dc-ab284a15c675"
+                    },
+                    {
+                        "id": "db2ced56-3ae7-4a95-aae7-e43da741ffa5"
+                    },
+                    {
+                        "id": "353df974-ad40-4596-862a-e3950259a31b"
                     }
                 ],
                 "has_more": false
@@ -4354,7 +4670,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 12098000,
+                    "number": 14298000,
                     "function": "sum"
                 }
             },
@@ -4406,7 +4722,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-c-m-c6e90df1583f42438476a18f06f08034",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-c-m-c6e90df1583f42438476a18f06f08034"
     },
     {
         "object": "page",
@@ -4511,7 +4827,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-r-nh-c-i-423a8fa3aeef4fd9bddf093fe8d7a541",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-r-nh-c-i-423a8fa3aeef4fd9bddf093fe8d7a541"
     },
     {
         "object": "page",
@@ -4619,7 +4935,7 @@
             }
         },
         "url": "https://www.notion.so/L-m-m-L-m-c24f74d75d1b417dbede4df278f35f43",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/L-m-m-L-m-c24f74d75d1b417dbede4df278f35f43"
     },
     {
         "object": "page",
@@ -4648,7 +4964,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 13,
+                    "number": 15,
                     "function": "count"
                 }
             },
@@ -4699,6 +5015,12 @@
                     },
                     {
                         "id": "40abba10-4b6e-44a7-97e2-68153bf3da52"
+                    },
+                    {
+                        "id": "4c5f9d44-da03-463f-a61f-66219e6954ee"
+                    },
+                    {
+                        "id": "2501df9e-78c2-4e63-a409-9e65b6736e92"
                     }
                 ],
                 "has_more": false
@@ -4708,7 +5030,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 409500000,
+                    "number": 482500000,
                     "function": "sum"
                 }
             },
@@ -4717,7 +5039,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 29000000,
+                    "number": 44000000,
                     "function": "sum"
                 }
             },
@@ -4760,7 +5082,7 @@
             }
         },
         "url": "https://www.notion.so/N-ng-M-i-D-ng-Tr-18d4e1b4962d47f08fcb0dd4a8390f06",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/N-ng-M-i-D-ng-Tr-18d4e1b4962d47f08fcb0dd4a8390f06"
     },
     {
         "object": "page",
@@ -4883,7 +5205,7 @@
             }
         },
         "url": "https://www.notion.so/Treo-sa-tr-c74e9a1aa5154d57851b873d8ae67147",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Treo-sa-tr-c74e9a1aa5154d57851b873d8ae67147"
     },
     {
         "object": "page",
@@ -4912,7 +5234,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 25,
+                    "number": 26,
                     "function": "count"
                 }
             },
@@ -5008,7 +5330,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 204200000,
+                    "number": 205200000,
                     "function": "sum"
                 }
             },
@@ -5060,7 +5382,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-Filler-bc22b8e54a534537aa220a0cf1420b70",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-Filler-bc22b8e54a534537aa220a0cf1420b70"
     },
     {
         "object": "page",
@@ -5165,7 +5487,7 @@
             }
         },
         "url": "https://www.notion.so/Nh-n-m-1b29b376dc7044b8800bc651443bcf3d",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Nh-n-m-1b29b376dc7044b8800bc651443bcf3d"
     },
     {
         "object": "page",
@@ -5194,7 +5516,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 13,
+                    "number": 15,
                     "function": "count"
                 }
             },
@@ -5245,6 +5567,12 @@
                     },
                     {
                         "id": "91bd6ad5-844b-4685-84e4-baf75a9d3576"
+                    },
+                    {
+                        "id": "040fe855-42bd-451f-809d-b15e683ae555"
+                    },
+                    {
+                        "id": "2f5ac8d9-0809-479f-ab35-76d6ed47c622"
                     }
                 ],
                 "has_more": false
@@ -5254,7 +5582,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 35645000,
+                    "number": 38145000,
                     "function": "sum"
                 }
             },
@@ -5306,7 +5634,7 @@
             }
         },
         "url": "https://www.notion.so/Phun-m-i-fccfa659feec4f61abcf9f866b0c0f41",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Phun-m-i-fccfa659feec4f61abcf9f866b0c0f41"
     },
     {
         "object": "page",
@@ -5411,7 +5739,7 @@
             }
         },
         "url": "https://www.notion.so/Ti-m-bao-s-3df5317ace21494c8b30136d7215f715",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Ti-m-bao-s-3df5317ace21494c8b30136d7215f715"
     },
     {
         "object": "page",
@@ -5588,7 +5916,7 @@
             }
         },
         "url": "https://www.notion.so/C-t-m-baf07de0337343d38f4ce75f3237e30b",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/C-t-m-baf07de0337343d38f4ce75f3237e30b"
     },
     {
         "object": "page",
@@ -5696,7 +6024,7 @@
             }
         },
         "url": "https://www.notion.so/N-ng-ng-c-5e0fd9e571754d47972f8bc3f04ec8b7",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/N-ng-ng-c-5e0fd9e571754d47972f8bc3f04ec8b7"
     },
     {
         "object": "page",
@@ -5861,7 +6189,7 @@
             }
         },
         "url": "https://www.notion.so/Phun-m-y-a67c22ad71bc49f99fdb655f7310818f",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Phun-m-y-a67c22ad71bc49f99fdb655f7310818f"
     },
     {
         "object": "page",
@@ -5890,7 +6218,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 13,
+                    "number": 14,
                     "function": "count"
                 }
             },
@@ -5941,6 +6269,9 @@
                     },
                     {
                         "id": "3418e210-a3f0-45d5-b401-695da6859d6e"
+                    },
+                    {
+                        "id": "f89d255a-e727-42d2-b18e-71973372c121"
                     }
                 ],
                 "has_more": false
@@ -5950,7 +6281,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 61200000,
+                    "number": 70200000,
                     "function": "sum"
                 }
             },
@@ -6002,7 +6333,7 @@
             }
         },
         "url": "https://www.notion.so/N-ng-cung-ch-n-m-y-f92df7c253054ec68f4012514c2e4b95",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/N-ng-cung-ch-n-m-y-f92df7c253054ec68f4012514c2e4b95"
     },
     {
         "object": "page",
@@ -6031,7 +6362,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 24,
+                    "number": 23,
                     "function": "count"
                 }
             },
@@ -6090,9 +6421,6 @@
                         "id": "9ca7d3e5-a50c-410c-9baf-c91464b0dff4"
                     },
                     {
-                        "id": "1936e1d1-5f3d-4bd1-b469-a1951eadb081"
-                    },
-                    {
                         "id": "8b0bed59-8ebb-4430-a43b-11f65c771d44"
                     },
                     {
@@ -6124,7 +6452,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 356950000,
+                    "number": 344450000,
                     "function": "sum"
                 }
             },
@@ -6133,7 +6461,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 91000000,
+                    "number": 85000000,
                     "function": "sum"
                 }
             },
@@ -6176,6 +6504,6 @@
             }
         },
         "url": "https://www.notion.so/N-ng-m-i-540226e38d3e4d9591526e75ba27997f",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/N-ng-m-i-540226e38d3e4d9591526e75ba27997f"
     }
 ]

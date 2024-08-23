@@ -229,7 +229,7 @@
             }
         },
         "url": "https://www.notion.so/19-5c093ee051c441d9bc90d9cacaafde1d",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/19-5c093ee051c441d9bc90d9cacaafde1d"
     },
     {
         "object": "page",
@@ -461,7 +461,7 @@
             }
         },
         "url": "https://www.notion.so/11-deea2d8f02384305abda713ad39ec13d",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/11-deea2d8f02384305abda713ad39ec13d"
     },
     {
         "object": "page",
@@ -693,7 +693,7 @@
             }
         },
         "url": "https://www.notion.so/13-3aedf66bb456434797ae48e4b235c4b5",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/13-3aedf66bb456434797ae48e4b235c4b5"
     },
     {
         "object": "page",
@@ -925,7 +925,7 @@
             }
         },
         "url": "https://www.notion.so/9-d115d1c134eb4069bcb8dc971095f8ad",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/9-d115d1c134eb4069bcb8dc971095f8ad"
     },
     {
         "object": "page",
@@ -1157,7 +1157,7 @@
             }
         },
         "url": "https://www.notion.so/16-0747fb62070a47a398458966722bfb2e",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/16-0747fb62070a47a398458966722bfb2e"
     },
     {
         "object": "page",
@@ -1389,7 +1389,7 @@
             }
         },
         "url": "https://www.notion.so/17-ec6fbb966288476fabc2c605f8c77bd9",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/17-ec6fbb966288476fabc2c605f8c77bd9"
     },
     {
         "object": "page",
@@ -1621,7 +1621,7 @@
             }
         },
         "url": "https://www.notion.so/6-a9b33b6844f749f9a75595267817e2da",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/6-a9b33b6844f749f9a75595267817e2da"
     },
     {
         "object": "page",
@@ -1853,13 +1853,13 @@
             }
         },
         "url": "https://www.notion.so/15-082171a8ab6940a0b22c8146386dfd7e",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/15-082171a8ab6940a0b22c8146386dfd7e"
     },
     {
         "object": "page",
         "id": "67db7df7-e666-4013-9a95-fb6193d882c4",
         "created_time": "2024-07-06T10:33:00.000Z",
-        "last_edited_time": "2024-08-11T10:28:00.000Z",
+        "last_edited_time": "2024-08-23T10:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1903,12 +1903,20 @@
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 19": {
                 "id": "BtWM",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 11": {
                 "id": "CwPo",
@@ -1931,7 +1939,11 @@
             "Ngày 12": {
                 "id": "J%7Bt%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -1946,7 +1958,11 @@
             "Ngày 21": {
                 "id": "K~Y%3D",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 10": {
                 "id": "MVnS",
@@ -1984,7 +2000,11 @@
             "Ngày 23": {
                 "id": "%5BBT%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 7": {
                 "id": "_%5Erb",
@@ -1998,7 +2018,11 @@
             "Ngày 22": {
                 "id": "%60duC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 1": {
                 "id": "avzr",
@@ -2026,12 +2050,20 @@
             "Ngày 16": {
                 "id": "e%5EUO",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 15": {
                 "id": "fKUN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 29": {
                 "id": "fezN",
@@ -2046,12 +2078,20 @@
             "Ngày 13": {
                 "id": "jsqT",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 24": {
                 "id": "rsuC",
@@ -2061,7 +2101,11 @@
             "Ngày 17": {
                 "id": "yEwL",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 8": {
                 "id": "zBvN",
@@ -2102,7 +2146,11 @@
             "Ngày 14": {
                 "id": "~q%3Ax",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "STT": {
                 "id": "title",
@@ -2129,7 +2177,7 @@
             }
         },
         "url": "https://www.notion.so/5-67db7df7e66640139a95fb6193d882c4",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/5-67db7df7e66640139a95fb6193d882c4"
     },
     {
         "object": "page",
@@ -2361,7 +2409,7 @@
             }
         },
         "url": "https://www.notion.so/14-039bd0914e1b48d98b0759422db15f26",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/14-039bd0914e1b48d98b0759422db15f26"
     },
     {
         "object": "page",
@@ -2593,7 +2641,7 @@
             }
         },
         "url": "https://www.notion.so/21-14bd8477ff034967a0536642a8640c0d",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/21-14bd8477ff034967a0536642a8640c0d"
     },
     {
         "object": "page",
@@ -2825,13 +2873,13 @@
             }
         },
         "url": "https://www.notion.so/12-3525a79c1a864907afbce7143db1cde1",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/12-3525a79c1a864907afbce7143db1cde1"
     },
     {
         "object": "page",
         "id": "573d5bec-3710-4734-8576-78480675e709",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-08-11T10:28:00.000Z",
+        "last_edited_time": "2024-08-23T10:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -2875,12 +2923,20 @@
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 19": {
                 "id": "BtWM",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 11": {
                 "id": "CwPo",
@@ -2903,7 +2959,11 @@
             "Ngày 12": {
                 "id": "J%7Bt%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -2918,7 +2978,11 @@
             "Ngày 21": {
                 "id": "K~Y%3D",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 10": {
                 "id": "MVnS",
@@ -2956,7 +3020,11 @@
             "Ngày 23": {
                 "id": "%5BBT%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 7": {
                 "id": "_%5Erb",
@@ -2970,7 +3038,11 @@
             "Ngày 22": {
                 "id": "%60duC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 1": {
                 "id": "avzr",
@@ -2998,12 +3070,20 @@
             "Ngày 16": {
                 "id": "e%5EUO",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 15": {
                 "id": "fKUN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 29": {
                 "id": "fezN",
@@ -3018,12 +3098,20 @@
             "Ngày 13": {
                 "id": "jsqT",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 24": {
                 "id": "rsuC",
@@ -3033,7 +3121,11 @@
             "Ngày 17": {
                 "id": "yEwL",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 8": {
                 "id": "zBvN",
@@ -3074,7 +3166,11 @@
             "Ngày 14": {
                 "id": "~q%3Ax",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "STT": {
                 "id": "title",
@@ -3101,13 +3197,13 @@
             }
         },
         "url": "https://www.notion.so/1-573d5bec37104734857678480675e709",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/1-573d5bec37104734857678480675e709"
     },
     {
         "object": "page",
         "id": "671720b3-96d1-4d6b-9a74-8d57582dd948",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-08-11T10:28:00.000Z",
+        "last_edited_time": "2024-08-23T10:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3151,12 +3247,20 @@
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 19": {
                 "id": "BtWM",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 11": {
                 "id": "CwPo",
@@ -3179,7 +3283,11 @@
             "Ngày 12": {
                 "id": "J%7Bt%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -3194,7 +3302,11 @@
             "Ngày 21": {
                 "id": "K~Y%3D",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "|<UX",
+                    "name": "Nửa ngày",
+                    "color": "yellow"
+                }
             },
             "Ngày 10": {
                 "id": "MVnS",
@@ -3232,7 +3344,11 @@
             "Ngày 23": {
                 "id": "%5BBT%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 7": {
                 "id": "_%5Erb",
@@ -3246,7 +3362,11 @@
             "Ngày 22": {
                 "id": "%60duC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "VRLp",
+                    "name": "Nghỉ có phép",
+                    "color": "blue"
+                }
             },
             "Ngày 1": {
                 "id": "avzr",
@@ -3274,12 +3394,20 @@
             "Ngày 16": {
                 "id": "e%5EUO",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 15": {
                 "id": "fKUN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 29": {
                 "id": "fezN",
@@ -3294,12 +3422,20 @@
             "Ngày 13": {
                 "id": "jsqT",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 24": {
                 "id": "rsuC",
@@ -3309,7 +3445,11 @@
             "Ngày 17": {
                 "id": "yEwL",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 8": {
                 "id": "zBvN",
@@ -3350,7 +3490,11 @@
             "Ngày 14": {
                 "id": "~q%3Ax",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "STT": {
                 "id": "title",
@@ -3377,13 +3521,13 @@
             }
         },
         "url": "https://www.notion.so/2-671720b396d14d6b9a748d57582dd948",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/2-671720b396d14d6b9a748d57582dd948"
     },
     {
         "object": "page",
         "id": "b6c770d0-bb31-4e81-9bb1-58097d2fa0a7",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-08-02T04:12:00.000Z",
+        "last_edited_time": "2024-08-17T12:10:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3523,7 +3667,11 @@
             "Ngày 15": {
                 "id": "fKUN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 29": {
                 "id": "fezN",
@@ -3553,7 +3701,11 @@
             "Ngày 17": {
                 "id": "yEwL",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 8": {
                 "id": "zBvN",
@@ -3613,20 +3765,20 @@
             }
         },
         "url": "https://www.notion.so/18-b6c770d0bb314e819bb158097d2fa0a7",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/18-b6c770d0bb314e819bb158097d2fa0a7"
     },
     {
         "object": "page",
         "id": "ca8f4290-3122-4d53-9521-dad11b15705c",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-07-31T17:30:00.000Z",
+        "last_edited_time": "2024-08-17T12:10:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
         },
         "cover": null,
         "icon": null,
@@ -3785,7 +3937,11 @@
             "Ngày 17": {
                 "id": "yEwL",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 8": {
                 "id": "zBvN",
@@ -3845,7 +4001,7 @@
             }
         },
         "url": "https://www.notion.so/20-ca8f429031224d539521dad11b15705c",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/20-ca8f429031224d539521dad11b15705c"
     },
     {
         "object": "page",
@@ -4077,13 +4233,13 @@
             }
         },
         "url": "https://www.notion.so/10-deb6311180c744a68473e052d5d97945",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/10-deb6311180c744a68473e052d5d97945"
     },
     {
         "object": "page",
         "id": "ed3b34cd-1de3-46d7-8e4f-84e80940c393",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-08-11T10:28:00.000Z",
+        "last_edited_time": "2024-08-23T10:02:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4127,12 +4283,20 @@
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 19": {
                 "id": "BtWM",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 11": {
                 "id": "CwPo",
@@ -4155,7 +4319,11 @@
             "Ngày 12": {
                 "id": "J%7Bt%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "bMwM",
+                    "name": "Nửa ngày",
+                    "color": "yellow"
+                }
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -4170,7 +4338,11 @@
             "Ngày 21": {
                 "id": "K~Y%3D",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "|<UX",
+                    "name": "Nửa ngày",
+                    "color": "yellow"
+                }
             },
             "Ngày 10": {
                 "id": "MVnS",
@@ -4208,7 +4380,11 @@
             "Ngày 23": {
                 "id": "%5BBT%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 7": {
                 "id": "_%5Erb",
@@ -4222,7 +4398,11 @@
             "Ngày 22": {
                 "id": "%60duC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 1": {
                 "id": "avzr",
@@ -4250,12 +4430,20 @@
             "Ngày 16": {
                 "id": "e%5EUO",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 15": {
                 "id": "fKUN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 29": {
                 "id": "fezN",
@@ -4270,12 +4458,20 @@
             "Ngày 13": {
                 "id": "jsqT",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 24": {
                 "id": "rsuC",
@@ -4285,7 +4481,11 @@
             "Ngày 17": {
                 "id": "yEwL",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 8": {
                 "id": "zBvN",
@@ -4326,7 +4526,11 @@
             "Ngày 14": {
                 "id": "~q%3Ax",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "STT": {
                 "id": "title",
@@ -4353,13 +4557,13 @@
             }
         },
         "url": "https://www.notion.so/4-ed3b34cd1de346d78e4f84e80940c393",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/4-ed3b34cd1de346d78e4f84e80940c393"
     },
     {
         "object": "page",
         "id": "000f1b67-a930-45df-a5ea-f1edee6ad917",
         "created_time": "2024-07-02T18:02:00.000Z",
-        "last_edited_time": "2024-08-11T10:28:00.000Z",
+        "last_edited_time": "2024-08-23T10:01:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -4403,12 +4607,20 @@
             "Ngày 20": {
                 "id": "%3FA%7C%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 19": {
                 "id": "BtWM",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 11": {
                 "id": "CwPo",
@@ -4431,7 +4643,11 @@
             "Ngày 12": {
                 "id": "J%7Bt%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "bMwM",
+                    "name": "Nửa ngày",
+                    "color": "yellow"
+                }
             },
             "Nhân sự": {
                 "id": "Kfrh",
@@ -4446,7 +4662,11 @@
             "Ngày 21": {
                 "id": "K~Y%3D",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 10": {
                 "id": "MVnS",
@@ -4484,7 +4704,11 @@
             "Ngày 23": {
                 "id": "%5BBT%3C",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 7": {
                 "id": "_%5Erb",
@@ -4498,7 +4722,11 @@
             "Ngày 22": {
                 "id": "%60duC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 1": {
                 "id": "avzr",
@@ -4526,12 +4754,20 @@
             "Ngày 16": {
                 "id": "e%5EUO",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 15": {
                 "id": "fKUN",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 29": {
                 "id": "fezN",
@@ -4546,12 +4782,20 @@
             "Ngày 13": {
                 "id": "jsqT",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 18": {
                 "id": "n%3CXZ",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 24": {
                 "id": "rsuC",
@@ -4561,7 +4805,11 @@
             "Ngày 17": {
                 "id": "yEwL",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "Ngày 8": {
                 "id": "zBvN",
@@ -4602,7 +4850,11 @@
             "Ngày 14": {
                 "id": "~q%3Ax",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "DjwF",
+                    "name": "Đầy đủ",
+                    "color": "pink"
+                }
             },
             "STT": {
                 "id": "title",
@@ -4629,7 +4881,7 @@
             }
         },
         "url": "https://www.notion.so/3-000f1b67a93045dfa5eaf1edee6ad917",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/3-000f1b67a93045dfa5eaf1edee6ad917"
     },
     {
         "object": "page",
@@ -4861,7 +5113,7 @@
             }
         },
         "url": "https://www.notion.so/8-428f3abc4f6b4216998610e2cc632bc3",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/8-428f3abc4f6b4216998610e2cc632bc3"
     },
     {
         "object": "page",
@@ -5093,6 +5345,6 @@
             }
         },
         "url": "https://www.notion.so/7-c7fc0a0487a3456bb158678fcd016f12",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/7-c7fc0a0487a3456bb158678fcd016f12"
     }
 ]

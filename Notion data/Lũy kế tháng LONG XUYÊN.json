@@ -95,13 +95,13 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-12-392831dfce684f0886b7e0fd941ca4ea",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-12-392831dfce684f0886b7e0fd941ca4ea"
     },
     {
         "object": "page",
         "id": "4284cf75-7e28-4301-922a-d5bf8ea128b6",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-12T02:00:00.000Z",
+        "last_edited_time": "2024-08-23T13:32:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -193,13 +193,13 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-6-4284cf757e284301922ad5bf8ea128b6",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-6-4284cf757e284301922ad5bf8ea128b6"
     },
     {
         "object": "page",
         "id": "8c66cf3c-0b3d-46a8-aa9d-93dbde3c21f7",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-12T02:00:00.000Z",
+        "last_edited_time": "2024-08-23T13:32:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -291,13 +291,13 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-4-8c66cf3c0b3d46a8aa9d93dbde3c21f7",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-4-8c66cf3c0b3d46a8aa9d93dbde3c21f7"
     },
     {
         "object": "page",
         "id": "9995b750-eabc-45b0-8009-6045312b02e8",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-12T02:00:00.000Z",
+        "last_edited_time": "2024-08-23T13:32:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -389,7 +389,7 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-7-9995b750eabc45b080096045312b02e8",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-7-9995b750eabc45b080096045312b02e8"
     },
     {
         "object": "page",
@@ -487,13 +487,13 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-10-affa900e3f7143b0a808f194d469463a",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-10-affa900e3f7143b0a808f194d469463a"
     },
     {
         "object": "page",
         "id": "b5842dbd-a430-40a0-9cbe-43c7f159b476",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-12T02:00:00.000Z",
+        "last_edited_time": "2024-08-23T13:32:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -585,7 +585,7 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-3-b5842dbda43040a09cbe43c7f159b476",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-3-b5842dbda43040a09cbe43c7f159b476"
     },
     {
         "object": "page",
@@ -683,7 +683,7 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-1-be52cf86f6e943c1bf70a7dbda6f0ff1",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-1-be52cf86f6e943c1bf70a7dbda6f0ff1"
     },
     {
         "object": "page",
@@ -781,13 +781,13 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-11-e3a08c0a82e24e03b7b62cb53e825403",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-11-e3a08c0a82e24e03b7b62cb53e825403"
     },
     {
         "object": "page",
         "id": "2cdbfe7a-912a-4094-9ca9-5ed9c357d1d5",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-12T02:00:00.000Z",
+        "last_edited_time": "2024-08-23T13:32:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -810,20 +810,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 1000000
+                    "number": 44500000
                 }
             },
             "Chi tiêu": {
                 "id": "IynB",
                 "type": "number",
-                "number": 11157000
+                "number": 24685000
             },
             "Lũy kế": {
                 "id": "PSic",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 6843000
+                    "number": 68315000
                 }
             },
             "Tổng doanh thu": {
@@ -831,28 +831,28 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 18000000
+                    "number": 93000000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 18000000
+                "number": 91000000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
                 "type": "number",
-                "number": 5
+                "number": 13
             },
             "Thu nợ": {
                 "id": "iRq%5E",
                 "type": "number",
-                "number": 0
+                "number": 2000000
             },
             "Đơn giá": {
                 "id": "oNis",
                 "type": "number",
-                "number": 19000000
+                "number": 135500000
             },
             "Tháng": {
                 "id": "title",
@@ -879,7 +879,7 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-8-2cdbfe7a912a40949ca95ed9c357d1d5",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-8-2cdbfe7a912a40949ca95ed9c357d1d5"
     },
     {
         "object": "page",
@@ -977,7 +977,7 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-9-3ac0c3fab6ea44f5a4db8e322db635e9",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-9-3ac0c3fab6ea44f5a4db8e322db635e9"
     },
     {
         "object": "page",
@@ -1075,13 +1075,13 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-2-c38df41570fc4cba948e850dd92b3ec8",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-2-c38df41570fc4cba948e850dd92b3ec8"
     },
     {
         "object": "page",
         "id": "cab5d5c6-4b9d-49f2-9afd-2949775c2a52",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-12T02:00:00.000Z",
+        "last_edited_time": "2024-08-23T13:32:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1173,6 +1173,6 @@
             }
         },
         "url": "https://www.notion.so/Th-ng-5-cab5d5c64b9d49f29afd2949775c2a52",
-        "public_url": null
+        "public_url": "https://salty-handsaw-797.notion.site/Th-ng-5-cab5d5c64b9d49f29afd2949775c2a52"
     }
 ]
