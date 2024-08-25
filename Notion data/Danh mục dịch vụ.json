@@ -1,6 +1,103 @@
 [
     {
         "object": "page",
+        "id": "5510d949-2471-44b1-9b44-814cfafda5f2",
+        "created_time": "2024-08-24T11:38:00.000Z",
+        "last_edited_time": "2024-08-24T11:38:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "lý thị thuý vi",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "lý thị thuý vi",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/l-th-thu-vi-5510d949247144b19b44814cfafda5f2",
+        "public_url": "https://salty-handsaw-797.notion.site/l-th-thu-vi-5510d949247144b19b44814cfafda5f2"
+    },
+    {
+        "object": "page",
         "id": "089c1bd2-7014-42bd-8c72-a9b2c427d7d3",
         "created_time": "2024-08-16T16:08:00.000Z",
         "last_edited_time": "2024-08-16T16:08:00.000Z",
@@ -717,7 +814,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 3,
+                    "number": 4,
                     "function": "count"
                 }
             },
@@ -738,6 +835,9 @@
                     },
                     {
                         "id": "203d82c1-fe27-4866-a898-51cb530f8fce"
+                    },
+                    {
+                        "id": "80c9e8a8-8c8e-4287-b3eb-bb6c0f049a1c"
                     }
                 ],
                 "has_more": false
@@ -747,7 +847,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 4500000,
+                    "number": 5500000,
                     "function": "sum"
                 }
             },
@@ -2975,7 +3075,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 15,
+                    "number": 16,
                     "function": "count"
                 }
             },
@@ -3032,6 +3132,9 @@
                     },
                     {
                         "id": "436bafcc-cc2f-4978-8251-0baa2ead74c3"
+                    },
+                    {
+                        "id": "73c5653f-343c-4fd9-b798-6ce3a6f76b65"
                     }
                 ],
                 "has_more": false
@@ -3041,7 +3144,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 29600000,
+                    "number": 33600000,
                     "function": "sum"
                 }
             },

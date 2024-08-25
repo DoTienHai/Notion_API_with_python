@@ -1,6 +1,833 @@
 [
     {
         "object": "page",
+        "id": "31c9345a-1f3d-4f9a-882d-32cf472aaff1",
+        "created_time": "2024-08-25T08:22:00.000Z",
+        "last_edited_time": "2024-08-25T08:23:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "73c5653f-343c-4fd9-b798-6ce3a6f76b65"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 438
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 4000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0327114485"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 4000000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-25T08:22:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "sơn thị chành thi",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "sơn thị chành thi",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/s-n-th-ch-nh-thi-31c9345a1f3d4f9a882d32cf472aaff1",
+        "public_url": "https://salty-handsaw-797.notion.site/s-n-th-ch-nh-thi-31c9345a1f3d4f9a882d32cf472aaff1"
+    },
+    {
+        "object": "page",
+        "id": "680fb09a-2068-4f65-a18b-43bbe4b8bc7a",
+        "created_time": "2024-08-24T11:40:00.000Z",
+        "last_edited_time": "2024-08-24T11:41:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "6345f691-c7b6-460c-84ec-076b7f1ea882"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 437
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 12000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0974395268"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 12000000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-24T11:40:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "triệu tú kiều ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "triệu tú kiều ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/tri-u-t-ki-u-680fb09a20684f65a18b43bbe4b8bc7a",
+        "public_url": "https://salty-handsaw-797.notion.site/tri-u-t-ki-u-680fb09a20684f65a18b43bbe4b8bc7a"
+    },
+    {
+        "object": "page",
+        "id": "7aa34a89-d968-45b0-87c0-202e1ff9b640",
+        "created_time": "2024-08-24T11:39:00.000Z",
+        "last_edited_time": "2024-08-24T11:40:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "cc0b51c9-091f-48ac-9af9-06f6f5aa2548"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 436
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 5000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0396202865"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 5000000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-24T11:39:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "lý thị thuý vi",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "lý thị thuý vi",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/l-th-thu-vi-7aa34a89d96845b087c0202e1ff9b640",
+        "public_url": "https://salty-handsaw-797.notion.site/l-th-thu-vi-7aa34a89d96845b087c0202e1ff9b640"
+    },
+    {
+        "object": "page",
+        "id": "36f3c522-90ac-4695-a7df-dfac61be09fe",
+        "created_time": "2024-08-24T11:35:00.000Z",
+        "last_edited_time": "2024-08-24T11:36:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "a2075b36-2e0a-4f4c-9d0e-becf7efa5a04"
+                    },
+                    {
+                        "id": "80c9e8a8-8c8e-4287-b3eb-bb6c0f049a1c"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 435
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        },
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "\\[\\o",
+                                "name": "SÓC TRĂNG",
+                                "color": "green"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 13000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0368976358"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 13000000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-24T11:35:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "nguyễn thị kim phượng ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "nguyễn thị kim phượng ",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/nguy-n-th-kim-ph-ng-36f3c52290ac4695a7dfdfac61be09fe",
+        "public_url": "https://salty-handsaw-797.notion.site/nguy-n-th-kim-ph-ng-36f3c52290ac4695a7dfdfac61be09fe"
+    },
+    {
+        "object": "page",
+        "id": "7dd768ee-f588-4a0c-9c04-ec7b0e29b4e0",
+        "created_time": "2024-08-23T16:21:00.000Z",
+        "last_edited_time": "2024-08-23T16:21:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "07ccf60b-5611-4690-a537-1ea12f38f88a"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 434
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 3700000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0927644696"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 3700000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-23T16:21:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nguyễn Thị Ngọc Tâm",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nguyễn Thị Ngọc Tâm",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/Nguy-n-Th-Ng-c-T-m-7dd768eef5884a0c9c04ec7b0e29b4e0",
+        "public_url": "https://salty-handsaw-797.notion.site/Nguy-n-Th-Ng-c-T-m-7dd768eef5884a0c9c04ec7b0e29b4e0"
+    },
+    {
+        "object": "page",
+        "id": "c1566b2f-23f3-408f-a913-c7af25d93e81",
+        "created_time": "2024-08-23T16:19:00.000Z",
+        "last_edited_time": "2024-08-23T16:19:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "b64c70e2-efd6-47a6-ba6f-d656351f1ea5"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 433
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "o^|T",
+                                "name": "CẦN THƠ",
+                                "color": "red"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1500000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0368615610"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 1500000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": -1500000,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-23T16:19:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Đoàn Minh Thư",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Đoàn Minh Thư",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/o-n-Minh-Th-c1566b2f23f3408fa913c7af25d93e81",
+        "public_url": "https://salty-handsaw-797.notion.site/o-n-Minh-Th-c1566b2f23f3408fa913c7af25d93e81"
+    },
+    {
+        "object": "page",
         "id": "d7f996f8-bbe1-471e-9815-f9f2172c3b55",
         "created_time": "2024-08-23T06:44:00.000Z",
         "last_edited_time": "2024-08-23T06:44:00.000Z",
@@ -938,7 +1765,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 20000000,
+                    "number": 40000000,
                     "function": "sum"
                 }
             },
@@ -962,7 +1789,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 20000000
+                    "number": 40000000
                 }
             },
             "Dư nợ": {
@@ -970,7 +1797,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 40500000,
+                    "number": 20500000,
                     "function": "sum"
                 }
             },
@@ -1765,7 +2592,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 26000000,
+                    "number": 22000000,
                     "function": "sum"
                 }
             },
@@ -1789,7 +2616,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 26000000
+                    "number": 22000000
                 }
             },
             "Dư nợ": {
@@ -13409,7 +14236,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 11000000,
+                    "number": 12000000,
                     "function": "sum"
                 }
             },
@@ -13433,7 +14260,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 11000000
+                    "number": 12000000
                 }
             },
             "Dư nợ": {
@@ -13441,7 +14268,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 7000000,
+                    "number": 6000000,
                     "function": "sum"
                 }
             },
@@ -32088,7 +32915,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 16000000,
+                    "number": 18000000,
                     "function": "sum"
                 }
             },
@@ -32112,7 +32939,7 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 16000000
+                    "number": 18000000
                 }
             },
             "Dư nợ": {
@@ -32120,7 +32947,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 4000000,
+                    "number": 2000000,
                     "function": "sum"
                 }
             },
