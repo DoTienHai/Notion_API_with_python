@@ -376,7 +376,8 @@ def collect_danh_sach_thu_no(data_doanh_thu):
                     data_thu_no.at[index, "Chiết khấu sale chính"] = phan_sale_chinh*row["Tỉ lệ chiết khấu sale chính"] + phan_sale_phu*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
                     data_thu_no.at[index, "Chiết khấu sale phụ"] = phan_sale_phu*row["Tỉ lệ chiết khấu sale phụ"]
                 else:
-                    data_thu_no.at[index, "Chiết khấu sale chính"] = luong_thu*row["Tỉ lệ chiết khấu sale chính"] + luong_thu*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
+                    data_thu_no.at[index, "Chiết khấu sale chính"] = luong_thu*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
+                    data_thu_no.at[index, "Chiết khấu sale phụ"] = luong_thu*row["Tỉ lệ chiết khấu sale phụ"]
 
             else:
                 data_thu_no.at[index, "Chiết khấu sale chính"] = luong_thu*row["Tỉ lệ chiết khấu sale chính"]
