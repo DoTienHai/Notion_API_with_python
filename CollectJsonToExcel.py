@@ -360,9 +360,13 @@ def collect_danh_sach_thu_no(data_doanh_thu):
     data_thu_no["Chiết khấu sale chính"] = 0
     data_thu_no["Chiết khấu sale phụ"] = 0
     for index, row in data_thu_no.iterrows():
+        # print(row)
+        don_no = row["Đơn nợ"]
         luong_thu = row["Lượng thu"]
         don_gia_goc = row["Đơn giá gốc"]
-        da_thanh_toan = row["Đã thanh toán"]
+        ngay_thu = row["Ngày thu"]
+        Luong_da_thu_truoc_do = data_thu_no[(data_thu_no["Ngày thu"] <= ngay_thu) & (data_thu_no["Đơn nợ"] == don_no)]["Lượng thu"].sum()
+        da_thanh_toan = (float(row["Thanh toán lần đầu"]) if row["Thanh toán lần đầu"] != '' else 0.0) + Luong_da_thu_truoc_do
 
         data_thu_no.at[index, "Chiết khấu bác sĩ 1"] = row["Tỉ lệ chiết khấu bác sĩ 1"]*luong_thu
         data_thu_no.at[index, "Chiết khấu bác sĩ 2"] = row["Tỉ lệ chiết khấu bác sĩ 2"]*luong_thu

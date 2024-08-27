@@ -1,6 +1,252 @@
 [
     {
         "object": "page",
+        "id": "789ae1cb-c6b4-4dca-946f-1e4a746d1999",
+        "created_time": "2024-08-27T10:48:00.000Z",
+        "last_edited_time": "2024-08-27T10:48:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-27T10:48:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-27",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "e926d62c-e624-4663-9009-c562ae5166cf"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "SFfk",
+                    "name": "LONG XUYÊN",
+                    "color": "purple"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "9ca37943-378e-4618-856d-4d2f42f4b51e",
+                    "name": "Chi Phí Vận Hành",
+                    "color": "default"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 862
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 800000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "HD-LUXURY-689",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "HD-LUXURY-689",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/HD-LUXURY-689-789ae1cbc6b44dca946f1e4a746d1999",
+        "public_url": "https://salty-handsaw-797.notion.site/HD-LUXURY-689-789ae1cbc6b44dca946f1e4a746d1999"
+    },
+    {
+        "object": "page",
+        "id": "fdc4fde9-fbac-4bcf-9b6e-7015a1be9902",
+        "created_time": "2024-08-27T08:35:00.000Z",
+        "last_edited_time": "2024-08-27T08:36:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-27T08:35:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-27",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "e926d62c-e624-4663-9009-c562ae5166cf"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "SFfk",
+                    "name": "LONG XUYÊN",
+                    "color": "purple"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "655b842a-1a33-4353-99e8-aea458851f72",
+                    "name": "Chi Phí Sinh Hoạt Tại Cơ Sở",
+                    "color": "pink"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 861
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 157000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-861",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-861",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-861-fdc4fde9fbac4bcf9b6e7015a1be9902",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-861-fdc4fde9fbac4bcf9b6e7015a1be9902"
+    },
+    {
+        "object": "page",
         "id": "3efb7b1d-f10e-44c1-88ae-48ef245ac09b",
         "created_time": "2024-08-26T09:08:00.000Z",
         "last_edited_time": "2024-08-26T09:08:00.000Z",

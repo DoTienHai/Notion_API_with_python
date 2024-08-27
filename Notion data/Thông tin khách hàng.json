@@ -1,6 +1,278 @@
 [
     {
         "object": "page",
+        "id": "7f78258f-e3a7-4b17-8143-33a268ec0700",
+        "created_time": "2024-08-27T10:46:00.000Z",
+        "last_edited_time": "2024-08-27T10:46:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "43260809-9ee6-4ae7-ad1d-38a09ae67d6c"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 443
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "f}tM",
+                                "name": "LONG XUYÊN",
+                                "color": "pink"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 2000000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": "0364580162"
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 2000000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 12000000,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-27T10:46:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Cầm dương",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Cầm dương",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/C-m-d-ng-7f78258fe3a74b17814333a268ec0700",
+        "public_url": "https://salty-handsaw-797.notion.site/C-m-d-ng-7f78258fe3a74b17814333a268ec0700"
+    },
+    {
+        "object": "page",
+        "id": "1bcfe341-2406-44a7-b1f2-75462578439f",
+        "created_time": "2024-08-27T10:43:00.000Z",
+        "last_edited_time": "2024-08-27T10:43:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "0079739c-1dde-4bb4-8112-9cb500ff0df6"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "CCCD": {
+                "id": "LodI",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Lịch sử dịch vụ": {
+                "id": "RNjq",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "0ef21d49-9b47-4d23-a8c2-67552b65dd51"
+                    }
+                ],
+                "has_more": false
+            },
+            "Mã khách hàng": {
+                "id": "SXwH",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "KH",
+                    "number": 442
+                }
+            },
+            "Cơ sở": {
+                "id": "ZZp%5B",
+                "type": "rollup",
+                "rollup": {
+                    "type": "array",
+                    "array": [
+                        {
+                            "type": "select",
+                            "select": {
+                                "id": "f}tM",
+                                "name": "LONG XUYÊN",
+                                "color": "pink"
+                            }
+                        }
+                    ],
+                    "function": "show_unique"
+                }
+            },
+            "Tích lũy": {
+                "id": "%5BUc%5D",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 5500000,
+                    "function": "sum"
+                }
+            },
+            "SĐT": {
+                "id": "b%3BEd",
+                "type": "phone_number",
+                "phone_number": null
+            },
+            "Link Facebook": {
+                "id": "li%5Bd",
+                "type": "url",
+                "url": null
+            },
+            "Địa chỉ": {
+                "id": "uWTR",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Formula": {
+                "id": "v%3C%7D%3E",
+                "type": "formula",
+                "formula": {
+                    "type": "number",
+                    "number": 5500000
+                }
+            },
+            "Dư nợ": {
+                "id": "zr%3BU",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Created time": {
+                "id": "zwGl",
+                "type": "created_time",
+                "created_time": "2024-08-27T10:43:00.000Z"
+            },
+            "Họ và tên": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "C.hạnh",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "C.hạnh",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/C-h-nh-1bcfe341240644a7b1f275462578439f",
+        "public_url": "https://salty-handsaw-797.notion.site/C-h-nh-1bcfe341240644a7b1f275462578439f"
+    },
+    {
+        "object": "page",
         "id": "0baf55f0-4cf5-4ee3-9e45-86ff2f1517c5",
         "created_time": "2024-08-25T17:55:00.000Z",
         "last_edited_time": "2024-08-25T17:55:00.000Z",
