@@ -1,6 +1,871 @@
 [
     {
         "object": "page",
+        "id": "9299b97c-06b9-4f8d-92de-c76b465d6717",
+        "created_time": "2024-08-28T13:24:00.000Z",
+        "last_edited_time": "2024-08-28T13:24:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-28T13:24:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-28",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "xBb?",
+                    "name": "SÓC TRĂNG",
+                    "color": "green"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "9ca37943-378e-4618-856d-4d2f42f4b51e",
+                    "name": "Chi Phí Vận Hành",
+                    "color": "default"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 869
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 600000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-869",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-869",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-869-9299b97c06b94f8d92dec76b465d6717",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-869-9299b97c06b94f8d92dec76b465d6717"
+    },
+    {
+        "object": "page",
+        "id": "22e5771b-97c9-415c-b910-9a190b11f70f",
+        "created_time": "2024-08-28T12:14:00.000Z",
+        "last_edited_time": "2024-08-28T12:15:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-28T12:14:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-28",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "xBb?",
+                    "name": "SÓC TRĂNG",
+                    "color": "green"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "655b842a-1a33-4353-99e8-aea458851f72",
+                    "name": "Chi Phí Sinh Hoạt Tại Cơ Sở",
+                    "color": "pink"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 868
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 140000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-868",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-868",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-868-22e5771b97c9415cb9109a190b11f70f",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-868-22e5771b97c9415cb9109a190b11f70f"
+    },
+    {
+        "object": "page",
+        "id": "52e2a71e-8bed-4c64-9cbf-ae920d61d378",
+        "created_time": "2024-08-28T12:14:00.000Z",
+        "last_edited_time": "2024-08-28T12:14:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-28T12:14:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-28",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "xBb?",
+                    "name": "SÓC TRĂNG",
+                    "color": "green"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "b2c380b3-2e77-445c-9030-dac2d4e56f56",
+                    "name": "Tiền Thuế",
+                    "color": "green"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 867
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 1400000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-867",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-867",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-867-52e2a71e8bed4c649cbfae920d61d378",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-867-52e2a71e8bed4c649cbfae920d61d378"
+    },
+    {
+        "object": "page",
+        "id": "9ae99edc-ba16-4fb7-81b1-77638187f62e",
+        "created_time": "2024-08-27T16:59:00.000Z",
+        "last_edited_time": "2024-08-27T16:59:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-27T16:59:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-27",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "UN<L",
+                    "name": "CẦN THƠ",
+                    "color": "pink"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "84cb3ac1-ae54-4869-9481-bb39a23fb584",
+                    "name": "Trang thiết bị Y Tế",
+                    "color": "yellow"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 866
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 840000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-866",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-866",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-866-9ae99edcba164fb781b177638187f62e",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-866-9ae99edcba164fb781b177638187f62e"
+    },
+    {
+        "object": "page",
+        "id": "2dbf9acf-352a-4172-ac9a-203e2ac3944d",
+        "created_time": "2024-08-27T16:58:00.000Z",
+        "last_edited_time": "2024-08-27T16:58:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-27T16:58:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-26",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "UN<L",
+                    "name": "CẦN THƠ",
+                    "color": "pink"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "bc9b2b6b-3140-44b9-a1be-4dc8e77d8898"
+                    }
+                ],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "d607d55c-d266-4764-a35e-ec4d20b3e7b7",
+                    "name": "Ứng Lương",
+                    "color": "purple"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 865
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 165000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-865",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-865",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-865-2dbf9acf352a4172ac9a203e2ac3944d",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-865-2dbf9acf352a4172ac9a203e2ac3944d"
+    },
+    {
+        "object": "page",
+        "id": "ca4599cf-5c6d-4f7a-b42e-b9a0a0ad597d",
+        "created_time": "2024-08-27T16:57:00.000Z",
+        "last_edited_time": "2024-08-27T16:57:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-27T16:57:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-26",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "UN<L",
+                    "name": "CẦN THƠ",
+                    "color": "pink"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "84cb3ac1-ae54-4869-9481-bb39a23fb584",
+                    "name": "Trang thiết bị Y Tế",
+                    "color": "yellow"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 864
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 155000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-864",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-864",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-864-ca4599cf5c6d4f7ab42eb9a0a0ad597d",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-864-ca4599cf5c6d4f7ab42eb9a0a0ad597d"
+    },
+    {
+        "object": "page",
+        "id": "b49b63e7-b5c4-4687-a2c5-99f2a098456f",
+        "created_time": "2024-08-27T16:56:00.000Z",
+        "last_edited_time": "2024-08-27T16:56:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Created time": {
+                "id": "%3DDWd",
+                "type": "created_time",
+                "created_time": "2024-08-27T16:56:00.000Z"
+            },
+            "Ngày chi": {
+                "id": "%40%5BE%60",
+                "type": "date",
+                "date": {
+                    "start": "2024-08-26",
+                    "end": null,
+                    "time_zone": null
+                }
+            },
+            "Nhân viên xác nhận": {
+                "id": "Qgr_",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "75046948-a198-4627-89b3-3bbf5967526b"
+                    }
+                ],
+                "has_more": false
+            },
+            "Cơ sở": {
+                "id": "Rhia",
+                "type": "select",
+                "select": {
+                    "id": "UN<L",
+                    "name": "CẦN THƠ",
+                    "color": "pink"
+                }
+            },
+            "Người Nhận/Ứng": {
+                "id": "%5EJXC",
+                "type": "relation",
+                "relation": [],
+                "has_more": false
+            },
+            "Last edited by": {
+                "id": "%60k%3Ff",
+                "type": "last_edited_by",
+                "last_edited_by": {
+                    "object": "user",
+                    "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+                }
+            },
+            "Phân loại": {
+                "id": "gps%5B",
+                "type": "select",
+                "select": {
+                    "id": "84cb3ac1-ae54-4869-9481-bb39a23fb584",
+                    "name": "Trang thiết bị Y Tế",
+                    "color": "yellow"
+                }
+            },
+            "Auto mã chi tiêu": {
+                "id": "r%3E%7C%5C",
+                "type": "unique_id",
+                "unique_id": {
+                    "prefix": "CT",
+                    "number": 863
+                }
+            },
+            "Lượng chi": {
+                "id": "%7CmE%40",
+                "type": "number",
+                "number": 500000
+            },
+            "Ghi chú": {
+                "id": "~CLM",
+                "type": "rich_text",
+                "rich_text": []
+            },
+            "Mã chi tiêu": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "CT-863",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "CT-863",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/CT-863-b49b63e7b5c44687a2c599f2a098456f",
+        "public_url": "https://salty-handsaw-797.notion.site/CT-863-b49b63e7b5c44687a2c599f2a098456f"
+    },
+    {
+        "object": "page",
         "id": "789ae1cb-c6b4-4dca-946f-1e4a746d1999",
         "created_time": "2024-08-27T10:48:00.000Z",
         "last_edited_time": "2024-08-27T10:48:00.000Z",
@@ -8475,484 +9340,6 @@
     },
     {
         "object": "page",
-        "id": "9e8db54b-2968-441e-9ab4-957978393259",
-        "created_time": "2024-08-12T13:01:00.000Z",
-        "last_edited_time": "2024-08-12T13:01:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Created time": {
-                "id": "%3DDWd",
-                "type": "created_time",
-                "created_time": "2024-08-12T13:01:00.000Z"
-            },
-            "Ngày chi": {
-                "id": "%40%5BE%60",
-                "type": "date",
-                "date": {
-                    "start": "2024-08-12",
-                    "end": null,
-                    "time_zone": null
-                }
-            },
-            "Nhân viên xác nhận": {
-                "id": "Qgr_",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Cơ sở": {
-                "id": "Rhia",
-                "type": "select",
-                "select": {
-                    "id": "xBb?",
-                    "name": "SÓC TRĂNG",
-                    "color": "green"
-                }
-            },
-            "Người Nhận/Ứng": {
-                "id": "%5EJXC",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Last edited by": {
-                "id": "%60k%3Ff",
-                "type": "last_edited_by",
-                "last_edited_by": {
-                    "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-                }
-            },
-            "Phân loại": {
-                "id": "gps%5B",
-                "type": "select",
-                "select": null
-            },
-            "Auto mã chi tiêu": {
-                "id": "r%3E%7C%5C",
-                "type": "unique_id",
-                "unique_id": {
-                    "prefix": "CT",
-                    "number": 792
-                }
-            },
-            "Lượng chi": {
-                "id": "%7CmE%40",
-                "type": "number",
-                "number": null
-            },
-            "Ghi chú": {
-                "id": "~CLM",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Mã chi tiêu": {
-                "id": "title",
-                "type": "title",
-                "title": []
-            }
-        },
-        "url": "https://www.notion.so/9e8db54b2968441e9ab4957978393259",
-        "public_url": "https://salty-handsaw-797.notion.site/9e8db54b2968441e9ab4957978393259"
-    },
-    {
-        "object": "page",
-        "id": "1833b55d-2303-447c-8842-e66305b68986",
-        "created_time": "2024-08-12T12:55:00.000Z",
-        "last_edited_time": "2024-08-12T12:56:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Created time": {
-                "id": "%3DDWd",
-                "type": "created_time",
-                "created_time": "2024-08-12T12:55:00.000Z"
-            },
-            "Ngày chi": {
-                "id": "%40%5BE%60",
-                "type": "date",
-                "date": {
-                    "start": "2024-08-12",
-                    "end": null,
-                    "time_zone": null
-                }
-            },
-            "Nhân viên xác nhận": {
-                "id": "Qgr_",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
-                    }
-                ],
-                "has_more": false
-            },
-            "Cơ sở": {
-                "id": "Rhia",
-                "type": "select",
-                "select": {
-                    "id": "xBb?",
-                    "name": "SÓC TRĂNG",
-                    "color": "green"
-                }
-            },
-            "Người Nhận/Ứng": {
-                "id": "%5EJXC",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "3d301dfe-6e3d-4d28-a249-1fd5fac9abd3"
-                    }
-                ],
-                "has_more": false
-            },
-            "Last edited by": {
-                "id": "%60k%3Ff",
-                "type": "last_edited_by",
-                "last_edited_by": {
-                    "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-                }
-            },
-            "Phân loại": {
-                "id": "gps%5B",
-                "type": "select",
-                "select": {
-                    "id": "d607d55c-d266-4764-a35e-ec4d20b3e7b7",
-                    "name": "Ứng Lương",
-                    "color": "purple"
-                }
-            },
-            "Auto mã chi tiêu": {
-                "id": "r%3E%7C%5C",
-                "type": "unique_id",
-                "unique_id": {
-                    "prefix": "CT",
-                    "number": 791
-                }
-            },
-            "Lượng chi": {
-                "id": "%7CmE%40",
-                "type": "number",
-                "number": 1750000
-            },
-            "Ghi chú": {
-                "id": "~CLM",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Mã chi tiêu": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "CT-791",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "CT-791",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/CT-791-1833b55d2303447c8842e66305b68986",
-        "public_url": "https://salty-handsaw-797.notion.site/CT-791-1833b55d2303447c8842e66305b68986"
-    },
-    {
-        "object": "page",
-        "id": "f425e9bc-e46f-4aeb-bc74-70d60fcf047e",
-        "created_time": "2024-08-12T12:54:00.000Z",
-        "last_edited_time": "2024-08-12T12:55:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Created time": {
-                "id": "%3DDWd",
-                "type": "created_time",
-                "created_time": "2024-08-12T12:54:00.000Z"
-            },
-            "Ngày chi": {
-                "id": "%40%5BE%60",
-                "type": "date",
-                "date": {
-                    "start": "2024-08-12",
-                    "end": null,
-                    "time_zone": null
-                }
-            },
-            "Nhân viên xác nhận": {
-                "id": "Qgr_",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
-                    }
-                ],
-                "has_more": false
-            },
-            "Cơ sở": {
-                "id": "Rhia",
-                "type": "select",
-                "select": {
-                    "id": "xBb?",
-                    "name": "SÓC TRĂNG",
-                    "color": "green"
-                }
-            },
-            "Người Nhận/Ứng": {
-                "id": "%5EJXC",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
-                    }
-                ],
-                "has_more": false
-            },
-            "Last edited by": {
-                "id": "%60k%3Ff",
-                "type": "last_edited_by",
-                "last_edited_by": {
-                    "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-                }
-            },
-            "Phân loại": {
-                "id": "gps%5B",
-                "type": "select",
-                "select": {
-                    "id": "d607d55c-d266-4764-a35e-ec4d20b3e7b7",
-                    "name": "Ứng Lương",
-                    "color": "purple"
-                }
-            },
-            "Auto mã chi tiêu": {
-                "id": "r%3E%7C%5C",
-                "type": "unique_id",
-                "unique_id": {
-                    "prefix": "CT",
-                    "number": 790
-                }
-            },
-            "Lượng chi": {
-                "id": "%7CmE%40",
-                "type": "number",
-                "number": 1100000
-            },
-            "Ghi chú": {
-                "id": "~CLM",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Mã chi tiêu": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "CT-790",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "CT-790",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/CT-790-f425e9bce46f4aebbc7470d60fcf047e",
-        "public_url": "https://salty-handsaw-797.notion.site/CT-790-f425e9bce46f4aebbc7470d60fcf047e"
-    },
-    {
-        "object": "page",
-        "id": "9fa41efd-7a69-4abe-91b8-291496453dc8",
-        "created_time": "2024-08-12T12:54:00.000Z",
-        "last_edited_time": "2024-08-12T12:54:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Created time": {
-                "id": "%3DDWd",
-                "type": "created_time",
-                "created_time": "2024-08-12T12:54:00.000Z"
-            },
-            "Ngày chi": {
-                "id": "%40%5BE%60",
-                "type": "date",
-                "date": {
-                    "start": "2024-08-12",
-                    "end": null,
-                    "time_zone": null
-                }
-            },
-            "Nhân viên xác nhận": {
-                "id": "Qgr_",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "c463b1a9-4fb2-4258-87a7-44193ba02405"
-                    }
-                ],
-                "has_more": false
-            },
-            "Cơ sở": {
-                "id": "Rhia",
-                "type": "select",
-                "select": {
-                    "id": "xBb?",
-                    "name": "SÓC TRĂNG",
-                    "color": "green"
-                }
-            },
-            "Người Nhận/Ứng": {
-                "id": "%5EJXC",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "3fac4a49-402c-4d34-aa91-419ebc20760c"
-                    }
-                ],
-                "has_more": false
-            },
-            "Last edited by": {
-                "id": "%60k%3Ff",
-                "type": "last_edited_by",
-                "last_edited_by": {
-                    "object": "user",
-                    "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-                }
-            },
-            "Phân loại": {
-                "id": "gps%5B",
-                "type": "select",
-                "select": {
-                    "id": "d607d55c-d266-4764-a35e-ec4d20b3e7b7",
-                    "name": "Ứng Lương",
-                    "color": "purple"
-                }
-            },
-            "Auto mã chi tiêu": {
-                "id": "r%3E%7C%5C",
-                "type": "unique_id",
-                "unique_id": {
-                    "prefix": "CT",
-                    "number": 789
-                }
-            },
-            "Lượng chi": {
-                "id": "%7CmE%40",
-                "type": "number",
-                "number": 600000
-            },
-            "Ghi chú": {
-                "id": "~CLM",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Mã chi tiêu": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "CT-789",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "CT-789",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/CT-789-9fa41efd7a694abe91b8291496453dc8",
-        "public_url": "https://salty-handsaw-797.notion.site/CT-789-9fa41efd7a694abe91b8291496453dc8"
-    },
-    {
-        "object": "page",
         "id": "4cce09c7-2ddb-42e4-8718-6d2301d09351",
         "created_time": "2024-08-12T12:53:00.000Z",
         "last_edited_time": "2024-08-12T12:54:00.000Z",
@@ -9073,129 +9460,6 @@
         },
         "url": "https://www.notion.so/CT-788-4cce09c72ddb42e487186d2301d09351",
         "public_url": "https://salty-handsaw-797.notion.site/CT-788-4cce09c72ddb42e487186d2301d09351"
-    },
-    {
-        "object": "page",
-        "id": "e328ad49-9170-4862-a4a4-f569779a4ea8",
-        "created_time": "2024-08-12T12:52:00.000Z",
-        "last_edited_time": "2024-08-23T13:38:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "a6395f80-d3eb-432b-a4b9-8dab3b81175e"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a3116220-9bca-40f4-8687-8c8549b81c3f"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Created time": {
-                "id": "%3DDWd",
-                "type": "created_time",
-                "created_time": "2024-08-12T12:52:00.000Z"
-            },
-            "Ngày chi": {
-                "id": "%40%5BE%60",
-                "type": "date",
-                "date": {
-                    "start": "2024-08-12",
-                    "end": null,
-                    "time_zone": null
-                }
-            },
-            "Nhân viên xác nhận": {
-                "id": "Qgr_",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Cơ sở": {
-                "id": "Rhia",
-                "type": "select",
-                "select": {
-                    "id": "SFfk",
-                    "name": "LONG XUYÊN",
-                    "color": "purple"
-                }
-            },
-            "Người Nhận/Ứng": {
-                "id": "%5EJXC",
-                "type": "relation",
-                "relation": [
-                    {
-                        "id": "d1ae645f-f3dd-46cd-a715-a8c150605da6"
-                    }
-                ],
-                "has_more": false
-            },
-            "Last edited by": {
-                "id": "%60k%3Ff",
-                "type": "last_edited_by",
-                "last_edited_by": {
-                    "object": "user",
-                    "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
-                }
-            },
-            "Phân loại": {
-                "id": "gps%5B",
-                "type": "select",
-                "select": {
-                    "id": "d607d55c-d266-4764-a35e-ec4d20b3e7b7",
-                    "name": "Ứng Lương",
-                    "color": "purple"
-                }
-            },
-            "Auto mã chi tiêu": {
-                "id": "r%3E%7C%5C",
-                "type": "unique_id",
-                "unique_id": {
-                    "prefix": "CT",
-                    "number": 787
-                }
-            },
-            "Lượng chi": {
-                "id": "%7CmE%40",
-                "type": "number",
-                "number": 1000000
-            },
-            "Ghi chú": {
-                "id": "~CLM",
-                "type": "rich_text",
-                "rich_text": []
-            },
-            "Mã chi tiêu": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "CT-787",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "CT-787",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/CT-787-e328ad4991704862a4a4f569779a4ea8",
-        "public_url": "https://salty-handsaw-797.notion.site/CT-787-e328ad4991704862a4a4f569779a4ea8"
     },
     {
         "object": "page",

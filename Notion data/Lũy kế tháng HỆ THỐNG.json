@@ -395,7 +395,7 @@
         "object": "page",
         "id": "37322e3e-15a8-4e39-9848-8d439f1658ad",
         "created_time": "2024-06-26T03:05:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -418,20 +418,20 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 130000000
+                    "number": 131500000
                 }
             },
             "Chi tiêu": {
                 "id": "IynB",
                 "type": "number",
-                "number": 199390000
+                "number": 198740000
             },
             "Lũy kế": {
                 "id": "PSic",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 310160000
+                    "number": 376810000
                 }
             },
             "Tổng doanh thu": {
@@ -439,18 +439,18 @@
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 509550000
+                    "number": 575550000
                 }
             },
             "Đã thanh toán": {
                 "id": "V%3CuY",
                 "type": "number",
-                "number": 420550000
+                "number": 486550000
             },
             "Số lượng đơn": {
                 "id": "%5Be%3DQ",
                 "type": "number",
-                "number": 68
+                "number": 71
             },
             "Thu nợ": {
                 "id": "iRq%5E",
@@ -460,7 +460,7 @@
             "Đơn giá": {
                 "id": "oNis",
                 "type": "number",
-                "number": 550550000
+                "number": 618050000
             },
             "Tháng": {
                 "id": "title",
@@ -493,7 +493,7 @@
         "object": "page",
         "id": "3be847ba-bf5e-47eb-b017-3d5babd7ecef",
         "created_time": "2024-06-26T03:05:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -591,7 +591,7 @@
         "object": "page",
         "id": "4ee6d68a-87ea-4bf9-b319-d2fb29db7da5",
         "created_time": "2024-06-26T03:05:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -689,7 +689,7 @@
         "object": "page",
         "id": "8950e8d8-35f8-4fa0-bba6-687cd8d8aa35",
         "created_time": "2024-06-26T03:05:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -787,7 +787,7 @@
         "object": "page",
         "id": "ec4462d2-bcf6-417a-b7bb-254fdf33e9aa",
         "created_time": "2024-06-26T03:05:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -885,7 +885,7 @@
         "object": "page",
         "id": "e4e0821d-31dc-4637-8037-6f646fabc9f4",
         "created_time": "2024-06-26T03:05:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -983,7 +983,7 @@
         "object": "page",
         "id": "f5696dce-5eb3-40ba-956c-b7366c64059e",
         "created_time": "2024-06-26T03:05:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -1081,7 +1081,7 @@
         "object": "page",
         "id": "f56574be-244d-4ebc-91bb-37253cdd3bcb",
         "created_time": "2024-06-26T03:04:00.000Z",
-        "last_edited_time": "2024-08-27T12:15:00.000Z",
+        "last_edited_time": "2024-08-28T15:04:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"

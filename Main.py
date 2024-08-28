@@ -49,9 +49,9 @@ if __name__ == "__main__":
         print(f"Cập nhật toàn bộ data {(time.time() - start_time):.6f} giây\n")
 
         processes = []
-        # processes.append(multiprocessing.Process(target=update_notion))
+        processes.append(multiprocessing.Process(target=update_notion))
         min = datetime.now().minute
-        if (min < 70):
+        if (min % 10 < 5):
             processes.append(multiprocessing.Process(target=create_report))
 
         for process in processes:

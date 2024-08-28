@@ -137,27 +137,47 @@ def get_data_luong_tong_hop():
                 "Tên nhân viên" : [ten_nhan_vien], 
             }
             for location in location_list:
-                tong_luong_tai_co_so = data_luong.set_index("Danh mục lương").transpose()[f"Tổng lương tại {location}"]
-                if len(tong_luong_tai_co_so):
-                    tong_luong_tai_co_so = tong_luong_tai_co_so.values[0]
+                # Lấy lương thực nhận
+                tong_luong_thuc_nhan = data_luong.set_index("Danh mục lương").transpose()[f"Tổng lương tại {location}"]
+                if len(tong_luong_thuc_nhan):
+                    tong_luong_thuc_nhan = tong_luong_thuc_nhan.values[0]
                 else:
-                    tong_luong_tai_co_so = 0
-                row_data[f"Tổng lương tại {location}"] = [tong_luong_tai_co_so]
+                    tong_luong_thuc_nhan = 0
+                row_data[f"Tổng lương thực nhận tại {location}"] = [tong_luong_thuc_nhan]
+                # Lương ứng
+                if location != "HỆ THỐNG":
+                    luong_ung = data_luong.set_index("Danh mục lương").transpose()[f"Ứng lương tại {location}"]
+                    if len(luong_ung):
+                        luong_ung = luong_ung.values[0]
+                    else:
+                        luong_ung = 0
+                    row_data[f"Ứng lương tại {location}"] = [-luong_ung]
+                else:
+                    luong_ung = 0
+                # Tổng lương
+                row_data[f"Tổng lương tại {location}"] = [-luong_ung + tong_luong_thuc_nhan]
+
+            tong_ung_luong = 0
+            for location in location_list:
+                if location != "HỆ THỐNG":
+                    tong_ung_luong += float(row_data[f"Ứng lương tại {location}"][0])
+            row_data["Ứng lương"] = [tong_ung_luong]
 
             df_row_data = pd.DataFrame(row_data, columns=list(row_data.keys()))
             ret_data = pd.concat([ret_data, df_row_data])
 
         # Tạo dòng tính tổng lương
         row_total = {
-            "Mã nhân viên" : "Tổng lương", 
+            "Mã nhân viên" : "Tổng", 
             "Tên nhân viên" : [""], 
         }
-        for location in location_list:
-            tong_luong = ret_data[f"Tổng lương tại {location}"].sum()
-            row_total[f"Tổng lương tại {location}"] = [tong_luong]
-            df_row_total = pd.DataFrame(row_total, columns=list(row_data.keys()))
-
+        for col in row_data.keys():
+            if (col != "Mã nhân viên") and (col != "Tên nhân viên"):
+                tong = ret_data[col].sum()
+                row_total[col] = [tong]
+        df_row_total = pd.DataFrame(row_total, columns=list(row_data.keys()))
         ret_data = pd.concat([ret_data, df_row_total]) 
+
         # Chuyển cột lương HỆ THỐNG xuống cuối
         ret_data["Tổng lương tại HỆ THỐNG"] = ret_data.pop("Tổng lương tại HỆ THỐNG")
         return ret_data 
@@ -240,9 +260,15 @@ def create_report_co_so(path, location):
     data_luong = get_data_luong_tong_hop()
     ws7 = wb.create_sheet(title="QUỸ LƯƠNG")
     if location != "HỆ THỐNG":
-        writeDataframeToSheet(ws7, data_luong[["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}"]])
+        writeDataframeToSheet(ws7, data_luong[["Mã nhân viên", "Tên nhân viên", f"Tổng lương tại {location}", f"Ứng lương tại {location}" ,f"Tổng lương thực nhận tại {location}"]])
     else:
-        writeDataframeToSheet(ws7, data_luong)
+        col = ["Mã nhân viên", "Tên nhân viên"]
+        for location in location_list:
+            if location != "HỆ THỐNG":
+                col.append(f"Tổng lương tại {location}")
+        col.append("Ứng lương")
+        col.append("Tổng lương thực nhận tại HỆ THỐNG")
+        writeDataframeToSheet(ws7, data_luong[col])
     # Tạo report lợi nhuận
     ws8 = wb.create_sheet(title="LỢI NHUẬN")
     if location != "HỆ THỐNG":

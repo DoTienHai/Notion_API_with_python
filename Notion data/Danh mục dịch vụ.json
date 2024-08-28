@@ -1,6 +1,107 @@
 [
     {
         "object": "page",
+        "id": "289e6cc9-b527-497b-8be0-485b3bca5585",
+        "created_time": "2024-08-27T16:54:00.000Z",
+        "last_edited_time": "2024-08-27T16:54:00.000Z",
+        "created_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "last_edited_by": {
+            "object": "user",
+            "id": "4bf7fa70-2231-4ca9-967e-2f77ed8fc936"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+            "type": "database_id",
+            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
+        },
+        "archived": false,
+        "in_trash": false,
+        "properties": {
+            "Số ca": {
+                "id": "ZESS",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 1,
+                    "function": "count"
+                }
+            },
+            "Công phụ phẫu 1": {
+                "id": "%5C%3CS%3A",
+                "type": "number",
+                "number": null
+            },
+            "Ca dịch vụ đã làm": {
+                "id": "hBL%3B",
+                "type": "relation",
+                "relation": [
+                    {
+                        "id": "aeff8e2c-4cd5-419e-b68b-70202e7091c7"
+                    }
+                ],
+                "has_more": false
+            },
+            "Doanh thu": {
+                "id": "l%40E~",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 500000,
+                    "function": "sum"
+                }
+            },
+            "Dư nợ": {
+                "id": "mTNk",
+                "type": "rollup",
+                "rollup": {
+                    "type": "number",
+                    "number": 0,
+                    "function": "sum"
+                }
+            },
+            "Nhóm dịch vụ": {
+                "id": "ul%5CC",
+                "type": "select",
+                "select": null
+            },
+            "Công phụ phẫu 2": {
+                "id": "vrCq",
+                "type": "number",
+                "number": null
+            },
+            "Tên dịch vụ": {
+                "id": "title",
+                "type": "title",
+                "title": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Xét nghiệm máu",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Xét nghiệm máu",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        "url": "https://www.notion.so/X-t-nghi-m-m-u-289e6cc9b527497b8be0485b3bca5585",
+        "public_url": "https://salty-handsaw-797.notion.site/X-t-nghi-m-m-u-289e6cc9b527497b8be0485b3bca5585"
+    },
+    {
+        "object": "page",
         "id": "ef7d7839-9899-4abe-891c-267c1327002d",
         "created_time": "2024-08-27T10:46:00.000Z",
         "last_edited_time": "2024-08-27T10:46:00.000Z",
