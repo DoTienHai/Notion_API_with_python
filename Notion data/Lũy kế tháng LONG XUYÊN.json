@@ -101,7 +101,7 @@
         "object": "page",
         "id": "4284cf75-7e28-4301-922a-d5bf8ea128b6",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-28T15:04:00.000Z",
+        "last_edited_time": "2024-08-30T20:17:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -199,7 +199,7 @@
         "object": "page",
         "id": "8c66cf3c-0b3d-46a8-aa9d-93dbde3c21f7",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-28T15:04:00.000Z",
+        "last_edited_time": "2024-08-30T20:17:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -297,7 +297,7 @@
         "object": "page",
         "id": "9995b750-eabc-45b0-8009-6045312b02e8",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-28T15:04:00.000Z",
+        "last_edited_time": "2024-08-30T20:17:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -493,7 +493,7 @@
         "object": "page",
         "id": "b5842dbd-a430-40a0-9cbe-43c7f159b476",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-28T15:04:00.000Z",
+        "last_edited_time": "2024-08-30T20:17:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -787,7 +787,7 @@
         "object": "page",
         "id": "2cdbfe7a-912a-4094-9ca9-5ed9c357d1d5",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-28T15:04:00.000Z",
+        "last_edited_time": "2024-08-30T20:17:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -816,14 +816,14 @@
             "Chi tiêu": {
                 "id": "IynB",
                 "type": "number",
-                "number": 29575000
+                "number": 56993000
             },
             "Lũy kế": {
                 "id": "PSic",
                 "type": "formula",
                 "formula": {
                     "type": "number",
-                    "number": 90925000
+                    "number": 63507000
                 }
             },
             "Tổng doanh thu": {
@@ -1081,7 +1081,7 @@
         "object": "page",
         "id": "cab5d5c6-4b9d-49f2-9afd-2949775c2a52",
         "created_time": "2024-06-26T06:03:00.000Z",
-        "last_edited_time": "2024-08-28T15:04:00.000Z",
+        "last_edited_time": "2024-08-30T20:17:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"

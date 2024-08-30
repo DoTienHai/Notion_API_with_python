@@ -290,11 +290,13 @@ def collect_doanh_thu_he_thong():
     data_doanh_thu_he_thong["Chiết khấu sale chính"] = 0 
     data_doanh_thu_he_thong["Chiết khấu sale phụ"] = 0 
     for index, row in data_doanh_thu_he_thong.iterrows():
+        ti_le_chieu_khau = calculate_ti_le_chiet_khau(row["Nhóm dịch vụ"], row["Đơn giá"])
         if row["Nguồn khách"] == "Cá nhân":
-            ti_le_chieu_khau = calculate_ti_le_chiet_khau(row["Nhóm dịch vụ"], row["Đơn giá"])
             # Tỉ lệ chiết khấu trường hợp Lê Đình Hâu NV-10 c463b1a9-4fb2-4258-87a7-44193ba02405
             if (row["id sale chính"] == "c463b1a9-4fb2-4258-87a7-44193ba02405") and ((row["Cơ sở"] == "CẦN THƠ") or (row["Cơ sở"] == "LONG XUYÊN")):
                 ti_le_chieu_khau = 0.15      
+            if row["id sale chính"] == "b9c67786-5d99-45c1-85d7-f96bfb66ef22":
+                ti_le_chieu_khau = 0.15
             data_doanh_thu_he_thong.at[index , "Tỉ lệ chiết khấu sale chính"] = ti_le_chieu_khau
             
             if pd.notna(row["Sale phụ"]):
@@ -317,13 +319,17 @@ def collect_doanh_thu_he_thong():
     for index, row in data_doanh_thu_he_thong.iterrows():
         don_gia_goc = row["Đơn giá gốc"]
         da_thanh_toan = row["Đã thanh toán"]
-        if (isinstance(don_gia_goc, float) or isinstance(don_gia_goc, int)) and (isinstance(da_thanh_toan, float) or isinstance(da_thanh_toan, int)):
-            if (da_thanh_toan >= don_gia_goc):
-                data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = don_gia_goc*row["Tỉ lệ chiết khấu sale chính"] + (da_thanh_toan-don_gia_goc)*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
-                data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = (da_thanh_toan-don_gia_goc)*row["Tỉ lệ chiết khấu sale phụ"]
-            else:
-                data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale chính"] 
-    
+        if don_gia_goc == "":
+            don_gia_goc = 0
+        if da_thanh_toan == "":
+            da_thanh_toan = 0
+        if (da_thanh_toan >= don_gia_goc):
+            data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = don_gia_goc*row["Tỉ lệ chiết khấu sale chính"] + (da_thanh_toan-don_gia_goc)*(row["Tỉ lệ chiết khấu sale chính"]-row["Tỉ lệ chiết khấu sale phụ"])
+            data_doanh_thu_he_thong.at[index, "Chiết khấu sale phụ"] = (da_thanh_toan-don_gia_goc)*row["Tỉ lệ chiết khấu sale phụ"]
+        else:
+            data_doanh_thu_he_thong.at[index, "Chiết khấu sale chính"] = da_thanh_toan*row["Tỉ lệ chiết khấu sale chính"] 
+
+
     return data_doanh_thu_he_thong.sort_values("Mã dịch vụ")
 
 

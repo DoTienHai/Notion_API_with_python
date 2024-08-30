@@ -19,7 +19,10 @@ def get_data_chi_tiet_thu_no(location):
     data = get_data_thu_no(location, ["ALL"])
     data = filter_date(data, "Ngày thu")
     data = data[["Tiền tố", "Mã đơn thu nợ", "Ngày thu", 
-                 "Cơ sở", "Đơn nợ", "Ngày thực hiện","Lượng thu"]]
+                 "Cơ sở", "Đơn nợ", "Ngày thực hiện","Lượng thu",
+                 "Tên dịch vụ", "Khách hàng", "Nguồn khách", "Sale chính", 
+                 "Đơn giá gốc", "Sale phụ", "Upsale", "Thanh toán lần đầu", 
+                 "Đã thanh toán", "Bác sĩ 1", "Bác sĩ 2"]]
     data = add_total_row(data)
     return data
 
@@ -196,7 +199,7 @@ def get_data_loi_nhuan(location, data_doanh_thu, data_thu_no, data_chi_tieu, dat
         doanh_thu_sale = data_doanh_thu[data_doanh_thu["Cơ sở"] == location]["Đã thanh toán"].sum()
         doanh_thu_thu_no = data_thu_no[data_thu_no["Cơ sở"] == location]["Lượng thu"].sum()
         chi_tieu = data_chi_tieu[data_chi_tieu["Cơ sở"] == location]["Lượng chi"].sum()
-    luong = data_luong[f"Tổng lương tại {location}"].sum()/2
+    luong = data_luong[f"Tổng lương thực nhận tại {location}"].sum()/2
     loi_nhuan = doanh_thu_sale + doanh_thu_thu_no - (chi_tieu + luong)
     row = {
         "Cơ sở" : [location],

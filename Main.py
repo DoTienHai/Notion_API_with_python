@@ -4,7 +4,7 @@ from GetNotionDataToJson import get_all_data_to_json
 from CollectJsonToExcel import collect_data
 from UpdateLuyKe import update_luy_ke_theo_ngay, update_luy_ke_theo_thang
 from UpdateChamCong import update_cham_cong_tong_hop
-from CreateReport import create_all_report
+from CreateReport import create_all_report_ca_nhan, create_all_report_co_so
 from UpdateKPI import update_KPI
 import time
 from datetime import datetime
@@ -24,10 +24,22 @@ def update_notion():
         process.join()
 
 def create_report():
+    # Tạo report cá nhân
     create_report_process = []
     for location in location_list:
         if location != "HỆ THỐNG":
-            create_report_process.append(multiprocessing.Process(target=create_all_report, args=(location,)))
+            create_report_process.append(multiprocessing.Process(target=create_all_report_ca_nhan, args=(location,)))
+
+    for process in create_report_process:
+        process.start()
+    for process in create_report_process:
+        process.join() 
+
+    # Tạo report các cơ sở
+    create_report_process = []
+    for location in location_list:
+        if location != "HỆ THỐNG":
+            create_report_process.append(multiprocessing.Process(target=create_all_report_co_so, args=(location,)))
 
     for process in create_report_process:
         process.start()
@@ -35,7 +47,7 @@ def create_report():
         process.join() 
 
     # Cần tạo các report tại các cơ sở trước rồi mới tạo report hệ thống
-    process_report_he_thong = multiprocessing.Process(target=create_all_report, args=("HỆ THỐNG",))
+    process_report_he_thong = multiprocessing.Process(target=create_all_report_co_so, args=("HỆ THỐNG",))
     process_report_he_thong.start()
     process_report_he_thong.join()
     
@@ -49,9 +61,10 @@ if __name__ == "__main__":
         print(f"Cập nhật toàn bộ data {(time.time() - start_time):.6f} giây\n")
 
         processes = []
-        processes.append(multiprocessing.Process(target=update_notion))
+        # processes.append(multiprocessing.Process(target=update_notion))
         min = datetime.now().minute
-        if (min % 10 < 5):
+        # if (min % 10 < 5):
+        if (min < 70):
             processes.append(multiprocessing.Process(target=create_report))
 
         for process in processes:

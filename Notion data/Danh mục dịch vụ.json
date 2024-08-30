@@ -26,7 +26,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 1,
+                    "number": 2,
                     "function": "count"
                 }
             },
@@ -41,6 +41,9 @@
                 "relation": [
                     {
                         "id": "aeff8e2c-4cd5-419e-b68b-70202e7091c7"
+                    },
+                    {
+                        "id": "99df71bc-ecbd-417d-9cbb-808a56a4320c"
                     }
                 ],
                 "has_more": false
@@ -50,7 +53,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 500000,
+                    "number": 1000000,
                     "function": "sum"
                 }
             },
@@ -199,103 +202,6 @@
     },
     {
         "object": "page",
-        "id": "5510d949-2471-44b1-9b44-814cfafda5f2",
-        "created_time": "2024-08-24T11:38:00.000Z",
-        "last_edited_time": "2024-08-24T11:38:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Số ca": {
-                "id": "ZESS",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "count"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "%5C%3CS%3A",
-                "type": "number",
-                "number": null
-            },
-            "Ca dịch vụ đã làm": {
-                "id": "hBL%3B",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Doanh thu": {
-                "id": "l%40E~",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Dư nợ": {
-                "id": "mTNk",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Nhóm dịch vụ": {
-                "id": "ul%5CC",
-                "type": "select",
-                "select": null
-            },
-            "Công phụ phẫu 2": {
-                "id": "vrCq",
-                "type": "number",
-                "number": null
-            },
-            "Tên dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "lý thị thuý vi",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "lý thị thuý vi",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/l-th-thu-vi-5510d949247144b19b44814cfafda5f2",
-        "public_url": "https://salty-handsaw-797.notion.site/l-th-thu-vi-5510d949247144b19b44814cfafda5f2"
-    },
-    {
-        "object": "page",
         "id": "089c1bd2-7014-42bd-8c72-a9b2c427d7d3",
         "created_time": "2024-08-16T16:08:00.000Z",
         "last_edited_time": "2024-08-16T16:08:00.000Z",
@@ -394,200 +300,6 @@
         },
         "url": "https://www.notion.so/C-ng-ch-m-t-089c1bd2701442bd8c72a9b2c427d7d3",
         "public_url": "https://salty-handsaw-797.notion.site/C-ng-ch-m-t-089c1bd2701442bd8c72a9b2c427d7d3"
-    },
-    {
-        "object": "page",
-        "id": "78297e5a-c09d-4cc5-af90-3ff767d73087",
-        "created_time": "2024-08-16T11:29:00.000Z",
-        "last_edited_time": "2024-08-16T11:29:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Số ca": {
-                "id": "ZESS",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "count"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "%5C%3CS%3A",
-                "type": "number",
-                "number": null
-            },
-            "Ca dịch vụ đã làm": {
-                "id": "hBL%3B",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Doanh thu": {
-                "id": "l%40E~",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Dư nợ": {
-                "id": "mTNk",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Nhóm dịch vụ": {
-                "id": "ul%5CC",
-                "type": "select",
-                "select": null
-            },
-            "Công phụ phẫu 2": {
-                "id": "vrCq",
-                "type": "number",
-                "number": null
-            },
-            "Tên dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "trương thị vẹn ",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "trương thị vẹn ",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/tr-ng-th-v-n-78297e5ac09d4cc5af903ff767d73087",
-        "public_url": "https://salty-handsaw-797.notion.site/tr-ng-th-v-n-78297e5ac09d4cc5af903ff767d73087"
-    },
-    {
-        "object": "page",
-        "id": "eb75b213-ce44-4bac-b63c-fe0e39e671b6",
-        "created_time": "2024-08-16T11:23:00.000Z",
-        "last_edited_time": "2024-08-16T11:23:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Số ca": {
-                "id": "ZESS",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "count"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "%5C%3CS%3A",
-                "type": "number",
-                "number": null
-            },
-            "Ca dịch vụ đã làm": {
-                "id": "hBL%3B",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Doanh thu": {
-                "id": "l%40E~",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Dư nợ": {
-                "id": "mTNk",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Nhóm dịch vụ": {
-                "id": "ul%5CC",
-                "type": "select",
-                "select": null
-            },
-            "Công phụ phẫu 2": {
-                "id": "vrCq",
-                "type": "number",
-                "number": null
-            },
-            "Tên dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "ngọc khanh",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "ngọc khanh",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/ng-c-khanh-eb75b213ce444bacb63cfe0e39e671b6",
-        "public_url": "https://salty-handsaw-797.notion.site/ng-c-khanh-eb75b213ce444bacb63cfe0e39e671b6"
     },
     {
         "object": "page",
@@ -791,14 +503,14 @@
         "object": "page",
         "id": "0f43b3fb-2a7a-4d89-9716-835faff67b28",
         "created_time": "2024-08-04T13:43:00.000Z",
-        "last_edited_time": "2024-08-04T13:43:00.000Z",
+        "last_edited_time": "2024-08-29T23:16:00.000Z",
         "created_by": {
             "object": "user",
             "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
         },
         "last_edited_by": {
             "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
+            "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
         },
         "cover": null,
         "icon": null,
@@ -854,7 +566,11 @@
             "Nhóm dịch vụ": {
                 "id": "ul%5CC",
                 "type": "select",
-                "select": null
+                "select": {
+                    "id": "98dbdb3f-b94c-4f41-b56b-a6440a29bb5a",
+                    "name": "Tiểu phẫu",
+                    "color": "yellow"
+                }
             },
             "Công phụ phẫu 2": {
                 "id": "vrCq",
@@ -887,103 +603,6 @@
         },
         "url": "https://www.notion.so/nh-n-ng-ti-n-0f43b3fb2a7a4d899716835faff67b28",
         "public_url": "https://salty-handsaw-797.notion.site/nh-n-ng-ti-n-0f43b3fb2a7a4d899716835faff67b28"
-    },
-    {
-        "object": "page",
-        "id": "d3309b29-c69b-4a88-88fc-1beafeefca76",
-        "created_time": "2024-08-04T13:43:00.000Z",
-        "last_edited_time": "2024-08-04T13:43:00.000Z",
-        "created_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "last_edited_by": {
-            "object": "user",
-            "id": "30a14424-7f11-4ee5-a793-fece5c78e36c"
-        },
-        "cover": null,
-        "icon": null,
-        "parent": {
-            "type": "database_id",
-            "database_id": "a305ae47-9949-42ff-a7e4-c2f249b32723"
-        },
-        "archived": false,
-        "in_trash": false,
-        "properties": {
-            "Số ca": {
-                "id": "ZESS",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "count"
-                }
-            },
-            "Công phụ phẫu 1": {
-                "id": "%5C%3CS%3A",
-                "type": "number",
-                "number": null
-            },
-            "Ca dịch vụ đã làm": {
-                "id": "hBL%3B",
-                "type": "relation",
-                "relation": [],
-                "has_more": false
-            },
-            "Doanh thu": {
-                "id": "l%40E~",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Dư nợ": {
-                "id": "mTNk",
-                "type": "rollup",
-                "rollup": {
-                    "type": "number",
-                    "number": 0,
-                    "function": "sum"
-                }
-            },
-            "Nhóm dịch vụ": {
-                "id": "ul%5CC",
-                "type": "select",
-                "select": null
-            },
-            "Công phụ phẫu 2": {
-                "id": "vrCq",
-                "type": "number",
-                "number": null
-            },
-            "Tên dịch vụ": {
-                "id": "title",
-                "type": "title",
-                "title": [
-                    {
-                        "type": "text",
-                        "text": {
-                            "content": "nguyễn thị mỹ trinh",
-                            "link": null
-                        },
-                        "annotations": {
-                            "bold": false,
-                            "italic": false,
-                            "strikethrough": false,
-                            "underline": false,
-                            "code": false,
-                            "color": "default"
-                        },
-                        "plain_text": "nguyễn thị mỹ trinh",
-                        "href": null
-                    }
-                ]
-            }
-        },
-        "url": "https://www.notion.so/nguy-n-th-m-trinh-d3309b29c69b4a8888fc1beafeefca76",
-        "public_url": "https://salty-handsaw-797.notion.site/nguy-n-th-m-trinh-d3309b29c69b4a8888fc1beafeefca76"
     },
     {
         "object": "page",
@@ -3142,7 +2761,7 @@
         "object": "page",
         "id": "86e95925-bfcc-4336-b28f-66bf8c6b30c5",
         "created_time": "2024-05-17T14:15:00.000Z",
-        "last_edited_time": "2024-07-17T12:05:00.000Z",
+        "last_edited_time": "2024-08-30T12:58:00.000Z",
         "created_by": {
             "object": "user",
             "id": "532a166e-c2d9-42ff-bed3-a363f43543fb"
@@ -3639,7 +3258,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 10,
+                    "number": 11,
                     "function": "count"
                 }
             },
@@ -3681,6 +3300,9 @@
                     },
                     {
                         "id": "c5b73af4-4b8b-4c0d-b430-3856dcb0279c"
+                    },
+                    {
+                        "id": "f35b7f3a-c738-4dce-ade4-a47109c1d33e"
                     }
                 ],
                 "has_more": false
@@ -3690,7 +3312,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 23700000,
+                    "number": 25100000,
                     "function": "sum"
                 }
             },
