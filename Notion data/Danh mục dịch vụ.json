@@ -26,7 +26,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 2,
+                    "number": 3,
                     "function": "count"
                 }
             },
@@ -44,6 +44,9 @@
                     },
                     {
                         "id": "99df71bc-ecbd-417d-9cbb-808a56a4320c"
+                    },
+                    {
+                        "id": "6baf0e5b-cc1c-4ffe-823f-512691b1408a"
                     }
                 ],
                 "has_more": false
@@ -53,7 +56,7 @@
                 "type": "rollup",
                 "rollup": {
                     "type": "number",
-                    "number": 1000000,
+                    "number": 1500000,
                     "function": "sum"
                 }
             },
