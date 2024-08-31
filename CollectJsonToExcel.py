@@ -347,7 +347,7 @@ def collect_danh_sach_thu_no(data_doanh_thu):
     data_thu_no["Cơ sở"] = data_thu_no["Cơ sở"].apply(extract_select_name)
 
     data_doanh_thu = data_doanh_thu[["notion id", "Mã dịch vụ", "Khách hàng", "Nguồn khách", "Sale chính","Đơn giá gốc", "Sale phụ", "Upsale", 
-                                    "Tên dịch vụ", "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Đã thanh toán", "Đơn giá", 
+                                    "Tên dịch vụ", "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Đã thanh toán", "Đơn giá", "Dư nợ", 
                                     "Tỉ lệ chiết khấu sale chính", "Tỉ lệ chiết khấu sale phụ", "Ngày thực hiện", 
                                     "id sale chính", "id sale phụ", "id bác sĩ 1", "id bác sĩ 2", 
                                     "Tỉ lệ chiết khấu bác sĩ 1", "Tỉ lệ chiết khấu bác sĩ 2"]]

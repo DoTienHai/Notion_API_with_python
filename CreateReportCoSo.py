@@ -10,7 +10,7 @@ def get_data_chi_tiet_doanh_thu(location):
     data = data[["Tiền tố", "Mã dịch vụ", "Ngày thực hiện", "Cơ sở","Tên dịch vụ", "Khách hàng",
                  "Nguồn khách", "Sale chính", "Đơn giá gốc", "Sale phụ", "Upsale", "Đơn giá", 
                  "Bác sĩ 1", "Bác sĩ 2", "Thanh toán lần đầu", "Trả sau", "Đã thanh toán", 
-                 "Dư nợ", "Phụ phẫu 1", "Phụ phẫu 2", "Công phụ phẫu 1", "Công phụ phẫu 2"]]
+                 "Dư nợ", "Phụ phẫu 1", "Phụ phẫu 2"]]
     data = filter_date(data, "Ngày thực hiện")
     data = add_total_row(data)
     return data
@@ -21,8 +21,7 @@ def get_data_chi_tiet_thu_no(location):
     data = data[["Tiền tố", "Mã đơn thu nợ", "Ngày thu", 
                  "Cơ sở", "Đơn nợ", "Ngày thực hiện","Lượng thu",
                  "Tên dịch vụ", "Khách hàng", "Nguồn khách", "Sale chính", 
-                 "Đơn giá gốc", "Sale phụ", "Upsale", "Thanh toán lần đầu", 
-                 "Đã thanh toán", "Bác sĩ 1", "Bác sĩ 2"]]
+                 "Đơn giá", "Đã thanh toán", "Dư nợ"]]
     data = add_total_row(data)
     return data
 
